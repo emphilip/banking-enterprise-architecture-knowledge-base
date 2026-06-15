@@ -78,9 +78,13 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Amazon Lex supersedes Legacy IVR System.
 - Temenos Origination supersedes Ellie Mae Encompass.
 - Temenos Origination supersedes Finastra LaserPro.
-- MeridianLink supersedes Ellie Mae Encompass.
+- MeridianLink supersedes Finastra LaserPro.
 - Provenir supersedes FICO Origination Manager.
 - Provenir supersedes Experian PowerCurve.
+- SAP Deposits Management supersedes Legacy Mainframe Core.
+- SAP Deposits Management supersedes FIS Horizon.
+- Tuum supersedes Fiserv Premier.
+- SaaScada supersedes Jack Henry Core Director.
 
 ## Realization statements
 
@@ -136,6 +140,9 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Loan Origination Platform depends on Finastra LaserPro.
 - Credit Decisioning Engine depends on FICO Origination Manager.
 - Credit Decisioning Engine depends on Experian PowerCurve.
+- Core Banking Processing depends on Fiserv Premier.
+- Core Banking Processing depends on Jack Henry Core Director.
+- Core Banking Processing depends on FIS Horizon.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -196,6 +203,9 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Loan Origination Platform depends on Temenos Origination.
 - Loan Origination Platform depends on MeridianLink.
 - Credit Decisioning Engine depends on Provenir.
+- Core Banking Processing depends on SAP Deposits Management.
+- Core Banking Processing depends on Tuum.
+- Core Banking Processing depends on SaaScada.
 
 ## Successor matrix
 | Technology Capability | Legacy System | Modern Successor |
@@ -212,11 +222,15 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Contact Center Platform | Cisco UCCE | Genesys Cloud |
 | Conversational AI | Legacy IVR System | Amazon Lex |
 | Conversational AI | Legacy IVR System | Kasisto |
+| Core Banking Processing | FIS Horizon | SAP Deposits Management |
 | Core Banking Processing | FIS Profile | Finxact |
 | Core Banking Processing | Fiserv DNA | Mambu |
+| Core Banking Processing | Fiserv Premier | Tuum |
 | Core Banking Processing | Infosys Finacle | Finxact |
+| Core Banking Processing | Jack Henry Core Director | SaaScada |
 | Core Banking Processing | Jack Henry SilverLake | Mambu |
 | Core Banking Processing | Legacy Mainframe Core | 10x Banking |
+| Core Banking Processing | Legacy Mainframe Core | SAP Deposits Management |
 | Core Banking Processing | Oracle FLEXCUBE | Thought Machine Vault |
 | Core Banking Processing | TCS BaNCS | 10x Banking |
 | Core Banking Processing | Temenos T24 | Temenos Transact |
@@ -247,8 +261,8 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Intelligent Document Processing | OpenText Documentum | AWS Textract |
 | Loan Origination Platform | Black Knight Empower | Blend |
 | Loan Origination Platform | Black Knight Empower | nCino |
-| Loan Origination Platform | Ellie Mae Encompass | MeridianLink |
 | Loan Origination Platform | Ellie Mae Encompass | Temenos Origination |
+| Loan Origination Platform | Finastra LaserPro | MeridianLink |
 | Loan Origination Platform | Finastra LaserPro | Temenos Origination |
 | Machine Learning Platform | SAS Platform | Amazon SageMaker |
 | Machine Learning Platform | SAS Platform | DataRobot |
