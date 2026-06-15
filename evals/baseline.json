@@ -1,0 +1,19 @@
+{
+  "domains": 15,
+  "caps": 67,
+  "proc": 22,
+  "tech": 30,
+  "legacy": 43,
+  "modern": 50,
+  "gloss": 10,
+  "files": 237,
+  "edges": {
+    "depends_on": 260,
+    "derived_from": 55,
+    "supersedes": 67,
+    "defined_in": 190,
+    "related_to": 189,
+    "causes": 8,
+    "mentions": 125
+  }
+}

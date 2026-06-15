@@ -41,11 +41,15 @@ decomposition into sharper focus.
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
-- [ ] Start the first domain: run the deep-dive prompt with DOMAIN = "Payments"
-      (or any business domain). The run will: create _status/proposed-<domain>.md
-      from research, pass the ontology-steward gate, author L3/L4 + tech L2/L3 +
-      process-flow step notes, weave maps/indexes, validate, then set this
-      domain's row to `done` and repoint these Next actions at the next domain.
+- [ ] Start the first domain: run the eval-gated prompt in
+      _status/DEEP-DIVE-PROMPT.md with DOMAIN = "Payments" (or any business
+      domain). The run will: create _status/proposed-<domain>.md from research,
+      pass the ontology-steward gate (`python evals/checks.py --phase steward`),
+      author L3/L4 + tech L2/L3 + process-flow step notes (gate `--phase author`),
+      weave maps/indexes (gate `--phase weave`), validate (`--phase all` +
+      LLM-judge per evals/rubric.md), then set this domain's row to `done`,
+      refresh evals/baseline.json, and repoint these Next actions at the next
+      domain. Every phase must show 0 FAIL before advancing.
 
 ## Decisions log
 

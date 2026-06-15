@@ -42,7 +42,10 @@ engagements. Every legacy system has a modern/AI successor mapped.
 
 ## How to validate
 
-See [`VALIDATION.md`](VALIDATION.md) for the QA checklist. In short:
+Run the eval harness: `python evals/checks.py --phase all` (deterministic,
+phase-scoped gates + regression; see [`evals/README.md`](evals/README.md)). The
+semantic LLM-judge rubric is in [`evals/rubric.md`](evals/rubric.md), and the
+last QA snapshot is in [`VALIDATION.md`](VALIDATION.md). In short:
 
 1. Every relationship sentence references a name in
    [`glossary/_canonical-names.md`](glossary/_canonical-names.md).

@@ -1,0 +1,23 @@
+{
+  "generated": "2026-06-15T02:27:05.439346Z",
+  "phase": "all",
+  "counts": {
+    "FAIL": 0,
+    "WARN": 0,
+    "INFO": 2
+  },
+  "findings": [
+    {
+      "severity": "INFO",
+      "phase": "weave",
+      "path": "-",
+      "message": "depends_on edges counted: 260"
+    },
+    {
+      "severity": "INFO",
+      "phase": "research",
+      "path": "-",
+      "message": "no _status/proposed-*.md staging files present"
+    }
+  ]
+}
