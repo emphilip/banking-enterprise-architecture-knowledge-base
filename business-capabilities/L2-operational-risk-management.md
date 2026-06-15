@@ -15,7 +15,7 @@ status: draft
 
 ## Relationships
 - Operational Risk Management is defined in the Risk Management domain.
-- Operational Risk Management is derived from Risk Management.
+- Operational Risk Management is derived from Enterprise Risk Management.
 - Operational Risk Management depends on the Threat Detection capability.
 
 ## Details

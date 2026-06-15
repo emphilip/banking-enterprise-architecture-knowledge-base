@@ -16,7 +16,7 @@ sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/process-fr
 
 ## Relationships
 - Customer Servicing is defined in the Customer Management domain.
-- Customer Servicing is derived from Customer Management.
+- Customer Servicing is derived from Customer Lifecycle Management.
 - Customer Servicing depends on the Workflow Orchestration capability.
 - Customer Servicing depends on the Conversational AI capability.
 

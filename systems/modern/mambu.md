@@ -17,6 +17,7 @@ sources: ["https://www.mambu.com/"]
 ## Relationships
 - Core Banking Processing depends on Mambu.
 - Mambu supersedes Fiserv DNA.
+- Mambu supersedes Jack Henry SilverLake.
 - Mambu is related to Thought Machine Vault.
 
 ## Details

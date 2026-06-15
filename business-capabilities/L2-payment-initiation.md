@@ -16,7 +16,7 @@ sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/process-fr
 
 ## Relationships
 - Payment Initiation is defined in the Payments domain.
-- Payment Initiation is derived from Payments.
+- Payment Initiation is derived from Payment Services.
 - Payment Initiation depends on the Payment Orchestration capability.
 - Payment Initiation depends on the API Management capability.
 

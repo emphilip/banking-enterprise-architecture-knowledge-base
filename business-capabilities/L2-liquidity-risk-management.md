@@ -15,7 +15,7 @@ status: draft
 
 ## Relationships
 - Liquidity Risk Management is defined in the Risk Management domain.
-- Liquidity Risk Management is derived from Risk Management.
+- Liquidity Risk Management is derived from Enterprise Risk Management.
 - Liquidity Risk Management depends on the Data Warehousing capability.
 
 ## Details

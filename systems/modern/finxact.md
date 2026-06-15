@@ -17,6 +17,7 @@ sources: ["https://www.fiserv.com/en/about-fiserv/resource-center/finxact.html"]
 ## Relationships
 - Core Banking Processing depends on Finxact.
 - Finxact supersedes FIS Profile.
+- Finxact supersedes Infosys Finacle.
 - Finxact is related to Mambu.
 
 ## Details

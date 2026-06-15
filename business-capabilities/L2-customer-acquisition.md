@@ -16,7 +16,7 @@ sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/process-fr
 
 ## Relationships
 - Customer Acquisition is defined in the Customer Management domain.
-- Customer Acquisition is derived from Customer Management.
+- Customer Acquisition is derived from Customer Lifecycle Management.
 - Customer Acquisition depends on the Workflow Orchestration capability.
 - Customer Acquisition is related to Identity Verification.
 

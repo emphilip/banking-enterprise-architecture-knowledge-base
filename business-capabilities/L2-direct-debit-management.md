@@ -16,7 +16,7 @@ sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/process-fr
 
 ## Relationships
 - Direct Debit Management is defined in the Payments domain.
-- Direct Debit Management is derived from Payments.
+- Direct Debit Management is derived from Payment Services.
 - Direct Debit Management depends on the Payment Orchestration capability.
 - Direct Debit Management is related to Payment Execution.
 

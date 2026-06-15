@@ -16,7 +16,7 @@ sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/process-fr
 
 ## Relationships
 - Payment Clearing & Settlement is defined in the Payments domain.
-- Payment Clearing & Settlement is derived from Payments.
+- Payment Clearing & Settlement is derived from Payment Services.
 - Payment Clearing & Settlement depends on the Payment Orchestration capability.
 - Payment Clearing & Settlement is related to Payment Execution.
 

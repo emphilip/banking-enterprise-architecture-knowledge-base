@@ -12,7 +12,7 @@ status: draft
 **Also known as:** Party Management, Customer Domain.
 
 ## Relationships
-- Customer Management is defined in the Customer Management domain.
+- Customer Lifecycle Management is defined in the Customer Management domain.
 - Marketing Management is defined in the Customer Management domain.
 - Customer Acquisition is defined in the Customer Management domain.
 - Party Data Management is defined in the Customer Management domain.

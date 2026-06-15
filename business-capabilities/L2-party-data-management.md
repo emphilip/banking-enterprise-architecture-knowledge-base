@@ -16,7 +16,7 @@ sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/process-fr
 
 ## Relationships
 - Party Data Management is defined in the Customer Management domain.
-- Party Data Management is derived from Customer Management.
+- Party Data Management is derived from Customer Lifecycle Management.
 - Party Data Management depends on the Master Data Management capability.
 - Party Data Management is related to Customer Profile Management.
 

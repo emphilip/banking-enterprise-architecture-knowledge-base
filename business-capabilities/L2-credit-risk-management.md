@@ -15,7 +15,7 @@ status: draft
 
 ## Relationships
 - Credit Risk Management is defined in the Risk Management domain.
-- Credit Risk Management is derived from Risk Management.
+- Credit Risk Management is derived from Enterprise Risk Management.
 - Credit Risk Management depends on the Credit Decisioning Engine capability.
 
 ## Details

@@ -17,6 +17,7 @@ sources: ["https://www.mulesoft.com/"]
 ## Relationships
 - Integration Platform depends on MuleSoft.
 - MuleSoft supersedes Oracle SOA Suite.
+- MuleSoft supersedes TIBCO BusinessWorks.
 - MuleSoft is related to Boomi.
 
 ## Details

@@ -45,26 +45,26 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 
 | Canonical Name | Level | Domain | Parent | Aliases |
 |---|---|---|---|---|
-| Customer Management | L1 | Customer Management | — | Party Management |
-| Customer Acquisition | L2 | Customer Management | Customer Management | Onboarding Capability |
+| Customer Lifecycle Management | L1 | Customer Management | — | Customer Lifecycle |
+| Customer Acquisition | L2 | Customer Management | Customer Lifecycle Management | Onboarding Capability |
 | Identity Verification | L3 | Customer Management | Customer Acquisition | ID&V, Identity Proofing |
 | Customer Due Diligence | L3 | Customer Management | Customer Acquisition | CDD, EDD |
-| Party Data Management | L2 | Customer Management | Customer Management | Customer Information Management |
+| Party Data Management | L2 | Customer Management | Customer Lifecycle Management | Customer Information Management |
 | Customer Profile Management | L3 | Customer Management | Party Data Management | Profile Management |
-| Customer Servicing | L2 | Customer Management | Customer Management | Customer Service |
+| Customer Servicing | L2 | Customer Management | Customer Lifecycle Management | Customer Service |
 | Case Management | L3 | Customer Management | Customer Servicing | Service Case Management |
-| Relationship Management | L2 | Customer Management | Customer Management | RM, Client Relationship |
+| Relationship Management | L2 | Customer Management | Customer Lifecycle Management | RM, Client Relationship |
 | Marketing Management | L1 | Customer Management | — | Marketing |
 | Campaign Management | L2 | Customer Management | Marketing Management | Campaigns |
 | Customer Segmentation | L2 | Customer Management | Marketing Management | Segmentation |
-| Payments | L1 | Payments | — | Payment Services |
-| Payment Execution | L2 | Payments | Payments | Payment Processing Capability |
+| Payment Services | L1 | Payments | — | Payments Capability |
+| Payment Execution | L2 | Payments | Payment Services | Payment Processing Capability |
 | Domestic Payments | L3 | Payments | Payment Execution | ACH, Faster Payments |
 | Cross-Border Payments | L3 | Payments | Payment Execution | International Payments, SWIFT Payments |
 | Real-Time Payments | L3 | Payments | Payment Execution | RTP, Instant Payments |
-| Payment Clearing & Settlement | L2 | Payments | Payments | Clearing and Settlement |
-| Payment Initiation | L2 | Payments | Payments | Payment Origination |
-| Direct Debit Management | L2 | Payments | Payments | Direct Debits |
+| Payment Clearing & Settlement | L2 | Payments | Payment Services | Clearing and Settlement |
+| Payment Initiation | L2 | Payments | Payment Services | Payment Origination |
+| Direct Debit Management | L2 | Payments | Payment Services | Direct Debits |
 | Lending | L1 | Lending & Credit | — | Credit Services |
 | Loan Origination | L2 | Lending & Credit | Lending | Loan Onboarding |
 | Credit Decisioning | L3 | Lending & Credit | Loan Origination | Credit Assessment, Underwriting Decision |
@@ -85,12 +85,12 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Portfolio Management | L2 | Wealth & Investments | Wealth Management | Portfolio Administration |
 | Investment Advisory | L2 | Wealth & Investments | Wealth Management | Advisory Services |
 | Brokerage & Trading | L2 | Wealth & Investments | Wealth Management | Trading, Brokerage |
-| Risk Management | L1 | Risk Management | — | Enterprise Risk |
-| Credit Risk Management | L2 | Risk Management | Risk Management | Credit Risk |
-| Market Risk Management | L2 | Risk Management | Risk Management | Market Risk |
-| Operational Risk Management | L2 | Risk Management | Risk Management | Operational Risk |
-| Liquidity Risk Management | L2 | Risk Management | Risk Management | Liquidity Risk |
-| Fraud Management | L2 | Risk Management | Risk Management | Fraud Risk Management |
+| Enterprise Risk Management | L1 | Risk Management | — | Enterprise Risk |
+| Credit Risk Management | L2 | Risk Management | Enterprise Risk Management | Credit Risk |
+| Market Risk Management | L2 | Risk Management | Enterprise Risk Management | Market Risk |
+| Operational Risk Management | L2 | Risk Management | Enterprise Risk Management | Operational Risk |
+| Liquidity Risk Management | L2 | Risk Management | Enterprise Risk Management | Liquidity Risk |
+| Fraud Management | L2 | Risk Management | Enterprise Risk Management | Fraud Risk Management |
 | Financial Crime Compliance | L1 | Compliance & Financial Crime | — | FinCrime, Compliance |
 | KYC Management | L2 | Compliance & Financial Crime | Financial Crime Compliance | Know Your Customer |
 | AML Monitoring | L2 | Compliance & Financial Crime | Financial Crime Compliance | Anti-Money Laundering |
@@ -154,7 +154,7 @@ Format: Canonical Name | Tech Domain (defined_in) | Business capabilities that d
 | Loan Origination Platform | Core Processing | Loan Origination | LOS |
 | General Ledger Engine | Core Processing | General Ledger Accounting, Financial Reporting | GL System |
 | Credit Decisioning Engine | Core Processing | Credit Decisioning, Credit Risk Management | Decision Engine |
-| Data Warehousing | Data & Analytics | Financial Reporting, Risk Management | Data Warehouse, Lakehouse |
+| Data Warehousing | Data & Analytics | Financial Reporting, Enterprise Risk Management | Data Warehouse, Lakehouse |
 | Data Streaming | Data & Analytics | Real-Time Payments, Fraud Management | Event Streaming |
 | Analytics Platform | Data & Analytics | Customer Segmentation, Market Risk Management | BI Platform, Analytics & BI |
 | Data Governance | Data & Analytics | Regulatory Compliance | Data Catalog, Data Governance & Catalog |
@@ -235,10 +235,10 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 
 | Canonical Name | Realizes (tech cap) | Supersedes | Vendor | Aliases |
 |---|---|---|---|---|
-| Thought Machine Vault | Core Banking Processing | Temenos T24 | Thought Machine | Vault, Vault Core |
-| Mambu | Core Banking Processing | Fiserv DNA | Mambu | Mambu Core |
-| 10x Banking | Core Banking Processing | Legacy Mainframe Core | 10x Banking | 10x, SuperCore |
-| Finxact | Core Banking Processing | FIS Profile | Fiserv | Finxact Core |
+| Thought Machine Vault | Core Banking Processing | Temenos T24; Oracle FLEXCUBE | Thought Machine | Vault, Vault Core |
+| Mambu | Core Banking Processing | Fiserv DNA; Jack Henry SilverLake | Mambu | Mambu Core |
+| 10x Banking | Core Banking Processing | Legacy Mainframe Core; TCS BaNCS | 10x Banking | 10x, SuperCore |
+| Finxact | Core Banking Processing | FIS Profile; Infosys Finacle | Fiserv | Finxact Core |
 | Temenos Transact | Core Banking Processing | Temenos T24 | Temenos | Transact |
 | Stripe | Payment Orchestration | ACH Batch Processor | Stripe | Stripe Payments |
 | Adyen | Payment Orchestration | Legacy Payment Hub | Adyen | — |
@@ -250,7 +250,7 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Databricks | Data Warehousing | Oracle Exadata | Databricks | Databricks Lakehouse |
 | Google BigQuery | Data Warehousing | IBM Db2 | Google Cloud | BigQuery |
 | Confluent Platform | Data Streaming | IBM MQ | Confluent | Confluent, Kafka |
-| MuleSoft | Integration Platform | Oracle SOA Suite | Salesforce | Anypoint Platform |
+| MuleSoft | Integration Platform | Oracle SOA Suite; TIBCO BusinessWorks | Salesforce | Anypoint Platform |
 | Boomi | Integration Platform | webMethods | Boomi | Dell Boomi |
 | Kong | API Management | CA API Gateway | Kong Inc | Kong Gateway |
 | Apigee | API Management | CA API Gateway | Google Cloud | Apigee Edge |
@@ -282,6 +282,7 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Amazon SageMaker | Machine Learning Platform | SAS Platform | Amazon Web Services | SageMaker |
 | Google Vertex AI | Machine Learning Platform | SAS Platform | Google Cloud | Vertex AI |
 | DataRobot | Machine Learning Platform | SAS Platform | DataRobot | — |
+| Microsoft Power BI | Analytics Platform | IBM Cognos | Microsoft | Power BI |
 | Kasisto | Conversational AI | Legacy IVR System | Kasisto | KAI |
 | Anthropic Claude | Generative AI Platform | Legacy IVR System | Anthropic | Claude |
 

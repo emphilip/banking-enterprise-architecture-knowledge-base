@@ -17,6 +17,7 @@ sources: ["https://www.10xbanking.com/"]
 ## Relationships
 - Core Banking Processing depends on 10x Banking.
 - 10x Banking supersedes Legacy Mainframe Core.
+- 10x Banking supersedes TCS BaNCS.
 - 10x Banking is related to Thought Machine Vault.
 
 ## Details

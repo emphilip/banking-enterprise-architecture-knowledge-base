@@ -16,7 +16,7 @@ sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/process-fr
 
 ## Relationships
 - Payment Execution is defined in the Payments domain.
-- Payment Execution is derived from Payments.
+- Payment Execution is derived from Payment Services.
 - Payment Execution depends on the Payment Orchestration capability.
 - Payment Execution is related to Payment Clearing & Settlement.
 

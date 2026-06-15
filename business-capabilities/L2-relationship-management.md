@@ -16,7 +16,7 @@ sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/process-fr
 
 ## Relationships
 - Relationship Management is defined in the Customer Management domain.
-- Relationship Management is derived from Customer Management.
+- Relationship Management is derived from Customer Lifecycle Management.
 - Relationship Management depends on the CRM Platform capability.
 - Relationship Management is related to Customer Segmentation.
 

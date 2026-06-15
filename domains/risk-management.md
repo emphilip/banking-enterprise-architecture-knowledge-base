@@ -12,7 +12,7 @@ status: draft
 **Also known as:** Risk Domain.
 
 ## Relationships
-- Risk Management is defined in the Risk Management domain.
+- Enterprise Risk Management is defined in the Risk Management domain.
 - Credit Risk Management is defined in the Risk Management domain.
 - Market Risk Management is defined in the Risk Management domain.
 - Operational Risk Management is defined in the Risk Management domain.

@@ -17,6 +17,7 @@ sources: ["https://www.thoughtmachine.net/"]
 ## Relationships
 - Core Banking Processing depends on Thought Machine Vault.
 - Thought Machine Vault supersedes Temenos T24.
+- Thought Machine Vault supersedes Oracle FLEXCUBE.
 - Thought Machine Vault is related to Mambu.
 
 ## Details

@@ -15,7 +15,7 @@ status: draft
 
 ## Relationships
 - Fraud Management is defined in the Risk Management domain.
-- Fraud Management is derived from Risk Management.
+- Fraud Management is derived from Enterprise Risk Management.
 - Fraud Management depends on the Fraud Analytics capability.
 
 ## Details

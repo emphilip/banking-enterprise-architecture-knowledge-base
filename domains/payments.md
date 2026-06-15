@@ -12,7 +12,7 @@ status: draft
 **Also known as:** Payments Domain.
 
 ## Relationships
-- Payments is defined in the Payments domain.
+- Payment Services is defined in the Payments domain.
 - Payment Execution is defined in the Payments domain.
 - Payment Clearing & Settlement is defined in the Payments domain.
 - Payment Initiation is defined in the Payments domain.

@@ -17,7 +17,7 @@ sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/process-fr
 ## Relationships
 - Deposits is defined in the Deposits & Accounts domain.
 - Deposits depends on the Core Banking Processing capability.
-- Deposits is related to Payments.
+- Deposits is related to Payment Services.
 - Deposits is related to Lending.
 
 ## Details

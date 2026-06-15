@@ -15,7 +15,7 @@ status: draft
 
 ## Relationships
 - Market Risk Management is defined in the Risk Management domain.
-- Market Risk Management is derived from Risk Management.
+- Market Risk Management is derived from Enterprise Risk Management.
 - Market Risk Management depends on the Analytics Platform capability.
 
 ## Details
