@@ -16,7 +16,7 @@ first row whose Status is not `done`).
 | 1 | Customer Management | business | done | done | done | done | done |
 | 2 | Payments | business | done | done | done | done | done |
 | 3 | Lending & Credit | business | done | done | done | done | done |
-| 4 | Deposits & Accounts | business | todo | todo | todo | todo | todo |
+| 4 | Deposits & Accounts | business | todo | todo | todo | todo | in-progress |
 | 5 | Cards | business | todo | todo | todo | todo | todo |
 | 6 | Wealth & Investments | business | todo | todo | todo | todo | todo |
 | 7 | Risk Management | business | todo | todo | todo | todo | todo |
@@ -35,8 +35,9 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Lending & Credit (DONE) — 3 of 15 domains deep-dived (Payments, Customer Management, Lending & Credit)
-- Phase: DONE — all 5 eval gates 0 FAIL; LLM-judge PASS first pass (evals/judge-lending-and-credit.md); baseline refreshed (562 files)
+- Domain: Deposits & Accounts
+- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-deposits-and-accounts-{bian,flows,tech}.md
+- Done so far: Payments, Customer Management, Lending & Credit (3 of 15)
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
