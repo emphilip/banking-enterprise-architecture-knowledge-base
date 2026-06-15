@@ -16,7 +16,7 @@ first row whose Status is not `done`).
 | 1 | Customer Management | business | done | done | done | done | done |
 | 2 | Payments | business | done | done | done | done | done |
 | 3 | Lending & Credit | business | done | done | done | done | done |
-| 4 | Deposits & Accounts | business | done | done | done | todo | in-progress |
+| 4 | Deposits & Accounts | business | done | done | done | in-progress | in-progress |
 | 5 | Cards | business | todo | todo | todo | todo | todo |
 | 6 | Wealth & Investments | business | todo | todo | todo | todo | todo |
 | 7 | Risk Management | business | todo | todo | todo | todo | todo |
@@ -36,7 +36,7 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Deposits & Accounts
-- Phase: 3 Author (in-progress) — 4 sub-agents writing ~126 notes (45 caps, 11 tech sub-caps + 6 systems, 3 new processes + 11 sub-processes + 32 steps, 18 supporting)
+- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-deposits-and-accounts.md)
 
 - Done so far: Payments, Customer Management, Lending & Credit (3 of 15)
 
