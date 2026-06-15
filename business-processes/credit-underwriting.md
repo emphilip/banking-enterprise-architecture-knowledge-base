@@ -22,3 +22,10 @@ Credit Underwriting analyzes credit bureau data, income and affordability eviden
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)
+
+## Flow
+- Pull Credit Report causes Score Credit Risk.
+- Score Credit Risk causes Assess Affordability.
+- Assess Affordability causes Evaluate Collateral.
+- Evaluate Collateral causes Apply Credit Policy.
+- Apply Credit Policy causes Adjudicate Credit.

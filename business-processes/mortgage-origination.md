@@ -24,3 +24,11 @@ Mortgage Origination captures the borrower application, orders property valuatio
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)
+
+## Flow
+- Take Mortgage Application causes Issue Loan Estimate.
+- Issue Loan Estimate causes Order Property Appraisal.
+- Order Property Appraisal causes Review Title And Liens.
+- Review Title And Liens causes Clear To Close.
+- Clear To Close causes Deliver Closing Disclosure.
+- Deliver Closing Disclosure causes Fund Mortgage Loan.

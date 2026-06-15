@@ -24,3 +24,11 @@ Loan Origination Workflow gathers applicant and financial data, validates docume
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)
+
+## Flow
+- Capture Loan Application causes Pre-Qualify Borrower.
+- Pre-Qualify Borrower causes Collect Supporting Documents.
+- Collect Supporting Documents causes Verify Borrower Income.
+- Verify Borrower Income causes Render Loan Decision.
+- Render Loan Decision causes Issue Loan Offer.
+- Issue Loan Offer causes Disburse Loan Funds.
