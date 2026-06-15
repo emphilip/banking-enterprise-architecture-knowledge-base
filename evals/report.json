@@ -1,108 +1,12 @@
 {
-  "generated": "2026-06-15T03:13:10.830647Z",
+  "generated": "2026-06-15T03:14:05.793448Z",
   "phase": "author",
   "counts": {
-    "FAIL": 22,
+    "FAIL": 6,
     "WARN": 0,
     "INFO": 0
   },
   "findings": [
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/legacy/informatica-mdm.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/legacy/sap-crm.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/modern/amazon-lex.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/modern/microsoft-dynamics-365.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/modern/pega-customer-service.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/modern/reltio.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/identity-orchestration-engine.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/complaint-handling/01-log-complaint.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/complaint-handling/02-acknowledge-complaint.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/complaint-handling/03-triage-complaint.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/complaint-handling/04-investigate-complaint.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/complaint-handling/05-determine-outcome.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/complaint-handling/06-issue-final-response.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/complaint-handling/07-conduct-root-cause.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/complaint-handling/08-close-complaint.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/service-request-handling/01-capture-request.md",
-      "message": "registry step missing its file"
-    },
     {
       "severity": "FAIL",
       "phase": "author",

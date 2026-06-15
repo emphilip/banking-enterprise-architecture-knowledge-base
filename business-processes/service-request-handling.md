@@ -20,6 +20,14 @@ status: draft
 ## Details
 Service Request Handling intakes the request across channels, classifies and routes it, executes the required maintenance or fulfillment, and confirms completion to the customer. Actors include contact center agents, servicing operations, and customers via self-service. Systems involved include a case management platform, workflow orchestration, and the core banking system.
 
+## Flow
+- Capture Request causes Authenticate Requester.
+- Authenticate Requester causes Categorize Request.
+- Categorize Request causes Assess Request.
+- Assess Request causes Fulfil Request.
+- Fulfil Request causes Confirm Resolution.
+- Confirm Resolution causes Close Request.
+
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)

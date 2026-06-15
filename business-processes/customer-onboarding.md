@@ -23,6 +23,16 @@ status: draft
 ## Details
 Customer Onboarding begins with application capture across digital or branch channels, proceeds through identity proofing and customer due diligence, and concludes with account provisioning and welcome servicing. Actors include the prospective customer, onboarding operations staff, and compliance reviewers. Systems involved typically include a digital channel platform, a customer identity solution, document processing, and the core banking system for account creation.
 
+## Flow
+- Receive Application causes Capture Consent.
+- Capture Consent causes Collect Documents.
+- Collect Documents causes Verify Identity.
+- Verify Identity causes Screen Customer.
+- Screen Customer causes Assess Customer Risk.
+- Assess Customer Risk causes Approve Onboarding.
+- Approve Onboarding causes Create Customer Record.
+- Create Customer Record causes Activate Customer.
+
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)
