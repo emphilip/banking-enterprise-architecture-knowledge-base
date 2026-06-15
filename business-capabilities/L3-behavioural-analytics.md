@@ -6,7 +6,7 @@ domain: Customer Management
 level: L3
 aliases: ["Behavioral Analytics", "Customer Event Analytics", "Behavioural Modelling"]
 status: draft
-sources: ["https://bian.org/semantic-apis/customer-event-history/", "https://bian.org/servicelandscape-12-0-0/object_21.html?object=34917"]
+sources: ["https://bian.org/semantic-apis/customer-event-history/", "https://bian.org/servicelandscape/"]
 ---
 
 # Behavioural Analytics
@@ -20,8 +20,8 @@ sources: ["https://bian.org/semantic-apis/customer-event-history/", "https://bia
 - Behavioural Analytics depends on the Analytics Platform capability.
 
 ## Details
-Behavioural Analytics extends its parent Customer Segmentation within the Customer Management domain and is grounded in BIAN Service Domain mappings and APQC PCF alignment. Behavioural Analytics relies on the Analytics Platform technology capability for its core processing and integrates with adjacent Customer Management capabilities. Implementations typically apply cloud-native, API-led and AI-assisted patterns to deliver Behavioural Analytics at scale.
+Behavioural Analytics realises the BIAN Customer Behavior Insights service domain, drawing on the Customer Event History service domain that records the time-ordered log of customer interactions. Behavioural Analytics derives propensity, churn and next-event predictions from channel activity and transaction streams, and runs on the Analytics Platform technology capability, feeding the resulting segments and triggers to campaign, relationship and servicing capabilities.
 
 ## References
-- [https://bian.org/semantic-apis/customer-event-history/](https://bian.org/semantic-apis/customer-event-history/)
-- [https://bian.org/servicelandscape-12-0-0/object_21.html?object=34917](https://bian.org/servicelandscape-12-0-0/object_21.html?object=34917)
+- [BIAN Customer Event History (semantic API)](https://bian.org/semantic-apis/customer-event-history/)
+- [BIAN Service Landscape](https://bian.org/servicelandscape/)

@@ -6,12 +6,12 @@ domain: Customer Management
 level: L3
 aliases: ["Consent Management", "Preference Management", "Permissions Management"]
 status: draft
-sources: ["https://bian.org/servicelandscape/", "https://biaohao.medium.com/bian-applied-to-data-governance-79dad2287a3b"]
+sources: ["https://bian.org/servicelandscape/", "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/consent/"]
 ---
 
 # Consent & Preference Management
 
-**Definition.** Consent & Preference Management is the L3 business capability that records, enforces and revokes customer consents, communication preferences and data-sharing permissions, mapping to the BIAN Party Authentication and Customer Profile service domains.
+**Definition.** Consent & Preference Management is the L3 business capability that records, enforces and revokes customer consents, communication preferences and data-sharing permissions, mapping to the BIAN Customer Profile and Customer Agreement service domains.
 **Also known as:** Consent Management, Preference Management, Permissions Management.
 
 ## Relationships
@@ -20,8 +20,8 @@ sources: ["https://bian.org/servicelandscape/", "https://biaohao.medium.com/bian
 - Consent & Preference Management depends on the Master Data Management capability.
 
 ## Details
-Consent & Preference Management extends its parent Party Data Management within the Customer Management domain and is grounded in BIAN Service Domain mappings and APQC PCF alignment. Consent & Preference Management relies on the Master Data Management technology capability for its core processing and integrates with adjacent Customer Management capabilities. Implementations typically apply cloud-native, API-led and AI-assisted patterns to deliver Consent & Preference Management at scale.
+Consent & Preference Management maintains the customer's lawful basis for processing and contact, represented in BIAN as attributes of the Customer Profile and Customer Agreement service domains. Consent & Preference Management supports UK GDPR consent obligations — consent must be freely given, specific, informed, unambiguous and as easy to withdraw as to give — alongside marketing-preference and data-sharing rules, and publishes the resulting permissions to downstream campaign, servicing and open-banking capabilities through the Master Data Management technology capability.
 
 ## References
-- [https://bian.org/servicelandscape/](https://bian.org/servicelandscape/)
-- [https://biaohao.medium.com/bian-applied-to-data-governance-79dad2287a3b](https://biaohao.medium.com/bian-applied-to-data-governance-79dad2287a3b)
+- [BIAN Service Landscape](https://bian.org/servicelandscape/)
+- [ICO — Consent (UK GDPR lawful basis)](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/consent/)
