@@ -20,6 +20,14 @@ status: draft
 ## Details
 Cash Management aggregates account positions, forecasts liquidity, executes collections and payments, and applies pooling and sweeping to optimize balances. Actors include corporate treasurers, cash management product teams, and bank operations staff. Systems involved include a payment orchestration hub, liquidity management tooling, and the core banking ledger.
 
+## Flow
+- Aggregate Balances causes Determine Cash Position.
+- Determine Cash Position causes Forecast Cash Flow.
+- Forecast Cash Flow causes Decide Funding Actions.
+- Decide Funding Actions causes Execute Funding Transfer.
+- Execute Funding Transfer causes Monitor Liquidity Position.
+- Monitor Liquidity Position causes Report Cash Status.
+
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)
