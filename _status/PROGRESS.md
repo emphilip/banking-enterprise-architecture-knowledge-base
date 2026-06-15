@@ -36,8 +36,8 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Cards
-- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-cards-{bian,flows,tech}.md
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts (4 of 15)
+- Phase: 2 Steward (done) — reconciled _status/proposed-cards-{bian,flows,tech}.md into glossary/_canonical-names.md
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts (4 of 15); Cards registry reconciled (awaiting author + weave)
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
@@ -52,6 +52,38 @@ decomposition into sharper focus.
 
 ## Decisions log
 
+- (2026-06-15, Phase 2 Steward, Cards) Reconciled the three Cards proposals (bian,
+  flows, tech) into glossary/_canonical-names.md. Most capability/process/tech-subcap/
+  sub-process rows from the proposals were already present in the registry from an
+  earlier reconciliation pass; this run completed the remaining deep-dive sections.
+  Counts added per section: Business capabilities +0 (all 31 proposed Cards L3/L4
+  already present, lines 267-297); Business processes +0 (3 new processes Card
+  Transaction Authorization, Chargeback Processing, Card Fraud Handling already in
+  table with Domain=Cards and 1-3 existing-capability dependencies); Technology
+  sub-capabilities +0 (11 already present under Card Processing / Card Authorization
+  Engine / Card Tokenization Service, Domain=Core Processing); Process sub-processes
+  +0 (14 already present); Process flow steps +32 (7 Card Issuance + 6 Dispute
+  Resolution + 7 Card Transaction Authorization + 6 Chargeback Processing + 6 Card
+  Fraud Handling, each with Order integer per process and a real Depends-On tech cap);
+  Supporting concepts +15 (4 role, 5 event, 6 artifact); Legacy systems +3 (FIS Card
+  Management, Fiserv OmniPay, Fiserv Optis — all realize Card Processing); Modern
+  systems +5 (Thredd, Lithic, i2c, Pismo, Episode Six — all realize Card Processing).
+  Total +55 rows this run. Renames / collision resolutions: none required this run —
+  the previously-reconciled rows already carried the earlier disambiguations
+  (capability "Chargeback Handling" distinct from process "Chargeback Processing";
+  capability "Card Application" distinct from artifact "Card Account Application";
+  sub-process "Authorization Validation & Decisioning" disambiguated from capability
+  "Authorization Decisioning"; sub-process "Dispute Intake & Investigation" alias
+  trimmed to "Dispute Intake" because "Dispute Investigation"/"Claim Investigation"
+  are a canonical cap and its alias). The 32 step names are verb-form and globally
+  unique; no step name or step alias equals any other concept's canonical name.
+  Coverage — every new legacy has a modern successor, with the 3 new legacies covered
+  by appending via "; " to suitable moderns: FIS Card Management <- Pismo (supersedes
+  "TSYS TS2; FIS Card Management"); Fiserv OmniPay <- Thredd (supersedes "First Data
+  Cards; Fiserv OmniPay"); Fiserv Optis <- i2c (supersedes "TSYS TS2; Fiserv Optis").
+  Existing legacy targets TSYS TS2 / First Data Cards retained (also covered by
+  Lithic and Episode Six -> First Data Cards). No new legacy left without a successor;
+  every supersedes target is a real legacy system. Steward gate: 0 FAIL, 0 WARN.
 - (2026-06-15, Phase 2 Steward, Deposits & Accounts) Reconciled the three Deposits
   & Accounts proposals (bian, flows, tech) into glossary/_canonical-names.md. Counts
   added per section: Business capabilities +45 (23 L3, 22 L4, all Domain=Deposits &

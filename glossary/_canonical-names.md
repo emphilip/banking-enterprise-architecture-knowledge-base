@@ -429,6 +429,9 @@ Format: Canonical Name | Realizes (tech capability depends_on it) | Vendor | Ali
 | Fiserv Premier | Core Banking Processing | Fiserv | Premier, Premier Core |
 | Jack Henry Core Director | Core Banking Processing | Jack Henry | Core Director, Jack Henry Core Director System |
 | FIS Horizon | Core Banking Processing | FIS | Horizon, FIS Horizon Core |
+| FIS Card Management | Card Processing | FIS | FIS CMS, FIS Payments One, FIS Card Processing |
+| Fiserv OmniPay | Card Processing | Fiserv | OmniPay, Fiserv OmniPay Platform |
+| Fiserv Optis | Card Processing | Fiserv | Optis, Fiserv Optis Platform |
 
 ## Modern systems
 
@@ -499,6 +502,11 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | SAP Deposits Management | Core Banking Processing | Legacy Mainframe Core; FIS Horizon | SAP / SAP Fioneer | SAP Deposits Management for Banking, SAP Transactional Banking, SAP Fioneer Core |
 | Tuum | Core Banking Processing | Fiserv Premier | Tuum | Tuum Core, Modularbank |
 | SaaScada | Core Banking Processing | Jack Henry Core Director | SaaScada | SaaScada Core, SaaScada Cloud Core |
+| Thredd | Card Processing | First Data Cards; Fiserv OmniPay | Thredd | GPS, Global Processing Services, GPS Apex |
+| Lithic | Card Processing | First Data Cards | Lithic | Lithic Issuer Processing, Privacy.com |
+| i2c | Card Processing | TSYS TS2; Fiserv Optis | i2c Inc | i2c Issuer Processing |
+| Pismo | Card Processing | TSYS TS2; FIS Card Management | Visa (Pismo) | Pismo Platform, Visa Global Issuer Processing |
+| Episode Six | Card Processing | First Data Cards | Episode Six | Episode Six TRITIUM, E6 |
 
 ## Glossary terms
 
@@ -756,6 +764,38 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Decide Pay Or Return | Overdraft Servicing | 4 | Decision Rules Engine | Make Pay Return Decision, Pay/Return Decision Step |
 | Apply Overdraft Fee | Overdraft Servicing | 5 | Core Banking Processing | Assess Overdraft Fee, Fee Application Step |
 | Notify Overdraft Outcome | Overdraft Servicing | 6 | Notification Services | Send Overdraft Notice, Outcome Notification Step |
+| Capture Card Application | Card Issuance | 1 | Digital Channel Platform | Take Card Application, Card Intake Step |
+| Decision Card Application | Card Issuance | 2 | Credit Decisioning Engine | Approve Card Application, Issuance Decisioning Step |
+| Generate Card Credential | Card Issuance | 3 | Card Processing | Generate PAN, Credential Generation Step |
+| Personalize Card | Card Issuance | 4 | Card Processing | Embossing Step, Card Personalization Step |
+| Fulfill Card | Card Issuance | 5 | Notification Services | Dispatch Card, Card Fulfillment Step |
+| Activate Card | Card Issuance | 6 | Card Processing | Enable Card, Card Activation Step |
+| Provision Wallet Token | Card Issuance | 7 | Card Processing | Tokenize Card, Wallet Provisioning Step |
+| Register Dispute Claim | Dispute Resolution | 1 | Workflow Orchestration | Log Dispute, Dispute Registration Step |
+| Validate Dispute Rights | Dispute Resolution | 2 | Workflow Orchestration | Check Dispute Eligibility, Rights Validation Step |
+| Apply Provisional Credit | Dispute Resolution | 3 | Core Banking Processing | Issue Provisional Credit, Provisional Credit Step |
+| Gather Dispute Evidence | Dispute Resolution | 4 | Document Management | Collect Evidence, Evidence Gathering Step |
+| Adjudicate Dispute Outcome | Dispute Resolution | 5 | Workflow Orchestration | Decide Dispute, Outcome Adjudication Step |
+| Finalize Dispute Credit | Dispute Resolution | 6 | Core Banking Processing | Finalize Credit, Dispute Closure Step |
+| Receive Authorization Request | Card Transaction Authorization | 1 | Card Processing | Intake Auth Request, Authorization Intake Step |
+| Validate Card Cryptogram | Card Transaction Authorization | 2 | Card Processing | Verify Cryptogram, Cryptogram Validation Step |
+| Check Available Limit | Card Transaction Authorization | 3 | Card Processing | Funds Check, Limit Verification Step |
+| Apply Velocity Rules | Card Transaction Authorization | 4 | Fraud Analytics | Run Fraud Rules, Velocity Check Step |
+| Authorize Transaction | Card Transaction Authorization | 5 | Card Authorization | Approve Or Decline, Authorization Decision Step |
+| Return Authorization Response | Card Transaction Authorization | 6 | Card Processing | Send Auth Response, Authorization Response Step |
+| Post Cleared Transaction | Card Transaction Authorization | 7 | Core Banking Processing | Post Presentment, Clearing Posting Step |
+| Assign Reason Code | Chargeback Processing | 1 | Card Processing | Code Chargeback, Reason Code Assignment Step |
+| Raise Chargeback | Chargeback Processing | 2 | Card Processing | File Chargeback, Chargeback Submission Step |
+| Receive Representment | Chargeback Processing | 3 | Workflow Orchestration | Log Representment, Representment Intake Step |
+| Review Representment Evidence | Chargeback Processing | 4 | Document Management | Assess Representment, Evidence Review Step |
+| Escalate To Arbitration | Chargeback Processing | 5 | Workflow Orchestration | Pre-Arbitration Step, Arbitration Escalation Step |
+| Settle Chargeback | Chargeback Processing | 6 | Core Banking Processing | Resolve Chargeback, Chargeback Settlement Step |
+| Triage Fraud Alert | Card Fraud Handling | 1 | Fraud Analytics | Prioritize Alert, Fraud Triage Step |
+| Verify Cardholder Activity | Card Fraud Handling | 2 | Notification Services | Confirm Activity, Cardholder Verification Step |
+| Block Compromised Card | Card Fraud Handling | 3 | Card Processing | Freeze Card, Card Block Step |
+| Reissue Card | Card Fraud Handling | 4 | Card Processing | Replace Card, Card Reissue Step |
+| Adjudicate Fraud Claim | Card Fraud Handling | 5 | Workflow Orchestration | Decide Fraud Claim, Fraud Adjudication Step |
+| Refer Suspicious Activity | Card Fraud Handling | 6 | Transaction Monitoring Platform | Refer For SAR, Suspicious Activity Referral Step |
 
 ## Supporting concepts
 
@@ -830,3 +870,18 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Dormancy Notice | artifact | Abandoned Property Letter, Pre-Escheatment Notice |
 | Reg E Opt-In Record | artifact | Overdraft Opt-In Record, Reg E Consent |
 | Overdraft Fee | artifact | OD Fee, Insufficient Funds Fee |
+| Card Issuance Officer | role | Card Issuing Officer, Card Operations Officer |
+| Card Operations Analyst | role | Card Auth Analyst, Authorization Operations Analyst |
+| Dispute Resolution Specialist | role | Chargeback Analyst, Disputes Specialist |
+| Card Fraud Analyst | role | Card Fraud Investigator, Card Fraud Operations Analyst |
+| Card Issued Event | event | Card Activated Event, Card Provisioned Event |
+| Authorization Approved Event | event | Auth Approved Event, Authorization Granted Event |
+| Chargeback Raised Event | event | Chargeback Filed Event, Dispute Raised Event |
+| Dispute Resolved Event | event | Dispute Closed Event, Chargeback Settled Event |
+| Fraud Detected Event | event | Card Fraud Event, Fraud Confirmed Event |
+| Card Account Application | artifact | Card Product Application, Card Onboarding Application |
+| Card Credential | artifact | Card Number Credential, PAN Credential |
+| Authorization Request | artifact | Auth Request Message, ISO 8583 Auth Request |
+| Chargeback Case | artifact | Dispute Case, Chargeback Record |
+| Card Statement | artifact | Credit Card Statement, Card Billing Statement |
+| Fraud Alert | artifact | Fraud Case Alert, Suspicious Transaction Alert |
