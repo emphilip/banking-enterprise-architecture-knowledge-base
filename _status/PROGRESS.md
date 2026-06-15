@@ -14,7 +14,7 @@ first row whose Status is not `done`).
 | # | Domain | Kind | Caps L3/L4 | Tech L2/L3 | Flows | Validated | Status |
 |---|---|---|---|---|---|---|---|
 | 1 | Customer Management | business | todo | todo | todo | todo | todo |
-| 2 | Payments | business | done | done | done | in-progress | in-progress |
+| 2 | Payments | business | done | done | done | done | done |
 | 3 | Lending & Credit | business | todo | todo | todo | todo | todo |
 | 4 | Deposits & Accounts | business | todo | todo | todo | todo | todo |
 | 5 | Cards | business | todo | todo | todo | todo | todo |
@@ -35,8 +35,8 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Payments
-- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running on 28-file sample (evals/judge-payments.md)
+- Domain: Payments (DONE) — next: run DEEP-DIVE-PROMPT with DOMAIN="next" (picks Customer Management)
+- Phase: DONE — Payments deep-dive complete. All 5 eval gates 0 FAIL; LLM-judge PASS (evals/judge-payments.md); baseline refreshed (334 files).
 - Started: 2026-06-15
 - Resume note: proceed to Phase 3 author — author the new L3/L4 capability, tech
   sub-capability, sub-process, process-flow step, and supporting-concept notes per
@@ -44,15 +44,10 @@ decomposition into sharper focus.
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
-- [ ] Start the first domain: run the eval-gated prompt in
-      _status/DEEP-DIVE-PROMPT.md with DOMAIN = "Payments" (or any business
-      domain). The run will: create _status/proposed-<domain>.md from research,
-      pass the ontology-steward gate (`python evals/checks.py --phase steward`),
-      author L3/L4 + tech L2/L3 + process-flow step notes (gate `--phase author`),
-      weave maps/indexes (gate `--phase weave`), validate (`--phase all` +
-      LLM-judge per evals/rubric.md), then set this domain's row to `done`,
-      refresh evals/baseline.json, and repoint these Next actions at the next
-      domain. Every phase must show 0 FAIL before advancing.
+- [ ] Deepen the next domain: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
+      (first not-done row = Customer Management). Same eval-gated pipeline:
+      research -> steward gate -> author -> weave -> validate (+ LLM-judge) ->
+      mark row done + refresh baseline.
 
 ## Decisions log
 

@@ -102,3 +102,39 @@ canonical names + expected filenames, then for every concept file confirm a
 `## Relationships` section within the first 1800 chars whose bullets reference
 only registry names, and confirm each `_index.md` links every file in its
 folder.
+
+---
+
+## Deep-dive: Payments domain (2026-06-15)
+
+First domain deep-dive, run through the eval-gated pipeline (`_status/DEEP-DIVE-PROMPT.md`).
+
+**Added (+97 concepts):** 16 L3 + 17 L4 business capabilities; 11 technology
+sub-capabilities (8 L2, 3 L3) under Payment Orchestration; 9 sub-processes; 22
+ordered process-flow steps across Payment Processing, Reconciliation &
+Settlement, and Cash Management (with `## Flow` sections on the parent process
+notes); 16 supporting concepts (6 role, 4 event, 6 artifact); 3 new legacy and
+3 new modern payment-hub systems.
+
+**Eval gates (deterministic, `evals/checks.py`):**
+- research → 0 FAIL · steward → 0 FAIL / 0 WARN · author → 0 FAIL / 0 WARN ·
+  weave → 0 FAIL / 0 WARN · all (incl. regression vs baseline) → 0 FAIL / 0 WARN.
+- New concept types are first-class in the harness (technology sub-capabilities,
+  sub-processes, process flow steps, supporting concepts); the registry schema
+  and `CONVENTIONS.md` were extended to match.
+
+**Eval gate (semantic, LLM-judge, `evals/judge-payments.md`):** PASS on a
+28-file sample. Means — accuracy 4.79, groundedness 4.79, relationship
+sensibility 4.93, naming fidelity 5.00, granularity 4.89. Five recommended
+accuracy fixes were applied (ACI EPP "50+ networks" figure removed; SEPA vs
+Bacs/AUDDIS corrected; Request To Pay source + "defer" option corrected;
+Settlement Officer sign-off ownership ceded to Reconciliation Analyst; Bottomline
+framing confirmed already correct).
+
+**Coverage:** every legacy payment-hub system now has a modern successor (the 3
+new moderns extended with multi-supersedes); the steward WARNs are cleared.
+
+**Knowledge base totals after Payments deep-dive:** 100 business capabilities
+(L1–L4), 41 technology capabilities + sub-capabilities, 31 processes +
+sub-processes, 22 process-flow steps, 16 supporting concepts, 46 legacy + 53
+modern systems, 10 glossary terms.

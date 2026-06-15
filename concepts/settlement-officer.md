@@ -10,7 +10,7 @@ sources: ["https://fedwireservice.org/"]
 
 # Settlement Officer
 
-**Definition.** Settlement Officer is the role that confirms settlement finality and posts settlement and adjustment entries during reconciliation and settlement. Settlement Officer applies dual control over interbank money movement and certifies the reconciliation outcome.
+**Definition.** Settlement Officer is the role that confirms settlement finality and posts settlement and adjustment entries during reconciliation and settlement. Settlement Officer applies dual control over interbank money movement and supports the reconciliation outcome.
 
 **Also known as:** Settlements Officer, Settlement Clerk.
 
@@ -22,7 +22,7 @@ sources: ["https://fedwireservice.org/"]
 - Settlement Officer is related to Interbank Settlement.
 
 ## Details
-Settlement Officer captures settlement advices from operators and correspondents and confirms that interbank money movement has reached finality. The role also posts correcting and clearing ledger entries for resolved breaks under maker-checker control and signs off the reconciliation, producing the certified record for control and audit.
+Settlement Officer captures settlement advices from operators and correspondents and confirms that interbank money movement has reached finality. The role also posts correcting and clearing ledger entries for resolved breaks under maker-checker control and supports reconciliation, leaving final sign-off to the Reconciliation Analyst role for control and audit.
 
 ## References
 - https://fedwireservice.org/

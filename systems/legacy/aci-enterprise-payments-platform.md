@@ -11,7 +11,7 @@ sources: ["https://www.aciworldwide.com/solutions/aci-enterprise-payments-platfo
 
 # ACI Enterprise Payments Platform
 
-**Definition.** ACI Enterprise Payments Platform is a proven-at-scale, multi-bank/multi-currency enterprise payments platform from ACI Worldwide orchestrating all payment types across 50+ networks (RTGS, ACH, instant, cross-border, card) with SWIFT gpi/Go.
+**Definition.** ACI Enterprise Payments Platform is a proven-at-scale, multi-bank/multi-currency enterprise payments platform from ACI Worldwide orchestrating all payment types across RTGS, ACH, instant, cross-border and card networks with SWIFT gpi/Go support.
 **Also known as:** ACI EPP, UP Real-Time Payments.
 
 ## Relationships
@@ -19,7 +19,7 @@ sources: ["https://www.aciworldwide.com/solutions/aci-enterprise-payments-platfo
 - ACI Enterprise Payments Platform is related to Finastra Global PAYplus.
 
 ## Details
-ACI Enterprise Payments Platform is a proven-at-scale, multi-bank and multi-currency payments platform that orchestrates all payment types across more than 50 networks, including RTGS, ACH, instant, cross-border and card, with SWIFT gpi/Go support. Recognized as a leading global payment hub, it underpins large-bank payment operations and is a focus of modernization.
+ACI Enterprise Payments Platform is a proven-at-scale, multi-bank and multi-currency payments platform that orchestrates all payment types across RTGS, ACH, instant, cross-border and card networks, with SWIFT gpi/Go support. Recognized as a leading global payment hub, it underpins large-bank payment operations and is a focus of modernization.
 
 ## References
 - [ACI Enterprise Payments Platform](https://www.aciworldwide.com/solutions/aci-enterprise-payments-platform)
