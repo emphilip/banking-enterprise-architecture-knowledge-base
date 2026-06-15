@@ -35,9 +35,11 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: (none yet)
-- Phase: (none) — phases are 1 Research · 2 Steward gate · 3 Author · 4 Weave · 5 Validate
-- Started: (n/a)
+- Domain: Payments
+- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-payments-{bian,flows,tech}.md
+- Started: 2026-06-15
+- Resume note: when proposals land, run `python evals/checks.py --phase research`,
+  then Phase 2 steward (reconcile proposals into glossary/_canonical-names.md).
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
