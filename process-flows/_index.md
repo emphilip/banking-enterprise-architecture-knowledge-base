@@ -30,6 +30,15 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[07-conduct-root-cause|Conduct Root Cause]]
 - [[08-close-complaint|Close Complaint]]
 
+## Credit Underwriting
+
+- [[01-pull-credit-report|Pull Credit Report]]
+- [[02-score-credit-risk|Score Credit Risk]]
+- [[03-assess-affordability|Assess Affordability]]
+- [[04-evaluate-collateral|Evaluate Collateral]]
+- [[05-apply-credit-policy|Apply Credit Policy]]
+- [[06-adjudicate-credit|Adjudicate Credit]]
+
 ## Customer Onboarding
 
 - [[01-receive-application|Receive Application]]
@@ -41,6 +50,35 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[07-approve-onboarding|Approve Onboarding]]
 - [[08-create-customer-record|Create Customer Record]]
 - [[09-activate-customer|Activate Customer]]
+
+## Loan Collections
+
+- [[01-detect-delinquency|Detect Delinquency]]
+- [[02-segment-arrears|Segment Arrears]]
+- [[03-contact-borrower|Contact Borrower]]
+- [[04-negotiate-repayment|Negotiate Repayment]]
+- [[05-escalate-to-recovery|Escalate To Recovery]]
+- [[06-charge-off-debt|Charge Off Debt]]
+
+## Loan Origination Workflow
+
+- [[01-capture-loan-application|Capture Loan Application]]
+- [[02-pre-qualify-borrower|Pre-Qualify Borrower]]
+- [[03-collect-supporting-documents|Collect Supporting Documents]]
+- [[04-verify-borrower-income|Verify Borrower Income]]
+- [[05-render-loan-decision|Render Loan Decision]]
+- [[06-issue-loan-offer|Issue Loan Offer]]
+- [[07-disburse-loan-funds|Disburse Loan Funds]]
+
+## Mortgage Origination
+
+- [[01-take-mortgage-application|Take Mortgage Application]]
+- [[02-issue-loan-estimate|Issue Loan Estimate]]
+- [[03-order-property-appraisal|Order Property Appraisal]]
+- [[04-review-title-and-liens|Review Title And Liens]]
+- [[05-clear-to-close|Clear To Close]]
+- [[06-deliver-closing-disclosure|Deliver Closing Disclosure]]
+- [[07-fund-mortgage-loan|Fund Mortgage Loan]]
 
 ## Payment Processing
 
@@ -72,3 +110,12 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[05-fulfil-request|Fulfil Request]]
 - [[06-confirm-resolution|Confirm Resolution]]
 - [[07-close-request|Close Request]]
+
+## Trade Finance Processing
+
+- [[01-receive-credit-application|Receive Credit Application]]
+- [[02-assess-trade-limit|Assess Trade Limit]]
+- [[03-issue-letter-of-credit|Issue Letter Of Credit]]
+- [[04-advise-beneficiary|Advise Beneficiary]]
+- [[05-examine-trade-documents|Examine Trade Documents]]
+- [[06-settle-trade-payment|Settle Trade Payment]]

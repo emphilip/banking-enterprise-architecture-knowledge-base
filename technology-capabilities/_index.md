@@ -33,23 +33,36 @@ Map-of-Content for technology capabilities and their L2/L3 sub-capabilities, gro
 
 ## Core Processing
 
+- [[adverse-action-generator|Adverse Action Generator]]
+- [[affordability-assessment-engine|Affordability Assessment Engine]]
+- [[application-intake-engine|Application Intake Engine]]
+- [[bureau-data-integration|Bureau Data Integration]]
 - [[card-processing|Card Processing]]
 - [[core-banking-processing|Core Banking Processing]]
 - [[credit-decisioning-engine|Credit Decisioning Engine]]
+- [[credit-scoring-service|Credit Scoring Service]]
+- [[decision-rules-engine|Decision Rules Engine]]
+- [[disbursement-engine|Disbursement Engine]]
+- [[document-capture-and-verification|Document Capture & Verification]]
 - [[general-ledger-engine|General Ledger Engine]]
 - [[iso-20022-translation-service|ISO 20022 Translation Service]]
+- [[income-verification-service|Income Verification Service]]
 - [[least-cost-routing-service|Least-Cost Routing Service]]
 - [[liquidity-and-limit-checker|Liquidity & Limit Checker]]
 - [[loan-origination-platform|Loan Origination Platform]]
+- [[loan-product-configurator|Loan Product Configurator]]
+- [[offer-and-pricing-engine|Offer & Pricing Engine]]
 - [[payment-message-transformer|Payment Message Transformer]]
 - [[payment-orchestration|Payment Orchestration]]
 - [[payment-repair-workbench|Payment Repair Workbench]]
 - [[payment-routing-engine|Payment Routing Engine]]
 - [[payment-sanctions-filter|Payment Sanctions Filter]]
 - [[payment-validation-engine|Payment Validation Engine]]
+- [[reject-inference-model|Reject Inference Model]]
 - [[swift-connectivity-adapter|SWIFT Connectivity Adapter]]
 - [[scheme-connectivity-gateway|Scheme Connectivity Gateway]]
 - [[settlement-instruction-engine|Settlement Instruction Engine]]
+- [[strategy-design-studio|Strategy Design Studio]]
 
 ## Data & Analytics
 

@@ -76,6 +76,11 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Pega Customer Service supersedes Siebel CRM.
 - Reltio supersedes Informatica MDM.
 - Amazon Lex supersedes Legacy IVR System.
+- Temenos Origination supersedes Ellie Mae Encompass.
+- Temenos Origination supersedes Finastra LaserPro.
+- MeridianLink supersedes Ellie Mae Encompass.
+- Provenir supersedes FICO Origination Manager.
+- Provenir supersedes Experian PowerCurve.
 
 ## Realization statements
 
@@ -127,6 +132,10 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Payment Orchestration depends on ACI Enterprise Payments Platform.
 - CRM Platform depends on SAP CRM.
 - Master Data Management depends on Informatica MDM.
+- Loan Origination Platform depends on Ellie Mae Encompass.
+- Loan Origination Platform depends on Finastra LaserPro.
+- Credit Decisioning Engine depends on FICO Origination Manager.
+- Credit Decisioning Engine depends on Experian PowerCurve.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -184,6 +193,9 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - CRM Platform depends on Pega Customer Service.
 - Master Data Management depends on Reltio.
 - Conversational AI depends on Amazon Lex.
+- Loan Origination Platform depends on Temenos Origination.
+- Loan Origination Platform depends on MeridianLink.
+- Credit Decisioning Engine depends on Provenir.
 
 ## Successor matrix
 | Technology Capability | Legacy System | Modern Successor |
@@ -209,6 +221,8 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Core Banking Processing | TCS BaNCS | 10x Banking |
 | Core Banking Processing | Temenos T24 | Temenos Transact |
 | Core Banking Processing | Temenos T24 | Thought Machine Vault |
+| Credit Decisioning Engine | Experian PowerCurve | Provenir |
+| Credit Decisioning Engine | FICO Origination Manager | Provenir |
 | Credit Decisioning Engine | Legacy Credit Scoring | Upstart |
 | Credit Decisioning Engine | Legacy Credit Scoring | Zest AI |
 | Customer Identity | IBM Tivoli Identity Manager | Auth0 |
@@ -233,6 +247,9 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Intelligent Document Processing | OpenText Documentum | AWS Textract |
 | Loan Origination Platform | Black Knight Empower | Blend |
 | Loan Origination Platform | Black Knight Empower | nCino |
+| Loan Origination Platform | Ellie Mae Encompass | MeridianLink |
+| Loan Origination Platform | Ellie Mae Encompass | Temenos Origination |
+| Loan Origination Platform | Finastra LaserPro | Temenos Origination |
 | Machine Learning Platform | SAS Platform | Amazon SageMaker |
 | Machine Learning Platform | SAS Platform | DataRobot |
 | Machine Learning Platform | SAS Platform | Google Vertex AI |
