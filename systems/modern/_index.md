@@ -1,0 +1,61 @@
+---
+id: systems-modern-index
+title: Modern Systems Index
+type: index
+status: draft
+---
+
+# Modern Systems Index
+
+Map-of-Content for emerging cloud-native / AI-driven systems. Each system realizes a technology capability and supersedes a legacy system delivering the same capability.
+
+- [[10x-banking|10x Banking]]
+- [[aws-textract|AWS Textract]]
+- [[adyen|Adyen]]
+- [[amazon-connect|Amazon Connect]]
+- [[amazon-sagemaker|Amazon SageMaker]]
+- [[anthropic-claude|Anthropic Claude]]
+- [[apigee|Apigee]]
+- [[auth0|Auth0]]
+- [[backbase|Backbase]]
+- [[blend|Blend]]
+- [[boomi|Boomi]]
+- [[camunda|Camunda]]
+- [[complyadvantage|ComplyAdvantage]]
+- [[confluent-platform|Confluent Platform]]
+- [[datarobot|DataRobot]]
+- [[databricks|Databricks]]
+- [[featurespace|Featurespace]]
+- [[feedzai|Feedzai]]
+- [[finxact|Finxact]]
+- [[forgerock|ForgeRock]]
+- [[galileo|Galileo]]
+- [[genesys-cloud|Genesys Cloud]]
+- [[google-bigquery|Google BigQuery]]
+- [[google-vertex-ai|Google Vertex AI]]
+- [[hawk-ai|Hawk AI]]
+- [[hyperscience|Hyperscience]]
+- [[kasisto|Kasisto]]
+- [[kong|Kong]]
+- [[mambu|Mambu]]
+- [[marqeta|Marqeta]]
+- [[microsoft-power-bi|Microsoft Power BI]]
+- [[modern-treasury|Modern Treasury]]
+- [[mulesoft|MuleSoft]]
+- [[okta|Okta]]
+- [[oracle-fusion-erp|Oracle Fusion ERP]]
+- [[ping-identity|Ping Identity]]
+- [[q2|Q2]]
+- [[regnology|Regnology]]
+- [[salesforce-financial-services-cloud|Salesforce Financial Services Cloud]]
+- [[snowflake|Snowflake]]
+- [[stripe|Stripe]]
+- [[suade|Suade]]
+- [[temenos-transact|Temenos Transact]]
+- [[temporal|Temporal]]
+- [[thought-machine-vault|Thought Machine Vault]]
+- [[upstart|Upstart]]
+- [[volante-payments|Volante Payments]]
+- [[workday-financials|Workday Financials]]
+- [[zest-ai|Zest AI]]
+- [[ncino|nCino]]

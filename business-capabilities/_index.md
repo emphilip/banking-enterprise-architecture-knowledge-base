@@ -1,0 +1,86 @@
+---
+id: business-capabilities-index
+title: Business Capabilities Index
+type: index
+status: draft
+---
+
+# Business Capabilities Index
+
+Map-of-Content for the L1→L2→L3 business capability map (grounded in BIAN and APQC PCF). Children are derived_from their parent; each capability is defined_in a domain.
+
+## L1 Capabilities
+
+- [[L1-cards-management|Cards Management]]
+- [[L1-channel-management|Channel Management]]
+- [[L1-customer-lifecycle-management|Customer Lifecycle Management]]
+- [[L1-deposits|Deposits]]
+- [[L1-enterprise-risk-management|Enterprise Risk Management]]
+- [[L1-finance-management|Finance Management]]
+- [[L1-financial-crime-compliance|Financial Crime Compliance]]
+- [[L1-lending|Lending]]
+- [[L1-marketing-management|Marketing Management]]
+- [[L1-payment-services|Payment Services]]
+- [[L1-treasury-management|Treasury Management]]
+- [[L1-wealth-management|Wealth Management]]
+
+## L2 Capabilities
+
+- [[L2-aml-monitoring|AML Monitoring]]
+- [[L2-atm-management|ATM Management]]
+- [[L2-account-opening|Account Opening]]
+- [[L2-account-servicing|Account Servicing]]
+- [[L2-asset-liability-management|Asset Liability Management]]
+- [[L2-branch-banking|Branch Banking]]
+- [[L2-brokerage-and-trading|Brokerage & Trading]]
+- [[L2-campaign-management|Campaign Management]]
+- [[L2-card-authorization|Card Authorization]]
+- [[L2-card-issuing|Card Issuing]]
+- [[L2-card-lifecycle-management|Card Lifecycle Management]]
+- [[L2-collateral-management|Collateral Management]]
+- [[L2-collections-and-recovery|Collections & Recovery]]
+- [[L2-contact-center|Contact Center]]
+- [[L2-credit-risk-management|Credit Risk Management]]
+- [[L2-customer-acquisition|Customer Acquisition]]
+- [[L2-customer-segmentation|Customer Segmentation]]
+- [[L2-customer-servicing|Customer Servicing]]
+- [[L2-digital-banking|Digital Banking]]
+- [[L2-direct-debit-management|Direct Debit Management]]
+- [[L2-dispute-management|Dispute Management]]
+- [[L2-financial-reporting|Financial Reporting]]
+- [[L2-fraud-management|Fraud Management]]
+- [[L2-general-ledger-accounting|General Ledger Accounting]]
+- [[L2-interest-calculation|Interest Calculation]]
+- [[L2-investment-advisory|Investment Advisory]]
+- [[L2-kyc-management|KYC Management]]
+- [[L2-liquidity-management|Liquidity Management]]
+- [[L2-liquidity-risk-management|Liquidity Risk Management]]
+- [[L2-loan-origination|Loan Origination]]
+- [[L2-loan-servicing|Loan Servicing]]
+- [[L2-market-risk-management|Market Risk Management]]
+- [[L2-operational-risk-management|Operational Risk Management]]
+- [[L2-overdraft-management|Overdraft Management]]
+- [[L2-party-data-management|Party Data Management]]
+- [[L2-payment-clearing-and-settlement|Payment Clearing & Settlement]]
+- [[L2-payment-execution|Payment Execution]]
+- [[L2-payment-initiation|Payment Initiation]]
+- [[L2-portfolio-management|Portfolio Management]]
+- [[L2-regulatory-capital-management|Regulatory Capital Management]]
+- [[L2-regulatory-compliance|Regulatory Compliance]]
+- [[L2-relationship-management|Relationship Management]]
+
+## L3 Capabilities
+
+- [[L3-case-management|Case Management]]
+- [[L3-credit-decisioning|Credit Decisioning]]
+- [[L3-cross-border-payments|Cross-Border Payments]]
+- [[L3-customer-due-diligence|Customer Due Diligence]]
+- [[L3-customer-profile-management|Customer Profile Management]]
+- [[L3-domestic-payments|Domestic Payments]]
+- [[L3-identity-verification|Identity Verification]]
+- [[L3-mobile-banking|Mobile Banking]]
+- [[L3-online-banking|Online Banking]]
+- [[L3-real-time-payments|Real-Time Payments]]
+- [[L3-regulatory-reporting|Regulatory Reporting]]
+- [[L3-sanctions-screening|Sanctions Screening]]
+- [[L3-transaction-monitoring|Transaction Monitoring]]
