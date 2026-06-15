@@ -16,7 +16,7 @@ sources: ["https://www.emvco.com/emv-technologies/3-d-secure/", "https://www.mas
 
 ## Relationships
 - 3-D Secure Service is defined in the Core Processing domain.
-- 3-D Secure Service is derived from Card Tokenization Service.
+- 3-D Secure Service is derived from Card Authorization Engine.
 - 3-D Secure Service depends on Customer Authentication.
 - 3-D Secure Service is related to Card Authorization.
 

@@ -502,7 +502,7 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | SAP Deposits Management | Core Banking Processing | Legacy Mainframe Core; FIS Horizon | SAP / SAP Fioneer | SAP Deposits Management for Banking, SAP Transactional Banking, SAP Fioneer Core |
 | Tuum | Core Banking Processing | Fiserv Premier | Tuum | Tuum Core, Modularbank |
 | SaaScada | Core Banking Processing | Jack Henry Core Director | SaaScada | SaaScada Core, SaaScada Cloud Core |
-| Thredd | Card Processing | First Data Cards; Fiserv OmniPay | Thredd | GPS, Global Processing Services, GPS Apex |
+| Thredd | Card Processing | First Data Cards | Thredd | GPS, Global Processing Services, GPS Apex |
 | Lithic | Card Processing | First Data Cards | Lithic | Lithic Issuer Processing, Privacy.com |
 | i2c | Card Processing | TSYS TS2; Fiserv Optis | i2c Inc | i2c Issuer Processing |
 | Pismo | Card Processing | TSYS TS2; FIS Card Management | Visa (Pismo) | Pismo Platform, Visa Global Issuer Processing |
@@ -588,7 +588,7 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Card Rewards Engine | Card Processing | Core Processing | L2 | Loyalty & Rewards Engine, Points Engine, Cashback Engine |
 | EMV Cryptogram Validation | Card Authorization Engine | Core Processing | L3 | ARQC Validation, Chip Cryptogram Service, EMV Validation Service |
 | Stand-In Processing Service | Card Authorization Engine | Core Processing | L3 | STIP Service, On-Behalf-Of Processing, Stand-In Authorization Service |
-| 3-D Secure Service | Card Tokenization Service | Core Processing | L3 | 3DS Service, EMV 3DS ACS, Cardholder Authentication Service |
+| 3-D Secure Service | Card Authorization Engine | Core Processing | L3 | 3DS Service, EMV 3DS ACS, Cardholder Authentication Service |
 
 ## Process sub-processes
 

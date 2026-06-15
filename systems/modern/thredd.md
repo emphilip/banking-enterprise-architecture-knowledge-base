@@ -17,7 +17,6 @@ sources: ["https://www.thredd.ai/solutions/issuer-processing", "https://docs.thr
 ## Relationships
 - Card Processing depends on Thredd.
 - Thredd supersedes First Data Cards.
-- Thredd supersedes Fiserv OmniPay.
 - Thredd is related to Lithic.
 
 ## Details
