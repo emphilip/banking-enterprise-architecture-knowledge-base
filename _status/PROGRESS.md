@@ -13,7 +13,7 @@ first row whose Status is not `done`).
 
 | # | Domain | Kind | Caps L3/L4 | Tech L2/L3 | Flows | Validated | Status |
 |---|---|---|---|---|---|---|---|
-| 1 | Customer Management | business | todo | todo | todo | todo | todo |
+| 1 | Customer Management | business | todo | todo | todo | todo | in-progress |
 | 2 | Payments | business | done | done | done | done | done |
 | 3 | Lending & Credit | business | todo | todo | todo | todo | todo |
 | 4 | Deposits & Accounts | business | todo | todo | todo | todo | todo |
@@ -35,7 +35,8 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Payments (DONE) — next: run DEEP-DIVE-PROMPT with DOMAIN="next" (picks Customer Management)
+- Domain: Customer Management
+- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-customer-management-{bian,flows,tech}.md
 - Phase: DONE — Payments deep-dive complete. All 5 eval gates 0 FAIL; LLM-judge PASS (evals/judge-payments.md); baseline refreshed (334 files).
 - Started: 2026-06-15
 - Resume note: proceed to Phase 3 author — author the new L3/L4 capability, tech
