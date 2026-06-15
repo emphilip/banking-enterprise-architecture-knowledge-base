@@ -17,7 +17,7 @@ first row whose Status is not `done`).
 | 2 | Payments | business | done | done | done | done | done |
 | 3 | Lending & Credit | business | done | done | done | done | done |
 | 4 | Deposits & Accounts | business | done | done | done | done | done |
-| 5 | Cards | business | done | done | done | todo | in-progress |
+| 5 | Cards | business | done | done | done | in-progress | in-progress |
 | 6 | Wealth & Investments | business | todo | todo | todo | todo | todo |
 | 7 | Risk Management | business | todo | todo | todo | todo | todo |
 | 8 | Compliance & Financial Crime | business | todo | todo | todo | todo | todo |
@@ -36,7 +36,7 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Cards
-- Phase: 3 Author (in-progress) — 4 sub-agents writing Cards notes (31 caps, 11 tech sub-caps + 8 systems, 3 new processes + 14 sub-processes + 32 steps, 15 supporting)
+- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-cards.md)
 
 - Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts (4 of 15); Cards registry reconciled (awaiting author + weave)
 
