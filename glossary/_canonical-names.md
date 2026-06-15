@@ -219,6 +219,51 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Promise-To-Pay Management | L4 | Lending & Credit | Delinquency Management | PTP Management, Repayment Promise Tracking |
 | Repossession Management | L4 | Lending & Credit | Recovery & Write-Off | Asset Repossession, Collateral Liquidation |
 | Debt Sale Management | L4 | Lending & Credit | Recovery & Write-Off | Portfolio Debt Sale, NPL Sale |
+| Deposit Account Origination | L3 | Deposits & Accounts | Account Opening | Account Origination Capability, New Account Establishment |
+| Deposit Product Selection | L3 | Deposits & Accounts | Account Opening | Product Matching, Deposit Product Fit |
+| First Deposit Funding | L3 | Deposits & Accounts | Account Opening | Initial Funding, Account Funding |
+| Account Activation Control | L3 | Deposits & Accounts | Account Opening | Deposit Activation, Go-Live Control |
+| Eligibility & Suitability Screening | L3 | Deposits & Accounts | Account Opening | Account Eligibility Check, Opening Suitability |
+| Transaction Posting | L3 | Deposits & Accounts | Account Servicing | Ledger Posting, Account Posting |
+| Account Balance Management | L3 | Deposits & Accounts | Account Servicing | Balance Keeping, Available Balance Control |
+| Account Maintenance Servicing | L3 | Deposits & Accounts | Account Servicing | Account Amendments, Account Care |
+| Deposit Statement & Reporting | L3 | Deposits & Accounts | Account Servicing | Account Statement Capability, Deposit Reporting |
+| Standing Orders & Sweeps | L3 | Deposits & Accounts | Account Servicing | Sweep Management, Account Standing Instructions |
+| Deposit Direct Debit Authorisation | L3 | Deposits & Accounts | Account Servicing | Debtor Mandate Management, Account DD Authorisation |
+| Account Closure Servicing | L3 | Deposits & Accounts | Account Servicing | Deposit Closure, Account Termination |
+| Dormancy Management | L3 | Deposits & Accounts | Account Servicing | Inactive Account Management, Unclaimed Balance Handling |
+| Distressed Account Recovery | L3 | Deposits & Accounts | Account Servicing | Account Recovery Capability, Distressed Deposit Handling |
+| Account Reconciliation Servicing | L3 | Deposits & Accounts | Account Servicing | Deposit Recon, Account Matching |
+| Deposit Interest Accrual | L3 | Deposits & Accounts | Interest Calculation | Credit Interest Accrual, Savings Interest Accrual |
+| Deposit Interest Posting | L3 | Deposits & Accounts | Interest Calculation | Interest Capitalisation, Interest Credit |
+| Deposit Tax Withholding | L3 | Deposits & Accounts | Interest Calculation | Withholding Tax Handling, Interest Tax Reporting |
+| Deposit Rate Management | L3 | Deposits & Accounts | Interest Calculation | Interest Rate Management, Rate Table Management |
+| Term Deposit Lifecycle | L3 | Deposits & Accounts | Interest Calculation | Fixed Deposit Management, Time Deposit Lifecycle |
+| Overdraft Facility Setup | L3 | Deposits & Accounts | Overdraft Management | Overdraft Arrangement, Limit Setup |
+| Overdraft Limit Monitoring | L3 | Deposits & Accounts | Overdraft Management | Overdraft Monitoring, Utilisation Monitoring |
+| Unauthorised Overdraft Handling | L3 | Deposits & Accounts | Overdraft Management | Unarranged Overdraft Handling, Excess Management |
+| Application Capture & Validation | L4 | Deposits & Accounts | Deposit Account Origination | Account Application Capture, Opening Data Validation |
+| Account Instantiation | L4 | Deposits & Accounts | Deposit Account Origination | Account Record Creation, Account Provisioning |
+| Beneficial Ownership Capture | L4 | Deposits & Accounts | Deposit Account Origination | Signatory Capture, Joint Holder Setup |
+| Value-Dated Posting | L4 | Deposits & Accounts | Transaction Posting | Value Dating, Effective-Date Posting |
+| Transaction Reversal Handling | L4 | Deposits & Accounts | Transaction Posting | Entry Reversal, Posting Correction |
+| Account Hold & Block Management | L4 | Deposits & Accounts | Account Balance Management | Funds Hold Management, Earmark Management |
+| Account Detail Amendment | L4 | Deposits & Accounts | Account Maintenance Servicing | Attribute Amendment, Account Update |
+| Mandate & Signatory Maintenance | L4 | Deposits & Accounts | Account Maintenance Servicing | Signatory Maintenance, Operating Mandate Update |
+| Deposit Statement Production | L4 | Deposits & Accounts | Deposit Statement & Reporting | Statement Rendering, Statement Generation Engine |
+| Deposit Statement Delivery | L4 | Deposits & Accounts | Deposit Statement & Reporting | Statement Dispatch, Advice Delivery |
+| Sweep Rule Execution | L4 | Deposits & Accounts | Standing Orders & Sweeps | Sweep Execution, Balance Sweep Run |
+| Dormancy Detection | L4 | Deposits & Accounts | Dormancy Management | Inactivity Detection, Dormant Flagging |
+| Escheatment Processing | L4 | Deposits & Accounts | Dormancy Management | Unclaimed Property Remittance, Escheat Handling |
+| Closure Settlement | L4 | Deposits & Accounts | Account Closure Servicing | Final Balance Settlement, Closure Payout |
+| Interest Accrual Calculation | L4 | Deposits & Accounts | Deposit Interest Accrual | Daily Accrual Calculation, Accrual Engine |
+| Tiered Interest Determination | L4 | Deposits & Accounts | Deposit Interest Accrual | Tier Rate Selection, Bonus Interest Determination |
+| Withholding Tax Calculation | L4 | Deposits & Accounts | Deposit Tax Withholding | WHT Calculation, Interest Tax Deduction |
+| Tax Reporting Consolidation | L4 | Deposits & Accounts | Deposit Tax Withholding | Year-End Tax Reporting, Tax Statement Consolidation |
+| Maturity & Rollover Processing | L4 | Deposits & Accounts | Term Deposit Lifecycle | Rollover Processing, Renewal Handling |
+| Early Withdrawal Handling | L4 | Deposits & Accounts | Term Deposit Lifecycle | Break Handling, Pre-Maturity Withdrawal |
+| Overdraft Limit Assessment | L4 | Deposits & Accounts | Overdraft Facility Setup | Limit Sizing, Overdraft Eligibility |
+| Overdraft Interest & Fee Charging | L4 | Deposits & Accounts | Unauthorised Overdraft Handling | Debit Interest Charging, Overdraft Fee Application |
 
 ## Business processes
 
@@ -248,6 +293,9 @@ Format: Canonical Name | Domain (defined_in) | Capabilities it depends_on | Alia
 | Trade Finance Processing | Lending & Credit | Collateral Management | Trade Finance |
 | Cash Management | Payments | Payment Execution, Liquidity Management | Corporate Cash Management |
 | Wealth Onboarding | Wealth & Investments | Portfolio Management, Customer Acquisition | Investor Onboarding |
+| Account Maintenance | Deposits & Accounts | Account Servicing | Account Servicing Process, Account Detail Maintenance |
+| Account Closure | Deposits & Accounts | Account Servicing | Account Offboarding, Deposit Account Closure |
+| Overdraft Servicing | Deposits & Accounts | Overdraft Management, Account Servicing | Overdraft Handling, NSF Processing |
 
 ## Technology capabilities
 
@@ -344,6 +392,9 @@ Format: Canonical Name | Realizes (tech capability depends_on it) | Vendor | Ali
 | Finastra LaserPro | Loan Origination Platform | Finastra | LaserPro |
 | FICO Origination Manager | Credit Decisioning Engine | FICO | Origination Manager |
 | Experian PowerCurve | Credit Decisioning Engine | Experian | PowerCurve, PowerCurve Strategy Management, PowerCurve Originations |
+| Fiserv Premier | Core Banking Processing | Fiserv | Premier, Premier Core |
+| Jack Henry Core Director | Core Banking Processing | Jack Henry | Core Director, Jack Henry Core Director System |
+| FIS Horizon | Core Banking Processing | FIS | Horizon, FIS Horizon Core |
 
 ## Modern systems
 
@@ -411,6 +462,9 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Temenos Origination | Loan Origination Platform | Ellie Mae Encompass; Finastra LaserPro | Temenos | Temenos Infinity Origination, Infinity Origination |
 | MeridianLink | Loan Origination Platform | Finastra LaserPro | MeridianLink | MeridianLink Consumer, MeridianLink Opening |
 | Provenir | Credit Decisioning Engine | FICO Origination Manager; Experian PowerCurve | Provenir | Provenir AI, Provenir Decisioning |
+| SAP Deposits Management | Core Banking Processing | Legacy Mainframe Core; FIS Horizon | SAP / SAP Fioneer | SAP Deposits Management for Banking, SAP Transactional Banking, SAP Fioneer Core |
+| Tuum | Core Banking Processing | Fiserv Premier | Tuum | Tuum Core, Modularbank |
+| SaaScada | Core Banking Processing | Jack Henry Core Director | SaaScada | SaaScada Core, SaaScada Cloud Core |
 
 ## Glossary terms
 
@@ -471,6 +525,17 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Income Verification Service | Affordability Assessment Engine | Core Processing | L3 | Income & Employment Verification, Payroll Verification Service |
 | Reject Inference Model | Credit Scoring Service | Core Processing | L3 | Reject Inference Engine, Inference Scorecard |
 | Strategy Design Studio | Decision Rules Engine | Core Processing | L3 | Strategy Authoring Studio, Champion-Challenger Workbench |
+| Deposit Account Management | Core Banking Processing | Core Processing | L2 | Account Master Service, Deposit Account Service, Account System of Record |
+| Transaction Posting Engine | Core Banking Processing | Core Processing | L2 | Posting Engine, Core Ledger Posting, Postings Service |
+| Product & Pricing Engine | Core Banking Processing | Core Processing | L2 | Deposit Product Engine, Product Configurator (Deposits), Universal Product Engine |
+| Interest & Charges Engine | Core Banking Processing | Core Processing | L2 | Accrual Engine, Interest & Fee Engine, Charges Engine |
+| Account Statement Generator | Core Banking Processing | Core Processing | L2 | Statement Engine, Statement Production Service, Statement Generator |
+| Standing Order & Sweep Engine | Core Banking Processing | Core Processing | L2 | Sweep Engine, Scheduled Transfer Engine, Cash Concentration Engine |
+| General Ledger Posting | Core Banking Processing | Core Processing | L2 | Sub-Ledger to GL Posting, GL Interface Service, Core GL Bridge |
+| Account Lifecycle Manager | Core Banking Processing | Core Processing | L2 | Account State Engine, Deposit Lifecycle Engine, Account Status Manager |
+| Real-Time Posting Service | Transaction Posting Engine | Core Processing | L3 | Real-Time Ledger Service, Instant Posting Service, Streaming Postings |
+| Tiered Interest Calculator | Interest & Charges Engine | Core Processing | L3 | Tiered Rate Calculator, Banded Interest Service, Bonus Rate Engine |
+| Dormancy & Escheatment Service | Account Lifecycle Manager | Core Processing | L3 | Dormancy Engine, Unclaimed Property Service, Escheatment Service |
 
 ## Process sub-processes
 
@@ -505,6 +570,17 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Late-Stage Recovery | Loan Collections | Lending & Credit | Late Collections, Hard Collections |
 | Documentary Credit Issuance | Trade Finance Processing | Lending & Credit | LC Issuance, Credit Issuance |
 | Presentation & Settlement | Trade Finance Processing | Lending & Credit | Document Examination, LC Settlement |
+| Application & Identity Capture | Deposit Account Opening | Deposits & Accounts | Opening Intake, CIP Capture |
+| Account Setup & Funding | Deposit Account Opening | Deposits & Accounts | Open & Fund, Activation |
+| Statement Assembly | Statement Generation | Deposits & Accounts | Statement Build, Cycle Assembly |
+| Statement Delivery | Statement Generation | Deposits & Accounts | Statement Distribution, E-Statement Delivery |
+| Maintenance Intake & Verification | Account Maintenance | Deposits & Accounts | Maintenance Intake, Mandate Check |
+| Account Update Execution | Account Maintenance | Deposits & Accounts | Update Execution, Servicing Action |
+| Closure Request Handling | Account Closure | Deposits & Accounts | Closure Intake, Closure Validation |
+| Balance Settlement & Deactivation | Account Closure | Deposits & Accounts | Settle & Close, Final Settlement |
+| Dormancy & Escheatment | Account Closure | Deposits & Accounts | Escheatment, Abandoned Property Handling |
+| Overdraft Decisioning | Overdraft Servicing | Deposits & Accounts | OD Decisioning, Pay/Return Decision |
+| Overdraft Fee & Notice | Overdraft Servicing | Deposits & Accounts | Fee Application, OD Notice |
 
 ## Process flow steps
 
@@ -588,6 +664,39 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Advise Beneficiary | Trade Finance Processing | 4 | Notification Services | Advise LC, Beneficiary Advising Step |
 | Examine Trade Documents | Trade Finance Processing | 5 | Document Management | Check Documents, Document Examination Step |
 | Settle Trade Payment | Trade Finance Processing | 6 | Core Banking Processing | Honor Presentation, Trade Settlement Step |
+| Capture Account Application | Deposit Account Opening | 1 | Digital Channel Platform | Take Account Application, Opening Intake Step |
+| Collect CIP Information | Deposit Account Opening | 2 | Intelligent Document Processing | Gather CIP Data, CIP Collection Step |
+| Verify Account Applicant | Deposit Account Opening | 3 | Identity Verification | Run CIP Verification, Applicant Verification Step |
+| Capture Signature Card | Deposit Account Opening | 4 | Core Banking Processing | Record Signatories, Signature Capture Step |
+| Disclose Account Terms | Deposit Account Opening | 5 | Document Management | Provide TIS Disclosure, Terms Disclosure Step |
+| Establish Deposit Account | Deposit Account Opening | 6 | Core Banking Processing | Create Account, Account Setup Step |
+| Fund New Account | Deposit Account Opening | 7 | Core Banking Processing | Activate Account, Initial Funding Step |
+| Determine Statement Cycle | Statement Generation | 1 | Core Banking Processing | Identify Cycle, Cycle Determination Step |
+| Extract Account Activity | Statement Generation | 2 | Core Banking Processing | Pull Postings, Activity Extraction Step |
+| Reconcile Statement Data | Statement Generation | 3 | Data Warehousing | Validate Statement Totals, Statement Recon Step |
+| Assemble Statement Document | Statement Generation | 4 | Document Management | Compose Statement, Statement Assembly Step |
+| Render Statement Output | Statement Generation | 5 | Document Management | Produce Statement Output, Rendering Step |
+| Deliver Statement | Statement Generation | 6 | Notification Services | Distribute Statement, Statement Delivery Step |
+| Archive Statement | Statement Generation | 7 | Document Management | Store Statement, Statement Archival Step |
+| Receive Maintenance Request | Account Maintenance | 1 | Digital Channel Platform | Log Maintenance Request, Maintenance Intake Step |
+| Verify Account Holder | Account Maintenance | 2 | Identity Access Management | Authenticate Account Holder, Holder Verification Step |
+| Assess Change Impact | Account Maintenance | 3 | Workflow Orchestration | Evaluate Change, Impact Assessment Step |
+| Apply Account Change | Account Maintenance | 4 | Core Banking Processing | Execute Account Change, Change Execution Step |
+| Post Account Interest | Account Maintenance | 5 | Core Banking Processing | Apply Interest Posting, Interest Posting Step |
+| Notify Account Change | Account Maintenance | 6 | Notification Services | Confirm Account Change, Change Notification Step |
+| Receive Closure Request | Account Closure | 1 | Digital Channel Platform | Log Closure Request, Closure Intake Step |
+| Validate Closure Eligibility | Account Closure | 2 | Workflow Orchestration | Check Closure Eligibility, Eligibility Validation Step |
+| Settle Residual Balance | Account Closure | 3 | Core Banking Processing | Disburse Residual Funds, Balance Settlement Step |
+| Issue Final Statement | Account Closure | 4 | Document Management | Produce Closing Statement, Final Statement Step |
+| Deactivate Account | Account Closure | 5 | Core Banking Processing | Close Account Record, Account Deactivation Step |
+| Issue Dormancy Notice | Account Closure | 6 | Notification Services | Send Dormancy Notice, Dormancy Notification Step |
+| Escheat Dormant Account | Account Closure | 7 | Regulatory Reporting Engine | Remit Unclaimed Property, Escheatment Step |
+| Detect Insufficient Funds | Overdraft Servicing | 1 | Core Banking Processing | Identify Shortfall, Insufficient Funds Detection Step |
+| Check Overdraft Opt-In | Overdraft Servicing | 2 | Core Banking Processing | Verify Opt-In Status, Opt-In Check Step |
+| Evaluate Overdraft Limit | Overdraft Servicing | 3 | Core Banking Processing | Assess Overdraft Limit, Limit Evaluation Step |
+| Decide Pay Or Return | Overdraft Servicing | 4 | Decision Rules Engine | Make Pay Return Decision, Pay/Return Decision Step |
+| Apply Overdraft Fee | Overdraft Servicing | 5 | Core Banking Processing | Assess Overdraft Fee, Fee Application Step |
+| Notify Overdraft Outcome | Overdraft Servicing | 6 | Notification Services | Send Overdraft Notice, Outcome Notification Step |
 
 ## Supporting concepts
 
@@ -645,3 +754,20 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Loan Agreement | artifact | Credit Agreement, Promissory Note |
 | Collateral Appraisal | artifact | Property Appraisal, Valuation Report |
 | Letter Of Credit | artifact | Documentary Credit, LC |
+| Deposit Operations Clerk | role | Deposit Ops Clerk, Account Servicing Clerk |
+| Statement Production Officer | role | Statement Officer, Statement Production Clerk |
+| Overdraft Operations Analyst | role | Overdraft Analyst, NSF Operations Analyst |
+| Unclaimed Property Officer | role | Escheatment Officer, Dormancy Officer |
+| Account Opened Event | event | Account Established Event, New Account Opened |
+| Statement Issued Event | event | Statement Generated Event, Statement Delivered Event |
+| Account Dormant Event | event | Dormancy Triggered Event, Inactivity Detected Event |
+| Account Closed Event | event | Account Closure Event, Account Terminated Event |
+| Overdraft Triggered Event | event | Insufficient Funds Event, NSF Triggered Event |
+| Account Opening Form | artifact | Account Application Form, New Account Form |
+| Signature Card | artifact | Signatory Mandate, Account Mandate Card |
+| Bank Account Statement | artifact | Account Statement, Periodic Statement |
+| Service Maintenance Request | artifact | Account Maintenance Request, Servicing Request |
+| Account Closure Request | artifact | Closure Request, Close Account Application |
+| Dormancy Notice | artifact | Abandoned Property Letter, Pre-Escheatment Notice |
+| Reg E Opt-In Record | artifact | Overdraft Opt-In Record, Reg E Consent |
+| Overdraft Fee | artifact | OD Fee, Insufficient Funds Fee |

@@ -36,7 +36,7 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Deposits & Accounts
-- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-deposits-and-accounts-{bian,flows,tech}.md
+- Phase: 2 Steward (done) — reconciled the three Deposits & Accounts proposals into glossary/_canonical-names.md; steward gate 0 FAIL / 0 WARN. Next: Phase 3 Author (write the note files for the appended registry rows).
 - Done so far: Payments, Customer Management, Lending & Credit (3 of 15)
 
 ## Next actions (ordered — keep specific enough to resume cold)
@@ -48,6 +48,37 @@ decomposition into sharper focus.
 
 ## Decisions log
 
+- (2026-06-15, Phase 2 Steward, Deposits & Accounts) Reconciled the three Deposits
+  & Accounts proposals (bian, flows, tech) into glossary/_canonical-names.md. Counts
+  added per section: Business capabilities +45 (23 L3, 22 L4, all Domain=Deposits &
+  Accounts; 5 L3 under Account Opening, 10 under Account Servicing, 5 under Interest
+  Calculation, 3 under Overdraft Management); Business processes +3 (Account
+  Maintenance, Account Closure, Overdraft Servicing — Domain=Deposits & Accounts,
+  Depends on existing caps Account Servicing / Overdraft Management); Technology
+  sub-capabilities +11 (8 L2 under Core Banking Processing, 3 L3, all Domain=Core
+  Processing); Process sub-processes +11 (2 Deposit Account Opening, 2 Statement
+  Generation, 2 Account Maintenance, 3 Account Closure, 2 Overdraft Servicing);
+  Process flow steps +32 (7 Deposit Account Opening, 7 Statement Generation, 6
+  Account Maintenance, 7 Account Closure, 6 Overdraft Servicing); Supporting concepts
+  +18 (4 role, 5 event, 9 artifact); Legacy systems +3 (Fiserv Premier, Jack Henry
+  Core Director, FIS Horizon); Modern systems +3 (SAP Deposits Management, Tuum,
+  SaaScada). Total +126 rows. Renames (no canonical-name vs canonical-name collisions
+  existed; these resolve a proposed-canonical-vs-existing-alias clash and a
+  proposed-vs-proposed clash): (1) BIAN L4 capability "Statement Production" ->
+  **Deposit Statement Production**, because "Statement Production" is already the
+  alias of the existing process "Statement Generation". (2) BIAN L4 capability
+  "Statement Delivery" -> **Deposit Statement Delivery**, because the flows proposal
+  introduces a sub-process also named "Statement Delivery" (proposed-vs-proposed
+  duplicate); the sub-process keeps the plain name. Alias adjustment: the new process
+  "Account Closure" alias "Account Termination" was changed to **Deposit Account
+  Closure** to avoid duplicating the alias "Account Termination" already carried by
+  the new L3 cap "Account Closure Servicing". Coverage: every new legacy has a modern
+  successor — Fiserv Premier <- Tuum; Jack Henry Core Director <- SaaScada; FIS
+  Horizon <- SAP Deposits Management (added via "; " to SAP Deposits Management's
+  supersedes alongside Legacy Mainframe Core; SAP Deposits Management chosen over
+  Thought Machine Vault as the better capability-level fit since FIS Horizon is a
+  deposit/loan community-bank core and SAP Deposits Management is a deposit-specific
+  banking core). No "no successor" WARNs. Steward gate: 0 FAIL, 0 WARN.
 - (2026-06-15, Phase 2 Steward, Lending & Credit) Reconciled the three Lending &
   Credit proposals (bian, flows, tech) into glossary/_canonical-names.md. Counts
   added per section: Business capabilities +40 (19 L3, 21 L4, all Domain=Lending &
