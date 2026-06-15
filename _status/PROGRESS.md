@@ -36,6 +36,7 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Customer Management
+- Phase: 2 Steward (done) — three Customer Management proposals reconciled into glossary/_canonical-names.md; steward gate 0 FAIL / 0 WARN.
 - Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-customer-management-{bian,flows,tech}.md
 - Phase: DONE — Payments deep-dive complete. All 5 eval gates 0 FAIL; LLM-judge PASS (evals/judge-payments.md); baseline refreshed (334 files).
 - Started: 2026-06-15
@@ -52,6 +53,27 @@ decomposition into sharper focus.
 
 ## Decisions log
 
+- (2026-06-15, Phase 2 Steward, Customer Management) Reconciled the three
+  Customer Management proposals (bian, flows, tech) into
+  glossary/_canonical-names.md. Counts added per section: Business capabilities
+  +34 (14 L3, 20 L4); Technology sub-capabilities +16 (12 L2, 4 L3); Process
+  sub-processes +8; Process flow steps +24 (9 Customer Onboarding, 8 Complaint
+  Handling, 7 Service Request Handling); Supporting concepts +17 (5 role, 5
+  event, 7 artifact); Legacy systems +2 (SAP CRM, Informatica MDM); Modern
+  systems +4 (Microsoft Dynamics 365, Pega Customer Service, Reltio, Amazon Lex).
+  Total +105 rows. Renames: (1) the tech proposal's L2 "Virtual Assistant" was
+  renamed to **Self-Service Virtual Assistant** because "Virtual Assistant" is an
+  existing alias of the Conversational AI technology capability — the
+  "Virtual Assistant" alias was dropped (kept Digital Assistant, Customer
+  Chatbot). (2) The tech sub-capability "Consent Management Service" had its
+  proposed alias "Consent & Preference Management" dropped (replaced with Consent
+  Service) because that string is now the canonical name of the new L3 business
+  capability Consent & Preference Management; alias-equals-canonical would FAIL
+  the gate. Coverage: SAP CRM ← Microsoft Dynamics 365; Siebel CRM ← Pega
+  Customer Service (in addition to existing Salesforce FSC); Informatica MDM ←
+  Reltio; Legacy IVR System ← Amazon Lex (in addition to existing Kasisto). Both
+  new legacy systems received successors, so no new "no successor" WARNs.
+  Steward gate: 0 FAIL, 0 WARN.
 - (2026-06-15, Phase 2 Steward, Payments) Reconciled the three Payments proposals
   into glossary/_canonical-names.md. Counts added per section: Business
   capabilities +33 (16 L3, 17 L4); Legacy systems +3; Modern systems +3;
