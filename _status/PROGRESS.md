@@ -15,7 +15,7 @@ first row whose Status is not `done`).
 |---|---|---|---|---|---|---|---|
 | 1 | Customer Management | business | done | done | done | done | done |
 | 2 | Payments | business | done | done | done | done | done |
-| 3 | Lending & Credit | business | todo | todo | todo | todo | in-progress |
+| 3 | Lending & Credit | business | done | done | done | todo | in-progress |
 | 4 | Deposits & Accounts | business | todo | todo | todo | todo | todo |
 | 5 | Cards | business | todo | todo | todo | todo | todo |
 | 6 | Wealth & Investments | business | todo | todo | todo | todo | todo |
@@ -36,7 +36,8 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Lending & Credit
-- Phase: 2 Steward (done) — three proposals reconciled into glossary/_canonical-names.md; steward gate 0 FAIL / 0 WARN. Next: Phase 3 Author.
+- Phase: 3 Author (in-progress) — 4 sub-agents writing ~123 notes (40 caps, 13 tech sub-caps + 7 systems, 12 sub-processes + 32 steps, 19 supporting)
+
 - Done so far: Payments, Customer Management (2 of 15)
 
 ## Next actions (ordered — keep specific enough to resume cold)
