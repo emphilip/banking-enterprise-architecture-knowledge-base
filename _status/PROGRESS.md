@@ -13,7 +13,7 @@ first row whose Status is not `done`).
 
 | # | Domain | Kind | Caps L3/L4 | Tech L2/L3 | Flows | Validated | Status |
 |---|---|---|---|---|---|---|---|
-| 1 | Customer Management | business | todo | todo | todo | todo | in-progress |
+| 1 | Customer Management | business | done | done | done | in-progress | in-progress |
 | 2 | Payments | business | done | done | done | done | done |
 | 3 | Lending & Credit | business | todo | todo | todo | todo | todo |
 | 4 | Deposits & Accounts | business | todo | todo | todo | todo | todo |
@@ -36,7 +36,7 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Customer Management
-- Phase: 3 Author (in-progress) — 4 sub-agents writing ~105 notes (caps L3/L4, tech sub-caps + 6 systems, sub-processes + flow steps, supporting concepts)
+- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-customer-management.md)
 
 - Started: 2026-06-15
 - Resume note: proceed to Phase 3 author — author the new L3/L4 capability, tech
