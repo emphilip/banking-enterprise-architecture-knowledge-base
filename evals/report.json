@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-15T04:10:41.466011Z",
+  "generated": "2026-06-15T04:11:33.619351Z",
   "phase": "author",
   "counts": {
-    "FAIL": 21,
+    "FAIL": 11,
     "WARN": 0,
     "INFO": 0
   },
@@ -10,43 +10,7 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "business-capabilities/L4-account-detail-amendment.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-account-hold-and-block-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-account-instantiation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-beneficial-ownership-capture.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "business-capabilities/L4-closure-settlement.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-deposit-statement-delivery.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-deposit-statement-production.md",
       "message": "registry concept missing its file"
     },
     {
@@ -71,12 +35,6 @@
       "severity": "FAIL",
       "phase": "author",
       "path": "business-capabilities/L4-interest-accrual-calculation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-mandate-and-signatory-maintenance.md",
       "message": "registry concept missing its file"
     },
     {
@@ -107,24 +65,6 @@
       "severity": "FAIL",
       "phase": "author",
       "path": "business-capabilities/L4-tax-reporting-consolidation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-tiered-interest-determination.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-transaction-reversal-handling.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-value-dated-posting.md",
       "message": "registry concept missing its file"
     },
     {
