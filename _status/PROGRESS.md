@@ -17,7 +17,7 @@ first row whose Status is not `done`).
 | 2 | Payments | business | done | done | done | done | done |
 | 3 | Lending & Credit | business | done | done | done | done | done |
 | 4 | Deposits & Accounts | business | done | done | done | done | done |
-| 5 | Cards | business | done | done | done | in-progress | in-progress |
+| 5 | Cards | business | done | done | done | done | done |
 | 6 | Wealth & Investments | business | todo | todo | todo | todo | todo |
 | 7 | Risk Management | business | todo | todo | todo | todo | todo |
 | 8 | Compliance & Financial Crime | business | todo | todo | todo | todo | todo |
@@ -35,21 +35,20 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Cards
-- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-cards.md)
-
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts (4 of 15); Cards registry reconciled (awaiting author + weave)
+- Domain: Cards (DONE) — 5 of 15 domains deep-dived
+- Phase: DONE — all 5 eval gates 0 FAIL (1 advisory WARN: Fiserv OmniPay acquirer-side, no in-scope modern successor); LLM-judge PASS after 2 relationship fixes (evals/judge-cards.md); baseline refreshed (802 files)
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
 - [ ] Deepen the next domain: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
-      (first not-done row = Cards). Same eval-gated pipeline; instruct capability
-      authors to write source-anchored Details up front. Cards domain has 5 v1
-      L2 caps (Card Issuing, Card Authorization, Dispute Management, Card Lifecycle
-      Management under Cards Management) and 2 processes (Card Issuance, Dispute
-      Resolution) + tech Card Processing — consider proposing 2-3 new card
-      processes (e.g. Card Transaction Authorization, Chargeback Management,
-      Card Fraud Handling) for flow coverage.
+      (first not-done row = Wealth & Investments). Same eval-gated pipeline;
+      capability authors must write source-anchored Details up front. Wealth has
+      L1 Wealth Management + L2 Portfolio Management / Investment Advisory /
+      Brokerage & Trading and 1 process (Wealth Onboarding) — propose 2-3 new
+      processes (e.g. Portfolio Rebalancing, Trade Execution, Suitability
+      Assessment) for flow coverage. Watch supersedes: ensure same-capability
+      (issuer vs acquirer, etc.) to avoid the relationship-sensibility floor.
 
 ## Decisions log
 

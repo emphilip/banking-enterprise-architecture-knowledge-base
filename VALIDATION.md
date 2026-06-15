@@ -245,3 +245,46 @@ runs were lost to a session-limit reset; this is the completed re-run.)
 capabilities (L1–L4), 81 technology capabilities + sub-capabilities, 65
 processes + sub-processes, 111 process-flow steps, 69 supporting concepts,
 55 legacy + 63 modern systems, 10 glossary terms.
+
+---
+
+## Deep-dive: Cards domain (2026-06-15)
+
+Fifth domain deep-dive via the eval-gated pipeline.
+
+**Added (~106 concepts):** 22 L3 + 9 L4 business capabilities; 11 technology
+sub-capabilities (8 L2, 3 L3) under Card Processing; 3 new top-level processes
+(Card Transaction Authorization, Chargeback Processing, Card Fraud Handling); 14
+sub-processes; 32 ordered process-flow steps across 5 processes (with `## Flow`
+sections); 15 supporting concepts (4 role, 5 event, 6 artifact); 3 new legacy +
+5 new modern systems.
+
+**Eval gates (deterministic):** research / steward / author / weave / all → 0
+FAIL. One advisory WARN remains: Fiserv OmniPay (an acquirer / merchant-processing
+platform) has no modern successor — intentional, as no same-capability
+acquirer-side modern is in scope (the modern card systems modelled are
+issuer-side processors). Documented as a known gap.
+
+**Steward:** resolved a capability-vs-process name clash (capability →
+**Chargeback Handling**, process stays **Chargeback Processing**); artifact
+**Card Account Application** vs capability Card Application; sub-process
+**Authorization Validation & Decisioning** vs capability Authorization
+Decisioning.
+
+**Harness improvement:** the author check now warns about a missing "Also known
+as" line only when the note actually declares aliases (process-step notes
+legitimately have none) — eliminated 32 false-positive WARNs.
+
+**Eval gate (semantic, LLM-judge, `evals/judge-cards.md`):** initial run FAILed on
+the per-note floor — `thredd.md` scored 2 on Relationship sensibility for a
+wrong-capability supersede ("Thredd supersedes Fiserv OmniPay": issuer processor
+vs acquirer platform). Fixed: removed that supersede (Thredd supersedes only the
+same-capability First Data Cards); also repointed 3-D Secure Service derived_from
+Card Tokenization Service → Card Authorization Engine. Re-judge: both notes now
+score 4 on Relationship sensibility. Final means — accuracy 4.64, groundedness
+4.04, relationships 4.61, naming 4.25, granularity 4.21 → PASS.
+
+**Knowledge base totals after Cards deep-dive:** 250 business capabilities
+(L1–L4), 92 technology capabilities + sub-capabilities, 82 processes +
+sub-processes, 143 process-flow steps, 84 supporting concepts, 58 legacy +
+68 modern systems, 10 glossary terms.

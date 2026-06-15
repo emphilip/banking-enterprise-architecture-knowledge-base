@@ -72,3 +72,16 @@ Because a sampled note scores <3 on Relationship sensibility, the domain **does 
 - **technology-capabilities/3-d-secure-service.md** (rel 3): Reconsider `derived_from Card Tokenization Service`. 3-D Secure is cardholder authentication; deriving it from tokenization is a weak parent. Prefer derivation from an authentication/authorization parent capability.
 - **business-capabilities/L4-reward-points-redemption.md** (grounded 3): Verify the "BIAN Reward Points Account" service-domain name against the BIAN landscape and replace the generic APQC landing-page source with a specific, claim-supporting reference.
 - **process-flows/card-fraud-handling/01-triage-fraud-alert.md** (grounded 3): Replace/supplement the generic "velocity checks" blog with a source that actually supports fraud-alert triage and prioritization.
+
+## Re-judge (relationship fixes)
+
+Date: 2026-06-15. Re-scoring only the 2 revised notes on Relationship sensibility and Definitional accuracy.
+
+Corroboration: First Data Cards / VisionPLUS confirmed as an issuer-side card management & processing platform — transaction authorization, account servicing, card management for credit/debit/prepaid issuers (Fiserv Issuing Solutions, digitaltransactions.net). Thredd is an API-first issuer processor; both are issuer-side card processing = same capability.
+
+| path | rel (before->after) | accuracy | notes |
+|---|---|---|---|
+| systems/modern/thredd.md | 2 -> 4 | 4 | Cross-capability `supersedes Fiserv OmniPay` (acquirer vs issuer) REMOVED. Remaining `supersedes First Data Cards` is same-capability: VisionPLUS is a legacy issuer card-management/processing platform, Thredd is a modern issuer processor — sensible same-capability supersede. "Realizes Card Processing" is expressed as `Card Processing depends on Thredd` (correct direction). |
+| technology-capabilities/3-d-secure-service.md | 3 -> 4 | 5 | `derived_from` changed from Card Tokenization Service to Card Authorization Engine. 3-D Secure is the cardholder-authentication step within the e-commerce authorization flow; deriving the L3 3DS capability from the L2 Card Authorization Engine is a sensible authentication/authorization parent. |
+
+Both notes now score >=3 on Relationship sensibility (thredd = 4, 3-d-secure-service = 4): the gate's per-note Relationship floor is satisfied for these two notes.
