@@ -409,7 +409,7 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Reltio | Master Data Management | Informatica MDM | Reltio | Reltio Data Cloud, Reltio MDM |
 | Amazon Lex | Conversational AI | Legacy IVR System | Amazon Web Services | AWS Lex, Lex V2 |
 | Temenos Origination | Loan Origination Platform | Ellie Mae Encompass; Finastra LaserPro | Temenos | Temenos Infinity Origination, Infinity Origination |
-| MeridianLink | Loan Origination Platform | Ellie Mae Encompass | MeridianLink | MeridianLink Consumer, MeridianLink Opening |
+| MeridianLink | Loan Origination Platform | Finastra LaserPro | MeridianLink | MeridianLink Consumer, MeridianLink Opening |
 | Provenir | Credit Decisioning Engine | FICO Origination Manager; Experian PowerCurve | Provenir | Provenir AI, Provenir Decisioning |
 
 ## Glossary terms
@@ -566,7 +566,7 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Pull Credit Report | Credit Underwriting | 1 | Credit Decisioning Engine | Order Bureau Data, Credit Pull Step |
 | Score Credit Risk | Credit Underwriting | 2 | Machine Learning Platform | Risk Grading Step, Credit Scoring |
 | Assess Affordability | Credit Underwriting | 3 | Credit Decisioning Engine | Capacity Test, Affordability Step |
-| Evaluate Collateral | Credit Underwriting | 4 | Credit Decisioning Engine | Security Evaluation Step, Collateral Review |
+| Evaluate Collateral | Credit Underwriting | 4 | Collateral Valuation | Security Evaluation Step, Collateral Review |
 | Apply Credit Policy | Credit Underwriting | 5 | Credit Decisioning Engine | Policy Check Step, Conditions Setting |
 | Adjudicate Credit | Credit Underwriting | 6 | Workflow Orchestration | Make Credit Decision, Adjudication Step |
 | Take Mortgage Application | Mortgage Origination | 1 | Loan Origination Platform | Capture 1003, Mortgage Intake Step |

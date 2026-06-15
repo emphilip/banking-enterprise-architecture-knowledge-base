@@ -1,23 +1,23 @@
 {
   "domains": 15,
-  "caps": 134,
+  "caps": 174,
   "proc": 22,
   "tech": 30,
-  "legacy": 48,
-  "modern": 57,
+  "legacy": 52,
+  "modern": 60,
   "gloss": 10,
-  "techsub": 27,
-  "subproc": 17,
-  "steps": 46,
-  "support": 33,
-  "files": 439,
+  "techsub": 40,
+  "subproc": 29,
+  "steps": 78,
+  "support": 52,
+  "files": 562,
   "edges": {
-    "depends_on": 418,
-    "derived_from": 166,
-    "supersedes": 80,
-    "defined_in": 347,
-    "related_to": 283,
-    "causes": 115,
-    "mentions": 293
+    "depends_on": 547,
+    "derived_from": 232,
+    "supersedes": 85,
+    "defined_in": 444,
+    "related_to": 312,
+    "causes": 175,
+    "mentions": 394
   }
 }

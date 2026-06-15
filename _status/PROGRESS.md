@@ -15,7 +15,7 @@ first row whose Status is not `done`).
 |---|---|---|---|---|---|---|---|
 | 1 | Customer Management | business | done | done | done | done | done |
 | 2 | Payments | business | done | done | done | done | done |
-| 3 | Lending & Credit | business | done | done | done | in-progress | in-progress |
+| 3 | Lending & Credit | business | done | done | done | done | done |
 | 4 | Deposits & Accounts | business | todo | todo | todo | todo | todo |
 | 5 | Cards | business | todo | todo | todo | todo | todo |
 | 6 | Wealth & Investments | business | todo | todo | todo | todo | todo |
@@ -35,17 +35,15 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Lending & Credit
-- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-lending-and-credit.md)
-
-- Done so far: Payments, Customer Management (2 of 15)
+- Domain: Lending & Credit (DONE) — 3 of 15 domains deep-dived (Payments, Customer Management, Lending & Credit)
+- Phase: DONE — all 5 eval gates 0 FAIL; LLM-judge PASS first pass (evals/judge-lending-and-credit.md); baseline refreshed (562 files)
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
 - [ ] Deepen the next domain: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
-      (first not-done row = Lending & Credit). Same eval-gated pipeline:
-      research -> steward gate -> author -> weave -> validate (+ LLM-judge) ->
-      mark row done + refresh baseline.
+      (first not-done row = Deposits & Accounts). Same eval-gated pipeline;
+      instruct capability authors to write source-anchored Details up front
+      (proven to clear the Groundedness gate on the first judge pass).
 
 ## Decisions log
 

@@ -17,7 +17,7 @@ sources: ["https://www.expertmortgageassistance.com/blog/the-5-cs-of-credit-in-t
 ## Relationships
 - Evaluate Collateral is defined in the Credit Underwriting process.
 - Evaluate Collateral causes Apply Credit Policy.
-- Evaluate Collateral depends on the Credit Decisioning Engine capability.
+- Evaluate Collateral depends on the Collateral Valuation capability.
 - Evaluate Collateral mentions Credit Underwriter.
 - Evaluate Collateral mentions Collateral Appraisal.
 

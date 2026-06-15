@@ -174,3 +174,38 @@ every dimension (accuracy 4.61, groundedness ≈4.32, relationships 4.96, naming
 capabilities (L1–L4), 57 technology capabilities + sub-capabilities, 39 processes
 + sub-processes, 46 process-flow steps, 33 supporting concepts, 48 legacy + 57
 modern systems, 10 glossary terms.
+
+---
+
+## Deep-dive: Lending & Credit domain (2026-06-15)
+
+Third domain deep-dive via the eval-gated pipeline.
+
+**Added (+123 concepts):** 19 L3 + 21 L4 business capabilities; 13 technology
+sub-capabilities (10 L2, 3 L3) under Loan Origination Platform and Credit
+Decisioning Engine; 12 sub-processes; 32 ordered process-flow steps across Loan
+Origination Workflow, Credit Underwriting, Mortgage Origination, Loan Collections
+and Trade Finance Processing (with `## Flow` sections); 19 supporting concepts
+(8 role, 5 event, 6 artifact); 4 new legacy + 3 new modern systems.
+
+**Eval gates (deterministic):** research / steward / author / weave / all (incl.
+regression) → all **0 FAIL / 0 WARN**.
+
+**Steward collision resolution:** three proposed names equal to existing aliases
+renamed — Origination Pre-Qualification, Late Collections, Underwriting Outcome.
+Every new legacy (Ellie Mae Encompass, Finastra LaserPro, FICO Origination
+Manager, Experian PowerCurve) given a modern successor.
+
+**Eval gate (semantic, LLM-judge, `evals/judge-lending-and-credit.md`):** PASS on
+first pass (means — accuracy 4.50, groundedness 4.30, relationships 4.53, naming
+4.43, granularity 4.30). The source-anchored Details requirement (carried over
+from the Customer Management lesson) cleared Groundedness on the first attempt.
+Three non-blocking polish fixes applied: Evaluate Collateral step now depends_on
+Collateral Valuation (was Credit Decisioning Engine); MeridianLink supersedes
+Finastra LaserPro (better capability fit than Ellie Mae Encompass, which remains
+covered by Temenos Origination); Ellie Mae Encompass cloud-positioning softened.
+
+**Knowledge base totals after Lending & Credit deep-dive:** 174 business
+capabilities (L1–L4), 70 technology capabilities + sub-capabilities, 51
+processes + sub-processes, 78 process-flow steps, 52 supporting concepts,
+52 legacy + 60 modern systems, 10 glossary terms.
