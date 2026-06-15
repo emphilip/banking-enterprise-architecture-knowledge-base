@@ -1,17 +1,29 @@
 {
-  "generated": "2026-06-15T02:36:23.497412Z",
-  "phase": "all",
+  "generated": "2026-06-15T02:44:21.637373Z",
+  "phase": "steward",
   "counts": {
     "FAIL": 0,
-    "WARN": 0,
-    "INFO": 1
+    "WARN": 3,
+    "INFO": 0
   },
   "findings": [
     {
-      "severity": "INFO",
-      "phase": "weave",
-      "path": "-",
-      "message": "depends_on edges counted: 260"
+      "severity": "WARN",
+      "phase": "steward",
+      "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
+      "message": "legacy 'FIS Open Payment Framework' has no modern successor"
+    },
+    {
+      "severity": "WARN",
+      "phase": "steward",
+      "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
+      "message": "legacy 'Finastra Global PAYplus' has no modern successor"
+    },
+    {
+      "severity": "WARN",
+      "phase": "steward",
+      "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
+      "message": "legacy 'ACI Enterprise Payments Platform' has no modern successor"
     }
   ]
 }

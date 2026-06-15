@@ -112,6 +112,39 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Treasury Management | L1 | Finance & Treasury | — | Treasury |
 | Liquidity Management | L2 | Finance & Treasury | Treasury Management | Cash & Liquidity |
 | Asset Liability Management | L2 | Finance & Treasury | Treasury Management | ALM |
+| Payment Order Capture | L3 | Payments | Payment Initiation | Payment Order Management, Order Capture |
+| Request To Pay | L3 | Payments | Payment Initiation | Request for Payment, RfP, RTP Request |
+| Payment Pre-Validation | L3 | Payments | Payment Initiation | Beneficiary Validation, Account Verification, Confirmation of Payee |
+| Standing Order Management | L3 | Payments | Payment Initiation | Recurring Payments, Standing Instructions |
+| Bulk Payment Origination | L3 | Payments | Payment Initiation | Batch Payments, File-Based Payments, Bulk Disbursement |
+| Payment Screening | L3 | Payments | Payment Initiation | Payment Compliance Check, Watchlist Filtering |
+| Payment Rail Connectivity | L3 | Payments | Payment Execution | Rail Integration, Scheme Connectivity, Gateway Management |
+| Correspondent Banking | L3 | Payments | Payment Execution | Nostro Vostro Management, Correspondent Bank Operations |
+| Payment Status Tracking | L3 | Payments | Payment Execution | Payment Tracking, Status Reporting, gpi Tracking |
+| Interbank Clearing | L3 | Payments | Payment Clearing & Settlement | Clearing Operations, Net Position Calculation |
+| Interbank Settlement | L3 | Payments | Payment Clearing & Settlement | Settlement Operations, RTGS Settlement |
+| Settlement Liquidity Management | L3 | Payments | Payment Clearing & Settlement | Settlement Funding, Liquidity Positioning, LMT |
+| Payment Exceptions & Investigations | L3 | Payments | Payment Clearing & Settlement | Payment Investigations, Exception Handling, Recalls |
+| Direct Debit Mandate Management | L3 | Payments | Direct Debit Management | Mandate Management, DDI Setup |
+| Direct Debit Collection | L3 | Payments | Direct Debit Management | Direct Debit Processing, Creditor Collection |
+| Direct Debit Returns | L3 | Payments | Direct Debit Management | DD Returns, Unpaids, Indemnity Claims |
+| Credit Transfer Execution | L4 | Payments | Domestic Payments | ACH Credit, Direct Credit, Push Payment |
+| Debit Transfer Execution | L4 | Payments | Domestic Payments | ACH Debit, Pull Payment |
+| Same Day ACH Processing | L4 | Payments | Domestic Payments | SDA, Same-Day ACH |
+| ACH Return Handling | L4 | Payments | Domestic Payments | ACH Returns, Return Codes, R-codes |
+| SWIFT Message Processing | L4 | Payments | Cross-Border Payments | SWIFT Messaging, CBPR+, MT/MX |
+| FX Conversion For Payments | L4 | Payments | Cross-Border Payments | Payment FX, Currency Conversion |
+| Cross-Border Fee Calculation | L4 | Payments | Cross-Border Payments | Charge Bearer Handling, Correspondent Fees |
+| Instant Payment Clearing | L4 | Payments | Real-Time Payments | RTP Clearing, FedNow Clearing |
+| Instant Payment Confirmation | L4 | Payments | Real-Time Payments | Real-Time Confirmation, Positive Acknowledgement |
+| Alias Resolution | L4 | Payments | Real-Time Payments | Proxy Lookup, Directory Resolution |
+| File Validation & Enrichment | L4 | Payments | Bulk Payment Origination | Bulk File Validation, File Ingestion |
+| Payment Authorization Capture | L4 | Payments | Payment Order Capture | Order Authorization, Payment Approval |
+| Payment Limit Checking | L4 | Payments | Payment Order Capture | Limit Validation, Threshold Checks |
+| Mandate Verification | L4 | Payments | Direct Debit Collection | Mandate Check, Authorisation Check |
+| Collection Scheduling | L4 | Payments | Direct Debit Collection | DD Scheduling, Collection Runs |
+| Settlement Reconciliation | L4 | Payments | Interbank Settlement | Settlement Matching, Position Reconciliation |
+| Nostro Reconciliation | L4 | Payments | Correspondent Banking | Nostro Matching, Vostro Reconciliation |
 
 ## Business processes
 
@@ -228,6 +261,9 @@ Format: Canonical Name | Realizes (tech capability depends_on it) | Vendor | Ali
 | Cisco UCCE | Contact Center Platform | Cisco | Unified Contact Center Enterprise |
 | Legacy Online Banking | Digital Channel Platform | (generic) | Legacy Internet Banking |
 | Legacy IVR System | Conversational AI | (generic) | IVR |
+| FIS Open Payment Framework | Payment Orchestration | FIS | OPF, FIS OPF |
+| Finastra Global PAYplus | Payment Orchestration | Finastra | GPP, Global PAYplus |
+| ACI Enterprise Payments Platform | Payment Orchestration | ACI Worldwide | ACI EPP, UP Real-Time Payments |
 
 ## Modern systems
 
@@ -285,6 +321,9 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Microsoft Power BI | Analytics Platform | IBM Cognos | Microsoft | Power BI |
 | Kasisto | Conversational AI | Legacy IVR System | Kasisto | KAI |
 | Anthropic Claude | Generative AI Platform | Legacy IVR System | Anthropic | Claude |
+| Form3 | Payment Orchestration | Legacy Payment Hub | Form3 | Form3 Financial Cloud, Form3 PaaS |
+| ACI Connetic | Payment Orchestration | ACI BASE24 | ACI Worldwide | Connetic |
+| Bottomline Payments | Payment Orchestration | ACH Batch Processor | Bottomline Technologies | Bottomline, PTX |
 
 ## Glossary terms
 
@@ -300,3 +339,81 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Open Banking | Open Banking APIs |
 | Cloud-Native | Cloud Native |
 | Zettelkasten | Atomic Notes |
+
+## Technology sub-capabilities
+
+| Canonical Name | Parent | Domain | Level | Aliases |
+|---|---|---|---|---|
+| Payment Routing Engine | Payment Orchestration | Core Processing | L2 | Smart Routing, Least-Cost Routing |
+| Scheme Connectivity Gateway | Payment Orchestration | Core Processing | L2 | Rail Connectivity, Network Adapters, Scheme Connectivity |
+| Payment Message Transformer | Payment Orchestration | Core Processing | L2 | Message Transformation, ISO 20022 Translation, Payment Message Transformation |
+| Payment Validation Engine | Payment Orchestration | Core Processing | L2 | Validation Engine, STP Validation |
+| Payment Repair Workbench | Payment Orchestration | Core Processing | L2 | Auto-Repair, Exceptions and Investigations, STP Repair |
+| Settlement Instruction Engine | Payment Orchestration | Core Processing | L2 | Settlement Engine, Settlement Instruction |
+| Liquidity & Limit Checker | Payment Orchestration | Core Processing | L2 | Limit Check, Funds Control, Liquidity Check |
+| Payment Sanctions Filter | Payment Orchestration | Core Processing | L2 | Inline Sanctions Filter, In-Flight Screening |
+| ISO 20022 Translation Service | Payment Message Transformer | Core Processing | L3 | MX Translation, MT-MX Mapping |
+| Least-Cost Routing Service | Payment Routing Engine | Core Processing | L3 | Cost-Based Routing |
+| SWIFT Connectivity Adapter | Scheme Connectivity Gateway | Core Processing | L3 | SWIFT Adapter, SWIFT gpi Connector |
+
+## Process sub-processes
+
+| Canonical Name | Parent Process | Domain | Aliases |
+|---|---|---|---|
+| Payment Capture & Validation | Payment Processing | Payments | Payment Intake, Capture & Validation |
+| Payment Authorization & Routing | Payment Processing | Payments | Authorization & Routing, Payment Routing |
+| Clearing Submission | Payment Processing | Payments | Rail Submission, Clearing Dispatch |
+| Settlement Confirmation | Reconciliation & Settlement | Payments | Settlement Capture |
+| Account Reconciliation | Reconciliation & Settlement | Payments | Statement Matching, Nostro Recon |
+| Exception Investigation | Reconciliation & Settlement | Payments | Break Resolution, Investigations |
+| Cash Positioning | Cash Management | Payments | Position Keeping, Cash Visibility |
+| Liquidity Forecasting | Cash Management | Payments | Cash Forecasting, Liquidity Planning |
+| Funding & Concentration | Cash Management | Payments | Cash Concentration, Sweeping & Pooling |
+
+## Process flow steps
+
+| Canonical Name | Process | Order | Depends On | Aliases |
+|---|---|---|---|---|
+| Receive Payment Instruction | Payment Processing | 1 | Payment Orchestration | Capture Instruction, Intake Payment |
+| Validate Payment | Payment Processing | 2 | Payment Orchestration | Payment Validation, Field Validation |
+| Screen Sanctions | Payment Processing | 3 | Transaction Monitoring Platform | Watchlist Screening Step, OFAC Screening |
+| Authorize Payment | Payment Processing | 4 | Fraud Analytics | Payment Authorization Step, Approve Payment |
+| Route Payment | Payment Processing | 5 | Payment Orchestration | Rail Selection, Payment Routing Step |
+| Format Clearing Message | Payment Processing | 6 | Payment Orchestration | Build Clearing Message, Message Formatting |
+| Submit To Clearing | Payment Processing | 7 | Payment Orchestration | Dispatch To Operator, Rail Submission Step |
+| Capture Clearing Response | Payment Processing | 8 | Payment Orchestration | Process Clearing Status, Return Handling |
+| Confirm Settlement | Reconciliation & Settlement | 1 | Payment Orchestration | Settlement Confirmation Step, Capture Settlement |
+| Ingest Bank Statement | Reconciliation & Settlement | 2 | Integration Platform | Load Statement, Statement Ingestion |
+| Match Transactions | Reconciliation & Settlement | 3 | Core Banking Processing | Auto Matching, Transaction Matching |
+| Identify Breaks | Reconciliation & Settlement | 4 | Workflow Orchestration | Break Detection, Exception Identification |
+| Investigate Break | Reconciliation & Settlement | 5 | Workflow Orchestration | Break Investigation, Exception Handling |
+| Post Adjustment | Reconciliation & Settlement | 6 | General Ledger Engine | Adjustment Posting, Correcting Entry |
+| Sign Off Reconciliation | Reconciliation & Settlement | 7 | Workflow Orchestration | Recon Certification, Reconciliation Sign-Off |
+| Aggregate Balances | Cash Management | 1 | Integration Platform | Balance Aggregation, Gather Balances |
+| Determine Cash Position | Cash Management | 2 | Core Banking Processing | Position Calculation, Cash Positioning Step |
+| Forecast Cash Flow | Cash Management | 3 | Analytics Platform | Cash Forecasting Step, Liquidity Forecast |
+| Decide Funding Actions | Cash Management | 4 | Analytics Platform | Funding Decisioning, Liquidity Decision |
+| Execute Funding Transfer | Cash Management | 5 | Payment Orchestration | Sweep Execution, Funding Execution |
+| Monitor Liquidity Position | Cash Management | 6 | Analytics Platform | Liquidity Monitoring, Position Monitoring |
+| Report Cash Status | Cash Management | 7 | Analytics Platform | Cash Reporting, Treasury Reporting |
+
+## Supporting concepts
+
+| Canonical Name | Type | Aliases |
+|---|---|---|
+| Payment Operations Analyst | role | Payment Ops Analyst, Payments Operator |
+| Clearing Operations Specialist | role | Clearing Operator, Rail Operations Specialist |
+| Compliance Screening Officer | role | Sanctions Officer, Screening Analyst |
+| Settlement Officer | role | Settlements Officer, Settlement Clerk |
+| Reconciliation Analyst | role | Recon Analyst, Reconciliations Specialist |
+| Treasury Cash Manager | role | Cash Manager, Liquidity Manager |
+| Payment Initiated Event | event | Payment Received Event, Instruction Received |
+| Settlement Received Event | event | Settlement Advice Event, Settlement Notified |
+| Reconciliation Break Event | event | Break Raised Event, Exception Raised |
+| Cut-Off Reached Event | event | Cut-Off Event, Window Closed Event |
+| Payment Instruction | artifact | Payment Order Request, Pain.001 Message |
+| Clearing Message | artifact | Pacs.008 Message, ACH Entry |
+| Settlement File | artifact | Settlement Advice, Settlement Report |
+| Bank Statement Message | artifact | Camt.053 Statement, Account Statement |
+| Cash Forecast | artifact | Liquidity Forecast Report, Cash Flow Forecast |
+| Reconciliation Report | artifact | Recon Report, Reconciliation Certificate |
