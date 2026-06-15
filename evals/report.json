@@ -1,77 +1,10 @@
 {
-  "generated": "2026-06-15T04:11:33.619351Z",
+  "generated": "2026-06-15T04:12:47.322084Z",
   "phase": "author",
   "counts": {
-    "FAIL": 11,
+    "FAIL": 0,
     "WARN": 0,
     "INFO": 0
   },
-  "findings": [
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-closure-settlement.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-dormancy-detection.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-early-withdrawal-handling.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-escheatment-processing.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-interest-accrual-calculation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-maturity-and-rollover-processing.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-overdraft-interest-and-fee-charging.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-overdraft-limit-assessment.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-sweep-rule-execution.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-tax-reporting-consolidation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-withholding-tax-calculation.md",
-      "message": "registry concept missing its file"
-    }
-  ]
+  "findings": []
 }
