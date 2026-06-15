@@ -21,6 +21,16 @@ status: draft
 ## Details
 Payment Processing receives an instruction, performs validation and fraud and sanctions checks, applies routing to the appropriate scheme, and executes the debit and credit legs. Actors include customers, payment operations staff, and scheme operators. Systems involved include a payment orchestration hub, the core banking ledger, and clearing connectivity.
 
+## Flow
+- Receive Payment Instruction causes Validate Payment.
+- Validate Payment causes Screen Sanctions.
+- Screen Sanctions causes Authorize Payment.
+- Authorize Payment causes Route Payment.
+- Route Payment causes Format Clearing Message.
+- Format Clearing Message causes Submit To Clearing.
+- Submit To Clearing causes Capture Clearing Response.
+- Capture Clearing Response causes Confirm Settlement.
+
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)

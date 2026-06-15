@@ -101,3 +101,72 @@ sources: ["<url1>", "<url2>"]
 ## References
 - [<title>](<url>)
 ```
+
+## Deep-dive conventions (L4 capabilities + process flows)
+
+These additive conventions support the iterative domain deep-dive. They do not
+break v1; they extend it. Progress is tracked in
+[`_status/PROGRESS.md`](_status/PROGRESS.md).
+
+### Capability depth (business: L1→L2→L3→L4; technology: L1→L2→L3)
+
+- Business capabilities decompose to **L4** (the smallest independently
+  meaningful capability). Each child `derived_from` its parent and `defined_in`
+  its domain. Ground L3/L4 in **BIAN** Service Domains / Service Operations and
+  align naming to **APQC PCF**.
+- Technology capabilities decompose to **L2 and L3**. Record the rung in
+  frontmatter (`level: L2 | L3`) and state the hierarchy in prose with
+  `derived_from`.
+- File naming: business capabilities keep the `L<level>-<kebab>.md` pattern
+  (now including `L4-...`). Technology capability files stay flat (`<kebab>.md`)
+  with the level in frontmatter and `derived_from` prose.
+
+### Process flows (APQC 5 granularities)
+
+Granularity ladder: **Value Stream → Process Group → Process → Sub-Process →
+Task/Step**. v1 already holds Processes; deep-dive adds the finer rungs.
+
+- Step notes live in `process-flows/<kebab-process>/NN-<kebab-step>.md`, where
+  `NN` is a zero-padded execution order (`01`, `02`, ...).
+- Each step note: `defined_in` its process, `causes` the next step (the ordered
+  chain), `depends_on` the capability / technology capability / system it
+  consumes, and `mentions` the actors and artifacts involved. Branches at a
+  decision point are extra `causes` sentences from the decision step.
+- The parent process note gains a `## Flow` section that lists the ordered steps
+  as `causes` sentences — this is the authoritative sequence for that process.
+- Capture per flow: trigger event, actors/roles, inputs, outputs, decision
+  points/branches, systems touched, and key controls (KYC, fraud, limits).
+
+### Supporting concept types
+
+When a flow references them, author atomic notes with these `type` values:
+`role` (actor/persona), `event` (business/trigger event), `artifact` (data
+object / document). Link them with `mentions` / `related_to`. As always,
+frontmatter `type` is for humans; the graph relies on the prose.
+
+### Registry discipline during deep-dive
+
+Every new L3/L4/step/supporting name is minted through the **ontology-steward
+gate** and appended to [`glossary/_canonical-names.md`](glossary/_canonical-names.md)
+**before** authoring. Check for collisions across capabilities, processes, tech
+capabilities, systems, and steps; append a disambiguating word if needed and log
+it in the ledger's Decisions log.
+
+### Registry sections & folders for deep-dive types
+
+The registry carries dedicated tables (parsed by `evals/checks.py`) for the
+deeper concept types. New rows go in the matching section; files go in the
+matching folder:
+
+| Registry section | Columns | Folder | File name |
+|---|---|---|---|
+| `## Business capabilities` | Name \| Level \| Domain \| Parent \| Aliases | `business-capabilities/` | `L<level>-<kebab>.md` (incl. L4) |
+| `## Technology sub-capabilities` | Name \| Parent \| Domain \| Level \| Aliases | `technology-capabilities/` | `<kebab>.md` |
+| `## Process sub-processes` | Name \| Parent Process \| Domain \| Aliases | `business-processes/` | `<kebab>.md` |
+| `## Process flow steps` | Name \| Process \| Order \| Depends On \| Aliases | `process-flows/<kebab-process>/` | `NN-<kebab>.md` |
+| `## Supporting concepts` | Name \| Type (role\|event\|artifact) \| Aliases | `concepts/` | `<kebab>.md` |
+
+The steward gate enforces: parents/processes exist, levels are monotonic,
+supporting `type` is valid, and there are no name or path collisions. The author
+gate enforces file⇄registry parity for every section, including step files keyed
+by `<process>/NN-<step>`.

@@ -112,6 +112,73 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Treasury Management | L1 | Finance & Treasury | — | Treasury |
 | Liquidity Management | L2 | Finance & Treasury | Treasury Management | Cash & Liquidity |
 | Asset Liability Management | L2 | Finance & Treasury | Treasury Management | ALM |
+| Payment Order Capture | L3 | Payments | Payment Initiation | Payment Order Management, Order Capture |
+| Request To Pay | L3 | Payments | Payment Initiation | Request for Payment, RfP, RTP Request |
+| Payment Pre-Validation | L3 | Payments | Payment Initiation | Beneficiary Validation, Account Verification, Confirmation of Payee |
+| Standing Order Management | L3 | Payments | Payment Initiation | Recurring Payments, Standing Instructions |
+| Bulk Payment Origination | L3 | Payments | Payment Initiation | Batch Payments, File-Based Payments, Bulk Disbursement |
+| Payment Screening | L3 | Payments | Payment Initiation | Payment Compliance Check, Watchlist Filtering |
+| Payment Rail Connectivity | L3 | Payments | Payment Execution | Rail Integration, Scheme Connectivity, Gateway Management |
+| Correspondent Banking | L3 | Payments | Payment Execution | Nostro Vostro Management, Correspondent Bank Operations |
+| Payment Status Tracking | L3 | Payments | Payment Execution | Payment Tracking, Status Reporting, gpi Tracking |
+| Interbank Clearing | L3 | Payments | Payment Clearing & Settlement | Clearing Operations, Net Position Calculation |
+| Interbank Settlement | L3 | Payments | Payment Clearing & Settlement | Settlement Operations, RTGS Settlement |
+| Settlement Liquidity Management | L3 | Payments | Payment Clearing & Settlement | Settlement Funding, Liquidity Positioning, LMT |
+| Payment Exceptions & Investigations | L3 | Payments | Payment Clearing & Settlement | Payment Investigations, Exception Handling, Recalls |
+| Direct Debit Mandate Management | L3 | Payments | Direct Debit Management | Mandate Management, DDI Setup |
+| Direct Debit Collection | L3 | Payments | Direct Debit Management | Direct Debit Processing, Creditor Collection |
+| Direct Debit Returns | L3 | Payments | Direct Debit Management | DD Returns, Unpaids, Indemnity Claims |
+| Credit Transfer Execution | L4 | Payments | Domestic Payments | ACH Credit, Direct Credit, Push Payment |
+| Debit Transfer Execution | L4 | Payments | Domestic Payments | ACH Debit, Pull Payment |
+| Same Day ACH Processing | L4 | Payments | Domestic Payments | SDA, Same-Day ACH |
+| ACH Return Handling | L4 | Payments | Domestic Payments | ACH Returns, Return Codes, R-codes |
+| SWIFT Message Processing | L4 | Payments | Cross-Border Payments | SWIFT Messaging, CBPR+, MT/MX |
+| FX Conversion For Payments | L4 | Payments | Cross-Border Payments | Payment FX, Currency Conversion |
+| Cross-Border Fee Calculation | L4 | Payments | Cross-Border Payments | Charge Bearer Handling, Correspondent Fees |
+| Instant Payment Clearing | L4 | Payments | Real-Time Payments | RTP Clearing, FedNow Clearing |
+| Instant Payment Confirmation | L4 | Payments | Real-Time Payments | Real-Time Confirmation, Positive Acknowledgement |
+| Alias Resolution | L4 | Payments | Real-Time Payments | Proxy Lookup, Directory Resolution |
+| File Validation & Enrichment | L4 | Payments | Bulk Payment Origination | Bulk File Validation, File Ingestion |
+| Payment Authorization Capture | L4 | Payments | Payment Order Capture | Order Authorization, Payment Approval |
+| Payment Limit Checking | L4 | Payments | Payment Order Capture | Limit Validation, Threshold Checks |
+| Mandate Verification | L4 | Payments | Direct Debit Collection | Mandate Check, Authorisation Check |
+| Collection Scheduling | L4 | Payments | Direct Debit Collection | DD Scheduling, Collection Runs |
+| Settlement Reconciliation | L4 | Payments | Interbank Settlement | Settlement Matching, Position Reconciliation |
+| Nostro Reconciliation | L4 | Payments | Correspondent Banking | Nostro Matching, Vostro Reconciliation |
+| Lead Management | L3 | Customer Management | Customer Acquisition | Lead and Opportunity Management, Prospect Management, Opportunity Management |
+| Application Processing | L3 | Customer Management | Customer Acquisition | Application Management, Account Application Handling, Origination Intake |
+| Onboarding Orchestration | L3 | Customer Management | Customer Acquisition | Onboarding Coordination, Origination Orchestration |
+| Party Reference Data | L3 | Customer Management | Party Data Management | Party Master Data, Customer Reference Data, Golden Record |
+| Party Data Quality | L3 | Customer Management | Party Data Management | Customer Data Quality, Data Cleansing, Deduplication Management |
+| Consent & Preference Management | L3 | Customer Management | Party Data Management | Consent Management, Preference Management, Permissions Management |
+| Contact Dialogue Management | L3 | Customer Management | Customer Servicing | Contact Management, Interaction Management, Dialogue Handling |
+| Complaint Management | L3 | Customer Management | Customer Servicing | Complaints Management, Grievance Management |
+| Service Fulfilment | L3 | Customer Management | Customer Servicing | Service Order Fulfilment, Servicing Order Management, Request Fulfilment |
+| Relationship Planning | L3 | Customer Management | Relationship Management | Customer Planning, Account Planning, Relationship Strategy |
+| Next-Best-Action | L3 | Customer Management | Relationship Management | NBA, Next Best Offer, Recommendation Management |
+| Campaign Execution | L3 | Customer Management | Campaign Management | Campaign Operations, Campaign Delivery, Marketing Execution |
+| Customer Insight | L3 | Customer Management | Customer Segmentation | Customer Analytics, Customer Intelligence, Customer Value Analytics |
+| Behavioural Analytics | L3 | Customer Management | Customer Segmentation | Behavioral Analytics, Customer Event Analytics, Behavioural Modelling |
+| Lead Capture | L4 | Customer Management | Lead Management | Lead Intake, Inquiry Capture |
+| Lead Qualification | L4 | Customer Management | Lead Management | Lead Scoring, Lead Routing |
+| Application Decisioning | L4 | Customer Management | Application Processing | Application Adjudication, Eligibility Decisioning |
+| Application Tracking | L4 | Customer Management | Application Processing | Application Status Management, Application Monitoring |
+| Agreement Activation | L4 | Customer Management | Onboarding Orchestration | Account Activation, Agreement Setup |
+| Welcome Servicing | L4 | Customer Management | Onboarding Orchestration | Welcome Journey, First-Use Enablement |
+| Party Identifier Management | L4 | Customer Management | Party Reference Data | Party ID Management, Identifier Cross-Referencing |
+| Party Relationship Mapping | L4 | Customer Management | Party Reference Data | Relationship Hierarchy Management, Household Linking, Beneficial Ownership Mapping |
+| Data Survivorship | L4 | Customer Management | Party Data Quality | Survivorship Rules, Record Merge, Golden Record Resolution |
+| Consent Lifecycle | L4 | Customer Management | Consent & Preference Management | Consent Tracking, Consent Versioning |
+| Communication Preference Management | L4 | Customer Management | Consent & Preference Management | Channel Preferences, Marketing Permissions, Contact Preferences |
+| Contact Routing Management | L4 | Customer Management | Contact Dialogue Management | Interaction Routing, Skills-Based Routing |
+| Interaction History | L4 | Customer Management | Contact Dialogue Management | Contact History, Channel Activity History |
+| Complaint Resolution | L4 | Customer Management | Complaint Management | Complaint Investigation, Redress Management |
+| Complaint Root-Cause Analysis | L4 | Customer Management | Complaint Management | Complaint Analytics, Root Cause Feedback |
+| Servicing Order Orchestration | L4 | Customer Management | Service Fulfilment | Order Orchestration, Servicing Workflow |
+| Customer Survey Management | L4 | Customer Management | Customer Insight | Voice of Customer, Survey Management, Feedback Management |
+| Customer Value Modelling | L4 | Customer Management | Customer Insight | Lifetime Value Modelling, CLV Analytics, Propensity Modelling |
+| Customer Event Detection | L4 | Customer Management | Behavioural Analytics | Trigger Detection, Life Event Detection |
+| Churn Prediction | L4 | Customer Management | Behavioural Analytics | Attrition Modelling, Retention Analytics |
 
 ## Business processes
 
@@ -228,6 +295,11 @@ Format: Canonical Name | Realizes (tech capability depends_on it) | Vendor | Ali
 | Cisco UCCE | Contact Center Platform | Cisco | Unified Contact Center Enterprise |
 | Legacy Online Banking | Digital Channel Platform | (generic) | Legacy Internet Banking |
 | Legacy IVR System | Conversational AI | (generic) | IVR |
+| FIS Open Payment Framework | Payment Orchestration | FIS | OPF, FIS OPF |
+| Finastra Global PAYplus | Payment Orchestration | Finastra | GPP, Global PAYplus |
+| ACI Enterprise Payments Platform | Payment Orchestration | ACI Worldwide | ACI EPP, UP Real-Time Payments |
+| SAP CRM | CRM Platform | SAP | SAP CRM 7.0, mySAP CRM |
+| Informatica MDM | Master Data Management | Informatica | Informatica MDM Hub, Siperian |
 
 ## Modern systems
 
@@ -285,6 +357,13 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Microsoft Power BI | Analytics Platform | IBM Cognos | Microsoft | Power BI |
 | Kasisto | Conversational AI | Legacy IVR System | Kasisto | KAI |
 | Anthropic Claude | Generative AI Platform | Legacy IVR System | Anthropic | Claude |
+| Form3 | Payment Orchestration | Legacy Payment Hub; Finastra Global PAYplus | Form3 | Form3 Financial Cloud, Form3 PaaS |
+| ACI Connetic | Payment Orchestration | ACI BASE24; ACI Enterprise Payments Platform | ACI Worldwide | Connetic |
+| Bottomline Payments | Payment Orchestration | ACH Batch Processor; FIS Open Payment Framework | Bottomline Technologies | Bottomline, PTX |
+| Microsoft Dynamics 365 | CRM Platform | SAP CRM | Microsoft | Dynamics 365 Customer Service, D365 |
+| Pega Customer Service | CRM Platform | Siebel CRM | Pegasystems | Pega CRM, Pega CS |
+| Reltio | Master Data Management | Informatica MDM | Reltio | Reltio Data Cloud, Reltio MDM |
+| Amazon Lex | Conversational AI | Legacy IVR System | Amazon Web Services | AWS Lex, Lex V2 |
 
 ## Glossary terms
 
@@ -300,3 +379,146 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Open Banking | Open Banking APIs |
 | Cloud-Native | Cloud Native |
 | Zettelkasten | Atomic Notes |
+
+## Technology sub-capabilities
+
+| Canonical Name | Parent | Domain | Level | Aliases |
+|---|---|---|---|---|
+| Payment Routing Engine | Payment Orchestration | Core Processing | L2 | Smart Routing, Least-Cost Routing |
+| Scheme Connectivity Gateway | Payment Orchestration | Core Processing | L2 | Rail Connectivity, Network Adapters, Scheme Connectivity |
+| Payment Message Transformer | Payment Orchestration | Core Processing | L2 | Message Transformation, ISO 20022 Translation, Payment Message Transformation |
+| Payment Validation Engine | Payment Orchestration | Core Processing | L2 | Validation Engine, STP Validation |
+| Payment Repair Workbench | Payment Orchestration | Core Processing | L2 | Auto-Repair, Exceptions and Investigations, STP Repair |
+| Settlement Instruction Engine | Payment Orchestration | Core Processing | L2 | Settlement Engine, Settlement Instruction |
+| Liquidity & Limit Checker | Payment Orchestration | Core Processing | L2 | Limit Check, Funds Control, Liquidity Check |
+| Payment Sanctions Filter | Payment Orchestration | Core Processing | L2 | Inline Sanctions Filter, In-Flight Screening |
+| ISO 20022 Translation Service | Payment Message Transformer | Core Processing | L3 | MX Translation, MT-MX Mapping |
+| Least-Cost Routing Service | Payment Routing Engine | Core Processing | L3 | Cost-Based Routing |
+| SWIFT Connectivity Adapter | Scheme Connectivity Gateway | Core Processing | L3 | SWIFT Adapter, SWIFT gpi Connector |
+| Contact & Account Management | CRM Platform | Channels & Engagement | L2 | Account & Contact Management, Party Record Management |
+| Case Management Workbench | CRM Platform | Channels & Engagement | L2 | Service Case Workbench, Service Console |
+| Campaign Automation | CRM Platform | Channels & Engagement | L2 | Marketing Automation, Journey Orchestration |
+| Customer 360 View | CRM Platform | Channels & Engagement | L2 | Single Customer View, C360 |
+| Party Matching & Merge | Master Data Management | Data & Analytics | L2 | Entity Resolution, Match & Merge |
+| Golden Record Management | Master Data Management | Data & Analytics | L2 | Survivorship Engine, Best Record Management |
+| Data Stewardship Workflow | Master Data Management | Data & Analytics | L2 | Stewardship Console, Bulk Match Review |
+| Customer Authentication | Customer Identity | Security & Identity | L2 | Adaptive Authentication, MFA Service |
+| Consent Management Service | Customer Identity | Security & Identity | L2 | Privacy Management, Consent Service |
+| Identity Proofing Service | Customer Identity | Security & Identity | L2 | Identity Verification Service, ID Proofing |
+| Self-Service Virtual Assistant | Conversational AI | AI & Automation | L2 | Digital Assistant, Customer Chatbot |
+| Agent Assist | Conversational AI | AI & Automation | L2 | Agent Copilot, Next Best Action Assist |
+| Probabilistic Match Engine | Party Matching & Merge | Data & Analytics | L3 | Fuzzy Match Engine, AI Matching |
+| Survivorship Rule Engine | Golden Record Management | Data & Analytics | L3 | Survivorship Rules, Field Survivorship |
+| Passwordless Authentication | Customer Authentication | Security & Identity | L3 | Passkey Service, FIDO2 Service |
+| Identity Orchestration Engine | Identity Proofing Service | Security & Identity | L3 | Identity Orchestration, Proofing Orchestration |
+
+## Process sub-processes
+
+| Canonical Name | Parent Process | Domain | Aliases |
+|---|---|---|---|
+| Payment Capture & Validation | Payment Processing | Payments | Payment Intake, Capture & Validation |
+| Payment Authorization & Routing | Payment Processing | Payments | Authorization & Routing, Payment Routing |
+| Clearing Submission | Payment Processing | Payments | Rail Submission, Clearing Dispatch |
+| Settlement Confirmation | Reconciliation & Settlement | Payments | Settlement Capture |
+| Account Reconciliation | Reconciliation & Settlement | Payments | Statement Matching, Nostro Recon |
+| Exception Investigation | Reconciliation & Settlement | Payments | Break Resolution, Investigations |
+| Cash Positioning | Cash Management | Payments | Position Keeping, Cash Visibility |
+| Liquidity Forecasting | Cash Management | Payments | Cash Forecasting, Liquidity Planning |
+| Funding & Concentration | Cash Management | Payments | Cash Concentration, Sweeping & Pooling |
+| Application Intake & Capture | Customer Onboarding | Customer Management | Onboarding Intake, Application Capture |
+| Identity & Due Diligence | Customer Onboarding | Customer Management | KYC & CDD, Verification & Diligence |
+| Account Setup & Activation | Customer Onboarding | Customer Management | Onboarding Activation, Account Setup Activation |
+| Complaint Intake & Triage | Complaint Handling | Customer Management | Complaint Logging, Complaint Intake Triage |
+| Complaint Investigation & Redress | Complaint Handling | Customer Management | Investigation & Redress, Resolution & Redress |
+| Complaint Closure & Learning | Complaint Handling | Customer Management | Closure & RCA, Learning & Reporting |
+| Request Intake & Triage | Service Request Handling | Customer Management | Request Logging, Request Intake Triage |
+| Request Fulfilment & Closure | Service Request Handling | Customer Management | Fulfilment & Closure, Resolution & Closure |
+
+## Process flow steps
+
+| Canonical Name | Process | Order | Depends On | Aliases |
+|---|---|---|---|---|
+| Receive Payment Instruction | Payment Processing | 1 | Payment Orchestration | Capture Instruction, Intake Payment |
+| Validate Payment | Payment Processing | 2 | Payment Orchestration | Payment Validation, Field Validation |
+| Screen Sanctions | Payment Processing | 3 | Transaction Monitoring Platform | Watchlist Screening Step, OFAC Screening |
+| Authorize Payment | Payment Processing | 4 | Fraud Analytics | Payment Authorization Step, Approve Payment |
+| Route Payment | Payment Processing | 5 | Payment Orchestration | Rail Selection, Payment Routing Step |
+| Format Clearing Message | Payment Processing | 6 | Payment Orchestration | Build Clearing Message, Message Formatting |
+| Submit To Clearing | Payment Processing | 7 | Payment Orchestration | Dispatch To Operator, Rail Submission Step |
+| Capture Clearing Response | Payment Processing | 8 | Payment Orchestration | Process Clearing Status, Return Handling |
+| Confirm Settlement | Reconciliation & Settlement | 1 | Payment Orchestration | Settlement Confirmation Step, Capture Settlement |
+| Ingest Bank Statement | Reconciliation & Settlement | 2 | Integration Platform | Load Statement, Statement Ingestion |
+| Match Transactions | Reconciliation & Settlement | 3 | Core Banking Processing | Auto Matching, Transaction Matching |
+| Identify Breaks | Reconciliation & Settlement | 4 | Workflow Orchestration | Break Detection, Exception Identification |
+| Investigate Break | Reconciliation & Settlement | 5 | Workflow Orchestration | Break Investigation, Exception Handling |
+| Post Adjustment | Reconciliation & Settlement | 6 | General Ledger Engine | Adjustment Posting, Correcting Entry |
+| Sign Off Reconciliation | Reconciliation & Settlement | 7 | Workflow Orchestration | Recon Certification, Reconciliation Sign-Off |
+| Aggregate Balances | Cash Management | 1 | Integration Platform | Balance Aggregation, Gather Balances |
+| Determine Cash Position | Cash Management | 2 | Core Banking Processing | Position Calculation, Cash Positioning Step |
+| Forecast Cash Flow | Cash Management | 3 | Analytics Platform | Cash Forecasting Step, Liquidity Forecast |
+| Decide Funding Actions | Cash Management | 4 | Analytics Platform | Funding Decisioning, Liquidity Decision |
+| Execute Funding Transfer | Cash Management | 5 | Payment Orchestration | Sweep Execution, Funding Execution |
+| Monitor Liquidity Position | Cash Management | 6 | Analytics Platform | Liquidity Monitoring, Position Monitoring |
+| Report Cash Status | Cash Management | 7 | Analytics Platform | Cash Reporting, Treasury Reporting |
+| Receive Application | Customer Onboarding | 1 | Digital Channel Platform | Capture Application, Intake Applicant |
+| Capture Consent | Customer Onboarding | 2 | Customer Identity | Record Consent, Consent Capture Step |
+| Collect Documents | Customer Onboarding | 3 | Intelligent Document Processing | Gather Documents, Document Collection Step |
+| Verify Identity | Customer Onboarding | 4 | Identity Verification | Prove Identity, Identity Proofing Step |
+| Screen Customer | Customer Onboarding | 5 | Transaction Monitoring Platform | Screen Applicant, Watchlist Check Step |
+| Assess Customer Risk | Customer Onboarding | 6 | Customer Due Diligence | Risk Rate Customer, CDD Assessment Step |
+| Approve Onboarding | Customer Onboarding | 7 | Workflow Orchestration | Decide Onboarding, Onboarding Approval Step |
+| Create Customer Record | Customer Onboarding | 8 | Master Data Management | Establish Party Record, Customer Record Creation |
+| Activate Customer | Customer Onboarding | 9 | Notification Services | Welcome Customer, Customer Activation Step |
+| Log Complaint | Complaint Handling | 1 | Case Management | Register Complaint, Complaint Logging Step |
+| Acknowledge Complaint | Complaint Handling | 2 | Notification Services | Send Acknowledgement, Complaint Acknowledgement Step |
+| Triage Complaint | Complaint Handling | 3 | Workflow Orchestration | Classify Complaint, Complaint Triage Step |
+| Investigate Complaint | Complaint Handling | 4 | Case Management | Examine Complaint, Complaint Investigation Step |
+| Determine Outcome | Complaint Handling | 5 | Case Management | Decide Redress, Outcome Decision Step |
+| Issue Final Response | Complaint Handling | 6 | Notification Services | Send Final Response, Final Response Step |
+| Conduct Root Cause | Complaint Handling | 7 | Analytics Platform | Root Cause Analysis Step, Analyse Drivers |
+| Close Complaint | Complaint Handling | 8 | Case Management | Resolve & Close, Complaint Closure Step |
+| Capture Request | Service Request Handling | 1 | Contact Center Platform | Log Request, Request Capture Step |
+| Authenticate Requester | Service Request Handling | 2 | Identity Access Management | Verify Requester, Requester Authentication Step |
+| Categorize Request | Service Request Handling | 3 | Workflow Orchestration | Classify Request, Request Triage Step |
+| Assess Request | Service Request Handling | 4 | Case Management | Evaluate Request, Request Assessment Step |
+| Fulfil Request | Service Request Handling | 5 | Core Banking Processing | Action Request, Request Fulfilment Step |
+| Confirm Resolution | Service Request Handling | 6 | Notification Services | Notify Customer, Resolution Confirmation Step |
+| Close Request | Service Request Handling | 7 | Case Management | Resolve & Close Request, Request Closure Step |
+
+## Supporting concepts
+
+| Canonical Name | Type | Aliases |
+|---|---|---|
+| Payment Operations Analyst | role | Payment Ops Analyst, Payments Operator |
+| Clearing Operations Specialist | role | Clearing Operator, Rail Operations Specialist |
+| Compliance Screening Officer | role | Sanctions Officer, Screening Analyst |
+| Settlement Officer | role | Settlements Officer, Settlement Clerk |
+| Reconciliation Analyst | role | Recon Analyst, Reconciliations Specialist |
+| Treasury Cash Manager | role | Cash Manager, Liquidity Manager |
+| Payment Initiated Event | event | Payment Received Event, Instruction Received |
+| Settlement Received Event | event | Settlement Advice Event, Settlement Notified |
+| Reconciliation Break Event | event | Break Raised Event, Exception Raised |
+| Cut-Off Reached Event | event | Cut-Off Event, Window Closed Event |
+| Payment Instruction | artifact | Payment Order Request, Pain.001 Message |
+| Clearing Message | artifact | Pacs.008 Message, ACH Entry |
+| Settlement File | artifact | Settlement Advice, Settlement Report |
+| Bank Statement Message | artifact | Camt.053 Statement, Account Statement |
+| Cash Forecast | artifact | Liquidity Forecast Report, Cash Flow Forecast |
+| Reconciliation Report | artifact | Recon Report, Reconciliation Certificate |
+| Onboarding Specialist | role | Onboarding Officer, New Accounts Officer |
+| KYC Analyst | role | KYC Officer, Due Diligence Analyst |
+| Complaints Officer | role | Complaint Handler, Dispute Resolution Officer |
+| Service Advisor | role | Customer Service Agent, Service Desk Agent |
+| Quality Assurance Reviewer | role | QA Analyst, Complaints QA Reviewer |
+| Application Submitted Event | event | Onboarding Started Event, Application Received |
+| Customer Activated Event | event | Onboarding Completed Event, Account Activated |
+| Complaint Received Event | event | Complaint Raised Event, Complaint Logged |
+| Service Request Raised Event | event | Request Submitted Event, Ticket Raised |
+| SLA Breach Event | event | SLA Escalation Event, Deadline Breached |
+| Customer Application | artifact | Onboarding Application, Account Application |
+| Onboarding Case | artifact | Onboarding Record, Onboarding File |
+| KYC Profile | artifact | CDD Profile, Customer Risk Profile |
+| Consent Record | artifact | Consent Artifact, Opt-In Record |
+| Complaint Record | artifact | Complaint Case, Complaint File |
+| Final Response Letter | artifact | Final Response, FRL |
+| Service Request Ticket | artifact | Service Ticket, Request Ticket |

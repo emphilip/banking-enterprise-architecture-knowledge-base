@@ -7,7 +7,7 @@ status: draft
 
 # Domains Index
 
-Map-of-Content for all value-stream and technology domains. Each domain note links the capabilities and processes defined in it.
+Map-of-Content for all value-stream and technology domains.
 
 - [[ai-and-automation|AI & Automation]]
 - [[cards|Cards]]

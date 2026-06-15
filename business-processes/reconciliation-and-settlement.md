@@ -19,6 +19,14 @@ status: draft
 ## Details
 Reconciliation & Settlement ingests scheme and nostro statements, matches them against internal ledger entries, investigates breaks, and posts settlement positions. Actors include settlement operations and finance staff. Systems involved include a payment orchestration hub, the general ledger engine, and clearing connectivity.
 
+## Flow
+- Confirm Settlement causes Ingest Bank Statement.
+- Ingest Bank Statement causes Match Transactions.
+- Match Transactions causes Identify Breaks.
+- Identify Breaks causes Investigate Break.
+- Investigate Break causes Post Adjustment.
+- Post Adjustment causes Sign Off Reconciliation.
+
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)
