@@ -31,11 +31,14 @@ def parse_registry():
     if not os.path.exists(REG):
         add("FAIL","steward",REG,"registry file missing"); return None
     lines = open(REG, encoding="utf-8").read().splitlines()
-    sec=None; data={"domains":[],"caps":[],"proc":[],"tech":[],"legacy":[],"modern":[],"gloss":[]}
+    sec=None; data={"domains":[],"caps":[],"proc":[],"tech":[],"legacy":[],"modern":[],"gloss":[],
+                    "techsub":[],"subproc":[],"steps":[],"support":[]}
     keymap={"Domains (value streams & technology domains)":"domains",
             "Business capabilities":"caps","Business processes":"proc",
             "Technology capabilities":"tech","Legacy systems":"legacy",
-            "Modern systems":"modern","Glossary terms":"gloss"}
+            "Modern systems":"modern","Glossary terms":"gloss",
+            "Technology sub-capabilities":"techsub","Process sub-processes":"subproc",
+            "Process flow steps":"steps","Supporting concepts":"support"}
     for ln in lines:
         if ln.startswith("## "): sec=keymap.get(ln[3:].strip()); continue
         if not sec or not ln.strip().startswith("|"): continue
@@ -64,7 +67,7 @@ def frontmatter(text):
 def all_concept_files():
     out=[]
     for d in ["domains","business-capabilities","business-processes","technology-capabilities",
-              "systems/legacy","systems/modern","glossary"]:
+              "systems/legacy","systems/modern","glossary","concepts"]:
         for f in glob.glob(os.path.join(ROOT,d,"*.md")):
             if os.path.basename(f).startswith("_"): continue
             out.append(f)
@@ -75,14 +78,14 @@ def all_concept_files():
 
 def names_set(data):
     s=set()
-    for k in ("domains","caps","proc","tech","legacy","modern","gloss"):
+    for k in ("domains","caps","proc","tech","legacy","modern","gloss","techsub","subproc","steps","support"):
         for row in data[k]: s.add(row[0])
     return s
 
 # ---------------- PHASE: steward (registry integrity) ----------------
 def check_steward(data):
     seen={}
-    for k in ("domains","caps","proc","tech","legacy","modern","gloss"):
+    for k in ("domains","caps","proc","tech","legacy","modern","gloss","techsub","subproc","steps","support"):
         for row in data[k]:
             n=row[0]
             if n in seen: add("FAIL","steward",REG,f"duplicate canonical name '{n}' (in {seen[n]} and {k})")
@@ -91,7 +94,8 @@ def check_steward(data):
     # alias collisions: alias equal to a different concept's canonical name
     def aliases(row, idx):
         return [a.strip() for a in row[idx].split(",")] if len(row)>idx and row[idx] not in ("","—") else []
-    alias_idx={"domains":2,"caps":4,"proc":3,"tech":3,"legacy":3,"gloss":1}
+    alias_idx={"domains":2,"caps":4,"proc":3,"tech":3,"legacy":3,"gloss":1,"modern":4,
+               "techsub":4,"subproc":3,"steps":4,"support":2}
     for k,idx in alias_idx.items():
         for row in data[k]:
             for a in aliases(row,idx):
@@ -125,9 +129,26 @@ def check_steward(data):
             superseded.add(s)
     for r in data["legacy"]:
         if r[0] not in superseded: add("WARN","steward",REG,f"legacy '{r[0]}' has no modern successor")
+    # deep-dive sections: tech sub-capabilities, sub-processes, steps, supporting
+    techall=techset | {r[0] for r in data["techsub"]}
+    for r in data["techsub"]:
+        if len(r)<4: continue
+        name,parent,dom,lvl=r[0],r[1],r[2],r[3]
+        if parent not in techall: add("FAIL","steward",REG,f"tech sub-capability '{name}' parent '{parent}' not a technology capability")
+        if lvl not in ("L2","L3","L4"): add("WARN","steward",REG,f"tech sub-capability '{name}' level '{lvl}'")
+        if dom not in domset: add("FAIL","steward",REG,f"tech sub-capability '{name}' defined_in unknown domain '{dom}'")
+    procset={r[0] for r in data["proc"]}
+    for r in data["subproc"]:
+        if len(r)>1 and r[1] not in procset: add("FAIL","steward",REG,f"sub-process '{r[0]}' parent process '{r[1]}' not in registry")
+    for r in data["steps"]:
+        if len(r)>1 and r[1] not in procset: add("FAIL","steward",REG,f"step '{r[0]}' process '{r[1]}' not in registry")
+        if len(r)>2 and not str(r[2]).strip().isdigit(): add("WARN","steward",REG,f"step '{r[0]}' order '{r[2]}' not numeric")
+    for r in data["support"]:
+        if len(r)>1 and r[1] not in ("role","event","artifact"): add("WARN","steward",REG,f"supporting concept '{r[0]}' type '{r[1]}'")
     # kebab/folder collision
-    folder={"domains":"domains","proc":"business-processes","tech":"technology-capabilities",
-            "legacy":"systems/legacy","modern":"systems/modern","gloss":"glossary"}
+    folder={"domains":"domains","proc":"business-processes","subproc":"business-processes",
+            "tech":"technology-capabilities","techsub":"technology-capabilities",
+            "legacy":"systems/legacy","modern":"systems/modern","gloss":"glossary","support":"concepts"}
     seenpath={}
     for k,fold in folder.items():
         for r in data[k]:
@@ -148,10 +169,23 @@ def check_author(data):
     expected|={f"systems/legacy/{kebab(r[0])}.md" for r in data["legacy"]}
     expected|={f"systems/modern/{kebab(r[0])}.md" for r in data["modern"]}
     expected|={f"glossary/{kebab(r[0])}.md" for r in data["gloss"]}
+    expected|={f"business-processes/{kebab(r[0])}.md" for r in data["subproc"]}
+    expected|={f"technology-capabilities/{kebab(r[0])}.md" for r in data["techsub"]}
+    expected|={f"concepts/{kebab(r[0])}.md" for r in data["support"]}
     actual={os.path.relpath(f,ROOT) for f in all_concept_files()
             if not os.path.relpath(f,ROOT).startswith("process-flows")}
     for m in sorted(expected-actual): add("FAIL","author",m,"registry concept missing its file")
     for e in sorted(actual-expected): add("FAIL","author",e,"file not registered in canonical-names registry")
+    # process-flow step parity
+    exp_flow=set()
+    for r in data["steps"]:
+        try: order=int(str(r[2]).strip())
+        except Exception: order=0
+        exp_flow.add(f"process-flows/{kebab(r[1])}/{order:02d}-{kebab(r[0])}.md")
+    act_flow={os.path.relpath(f,ROOT) for f in all_concept_files()
+              if os.path.relpath(f,ROOT).startswith("process-flows")}
+    for m in sorted(exp_flow-act_flow): add("FAIL","author",m,"registry step missing its file")
+    for e in sorted(act_flow-exp_flow): add("FAIL","author",e,"step file not registered")
     # per-file
     for f in all_concept_files():
         rel=os.path.relpath(f,ROOT)

@@ -151,3 +151,22 @@ gate** and appended to [`glossary/_canonical-names.md`](glossary/_canonical-name
 **before** authoring. Check for collisions across capabilities, processes, tech
 capabilities, systems, and steps; append a disambiguating word if needed and log
 it in the ledger's Decisions log.
+
+### Registry sections & folders for deep-dive types
+
+The registry carries dedicated tables (parsed by `evals/checks.py`) for the
+deeper concept types. New rows go in the matching section; files go in the
+matching folder:
+
+| Registry section | Columns | Folder | File name |
+|---|---|---|---|
+| `## Business capabilities` | Name \| Level \| Domain \| Parent \| Aliases | `business-capabilities/` | `L<level>-<kebab>.md` (incl. L4) |
+| `## Technology sub-capabilities` | Name \| Parent \| Domain \| Level \| Aliases | `technology-capabilities/` | `<kebab>.md` |
+| `## Process sub-processes` | Name \| Parent Process \| Domain \| Aliases | `business-processes/` | `<kebab>.md` |
+| `## Process flow steps` | Name \| Process \| Order \| Depends On \| Aliases | `process-flows/<kebab-process>/` | `NN-<kebab>.md` |
+| `## Supporting concepts` | Name \| Type (role\|event\|artifact) \| Aliases | `concepts/` | `<kebab>.md` |
+
+The steward gate enforces: parents/processes exist, levels are monotonic,
+supporting `type` is valid, and there are no name or path collisions. The author
+gate enforces file⇄registry parity for every section, including step files keyed
+by `<process>/NN-<step>`.
