@@ -1,9 +1,8 @@
 # Eval Report
 
-Generated: 2026-06-15T03:53:09.573557Z  
-Phase: `all`  
-**FAIL: 0  WARN: 0  INFO: 1**
+Generated: 2026-06-15T03:58:31.899528Z  
+Phase: `research`  
+**FAIL: 0  WARN: 0  INFO: 0**
 
 | Severity | Phase | Path | Message |
 |---|---|---|---|
-| INFO | weave | - | depends_on edges counted: 547 |
