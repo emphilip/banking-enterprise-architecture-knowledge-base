@@ -19,6 +19,14 @@ status: draft
 ## Details
 Deposit Account Opening captures the product choice, applies eligibility and terms, creates the account record in the core banking system, and enables initial deposits and channel access. Actors include the customer, branch or digital channel operators, and account operations staff. The process integrates with the core ledger, notification services, and statement setup.
 
+## Flow
+- Capture Account Application causes Collect CIP Information.
+- Collect CIP Information causes Verify Account Applicant.
+- Verify Account Applicant causes Capture Signature Card.
+- Capture Signature Card causes Disclose Account Terms.
+- Disclose Account Terms causes Establish Deposit Account.
+- Establish Deposit Account causes Fund New Account.
+
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)

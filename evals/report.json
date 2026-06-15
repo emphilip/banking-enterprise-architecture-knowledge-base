@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-15T04:09:03.786367Z",
+  "generated": "2026-06-15T04:10:41.466011Z",
   "phase": "author",
   "counts": {
-    "FAIL": 39,
+    "FAIL": 21,
     "WARN": 0,
     "INFO": 0
   },
@@ -23,12 +23,6 @@
       "severity": "FAIL",
       "phase": "author",
       "path": "business-capabilities/L4-account-instantiation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-application-capture-and-validation.md",
       "message": "registry concept missing its file"
     },
     {
@@ -138,108 +132,6 @@
       "phase": "author",
       "path": "business-capabilities/L4-withholding-tax-calculation.md",
       "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/account-closure/01-receive-closure-request.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/account-closure/02-validate-closure-eligibility.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/account-closure/03-settle-residual-balance.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/account-closure/04-issue-final-statement.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/account-closure/05-deactivate-account.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/account-closure/06-issue-dormancy-notice.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/account-closure/07-escheat-dormant-account.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/account-maintenance/03-assess-change-impact.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/account-maintenance/04-apply-account-change.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/account-maintenance/05-post-account-interest.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/account-maintenance/06-notify-account-change.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/overdraft-servicing/01-detect-insufficient-funds.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/overdraft-servicing/02-check-overdraft-opt-in.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/overdraft-servicing/03-evaluate-overdraft-limit.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/overdraft-servicing/04-decide-pay-or-return.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/overdraft-servicing/05-apply-overdraft-fee.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/overdraft-servicing/06-notify-overdraft-outcome.md",
-      "message": "registry step missing its file"
     }
   ]
 }
