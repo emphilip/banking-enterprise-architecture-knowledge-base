@@ -16,7 +16,7 @@ first row whose Status is not `done`).
 | 1 | Customer Management | business | done | done | done | done | done |
 | 2 | Payments | business | done | done | done | done | done |
 | 3 | Lending & Credit | business | done | done | done | done | done |
-| 4 | Deposits & Accounts | business | todo | todo | todo | todo | in-progress |
+| 4 | Deposits & Accounts | business | done | done | done | todo | in-progress |
 | 5 | Cards | business | todo | todo | todo | todo | todo |
 | 6 | Wealth & Investments | business | todo | todo | todo | todo | todo |
 | 7 | Risk Management | business | todo | todo | todo | todo | todo |
@@ -36,7 +36,8 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Deposits & Accounts
-- Phase: 2 Steward (done) — reconciled the three Deposits & Accounts proposals into glossary/_canonical-names.md; steward gate 0 FAIL / 0 WARN. Next: Phase 3 Author (write the note files for the appended registry rows).
+- Phase: 3 Author (in-progress) — 4 sub-agents writing ~126 notes (45 caps, 11 tech sub-caps + 6 systems, 3 new processes + 11 sub-processes + 32 steps, 18 supporting)
+
 - Done so far: Payments, Customer Management, Lending & Credit (3 of 15)
 
 ## Next actions (ordered — keep specific enough to resume cold)
