@@ -17,7 +17,7 @@ first row whose Status is not `done`).
 | 2 | Payments | business | done | done | done | done | done |
 | 3 | Lending & Credit | business | done | done | done | done | done |
 | 4 | Deposits & Accounts | business | done | done | done | done | done |
-| 5 | Cards | business | todo | todo | todo | todo | in-progress |
+| 5 | Cards | business | done | done | done | todo | in-progress |
 | 6 | Wealth & Investments | business | todo | todo | todo | todo | todo |
 | 7 | Risk Management | business | todo | todo | todo | todo | todo |
 | 8 | Compliance & Financial Crime | business | todo | todo | todo | todo | todo |
@@ -36,7 +36,8 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Cards
-- Phase: 2 Steward (done) — reconciled _status/proposed-cards-{bian,flows,tech}.md into glossary/_canonical-names.md
+- Phase: 3 Author (in-progress) — 4 sub-agents writing Cards notes (31 caps, 11 tech sub-caps + 8 systems, 3 new processes + 14 sub-processes + 32 steps, 15 supporting)
+
 - Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts (4 of 15); Cards registry reconciled (awaiting author + weave)
 
 ## Next actions (ordered — keep specific enough to resume cold)
