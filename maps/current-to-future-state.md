@@ -85,6 +85,14 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - SAP Deposits Management supersedes FIS Horizon.
 - Tuum supersedes Fiserv Premier.
 - SaaScada supersedes Jack Henry Core Director.
+- Thredd supersedes First Data Cards.
+- Thredd supersedes Fiserv OmniPay.
+- Lithic supersedes First Data Cards.
+- i2c supersedes TSYS TS2.
+- i2c supersedes Fiserv Optis.
+- Pismo supersedes TSYS TS2.
+- Pismo supersedes FIS Card Management.
+- Episode Six supersedes First Data Cards.
 
 ## Realization statements
 
@@ -143,6 +151,9 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Core Banking Processing depends on Fiserv Premier.
 - Core Banking Processing depends on Jack Henry Core Director.
 - Core Banking Processing depends on FIS Horizon.
+- Card Processing depends on FIS Card Management.
+- Card Processing depends on Fiserv OmniPay.
+- Card Processing depends on Fiserv Optis.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -206,6 +217,11 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Core Banking Processing depends on SAP Deposits Management.
 - Core Banking Processing depends on Tuum.
 - Core Banking Processing depends on SaaScada.
+- Card Processing depends on Thredd.
+- Card Processing depends on Lithic.
+- Card Processing depends on i2c.
+- Card Processing depends on Pismo.
+- Card Processing depends on Episode Six.
 
 ## Successor matrix
 | Technology Capability | Legacy System | Modern Successor |
@@ -216,8 +232,16 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | CRM Platform | SAP CRM | Microsoft Dynamics 365 |
 | CRM Platform | Siebel CRM | Pega Customer Service |
 | CRM Platform | Siebel CRM | Salesforce Financial Services Cloud |
+| Card Processing | FIS Card Management | Pismo |
+| Card Processing | First Data Cards | Episode Six |
 | Card Processing | First Data Cards | Galileo |
+| Card Processing | First Data Cards | Lithic |
+| Card Processing | First Data Cards | Thredd |
+| Card Processing | Fiserv OmniPay | Thredd |
+| Card Processing | Fiserv Optis | i2c |
 | Card Processing | TSYS TS2 | Marqeta |
+| Card Processing | TSYS TS2 | Pismo |
+| Card Processing | TSYS TS2 | i2c |
 | Contact Center Platform | Avaya Aura | Amazon Connect |
 | Contact Center Platform | Cisco UCCE | Genesys Cloud |
 | Conversational AI | Legacy IVR System | Amazon Lex |
