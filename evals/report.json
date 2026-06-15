@@ -1,47 +1,10 @@
 {
-  "generated": "2026-06-15T03:14:05.793448Z",
+  "generated": "2026-06-15T03:14:50.749690Z",
   "phase": "author",
   "counts": {
-    "FAIL": 6,
+    "FAIL": 0,
     "WARN": 0,
     "INFO": 0
   },
-  "findings": [
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/service-request-handling/02-authenticate-requester.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/service-request-handling/03-categorize-request.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/service-request-handling/04-assess-request.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/service-request-handling/05-fulfil-request.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/service-request-handling/06-confirm-resolution.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/service-request-handling/07-close-request.md",
-      "message": "registry step missing its file"
-    }
-  ]
+  "findings": []
 }
