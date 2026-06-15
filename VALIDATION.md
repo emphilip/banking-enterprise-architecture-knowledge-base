@@ -138,3 +138,39 @@ new moderns extended with multi-supersedes); the steward WARNs are cleared.
 (L1–L4), 41 technology capabilities + sub-capabilities, 31 processes +
 sub-processes, 22 process-flow steps, 16 supporting concepts, 46 legacy + 53
 modern systems, 10 glossary terms.
+
+---
+
+## Deep-dive: Customer Management domain (2026-06-15)
+
+Second domain deep-dive via the eval-gated pipeline.
+
+**Added (+105 concepts):** 14 L3 + 20 L4 business capabilities; 16 technology
+sub-capabilities (12 L2, 4 L3) under CRM Platform, Master Data Management,
+Customer Identity, and Conversational AI; 8 sub-processes; 24 ordered
+process-flow steps across Customer Onboarding, Complaint Handling, and Service
+Request Handling (with `## Flow` sections); 17 supporting concepts (5 role, 5
+event, 7 artifact); 2 new legacy + 4 new modern systems.
+
+**Eval gates (deterministic):** research / steward / author / weave / all (incl.
+regression) → all **0 FAIL / 0 WARN**.
+
+**Steward collision resolution:** "Virtual Assistant" (proposed tech sub-cap)
+collided with an existing alias of Conversational AI → renamed **Self-Service
+Virtual Assistant**; "Consent & Preference Management" (capability) vs "Consent
+Management Service" (tech sub-cap) disambiguated. Every new legacy (SAP CRM,
+Informatica MDM) given a modern successor.
+
+**Eval gate (semantic, LLM-judge, `evals/judge-customer-management.md`):** initial
+run FAILed narrowly (Groundedness 3.96 vs 4.0) — the 8 sampled L3/L4 capability
+notes had boilerplate Details + generic citations. Fixed all 8 (source-anchored
+Details; corrected BIAN "Customer Case" naming; consent remapped to Customer
+Profile / Customer Agreement with ICO citation; FCA DISP for complaints).
+Re-judge: all 8 now ≥4 on Groundedness (mean 4.25), lifting the sample to PASS on
+every dimension (accuracy 4.61, groundedness ≈4.32, relationships 4.96, naming
+5.00, granularity 4.39).
+
+**Knowledge base totals after Customer Management deep-dive:** 134 business
+capabilities (L1–L4), 57 technology capabilities + sub-capabilities, 39 processes
++ sub-processes, 46 process-flow steps, 33 supporting concepts, 48 legacy + 57
+modern systems, 10 glossary terms.

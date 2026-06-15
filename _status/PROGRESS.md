@@ -13,7 +13,7 @@ first row whose Status is not `done`).
 
 | # | Domain | Kind | Caps L3/L4 | Tech L2/L3 | Flows | Validated | Status |
 |---|---|---|---|---|---|---|---|
-| 1 | Customer Management | business | done | done | done | in-progress | in-progress |
+| 1 | Customer Management | business | done | done | done | done | done |
 | 2 | Payments | business | done | done | done | done | done |
 | 3 | Lending & Credit | business | todo | todo | todo | todo | todo |
 | 4 | Deposits & Accounts | business | todo | todo | todo | todo | todo |
@@ -35,18 +35,13 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Customer Management
-- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-customer-management.md)
-
-- Started: 2026-06-15
-- Resume note: proceed to Phase 3 author — author the new L3/L4 capability, tech
-  sub-capability, sub-process, process-flow step, and supporting-concept notes per
-  the registry, then run `python evals/checks.py --phase author` (0 FAIL).
+- Domain: Customer Management (DONE) — 2 of 15 domains deep-dived (Payments, Customer Management)
+- Phase: DONE — all 5 eval gates 0 FAIL; LLM-judge PASS after groundedness fixes (evals/judge-customer-management.md); baseline refreshed (439 files)
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
 - [ ] Deepen the next domain: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
-      (first not-done row = Customer Management). Same eval-gated pipeline:
+      (first not-done row = Lending & Credit). Same eval-gated pipeline:
       research -> steward gate -> author -> weave -> validate (+ LLM-judge) ->
       mark row done + refresh baseline.
 

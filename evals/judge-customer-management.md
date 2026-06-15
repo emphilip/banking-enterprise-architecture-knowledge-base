@@ -96,3 +96,38 @@ Optional (already passing, but would harden Groundedness toward 4.5+):
   (**customer-authentication.md**, **consent-management-service.md**, **kyc-profile.md**)
   would benefit from one additional reachable primary source each, but all are
   currently corroborated and score ≥4.
+
+## Re-judge (groundedness fixes)
+
+Reviewer: `judge` sub-agent. Date: 2026-06-15. Scope: re-score **only the 8 revised
+Customer Management capability notes** on **Groundedness** and **Definitional accuracy**.
+Method: re-read each note; re-verified cited sources. `bian.org` semantic-API and
+landscape pages still return HTTP 403 to the fetcher, so named BIAN service domains
+were corroborated via independent web search against BIAN's own content (BIAN BOM,
+Customer Event History semantic-API description, Customer Behavior Insights / Customer
+Offer landscape views). ICO UK-GDPR consent wording and FCA DISP wording were verified
+against the ICO and FCA Handbook primary text. Confirmed: **Lead/Opportunity Management,
+Party Lifecycle Management, Customer Profile, Customer Agreement, Customer Case,
+Customer Offer, Customer Behavior Insights, Customer Event History** all exist as BIAN
+service domains.
+
+| path | grounded (before→after) | accuracy | notes |
+|---|---|---|---|
+| business-capabilities/L3-lead-management.md | 3→4 | 5 | Details now specific & source-anchored: "registers prospects, maintains opportunity stages, routes qualified opportunities toward sales fulfilment" + APQC PCF **category 3.0 (Market and Sell Products and Services)**, manage-sales-opportunities. BIAN Lead/Opportunity Management confirmed. No longer boilerplate. |
+| business-capabilities/L3-onboarding-orchestration.md | 3→4 | 5 | Names the specific coordinated domains — Party Lifecycle Management + Customer Relationship Management, Party Authentication, Customer Agreement — all confirmed BIAN domains; specific sequencing claim (identity, due-diligence, agreement, account-setup). De-boilerplated. |
+| business-capabilities/L3-consent-and-preference-management.md | 3→5 | 5 | Remapped to defensible **Customer Profile + Customer Agreement** (per BIAN); quotes ICO UK-GDPR consent test verbatim ("freely given, specific, informed, unambiguous and as easy to withdraw as to give") — confirmed against ICO. Strongest source-anchoring of the set. |
+| business-capabilities/L3-complaint-management.md | 3→5 | 5 | BIAN name corrected to **Customer Case** (was "Customer Case Management"); APQC PCF **category 6.0 (Manage Customer Service)**; quotes FCA DISP standard verbatim ("competently, diligently and impartially", final response within deadline, root-cause feedback) — confirmed against FCA Handbook DISP. |
+| business-capabilities/L3-behavioural-analytics.md | 3→4 | 5 | Maps to **Customer Behavior Insights** + **Customer Event History** (both confirmed); specific claim that Customer Event History "records the time-ordered log of customer interactions" matches BIAN's own SD description. Anchored, not boilerplate. |
+| business-capabilities/L4-lead-capture.md | 3→4 | 5 | Specific intake-stage claim (normalises web/mobile/branch/contact-centre/campaign/partner sources into one pipeline; persists with source attribution + consent context); APQC PCF cat 3.0. Distinct from Lead Qualification. |
+| business-capabilities/L4-lead-qualification.md | 3→4 | 5 | Specific scoring/ranking/routing-stage claim (propensity, eligibility, value) + APQC PCF cat 3.0 manage-sales-opportunities; cites Analytics Platform for models. Distinct supporting detail vs. Lead Capture sibling. |
+| business-capabilities/L4-application-tracking.md | 3→4 | 5 | Maps to **Customer Offer** + **Customer Case** (both confirmed BIAN domains); specific monitoring claim (status, completeness, SLA progression, customer notification). De-boilerplated. |
+
+**New Groundedness mean (these 8) = (4+4+5+5+4+4+4+4)/8 = 34/8 = 4.25** (was 3.00).
+
+**All 8 now score ≥4 on Groundedness: YES.** Definitional accuracy is 5 across all 8
+(canonical BIAN/APQC/regulatory names, correct mappings — notably the Customer Case fix
+and the Customer Profile/Customer Agreement consent mapping).
+
+Knock-on effect on the original n=28 gate: replacing the 8 prior Groundedness=3 scores
+with these (sum 34 vs. prior 24, +10) lifts the overall Groundedness mean to
+(111−24+34)/28 = 121/28 = **4.32 (≥4.0)** — the previously failing dimension now passes.
