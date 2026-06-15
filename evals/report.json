@@ -1,29 +1,95 @@
 {
-  "generated": "2026-06-15T02:44:21.637373Z",
-  "phase": "steward",
+  "generated": "2026-06-15T02:48:02.688997Z",
+  "phase": "author",
   "counts": {
-    "FAIL": 0,
-    "WARN": 3,
+    "FAIL": 14,
+    "WARN": 0,
     "INFO": 0
   },
   "findings": [
     {
-      "severity": "WARN",
-      "phase": "steward",
-      "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
-      "message": "legacy 'FIS Open Payment Framework' has no modern successor"
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-alias-resolution.md",
+      "message": "registry concept missing its file"
     },
     {
-      "severity": "WARN",
-      "phase": "steward",
-      "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
-      "message": "legacy 'Finastra Global PAYplus' has no modern successor"
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-collection-scheduling.md",
+      "message": "registry concept missing its file"
     },
     {
-      "severity": "WARN",
-      "phase": "steward",
-      "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
-      "message": "legacy 'ACI Enterprise Payments Platform' has no modern successor"
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-file-validation-and-enrichment.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-mandate-verification.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-nostro-reconciliation.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-payment-authorization-capture.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-payment-limit-checking.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-settlement-reconciliation.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/cash-management/02-determine-cash-position.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/cash-management/03-forecast-cash-flow.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/cash-management/04-decide-funding-actions.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/cash-management/05-execute-funding-transfer.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/cash-management/06-monitor-liquidity-position.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/cash-management/07-report-cash-status.md",
+      "message": "registry step missing its file"
     }
   ]
 }
