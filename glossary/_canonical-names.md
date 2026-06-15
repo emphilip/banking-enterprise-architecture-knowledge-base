@@ -264,6 +264,37 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Early Withdrawal Handling | L4 | Deposits & Accounts | Term Deposit Lifecycle | Break Handling, Pre-Maturity Withdrawal |
 | Overdraft Limit Assessment | L4 | Deposits & Accounts | Overdraft Facility Setup | Limit Sizing, Overdraft Eligibility |
 | Overdraft Interest & Fee Charging | L4 | Deposits & Accounts | Unauthorised Overdraft Handling | Debit Interest Charging, Overdraft Fee Application |
+| Card Application | L3 | Cards | Card Issuing | Card Onboarding, New Card Application |
+| Credit Limit Assignment | L3 | Cards | Card Issuing | Credit Line Setting, Limit Assignment |
+| Card Production & Fulfilment | L3 | Cards | Card Issuing | Card Manufacturing, Card Production |
+| Card Personalisation | L4 | Cards | Card Production & Fulfilment | Card Encoding, EMV Personalisation |
+| Card Dispatch & Delivery | L4 | Cards | Card Production & Fulfilment | Card Distribution, Card Mailing |
+| Card Activation | L3 | Cards | Card Issuing | Card Enablement, First Use Activation |
+| Card Tokenisation | L3 | Cards | Card Issuing | Network Tokenisation, Wallet Provisioning, Token Provisioning |
+| Authorization Decisioning | L3 | Cards | Card Authorization | Authorization Approval, Auth Decisioning |
+| Balance & Funds Verification | L4 | Cards | Authorization Decisioning | Available Balance Check, Open-to-Buy Check |
+| Card Fraud Authorization Screening | L4 | Cards | Authorization Decisioning | Auth Fraud Screening, Real-Time Fraud Scoring (Cards) |
+| Stand-In Authorization | L3 | Cards | Card Authorization | STIP, Stand-In Processing, Fallback Authorization |
+| Authorization Controls | L3 | Cards | Card Authorization | Spending Controls, Velocity Controls, Card Controls |
+| Card Clearing & Settlement | L3 | Cards | Card Authorization | Card Clearing, Card Settlement, Interchange Settlement |
+| Card Billing & Statements | L3 | Cards | Card Authorization | Card Billing, Statement Cycle Processing |
+| Chargeback Handling | L3 | Cards | Dispute Management | Chargeback Initiation, Issuer Chargeback Management |
+| Chargeback Filing | L4 | Cards | Chargeback Handling | Reason Code Assignment, Chargeback Submission |
+| Provisional Credit Management | L4 | Cards | Chargeback Handling | Temporary Credit Handling, Dispute Credit |
+| Representment Handling | L3 | Cards | Dispute Management | Second Presentment Handling, Re-presentment |
+| Dispute Investigation | L3 | Cards | Dispute Management | Dispute Case Investigation, Claim Investigation |
+| Dispute Evidence Management | L4 | Cards | Dispute Investigation | Evidence Collation, Compelling Evidence Management |
+| Pre-Arbitration & Arbitration | L3 | Cards | Dispute Management | Arbitration, Pre-Arbitration Handling, Dispute Escalation |
+| Card Renewal | L3 | Cards | Card Lifecycle Management | Card Reissuance, Expiry Renewal |
+| Card Replacement | L3 | Cards | Card Lifecycle Management | Lost/Stolen Replacement, Emergency Card Replacement |
+| Card Blocking | L3 | Cards | Card Lifecycle Management | Card Hotlisting, Card Suspension, Block/Unblock |
+| PIN Management | L3 | Cards | Card Lifecycle Management | PIN Services, PIN Reset, PIN Change |
+| Card Closure | L3 | Cards | Card Lifecycle Management | Card Cancellation, Card Account Closure |
+| Rewards Management | L3 | Cards | Card Lifecycle Management | Loyalty Management, Rewards & Points, Cashback Management |
+| Reward Points Accrual | L4 | Cards | Rewards Management | Points Earning, Loyalty Accrual |
+| Reward Points Redemption | L4 | Cards | Rewards Management | Points Redemption, Loyalty Redemption |
+| Card Collections | L3 | Cards | Card Lifecycle Management | Card Dunning, Card Arrears Management |
+| Cardholder Notifications | L3 | Cards | Card Lifecycle Management | Card Alerts, Transaction Alerts |
 
 ## Business processes
 
@@ -296,6 +327,9 @@ Format: Canonical Name | Domain (defined_in) | Capabilities it depends_on | Alia
 | Account Maintenance | Deposits & Accounts | Account Servicing | Account Servicing Process, Account Detail Maintenance |
 | Account Closure | Deposits & Accounts | Account Servicing | Account Offboarding, Deposit Account Closure |
 | Overdraft Servicing | Deposits & Accounts | Overdraft Management, Account Servicing | Overdraft Handling, NSF Processing |
+| Card Transaction Authorization | Cards | Card Authorization | Authorization Process, Card Auth |
+| Chargeback Processing | Cards | Dispute Management | Chargeback Lifecycle, Dispute Chargeback |
+| Card Fraud Handling | Cards | Fraud Management | Card Fraud Management, Card Fraud Operations |
 
 ## Technology capabilities
 
@@ -536,6 +570,17 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Real-Time Posting Service | Transaction Posting Engine | Core Processing | L3 | Real-Time Ledger Service, Instant Posting Service, Streaming Postings |
 | Tiered Interest Calculator | Interest & Charges Engine | Core Processing | L3 | Tiered Rate Calculator, Banded Interest Service, Bonus Rate Engine |
 | Dormancy & Escheatment Service | Account Lifecycle Manager | Core Processing | L3 | Dormancy Engine, Unclaimed Property Service, Escheatment Service |
+| Card Authorization Engine | Card Processing | Core Processing | L2 | Authorization Decisioning Engine, Issuer Auth Engine, Dynamic Authorization |
+| Card Transaction Switch | Card Processing | Core Processing | L2 | Issuer Switch, ISO 8583 Switch, Scheme Message Switch |
+| Card Issuing & Personalisation | Card Processing | Core Processing | L2 | Card Issuance Engine, Personalisation Service, Card Provisioning |
+| Card Tokenization Service | Card Processing | Core Processing | L2 | Token Vault Service, Network Tokenization, Digital Card Tokenisation |
+| Card Account Ledger | Card Processing | Core Processing | L2 | Cardholder Ledger, Card Billing Engine, Card Statement Ledger |
+| Clearing & Settlement Processor | Card Processing | Core Processing | L2 | Card Clearing Engine, Interchange & Settlement Processor, Presentment Processor |
+| Dispute & Chargeback System | Card Processing | Core Processing | L2 | Chargeback Engine, Dispute Management System, Chargeback Processor |
+| Card Rewards Engine | Card Processing | Core Processing | L2 | Loyalty & Rewards Engine, Points Engine, Cashback Engine |
+| EMV Cryptogram Validation | Card Authorization Engine | Core Processing | L3 | ARQC Validation, Chip Cryptogram Service, EMV Validation Service |
+| Stand-In Processing Service | Card Authorization Engine | Core Processing | L3 | STIP Service, On-Behalf-Of Processing, Stand-In Authorization Service |
+| 3-D Secure Service | Card Tokenization Service | Core Processing | L3 | 3DS Service, EMV 3DS ACS, Cardholder Authentication Service |
 
 ## Process sub-processes
 
@@ -581,6 +626,20 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Dormancy & Escheatment | Account Closure | Deposits & Accounts | Escheatment, Abandoned Property Handling |
 | Overdraft Decisioning | Overdraft Servicing | Deposits & Accounts | OD Decisioning, Pay/Return Decision |
 | Overdraft Fee & Notice | Overdraft Servicing | Deposits & Accounts | Fee Application, OD Notice |
+| Card Application & Decisioning | Card Issuance | Cards | Card App & Decision, Issuance Decisioning |
+| Card Production & Fulfillment | Card Issuance | Cards | Production & Fulfillment, Card Personalization |
+| Card Activation & Provisioning | Card Issuance | Cards | Activation & Wallet Provisioning |
+| Dispute Intake & Investigation | Dispute Resolution | Cards | Dispute Intake |
+| Provisional Credit & Resolution | Dispute Resolution | Cards | Resolution & Credit, Dispute Closure |
+| Authorization Validation & Decisioning | Card Transaction Authorization | Cards | Auth Decisioning, Approve/Decline |
+| Authorization Response & Hold | Card Transaction Authorization | Cards | Auth Response, Hold Management |
+| Clearing & Posting | Card Transaction Authorization | Cards | Presentment Posting, Clearing Match |
+| Dispute Intake & Provisional Credit | Chargeback Processing | Cards | Provisional Credit Intake |
+| Chargeback Filing & Representment | Chargeback Processing | Cards | Filing & Representment |
+| Dispute Resolution & Recovery | Chargeback Processing | Cards | Resolution & Recovery, Case Closure |
+| Fraud Detection & Triage | Card Fraud Handling | Cards | Detection & Triage, Alert Triage |
+| Card Containment & Reissue | Card Fraud Handling | Cards | Containment & Reissue, Block & Reissue |
+| Fraud Adjudication & Reporting | Card Fraud Handling | Cards | Adjudication & Reporting, Fraud Disposition |
 
 ## Process flow steps
 
