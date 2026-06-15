@@ -6,7 +6,7 @@ process: Account Closure
 order: 7
 aliases: ["Remit Unclaimed Property", "Escheatment Step"]
 status: draft
-sources: ["https://www.incharge.org/blog/what-happens-to-dormant-bank-accounts/", "https://www.witheisen.com/post/escheatment-process"]
+sources: ["https://unclaimed.org/", "https://www.uniformlaws.org/"]
 ---
 
 # Escheat Dormant Account
@@ -21,8 +21,9 @@ sources: ["https://www.incharge.org/blog/what-happens-to-dormant-bank-accounts/"
 - Escheat Dormant Account mentions Dormancy Notice.
 
 ## Details
-The Unclaimed Property Officer reports and remits the unclaimed balance to the state after the Dormancy Notice. Controls include escheatment and CASS rules and state filing deadlines.
+The Unclaimed Property Officer reports and remits the unclaimed balance to the state after the Dormancy Notice. Controls include state unclaimed-property (escheatment) statutes, statutory dormancy periods and state filing deadlines.
 
 ## References
 - [What happens to dormant bank accounts](https://www.incharge.org/blog/what-happens-to-dormant-bank-accounts/)
-- [Escheatment process](https://www.witheisen.com/post/escheatment-process)
+- [NAUPA — unclaimed property](https://unclaimed.org/)
+- [Uniform Law Commission — RUUPA](https://www.uniformlaws.org/)

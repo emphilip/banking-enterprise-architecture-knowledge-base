@@ -6,7 +6,7 @@ domain: Core Processing
 level: L3
 aliases: ["Dormancy Engine", "Unclaimed Property Service", "Escheatment Service"]
 status: draft
-sources: ["https://www.alogent.com/banking-definitions/core-banking-systems", "https://help.sap.com/docs/SAP_FOR_BANKING/b0c17eb728054c5e92d73923f704edd7/53ffbdb976794b099a360da5b4ec88b6.html"]
+sources: ["https://unclaimed.org/", "https://help.sap.com/docs/SAP_FOR_BANKING/b0c17eb728054c5e92d73923f704edd7/53ffbdb976794b099a360da5b4ec88b6.html"]
 ---
 
 # Dormancy & Escheatment Service
@@ -20,8 +20,8 @@ sources: ["https://www.alogent.com/banking-definitions/core-banking-systems", "h
 - Dormancy & Escheatment Service is related to Account Servicing.
 
 ## Details
-Dormancy & Escheatment Service flags accounts that breach inactivity thresholds, applies dormancy treatment and charges, and drives unclaimed-property escheatment and reporting. Core-banking component definitions include dormancy handling as a core servicing function, and SAP Deposits Management tracks account status across the contract lifecycle, so this service automates detection, treatment and statutory remittance of dormant balances.
+Dormancy & Escheatment Service flags accounts that breach inactivity thresholds, applies dormancy treatment and charges, and drives unclaimed-property escheatment and reporting. State unclaimed-property programs coordinated through NAUPA require holders to report and remit dormant balances, and SAP Deposits Management tracks account status across the contract lifecycle, so this service automates detection, treatment and statutory remittance of dormant balances.
 
 ## References
-- [Alogent core banking systems definitions](https://www.alogent.com/banking-definitions/core-banking-systems)
+- [NAUPA — unclaimed property](https://unclaimed.org/)
 - [SAP Deposits Management](https://help.sap.com/docs/SAP_FOR_BANKING/b0c17eb728054c5e92d73923f704edd7/53ffbdb976794b099a360da5b4ec88b6.html)

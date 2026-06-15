@@ -209,3 +209,39 @@ covered by Temenos Origination); Ellie Mae Encompass cloud-positioning softened.
 capabilities (L1–L4), 70 technology capabilities + sub-capabilities, 51
 processes + sub-processes, 78 process-flow steps, 52 supporting concepts,
 52 legacy + 60 modern systems, 10 glossary terms.
+
+---
+
+## Deep-dive: Deposits & Accounts domain (2026-06-15)
+
+Fourth domain deep-dive via the eval-gated pipeline.
+
+**Added (+126 concepts):** 23 L3 + 22 L4 business capabilities; 11 technology
+sub-capabilities (8 L2, 3 L3) under Core Banking Processing; 3 new top-level
+processes (Account Maintenance, Account Closure, Overdraft Servicing); 11
+sub-processes; 33 ordered process-flow steps across 5 processes (with `## Flow`
+sections); 18 supporting concepts (4 role, 5 event, 9 artifact); 3 new legacy +
+3 new modern systems.
+
+**Eval gates (deterministic):** research / steward / author / weave / all (incl.
+regression) → all **0 FAIL / 0 WARN**.
+
+**Steward:** 2 alias-collision renames (Deposit Statement Production, Deposit
+Statement Delivery); 3 new processes added to the Business processes table; every
+new legacy given a successor (FIS Horizon ← SAP Deposits Management).
+
+**Eval gate (semantic, LLM-judge, `evals/judge-deposits-and-accounts.md`):** PASS
+(means — accuracy 4.50, groundedness 4.00, relationships 4.50, naming 4.08,
+granularity 4.67). Marginal on Groundedness, so six recommended fixes were
+applied to harden it: corrected BIAN domain naming on two L3 notes (Current /
+Savings / Term Deposit; dropped non-existent "Deposit Account" and "Interest
+Determination" domains); removed a factually wrong "CASS rules" control from the
+escheatment step (UK client-money regulation, not US escheatment) and repointed
+dormancy/escheatment sources to NAUPA / Uniform Law Commission RUUPA; tightened
+the Regulation D 7-day/6-day early-withdrawal phrasing. (Note: two earlier judge
+runs were lost to a session-limit reset; this is the completed re-run.)
+
+**Knowledge base totals after Deposits & Accounts deep-dive:** 219 business
+capabilities (L1–L4), 81 technology capabilities + sub-capabilities, 65
+processes + sub-processes, 111 process-flow steps, 69 supporting concepts,
+55 legacy + 63 modern systems, 10 glossary terms.

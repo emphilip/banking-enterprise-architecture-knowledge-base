@@ -16,7 +16,7 @@ first row whose Status is not `done`).
 | 1 | Customer Management | business | done | done | done | done | done |
 | 2 | Payments | business | done | done | done | done | done |
 | 3 | Lending & Credit | business | done | done | done | done | done |
-| 4 | Deposits & Accounts | business | done | done | done | in-progress | in-progress |
+| 4 | Deposits & Accounts | business | done | done | done | done | done |
 | 5 | Cards | business | todo | todo | todo | todo | todo |
 | 6 | Wealth & Investments | business | todo | todo | todo | todo | todo |
 | 7 | Risk Management | business | todo | todo | todo | todo | todo |
@@ -35,17 +35,20 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Deposits & Accounts
-- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-deposits-and-accounts.md)
-
-- Done so far: Payments, Customer Management, Lending & Credit (3 of 15)
+- Domain: Deposits & Accounts (DONE) — 4 of 15 domains deep-dived
+- Phase: DONE — all 5 eval gates 0 FAIL; LLM-judge PASS (evals/judge-deposits-and-accounts.md) after 6 groundedness/accuracy fixes; baseline refreshed (688 files)
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
 - [ ] Deepen the next domain: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
-      (first not-done row = Deposits & Accounts). Same eval-gated pipeline;
-      instruct capability authors to write source-anchored Details up front
-      (proven to clear the Groundedness gate on the first judge pass).
+      (first not-done row = Cards). Same eval-gated pipeline; instruct capability
+      authors to write source-anchored Details up front. Cards domain has 5 v1
+      L2 caps (Card Issuing, Card Authorization, Dispute Management, Card Lifecycle
+      Management under Cards Management) and 2 processes (Card Issuance, Dispute
+      Resolution) + tech Card Processing — consider proposing 2-3 new card
+      processes (e.g. Card Transaction Authorization, Chargeback Management,
+      Card Fraud Handling) for flow coverage.
 
 ## Decisions log
 

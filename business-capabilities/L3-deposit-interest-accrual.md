@@ -6,12 +6,12 @@ domain: Deposits & Accounts
 level: L3
 aliases: ["Credit Interest Accrual", "Savings Interest Accrual"]
 status: draft
-sources: ["https://www.openriskmanual.org/wiki/Category:BIAN_Service_Domain", "https://www.ecfr.gov/current/title-12/chapter-X/part-1030/section-1030.7"]
+sources: ["https://bian.org/servicelandscape/", "https://www.ecfr.gov/current/title-12/chapter-X/part-1030/section-1030.7"]
 ---
 
 # Deposit Interest Accrual
 
-**Definition.** Deposit Interest Accrual computes and accrues credit interest on deposit balances by product and tier, realising the accrual behaviour of the BIAN Interest Determination service domain for savings and term deposits.
+**Definition.** Deposit Interest Accrual computes and accrues credit interest on deposit balances by product and tier, supporting the credit-interest behaviour of the BIAN Savings Account and Term Deposit service domains.
 **Also known as:** Credit Interest Accrual, Savings Interest Accrual.
 
 ## Relationships
@@ -20,8 +20,8 @@ sources: ["https://www.openriskmanual.org/wiki/Category:BIAN_Service_Domain", "h
 - Deposit Interest Accrual depends on the Interest & Charges Engine capability.
 
 ## Details
-The BIAN Interest Determination service domain accrues credit interest; Regulation DD (12 CFR 1030.7) requires interest to be calculated on the full principal balance each day using the daily-balance or average-daily-balance method, driving the annual percentage yield disclosed to the customer.
+Credit-interest accrual sits within the BIAN Savings Account and Term Deposit product service domains; Regulation DD (12 CFR 1030.7) requires interest to be calculated on the full principal balance each day using the daily-balance or average-daily-balance method, driving the annual percentage yield disclosed to the customer.
 
 ## References
-- [BIAN Service Domain catalog (Open Risk Manual)](https://www.openriskmanual.org/wiki/Category:BIAN_Service_Domain)
+- [BIAN Service Landscape](https://bian.org/servicelandscape/)
 - [12 CFR 1030.7 Regulation DD Interest](https://www.ecfr.gov/current/title-12/chapter-X/part-1030/section-1030.7)

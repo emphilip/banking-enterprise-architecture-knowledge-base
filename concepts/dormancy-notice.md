@@ -5,7 +5,7 @@ type: artifact
 domain: Deposits & Accounts
 aliases: ["Abandoned Property Letter", "Pre-Escheatment Notice"]
 status: draft
-sources: ["https://www.mtb.com/personal/checking-accounts/tips-on-managing-your-account/abandoned-funds", "https://www.witheisen.com/post/escheatment-process"]
+sources: ["https://unclaimed.org/", "https://www.uniformlaws.org/"]
 ---
 
 # Dormancy Notice
@@ -23,5 +23,5 @@ sources: ["https://www.mtb.com/personal/checking-accounts/tips-on-managing-your-
 Dormancy Notice informs the account holder that the account has been flagged dormant, states the balance at risk of escheatment, and invites the holder to reactivate by transacting or confirming contact. Dormancy Notice is sent within the statutory due-diligence window, typically months before the abandonment period expires, and the mailing is documented for the escheatment report. Failure to respond to Dormancy Notice leads to remittance of the unclaimed balance to the state.
 
 ## References
-- https://www.mtb.com/personal/checking-accounts/tips-on-managing-your-account/abandoned-funds
-- https://www.witheisen.com/post/escheatment-process
+- [NAUPA — unclaimed property](https://unclaimed.org/)
+- [Uniform Law Commission — RUUPA](https://www.uniformlaws.org/)

@@ -20,7 +20,7 @@ sources: ["https://bian.org/semantic-apis/term-deposit/", "https://www.ecfr.gov/
 - Early Withdrawal Handling depends on the Core Banking Processing capability.
 
 ## Details
-The BIAN Term Deposit early-redemption behaviour computes the break penalty; the early-withdrawal interest penalty on a CD must be disclosed at account opening under Regulation DD (12 CFR 1030.4), and federal rules require a minimum penalty on certain time deposits withdrawn within six days of opening.
+The BIAN Term Deposit early-redemption behaviour computes the break penalty; the early-withdrawal interest penalty on a CD must be disclosed at account opening under Regulation DD (12 CFR 1030.4), and under the Regulation D time-account definition (12 CFR 204.2) a time deposit has a maturity of at least seven days, and a minimum of seven days' simple interest must be charged as a penalty if funds are withdrawn within the first six days after deposit.
 
 ## References
 - [BIAN Term Deposit](https://bian.org/semantic-apis/term-deposit/)
