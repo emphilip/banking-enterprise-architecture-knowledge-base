@@ -36,7 +36,7 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Payments
-- Phase: 2 Steward (done) — proposals reconciled into glossary/_canonical-names.md; steward gate 0 FAIL
+- Phase: 3 Author (in-progress) — 4 sub-agents writing ~90 notes (caps L3/L4, tech sub-caps + systems, sub-processes + flow steps, supporting concepts)
 - Started: 2026-06-15
 - Resume note: proceed to Phase 3 author — author the new L3/L4 capability, tech
   sub-capability, sub-process, process-flow step, and supporting-concept notes per
