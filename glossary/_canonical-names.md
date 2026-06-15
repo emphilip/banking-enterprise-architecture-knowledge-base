@@ -179,6 +179,46 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Customer Value Modelling | L4 | Customer Management | Customer Insight | Lifetime Value Modelling, CLV Analytics, Propensity Modelling |
 | Customer Event Detection | L4 | Customer Management | Behavioural Analytics | Trigger Detection, Life Event Detection |
 | Churn Prediction | L4 | Customer Management | Behavioural Analytics | Attrition Modelling, Retention Analytics |
+| Loan Application Management | L3 | Lending & Credit | Loan Origination | Application Intake (Lending), Credit Application Handling |
+| Affordability Assessment | L3 | Lending & Credit | Loan Origination | Serviceability Assessment, Affordability Check |
+| Loan Pricing | L3 | Lending & Credit | Loan Origination | Risk-Based Pricing, Rate Setting |
+| Loan Approval | L3 | Lending & Credit | Loan Origination | Credit Sanctioning, Offer Issuance |
+| Loan Disbursement | L3 | Lending & Credit | Loan Origination | Fund Disbursement, Loan Drawdown |
+| Loan Documentation Management | L3 | Lending & Credit | Loan Origination | Credit Agreement Management, Loan Doc Preparation |
+| Repayment Processing | L3 | Lending & Credit | Loan Servicing | Loan Repayment Handling, Installment Processing |
+| Loan Account Maintenance | L3 | Lending & Credit | Loan Servicing | Loan Account Administration, Facility Maintenance |
+| Statement & Notices | L3 | Lending & Credit | Loan Servicing | Loan Statements, Borrower Notices |
+| Loan Modification | L3 | Lending & Credit | Loan Servicing | Loan Restructuring, Variation Management |
+| Payoff & Closure | L3 | Lending & Credit | Loan Servicing | Loan Settlement, Loan Closure |
+| Syndicated Loan Administration | L3 | Lending & Credit | Loan Servicing | Syndication Servicing, Participation Management |
+| Collateral Valuation | L3 | Lending & Credit | Collateral Management | Asset Valuation (Lending), Security Valuation |
+| Collateral Perfection | L3 | Lending & Credit | Collateral Management | Lien Perfection, Charge Registration |
+| Collateral Release | L3 | Lending & Credit | Collateral Management | Security Discharge, Lien Release |
+| Guarantee Administration | L3 | Lending & Credit | Collateral Management | Surety Management, Guarantee Servicing |
+| Delinquency Management | L3 | Lending & Credit | Collections & Recovery | Arrears Management, Early Collections |
+| Hardship & Forbearance | L3 | Lending & Credit | Collections & Recovery | Financial Hardship Handling, Forbearance Management |
+| Recovery & Write-Off | L3 | Lending & Credit | Collections & Recovery | Debt Recovery, Charge-Off Management |
+| Application Eligibility Screening | L4 | Lending & Credit | Loan Application Management | Pre-Qualification, Eligibility Pre-Screen |
+| Application Data Capture | L4 | Lending & Credit | Loan Application Management | Loan Data Intake, Applicant Data Capture |
+| Credit Bureau Retrieval | L4 | Lending & Credit | Affordability Assessment | Bureau Pull, Credit Reference Retrieval |
+| Income Verification | L4 | Lending & Credit | Affordability Assessment | Income & Expense Verification, Earnings Verification |
+| Risk-Grade Assignment | L4 | Lending & Credit | Affordability Assessment | Credit Grading, Rating Assignment |
+| Pricing Exception Handling | L4 | Lending & Credit | Loan Pricing | Rate Override Management, Pricing Override |
+| Approval Authority Routing | L4 | Lending & Credit | Loan Approval | Delegated Authority Routing, Mandate Routing |
+| Condition Precedent Tracking | L4 | Lending & Credit | Loan Approval | CP Tracking, Covenant Pre-Disbursement Tracking |
+| Disbursement Authorization | L4 | Lending & Credit | Loan Disbursement | Drawdown Authorization, Release Authorization |
+| Repayment Schedule Management | L4 | Lending & Credit | Repayment Processing | Amortization Scheduling, Schedule Recalculation |
+| Payment Allocation | L4 | Lending & Credit | Repayment Processing | Repayment Allocation, Waterfall Allocation |
+| Prepayment Handling | L4 | Lending & Credit | Repayment Processing | Overpayment Handling, Partial Prepayment |
+| Escrow Administration | L4 | Lending & Credit | Loan Account Maintenance | Impound Account Management, Tax & Insurance Escrow |
+| Interest Accrual Management | L4 | Lending & Credit | Loan Account Maintenance | Loan Interest Accrual, Accrual Posting |
+| Settlement Quotation | L4 | Lending & Credit | Payoff & Closure | Payoff Quote, Redemption Statement |
+| Revaluation Scheduling | L4 | Lending & Credit | Collateral Valuation | Collateral Revaluation, Valuation Refresh |
+| Lien Registration | L4 | Lending & Credit | Collateral Perfection | Charge Filing, Security Registration |
+| Treatment Strategy Management | L4 | Lending & Credit | Delinquency Management | Collections Strategy, Treatment Path Management |
+| Promise-To-Pay Management | L4 | Lending & Credit | Delinquency Management | PTP Management, Repayment Promise Tracking |
+| Repossession Management | L4 | Lending & Credit | Recovery & Write-Off | Asset Repossession, Collateral Liquidation |
+| Debt Sale Management | L4 | Lending & Credit | Recovery & Write-Off | Portfolio Debt Sale, NPL Sale |
 
 ## Business processes
 
@@ -300,6 +340,10 @@ Format: Canonical Name | Realizes (tech capability depends_on it) | Vendor | Ali
 | ACI Enterprise Payments Platform | Payment Orchestration | ACI Worldwide | ACI EPP, UP Real-Time Payments |
 | SAP CRM | CRM Platform | SAP | SAP CRM 7.0, mySAP CRM |
 | Informatica MDM | Master Data Management | Informatica | Informatica MDM Hub, Siperian |
+| Ellie Mae Encompass | Loan Origination Platform | ICE Mortgage Technology | Encompass, ICE Encompass, Ellie Mae |
+| Finastra LaserPro | Loan Origination Platform | Finastra | LaserPro |
+| FICO Origination Manager | Credit Decisioning Engine | FICO | Origination Manager |
+| Experian PowerCurve | Credit Decisioning Engine | Experian | PowerCurve, PowerCurve Strategy Management, PowerCurve Originations |
 
 ## Modern systems
 
@@ -364,6 +408,9 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Pega Customer Service | CRM Platform | Siebel CRM | Pegasystems | Pega CRM, Pega CS |
 | Reltio | Master Data Management | Informatica MDM | Reltio | Reltio Data Cloud, Reltio MDM |
 | Amazon Lex | Conversational AI | Legacy IVR System | Amazon Web Services | AWS Lex, Lex V2 |
+| Temenos Origination | Loan Origination Platform | Ellie Mae Encompass; Finastra LaserPro | Temenos | Temenos Infinity Origination, Infinity Origination |
+| MeridianLink | Loan Origination Platform | Ellie Mae Encompass | MeridianLink | MeridianLink Consumer, MeridianLink Opening |
+| Provenir | Credit Decisioning Engine | FICO Origination Manager; Experian PowerCurve | Provenir | Provenir AI, Provenir Decisioning |
 
 ## Glossary terms
 
@@ -411,6 +458,19 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Survivorship Rule Engine | Golden Record Management | Data & Analytics | L3 | Survivorship Rules, Field Survivorship |
 | Passwordless Authentication | Customer Authentication | Security & Identity | L3 | Passkey Service, FIDO2 Service |
 | Identity Orchestration Engine | Identity Proofing Service | Security & Identity | L3 | Identity Orchestration, Proofing Orchestration |
+| Application Intake Engine | Loan Origination Platform | Core Processing | L2 | Application Capture Engine, Origination Intake Service |
+| Document Capture & Verification | Loan Origination Platform | Core Processing | L2 | Document Capture Service, Doc Verification Engine |
+| Loan Product Configurator | Loan Origination Platform | Core Processing | L2 | Product Configurator, Lending Product Designer |
+| Offer & Pricing Engine | Loan Origination Platform | Core Processing | L2 | Loan Pricing Engine, Offer Generation Service |
+| Disbursement Engine | Loan Origination Platform | Core Processing | L2 | Loan Booking & Funding, Funding Engine |
+| Credit Scoring Service | Credit Decisioning Engine | Core Processing | L2 | Scorecard Service, Credit Score Engine |
+| Affordability Assessment Engine | Credit Decisioning Engine | Core Processing | L2 | Affordability Engine, Repayment Capacity Service |
+| Decision Rules Engine | Credit Decisioning Engine | Core Processing | L2 | Underwriting Rules Engine, Policy Rules Engine |
+| Bureau Data Integration | Credit Decisioning Engine | Core Processing | L2 | Bureau Connectivity Service, Credit Data Aggregation |
+| Adverse Action Generator | Credit Decisioning Engine | Core Processing | L2 | Adverse Action Service, Reason Code Generator |
+| Income Verification Service | Affordability Assessment Engine | Core Processing | L3 | Income & Employment Verification, Payroll Verification Service |
+| Reject Inference Model | Credit Scoring Service | Core Processing | L3 | Reject Inference Engine, Inference Scorecard |
+| Strategy Design Studio | Decision Rules Engine | Core Processing | L3 | Strategy Authoring Studio, Champion-Challenger Workbench |
 
 ## Process sub-processes
 
@@ -433,6 +493,18 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Complaint Closure & Learning | Complaint Handling | Customer Management | Closure & RCA, Learning & Reporting |
 | Request Intake & Triage | Service Request Handling | Customer Management | Request Logging, Request Intake Triage |
 | Request Fulfilment & Closure | Service Request Handling | Customer Management | Fulfilment & Closure, Resolution & Closure |
+| Application Origination & Pre-Qualification | Loan Origination Workflow | Lending & Credit | Origination Pre-Qualification, Pre-Qual |
+| Application Processing & Verification | Loan Origination Workflow | Lending & Credit | Loan Processing, File Verification |
+| Offer & Disbursement | Loan Origination Workflow | Lending & Credit | Offer & Funding, Disbursement |
+| Risk & Affordability Assessment | Credit Underwriting | Lending & Credit | 5 Cs Assessment, Affordability Review |
+| Credit Adjudication | Credit Underwriting | Lending & Credit | Adjudication, Credit Decisioning Sub-Process |
+| Mortgage Application & Disclosure | Mortgage Origination | Lending & Credit | Mortgage Intake, TRID Disclosure |
+| Property & Title Diligence | Mortgage Origination | Lending & Credit | Collateral Diligence, Appraisal & Title |
+| Closing & Mortgage Funding | Mortgage Origination | Lending & Credit | Closing & Funding, CTC |
+| Early-Stage Collections | Loan Collections | Lending & Credit | Early Collections, Soft Collections |
+| Late-Stage Recovery | Loan Collections | Lending & Credit | Late Collections, Hard Collections |
+| Documentary Credit Issuance | Trade Finance Processing | Lending & Credit | LC Issuance, Credit Issuance |
+| Presentation & Settlement | Trade Finance Processing | Lending & Credit | Document Examination, LC Settlement |
 
 ## Process flow steps
 
@@ -484,6 +556,38 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Fulfil Request | Service Request Handling | 5 | Core Banking Processing | Action Request, Request Fulfilment Step |
 | Confirm Resolution | Service Request Handling | 6 | Notification Services | Notify Customer, Resolution Confirmation Step |
 | Close Request | Service Request Handling | 7 | Case Management | Resolve & Close Request, Request Closure Step |
+| Capture Loan Application | Loan Origination Workflow | 1 | Loan Origination Platform | Intake Loan Request, Loan Capture Step |
+| Pre-Qualify Borrower | Loan Origination Workflow | 2 | Credit Decisioning Engine | Soft Eligibility Check, Prequal Step |
+| Collect Supporting Documents | Loan Origination Workflow | 3 | Intelligent Document Processing | Gather Loan Documents, Document Intake Step |
+| Verify Borrower Income | Loan Origination Workflow | 4 | Document Management | Income Verification Step, Verify Affordability Inputs |
+| Render Loan Decision | Loan Origination Workflow | 5 | Credit Decisioning Engine | Decide Loan, Loan Adjudication Step |
+| Issue Loan Offer | Loan Origination Workflow | 6 | Loan Origination Platform | Present Loan Offer, Offer Issuance Step |
+| Disburse Loan Funds | Loan Origination Workflow | 7 | Core Banking Processing | Fund Loan, Disbursement Step |
+| Pull Credit Report | Credit Underwriting | 1 | Credit Decisioning Engine | Order Bureau Data, Credit Pull Step |
+| Score Credit Risk | Credit Underwriting | 2 | Machine Learning Platform | Risk Grading Step, Credit Scoring |
+| Assess Affordability | Credit Underwriting | 3 | Credit Decisioning Engine | Capacity Test, Affordability Step |
+| Evaluate Collateral | Credit Underwriting | 4 | Credit Decisioning Engine | Security Evaluation Step, Collateral Review |
+| Apply Credit Policy | Credit Underwriting | 5 | Credit Decisioning Engine | Policy Check Step, Conditions Setting |
+| Adjudicate Credit | Credit Underwriting | 6 | Workflow Orchestration | Make Credit Decision, Adjudication Step |
+| Take Mortgage Application | Mortgage Origination | 1 | Loan Origination Platform | Capture 1003, Mortgage Intake Step |
+| Issue Loan Estimate | Mortgage Origination | 2 | Document Management | Deliver LE, TRID Disclosure Step |
+| Order Property Appraisal | Mortgage Origination | 3 | Collateral Management | Order Valuation, Appraisal Step |
+| Review Title And Liens | Mortgage Origination | 4 | Document Management | Title Examination Step, Lien Search |
+| Clear To Close | Mortgage Origination | 5 | Credit Decisioning Engine | CTC Step, Final Approval |
+| Deliver Closing Disclosure | Mortgage Origination | 6 | Document Management | Deliver CD, Closing Disclosure Step |
+| Fund Mortgage Loan | Mortgage Origination | 7 | Core Banking Processing | Close And Fund, Mortgage Funding Step |
+| Detect Delinquency | Loan Collections | 1 | Core Banking Processing | Identify Arrears, Delinquency Detection Step |
+| Segment Arrears | Loan Collections | 2 | Analytics Platform | Prioritise Accounts, Arrears Segmentation Step |
+| Contact Borrower | Loan Collections | 3 | Notification Services | Dunning Outreach, Borrower Contact Step |
+| Negotiate Repayment | Loan Collections | 4 | Workflow Orchestration | Arrange Repayment, Promise-To-Pay Step |
+| Escalate To Recovery | Loan Collections | 5 | Workflow Orchestration | Escalate Arrears, Recovery Escalation Step |
+| Charge Off Debt | Loan Collections | 6 | Core Banking Processing | Write Off Debt, Charge-Off Step |
+| Receive Credit Application | Trade Finance Processing | 1 | Workflow Orchestration | Take LC Request, Credit Application Step |
+| Assess Trade Limit | Trade Finance Processing | 2 | Credit Decisioning Engine | Trade Limit Check, Credit Margining Step |
+| Issue Letter Of Credit | Trade Finance Processing | 3 | Integration Platform | Issue LC, Credit Issuance Step |
+| Advise Beneficiary | Trade Finance Processing | 4 | Notification Services | Advise LC, Beneficiary Advising Step |
+| Examine Trade Documents | Trade Finance Processing | 5 | Document Management | Check Documents, Document Examination Step |
+| Settle Trade Payment | Trade Finance Processing | 6 | Core Banking Processing | Honor Presentation, Trade Settlement Step |
 
 ## Supporting concepts
 
@@ -522,3 +626,22 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Complaint Record | artifact | Complaint Case, Complaint File |
 | Final Response Letter | artifact | Final Response, FRL |
 | Service Request Ticket | artifact | Service Ticket, Request Ticket |
+| Loan Officer | role | Loan Originator, Lending Officer |
+| Loan Processor | role | Loan Processing Clerk, File Processor |
+| Credit Underwriter | role | Underwriter, Credit Analyst |
+| Mortgage Loan Originator | role | MLO, Mortgage Consultant |
+| Mortgage Closer | role | Closing Officer, Funder |
+| Collections Agent | role | Collector, Arrears Agent |
+| Recovery Officer | role | Recoveries Officer, Recovery Specialist |
+| Trade Finance Officer | role | Trade Finance Specialist, LC Officer |
+| Loan Application Submitted Event | event | Application Received Event, Origination Started Event |
+| Credit Decision Issued Event | event | Decision Rendered Event, Adjudication Complete Event |
+| Loan Funded Event | event | Disbursement Event, Loan Booked Event |
+| Loan Charged Off Event | event | Charge-Off Event, Write-Off Event |
+| Trade Settlement Event | event | LC Settled Event, Presentation Honored Event |
+| Loan Application | artifact | Credit Application, Loan Request |
+| Credit Report | artifact | Bureau Report, Credit File |
+| Credit Decision | artifact | Underwriting Outcome, Adjudication Record |
+| Loan Agreement | artifact | Credit Agreement, Promissory Note |
+| Collateral Appraisal | artifact | Property Appraisal, Valuation Report |
+| Letter Of Credit | artifact | Documentary Credit, LC |

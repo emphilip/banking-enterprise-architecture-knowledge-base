@@ -36,7 +36,7 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Lending & Credit
-- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-lending-and-credit-{bian,flows,tech}.md
+- Phase: 2 Steward (done) — three proposals reconciled into glossary/_canonical-names.md; steward gate 0 FAIL / 0 WARN. Next: Phase 3 Author.
 - Done so far: Payments, Customer Management (2 of 15)
 
 ## Next actions (ordered — keep specific enough to resume cold)
@@ -48,6 +48,29 @@ decomposition into sharper focus.
 
 ## Decisions log
 
+- (2026-06-15, Phase 2 Steward, Lending & Credit) Reconciled the three Lending &
+  Credit proposals (bian, flows, tech) into glossary/_canonical-names.md. Counts
+  added per section: Business capabilities +40 (19 L3, 21 L4, all Domain=Lending &
+  Credit); Technology sub-capabilities +13 (10 L2 under Loan Origination Platform /
+  Credit Decisioning Engine, 3 L3, all Domain=Core Processing); Process
+  sub-processes +12 (3 Loan Origination Workflow, 2 Credit Underwriting, 3 Mortgage
+  Origination, 2 Loan Collections, 2 Trade Finance Processing); Process flow steps
+  +32 (7 Loan Origination Workflow, 6 Credit Underwriting, 7 Mortgage Origination,
+  6 Loan Collections, 6 Trade Finance Processing); Supporting concepts +19 (8 role,
+  5 event, 6 artifact); Legacy systems +4 (Ellie Mae Encompass, Finastra LaserPro,
+  FICO Origination Manager, Experian PowerCurve); Modern systems +3 (Temenos
+  Origination, MeridianLink, Provenir). Total +123 rows. Renames (all of colliding
+  proposed ALIASES, not canonical names — no canonical-name collisions existed):
+  (1) sub-process "Application Origination & Pre-Qualification" alias "Origination
+  Intake" -> "Origination Pre-Qualification" (Origination Intake is an existing
+  alias of Application Processing). (2) sub-process "Late-Stage Recovery" alias
+  "Recoveries" -> "Late Collections" (Recoveries is an existing alias of Collections
+  & Recovery). (3) supporting artifact "Credit Decision" alias "Underwriting
+  Decision" -> "Underwriting Outcome" (Underwriting Decision is an existing alias of
+  Credit Decisioning). Coverage: every new legacy has a modern successor — Ellie Mae
+  Encompass <- Temenos Origination, MeridianLink; Finastra LaserPro <- Temenos
+  Origination; FICO Origination Manager <- Provenir; Experian PowerCurve <- Provenir.
+  No "no successor" WARNs. Steward gate: 0 FAIL, 0 WARN.
 - (2026-06-15, Phase 2 Steward, Customer Management) Reconciled the three
   Customer Management proposals (bian, flows, tech) into
   glossary/_canonical-names.md. Counts added per section: Business capabilities
