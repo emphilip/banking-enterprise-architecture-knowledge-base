@@ -1,10 +1,269 @@
 {
-  "generated": "2026-06-15T03:10:36.636454Z",
-  "phase": "steward",
+  "generated": "2026-06-15T03:12:32.717640Z",
+  "phase": "author",
   "counts": {
-    "FAIL": 0,
+    "FAIL": 43,
     "WARN": 0,
     "INFO": 0
   },
-  "findings": []
+  "findings": [
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/complaint-record.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/consent-record.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/customer-application.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/final-response-letter.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/kyc-profile.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/onboarding-case.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/service-request-ticket.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "systems/legacy/informatica-mdm.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "systems/legacy/sap-crm.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "systems/modern/amazon-lex.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "systems/modern/microsoft-dynamics-365.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "systems/modern/pega-customer-service.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "systems/modern/reltio.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/agent-assist.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/identity-orchestration-engine.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/identity-proofing-service.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/passwordless-authentication.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/probabilistic-match-engine.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/self-service-virtual-assistant.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/survivorship-rule-engine.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/complaint-handling/01-log-complaint.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/complaint-handling/02-acknowledge-complaint.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/complaint-handling/03-triage-complaint.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/complaint-handling/04-investigate-complaint.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/complaint-handling/05-determine-outcome.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/complaint-handling/06-issue-final-response.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/complaint-handling/07-conduct-root-cause.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/complaint-handling/08-close-complaint.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/customer-onboarding/02-capture-consent.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/customer-onboarding/03-collect-documents.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/customer-onboarding/04-verify-identity.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/customer-onboarding/05-screen-customer.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/customer-onboarding/06-assess-customer-risk.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/customer-onboarding/07-approve-onboarding.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/customer-onboarding/08-create-customer-record.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/customer-onboarding/09-activate-customer.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/service-request-handling/01-capture-request.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/service-request-handling/02-authenticate-requester.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/service-request-handling/03-categorize-request.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/service-request-handling/04-assess-request.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/service-request-handling/05-fulfil-request.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/service-request-handling/06-confirm-resolution.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/service-request-handling/07-close-request.md",
+      "message": "registry step missing its file"
+    }
+  ]
 }
