@@ -19,6 +19,29 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[06-monitor-liquidity-position|Monitor Liquidity Position]]
 - [[07-report-cash-status|Report Cash Status]]
 
+## Complaint Handling
+
+- [[01-log-complaint|Log Complaint]]
+- [[02-acknowledge-complaint|Acknowledge Complaint]]
+- [[03-triage-complaint|Triage Complaint]]
+- [[04-investigate-complaint|Investigate Complaint]]
+- [[05-determine-outcome|Determine Outcome]]
+- [[06-issue-final-response|Issue Final Response]]
+- [[07-conduct-root-cause|Conduct Root Cause]]
+- [[08-close-complaint|Close Complaint]]
+
+## Customer Onboarding
+
+- [[01-receive-application|Receive Application]]
+- [[02-capture-consent|Capture Consent]]
+- [[03-collect-documents|Collect Documents]]
+- [[04-verify-identity|Verify Identity]]
+- [[05-screen-customer|Screen Customer]]
+- [[06-assess-customer-risk|Assess Customer Risk]]
+- [[07-approve-onboarding|Approve Onboarding]]
+- [[08-create-customer-record|Create Customer Record]]
+- [[09-activate-customer|Activate Customer]]
+
 ## Payment Processing
 
 - [[01-receive-payment-instruction|Receive Payment Instruction]]
@@ -39,3 +62,13 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[05-investigate-break|Investigate Break]]
 - [[06-post-adjustment|Post Adjustment]]
 - [[07-sign-off-reconciliation|Sign Off Reconciliation]]
+
+## Service Request Handling
+
+- [[01-capture-request|Capture Request]]
+- [[02-authenticate-requester|Authenticate Requester]]
+- [[03-categorize-request|Categorize Request]]
+- [[04-assess-request|Assess Request]]
+- [[05-fulfil-request|Fulfil Request]]
+- [[06-confirm-resolution|Confirm Resolution]]
+- [[07-close-request|Close Request]]

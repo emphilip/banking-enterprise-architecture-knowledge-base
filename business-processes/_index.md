@@ -42,3 +42,14 @@ Map-of-Content for processes and their sub-processes. Processes are defined_in a
 - [[suspicious-activity-reporting|Suspicious Activity Reporting]]
 - [[trade-finance-processing|Trade Finance Processing]]
 - [[wealth-onboarding|Wealth Onboarding]]
+
+## Sub-Processes
+
+- [[account-setup-and-activation|Account Setup & Activation]]
+- [[application-intake-and-capture|Application Intake & Capture]]
+- [[complaint-closure-and-learning|Complaint Closure & Learning]]
+- [[complaint-intake-and-triage|Complaint Intake & Triage]]
+- [[complaint-investigation-and-redress|Complaint Investigation & Redress]]
+- [[identity-and-due-diligence|Identity & Due Diligence]]
+- [[request-fulfilment-and-closure|Request Fulfilment & Closure]]
+- [[request-intake-and-triage|Request Intake & Triage]]

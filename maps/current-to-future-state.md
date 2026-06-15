@@ -72,6 +72,10 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - ACI Connetic supersedes ACI Enterprise Payments Platform.
 - Bottomline Payments supersedes ACH Batch Processor.
 - Bottomline Payments supersedes FIS Open Payment Framework.
+- Microsoft Dynamics 365 supersedes SAP CRM.
+- Pega Customer Service supersedes Siebel CRM.
+- Reltio supersedes Informatica MDM.
+- Amazon Lex supersedes Legacy IVR System.
 
 ## Realization statements
 
@@ -121,6 +125,8 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Payment Orchestration depends on FIS Open Payment Framework.
 - Payment Orchestration depends on Finastra Global PAYplus.
 - Payment Orchestration depends on ACI Enterprise Payments Platform.
+- CRM Platform depends on SAP CRM.
+- Master Data Management depends on Informatica MDM.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -174,6 +180,10 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Payment Orchestration depends on Form3.
 - Payment Orchestration depends on ACI Connetic.
 - Payment Orchestration depends on Bottomline Payments.
+- CRM Platform depends on Microsoft Dynamics 365.
+- CRM Platform depends on Pega Customer Service.
+- Master Data Management depends on Reltio.
+- Conversational AI depends on Amazon Lex.
 
 ## Successor matrix
 | Technology Capability | Legacy System | Modern Successor |
@@ -181,11 +191,14 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | API Management | CA API Gateway | Apigee |
 | API Management | CA API Gateway | Kong |
 | Analytics Platform | IBM Cognos | Microsoft Power BI |
+| CRM Platform | SAP CRM | Microsoft Dynamics 365 |
+| CRM Platform | Siebel CRM | Pega Customer Service |
 | CRM Platform | Siebel CRM | Salesforce Financial Services Cloud |
 | Card Processing | First Data Cards | Galileo |
 | Card Processing | TSYS TS2 | Marqeta |
 | Contact Center Platform | Avaya Aura | Amazon Connect |
 | Contact Center Platform | Cisco UCCE | Genesys Cloud |
+| Conversational AI | Legacy IVR System | Amazon Lex |
 | Conversational AI | Legacy IVR System | Kasisto |
 | Core Banking Processing | FIS Profile | Finxact |
 | Core Banking Processing | Fiserv DNA | Mambu |
@@ -223,6 +236,7 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Machine Learning Platform | SAS Platform | Amazon SageMaker |
 | Machine Learning Platform | SAS Platform | DataRobot |
 | Machine Learning Platform | SAS Platform | Google Vertex AI |
+| Master Data Management | Informatica MDM | Reltio |
 | Payment Orchestration | ACH Batch Processor | Bottomline Payments |
 | Payment Orchestration | ACH Batch Processor | Modern Treasury |
 | Payment Orchestration | ACH Batch Processor | Stripe |
