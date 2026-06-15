@@ -17,6 +17,7 @@ sources: ["https://www.form3.tech/platform", "https://www.form3.tech/en-us/about
 ## Relationships
 - Payment Orchestration depends on Form3.
 - Form3 supersedes Legacy Payment Hub.
+- Form3 supersedes Finastra Global PAYplus.
 
 ## Details
 Form3 is a cloud-native, multi-cloud Payments-as-a-Service platform that provides zero-downtime account-to-account processing and a single API for connectivity to domestic and international payment schemes. Its managed, elastic model removes on-premises payment-hub operations, modernizing legacy payment infrastructure with real-time, standards-based processing.

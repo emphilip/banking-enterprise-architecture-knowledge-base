@@ -7,9 +7,10 @@ status: draft
 
 # Modern Systems Index
 
-Map-of-Content for emerging cloud-native / AI-driven systems. Each system realizes a technology capability and supersedes a legacy system delivering the same capability.
+Map-of-Content for modern / cloud-native / AI systems. Each realizes a technology capability and supersedes a legacy system.
 
 - [[10x-banking|10x Banking]]
+- [[aci-connetic|ACI Connetic]]
 - [[aws-textract|AWS Textract]]
 - [[adyen|Adyen]]
 - [[amazon-connect|Amazon Connect]]
@@ -20,6 +21,7 @@ Map-of-Content for emerging cloud-native / AI-driven systems. Each system realiz
 - [[backbase|Backbase]]
 - [[blend|Blend]]
 - [[boomi|Boomi]]
+- [[bottomline-payments|Bottomline Payments]]
 - [[camunda|Camunda]]
 - [[complyadvantage|ComplyAdvantage]]
 - [[confluent-platform|Confluent Platform]]
@@ -29,6 +31,7 @@ Map-of-Content for emerging cloud-native / AI-driven systems. Each system realiz
 - [[feedzai|Feedzai]]
 - [[finxact|Finxact]]
 - [[forgerock|ForgeRock]]
+- [[form3|Form3]]
 - [[galileo|Galileo]]
 - [[genesys-cloud|Genesys Cloud]]
 - [[google-bigquery|Google BigQuery]]

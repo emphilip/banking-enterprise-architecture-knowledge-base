@@ -7,7 +7,7 @@ status: draft
 
 # Current to Future State Map
 
-This map pairs each legacy / current-state system with the modern, cloud-native or AI-driven system that supersedes it for the same technology capability. The supersedes and depends_on edges below are authoritative prose.
+Each legacy / current-state system and the modern system(s) that supersede it for the same technology capability.
 
 ## Successor statements
 
@@ -66,6 +66,12 @@ This map pairs each legacy / current-state system with the modern, cloud-native 
 - Microsoft Power BI supersedes IBM Cognos.
 - Kasisto supersedes Legacy IVR System.
 - Anthropic Claude supersedes Legacy IVR System.
+- Form3 supersedes Legacy Payment Hub.
+- Form3 supersedes Finastra Global PAYplus.
+- ACI Connetic supersedes ACI BASE24.
+- ACI Connetic supersedes ACI Enterprise Payments Platform.
+- Bottomline Payments supersedes ACH Batch Processor.
+- Bottomline Payments supersedes FIS Open Payment Framework.
 
 ## Realization statements
 
@@ -112,6 +118,9 @@ This map pairs each legacy / current-state system with the modern, cloud-native 
 - Contact Center Platform depends on Cisco UCCE.
 - Digital Channel Platform depends on Legacy Online Banking.
 - Conversational AI depends on Legacy IVR System.
+- Payment Orchestration depends on FIS Open Payment Framework.
+- Payment Orchestration depends on Finastra Global PAYplus.
+- Payment Orchestration depends on ACI Enterprise Payments Platform.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -162,9 +171,11 @@ This map pairs each legacy / current-state system with the modern, cloud-native 
 - Analytics Platform depends on Microsoft Power BI.
 - Conversational AI depends on Kasisto.
 - Generative AI Platform depends on Anthropic Claude.
+- Payment Orchestration depends on Form3.
+- Payment Orchestration depends on ACI Connetic.
+- Payment Orchestration depends on Bottomline Payments.
 
 ## Successor matrix
-
 | Technology Capability | Legacy System | Modern Successor |
 |---|---|---|
 | API Management | CA API Gateway | Apigee |
@@ -212,10 +223,16 @@ This map pairs each legacy / current-state system with the modern, cloud-native 
 | Machine Learning Platform | SAS Platform | Amazon SageMaker |
 | Machine Learning Platform | SAS Platform | DataRobot |
 | Machine Learning Platform | SAS Platform | Google Vertex AI |
+| Payment Orchestration | ACH Batch Processor | Bottomline Payments |
 | Payment Orchestration | ACH Batch Processor | Modern Treasury |
 | Payment Orchestration | ACH Batch Processor | Stripe |
+| Payment Orchestration | ACI BASE24 | ACI Connetic |
 | Payment Orchestration | ACI BASE24 | Volante Payments |
+| Payment Orchestration | ACI Enterprise Payments Platform | ACI Connetic |
+| Payment Orchestration | FIS Open Payment Framework | Bottomline Payments |
+| Payment Orchestration | Finastra Global PAYplus | Form3 |
 | Payment Orchestration | Legacy Payment Hub | Adyen |
+| Payment Orchestration | Legacy Payment Hub | Form3 |
 | Regulatory Reporting Engine | AxiomSL | Regnology |
 | Regulatory Reporting Engine | Wolters Kluwer OneSumX | Suade |
 | Transaction Monitoring Platform | NICE Actimize | ComplyAdvantage |

@@ -321,9 +321,9 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Microsoft Power BI | Analytics Platform | IBM Cognos | Microsoft | Power BI |
 | Kasisto | Conversational AI | Legacy IVR System | Kasisto | KAI |
 | Anthropic Claude | Generative AI Platform | Legacy IVR System | Anthropic | Claude |
-| Form3 | Payment Orchestration | Legacy Payment Hub | Form3 | Form3 Financial Cloud, Form3 PaaS |
-| ACI Connetic | Payment Orchestration | ACI BASE24 | ACI Worldwide | Connetic |
-| Bottomline Payments | Payment Orchestration | ACH Batch Processor | Bottomline Technologies | Bottomline, PTX |
+| Form3 | Payment Orchestration | Legacy Payment Hub; Finastra Global PAYplus | Form3 | Form3 Financial Cloud, Form3 PaaS |
+| ACI Connetic | Payment Orchestration | ACI BASE24; ACI Enterprise Payments Platform | ACI Worldwide | Connetic |
+| Bottomline Payments | Payment Orchestration | ACH Batch Processor; FIS Open Payment Framework | Bottomline Technologies | Bottomline, PTX |
 
 ## Glossary terms
 

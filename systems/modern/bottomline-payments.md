@@ -17,6 +17,7 @@ sources: ["https://www.bottomline.com/uk/payments-connectivity-compliance-financ
 ## Relationships
 - Payment Orchestration depends on Bottomline Payments.
 - Bottomline Payments supersedes ACH Batch Processor.
+- Bottomline Payments supersedes FIS Open Payment Framework.
 
 ## Details
 Bottomline Payments is a cloud payments platform providing ISO 20022 message transformation and enrichment, validation and connectivity across business-to-bank payment flows. Its managed translation and connectivity services modernize batch-oriented payment processing with standards-based, real-time capable flows.

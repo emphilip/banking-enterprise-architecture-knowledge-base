@@ -7,10 +7,11 @@ status: draft
 
 # Legacy Systems Index
 
-Map-of-Content for current-state / incumbent systems. Each system realizes a technology capability (that technology capability depends_on the system) and is superseded by a modern system.
+Map-of-Content for current-state / incumbent systems. Each realizes a technology capability and is superseded by a modern system.
 
 - [[ach-batch-processor|ACH Batch Processor]]
 - [[aci-base24|ACI BASE24]]
+- [[aci-enterprise-payments-platform|ACI Enterprise Payments Platform]]
 - [[avaya-aura|Avaya Aura]]
 - [[axiomsl|AxiomSL]]
 - [[black-knight-empower|Black Knight Empower]]
@@ -18,7 +19,9 @@ Map-of-Content for current-state / incumbent systems. Each system realizes a tec
 - [[ca-siteminder|CA SiteMinder]]
 - [[cisco-ucce|Cisco UCCE]]
 - [[fico-falcon|FICO Falcon]]
+- [[fis-open-payment-framework|FIS Open Payment Framework]]
 - [[fis-profile|FIS Profile]]
+- [[finastra-global-payplus|Finastra Global PAYplus]]
 - [[first-data-cards|First Data Cards]]
 - [[fiserv-dna|Fiserv DNA]]
 - [[ibm-cognos|IBM Cognos]]

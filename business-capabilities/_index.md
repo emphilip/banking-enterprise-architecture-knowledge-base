@@ -7,7 +7,7 @@ status: draft
 
 # Business Capabilities Index
 
-Map-of-Content for the L1→L2→L3 business capability map (grounded in BIAN and APQC PCF). Children are derived_from their parent; each capability is defined_in a domain.
+Map-of-Content for the L1->L2->L3->L4 capability map (BIAN / APQC). Children are derived_from their parent; each capability is defined_in a domain.
 
 ## L1 Capabilities
 
@@ -71,16 +71,52 @@ Map-of-Content for the L1→L2→L3 business capability map (grounded in BIAN an
 
 ## L3 Capabilities
 
+- [[L3-bulk-payment-origination|Bulk Payment Origination]]
 - [[L3-case-management|Case Management]]
+- [[L3-correspondent-banking|Correspondent Banking]]
 - [[L3-credit-decisioning|Credit Decisioning]]
 - [[L3-cross-border-payments|Cross-Border Payments]]
 - [[L3-customer-due-diligence|Customer Due Diligence]]
 - [[L3-customer-profile-management|Customer Profile Management]]
+- [[L3-direct-debit-collection|Direct Debit Collection]]
+- [[L3-direct-debit-mandate-management|Direct Debit Mandate Management]]
+- [[L3-direct-debit-returns|Direct Debit Returns]]
 - [[L3-domestic-payments|Domestic Payments]]
 - [[L3-identity-verification|Identity Verification]]
+- [[L3-interbank-clearing|Interbank Clearing]]
+- [[L3-interbank-settlement|Interbank Settlement]]
 - [[L3-mobile-banking|Mobile Banking]]
 - [[L3-online-banking|Online Banking]]
+- [[L3-payment-exceptions-and-investigations|Payment Exceptions & Investigations]]
+- [[L3-payment-order-capture|Payment Order Capture]]
+- [[L3-payment-pre-validation|Payment Pre-Validation]]
+- [[L3-payment-rail-connectivity|Payment Rail Connectivity]]
+- [[L3-payment-screening|Payment Screening]]
+- [[L3-payment-status-tracking|Payment Status Tracking]]
 - [[L3-real-time-payments|Real-Time Payments]]
 - [[L3-regulatory-reporting|Regulatory Reporting]]
+- [[L3-request-to-pay|Request To Pay]]
 - [[L3-sanctions-screening|Sanctions Screening]]
+- [[L3-settlement-liquidity-management|Settlement Liquidity Management]]
+- [[L3-standing-order-management|Standing Order Management]]
 - [[L3-transaction-monitoring|Transaction Monitoring]]
+
+## L4 Capabilities
+
+- [[L4-ach-return-handling|ACH Return Handling]]
+- [[L4-alias-resolution|Alias Resolution]]
+- [[L4-collection-scheduling|Collection Scheduling]]
+- [[L4-credit-transfer-execution|Credit Transfer Execution]]
+- [[L4-cross-border-fee-calculation|Cross-Border Fee Calculation]]
+- [[L4-debit-transfer-execution|Debit Transfer Execution]]
+- [[L4-fx-conversion-for-payments|FX Conversion For Payments]]
+- [[L4-file-validation-and-enrichment|File Validation & Enrichment]]
+- [[L4-instant-payment-clearing|Instant Payment Clearing]]
+- [[L4-instant-payment-confirmation|Instant Payment Confirmation]]
+- [[L4-mandate-verification|Mandate Verification]]
+- [[L4-nostro-reconciliation|Nostro Reconciliation]]
+- [[L4-payment-authorization-capture|Payment Authorization Capture]]
+- [[L4-payment-limit-checking|Payment Limit Checking]]
+- [[L4-swift-message-processing|SWIFT Message Processing]]
+- [[L4-same-day-ach-processing|Same Day ACH Processing]]
+- [[L4-settlement-reconciliation|Settlement Reconciliation]]

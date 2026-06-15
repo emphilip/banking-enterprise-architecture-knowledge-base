@@ -7,7 +7,7 @@ status: draft
 
 # Technology Capabilities Index
 
-Map-of-Content for the technology capabilities that enable the business capabilities. Each is defined_in a technology domain; business capabilities depend_on these.
+Map-of-Content for technology capabilities and their L2/L3 sub-capabilities, grouped by technology domain.
 
 ## AI & Automation
 
@@ -31,8 +31,19 @@ Map-of-Content for the technology capabilities that enable the business capabili
 - [[core-banking-processing|Core Banking Processing]]
 - [[credit-decisioning-engine|Credit Decisioning Engine]]
 - [[general-ledger-engine|General Ledger Engine]]
+- [[iso-20022-translation-service|ISO 20022 Translation Service]]
+- [[least-cost-routing-service|Least-Cost Routing Service]]
+- [[liquidity-and-limit-checker|Liquidity & Limit Checker]]
 - [[loan-origination-platform|Loan Origination Platform]]
+- [[payment-message-transformer|Payment Message Transformer]]
 - [[payment-orchestration|Payment Orchestration]]
+- [[payment-repair-workbench|Payment Repair Workbench]]
+- [[payment-routing-engine|Payment Routing Engine]]
+- [[payment-sanctions-filter|Payment Sanctions Filter]]
+- [[payment-validation-engine|Payment Validation Engine]]
+- [[swift-connectivity-adapter|SWIFT Connectivity Adapter]]
+- [[scheme-connectivity-gateway|Scheme Connectivity Gateway]]
+- [[settlement-instruction-engine|Settlement Instruction Engine]]
 
 ## Data & Analytics
 

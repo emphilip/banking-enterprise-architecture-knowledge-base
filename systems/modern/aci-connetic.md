@@ -17,6 +17,7 @@ sources: ["https://www.aciworldwide.com/solutions/payments-hub", "https://www.ac
 ## Relationships
 - Payment Orchestration depends on ACI Connetic.
 - ACI Connetic supersedes ACI BASE24.
+- ACI Connetic supersedes ACI Enterprise Payments Platform.
 
 ## Details
 ACI Connetic is a cloud-native, SaaS-delivered payments hub that consolidates multi-rail orchestration, routing and processing on a modern microservices architecture. It brings elastic scaling and continuous delivery to payment processing, modernizing established on-premises switches and payment engines.
