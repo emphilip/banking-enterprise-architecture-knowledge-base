@@ -19,7 +19,7 @@ first row whose Status is not `done`).
 | 4 | Deposits & Accounts | business | done | done | done | done | done |
 | 5 | Cards | business | done | done | done | done | done |
 | 6 | Wealth & Investments | business | done | done | done | done | done |
-| 7 | Risk Management | business | todo | todo | todo | todo | todo |
+| 7 | Risk Management | business | todo | todo | todo | todo | in-progress |
 | 8 | Compliance & Financial Crime | business | todo | todo | todo | todo | todo |
 | 9 | Channels & Engagement | business | todo | todo | todo | todo | todo |
 | 10 | Finance & Treasury | business | todo | todo | todo | todo | todo |
@@ -35,9 +35,9 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Wealth & Investments (DONE) — 6 of 15 domains deep-dived
-- Phase: DONE — all 5 eval gates 0 FAIL (1 advisory WARN: pre-existing Cards OmniPay gap); LLM-judge PASS first pass after 4 non-blocking fixes (evals/judge-wealth-and-investments.md); baseline refreshed (933 files)
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments
+- Domain: Risk Management
+- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-risk-management-{bian,flows,tech}.md. NOTE: no top-level risk tech capability yet; tech agent proposes NEW top-level risk tech caps (Risk Analytics Engine / Risk Data Aggregation / Model Risk Management Platform / GRC Platform) + decomposition + risk systems.
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments (6 of 15)
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
