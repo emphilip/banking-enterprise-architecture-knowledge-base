@@ -19,7 +19,7 @@ sources: ["https://www.temenos.com/products/wealth-management/", "https://invest
 - Investment Advisory Platform mentions Temenos WealthSuite.
 - Investment Advisory Platform mentions InvestCloud.
 - Investment Advisory Platform mentions Envestnet.
-- Investment Advisory Platform depends on the Generative AI Platform capability.
+- Investment Advisory Platform is related to the Generative AI Platform capability.
 - Investment Advisory Platform is related to Portfolio Management System.
 
 ## Details

@@ -288,3 +288,44 @@ score 4 on Relationship sensibility. Final means — accuracy 4.64, groundedness
 (L1–L4), 92 technology capabilities + sub-capabilities, 82 processes +
 sub-processes, 143 process-flow steps, 84 supporting concepts, 58 legacy +
 68 modern systems, 10 glossary terms.
+
+---
+
+## Deep-dive: Wealth & Investments domain (2026-06-16)
+
+Sixth domain deep-dive via the eval-gated pipeline. This domain had **no
+top-level technology capability** in v1, so the run minted new ones.
+
+**Added (~130 concepts):** 18 L3 + 20 L4 business capabilities; **3 new top-level
+technology capabilities** (Portfolio Management System, Order Management System,
+Investment Advisory Platform) + 14 sub-capabilities (11 L2, 3 L3); 4 new
+top-level processes (Financial Planning, Portfolio Rebalancing, Trade Order
+Management, Performance Reporting); 12 sub-processes; 31 ordered process-flow
+steps across 5 processes (with `## Flow` sections); 16 supporting concepts (6
+role, 5 event, 5 artifact); 6 new legacy + 7 new modern systems (the first wealth
+systems in the base).
+
+**Eval gates (deterministic):** research / steward / author / weave / all → 0
+FAIL. The one advisory WARN is the pre-existing Cards Fiserv OmniPay gap
+(out of scope).
+
+**Steward:** resolved capability-vs-process clashes (Portfolio Rebalancing →
+**Portfolio Rebalancing Management**; Financial Planning → **Financial Planning
+Advisory**); classified Temenos WealthSuite as a legacy advisory system; every
+wealth legacy given a SAME-CAPABILITY successor (portfolio→portfolio, OMS→OMS,
+advisory→advisory).
+
+**Eval gate (semantic, LLM-judge, `evals/judge-wealth-and-investments.md`):** PASS
+on first pass (means — accuracy 4.81, groundedness 4.27, relationships 4.77,
+naming 4.81, granularity 4.92). Same-capability supersedes (the Cards lesson) held
+— no per-note floor breach. Four non-blocking fixes applied: Addepar's "Advent
+Converter" scope corrected and its mis-targeted Geneva supersede dropped (Geneva
+remains covered by BlackRock Aladdin); Cost Basis Tracking BIAN name corrected to
+Securities Position Keeping; the confirm/affirm alias conflation removed from the
+Confirm Trade step; the Investment Advisory Platform GenAI dependency softened to
+related_to.
+
+**Knowledge base totals after Wealth & Investments deep-dive:** 288 business
+capabilities (L1–L4), 109 technology capabilities + sub-capabilities, 98
+processes + sub-processes, 174 process-flow steps, 100 supporting concepts,
+64 legacy + 75 modern systems, 10 glossary terms.

@@ -18,7 +18,7 @@ first row whose Status is not `done`).
 | 3 | Lending & Credit | business | done | done | done | done | done |
 | 4 | Deposits & Accounts | business | done | done | done | done | done |
 | 5 | Cards | business | done | done | done | done | done |
-| 6 | Wealth & Investments | business | done | done | done | in-progress | in-progress |
+| 6 | Wealth & Investments | business | done | done | done | done | done |
 | 7 | Risk Management | business | todo | todo | todo | todo | todo |
 | 8 | Compliance & Financial Crime | business | todo | todo | todo | todo | todo |
 | 9 | Channels & Engagement | business | todo | todo | todo | todo | todo |
@@ -35,20 +35,21 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Wealth & Investments
-- Phase: Phase 2 Steward (done) — reconciled the three Wealth & Investments proposals (bian, flows, tech) into glossary/_canonical-names.md; steward gate 0 FAIL.
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards (5 of 15); Wealth & Investments steward pass complete (author/weave phases next).
+- Domain: Wealth & Investments (DONE) — 6 of 15 domains deep-dived
+- Phase: DONE — all 5 eval gates 0 FAIL (1 advisory WARN: pre-existing Cards OmniPay gap); LLM-judge PASS first pass after 4 non-blocking fixes (evals/judge-wealth-and-investments.md); baseline refreshed (933 files)
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
 - [ ] Deepen the next domain: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
-      (first not-done row = Wealth & Investments). Same eval-gated pipeline;
-      capability authors must write source-anchored Details up front. Wealth has
-      L1 Wealth Management + L2 Portfolio Management / Investment Advisory /
-      Brokerage & Trading and 1 process (Wealth Onboarding) — propose 2-3 new
-      processes (e.g. Portfolio Rebalancing, Trade Execution, Suitability
-      Assessment) for flow coverage. Watch supersedes: ensure same-capability
-      (issuer vs acquirer, etc.) to avoid the relationship-sensibility floor.
+      (first not-done row = Risk Management). Same eval-gated pipeline; source-anchored
+      Details up front; same-capability supersedes. Risk has L1 Risk Management + L2
+      Credit/Market/Operational/Liquidity Risk Management + Fraud Management and
+      processes Fraud Detection/Fraud Investigation; relevant tech = Fraud Analytics,
+      Machine Learning Platform, Analytics Platform (Threat Detection for op-risk).
+      Consider new processes (e.g. Risk Appetite Setting, Stress Testing, Model
+      Validation, Risk Reporting). Likely needs new top-level risk tech caps
+      (e.g. Risk Engine / Risk Data Aggregation) since none exist yet.
 
 ## Decisions log
 

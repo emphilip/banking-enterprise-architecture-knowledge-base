@@ -560,7 +560,7 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Episode Six | Card Processing | First Data Cards | Episode Six | Episode Six TRITIUM, E6 |
 | BlackRock Aladdin | Portfolio Management System | SS&C Advent Geneva; SunGard Asset Arena | BlackRock | Aladdin, Aladdin Wealth |
 | SimCorp One | Portfolio Management System | FIS Global Plus; SunGard Asset Arena | SimCorp | SimCorp Dimension, SimCorp |
-| Addepar | Portfolio Management System | SS&C Advent Geneva; Broadridge Portfolio Master | Addepar | Addepar Platform |
+| Addepar | Portfolio Management System | Broadridge Portfolio Master | Addepar | Addepar Platform |
 | Charles River IMS | Order Management System | SS&C Advent Moxy | State Street (Charles River Development) | Charles River, CRD IMS, Charles River Development |
 | Bloomberg AIM | Order Management System | SS&C Advent Moxy | Bloomberg | AIM, Bloomberg Asset and Investment Manager |
 | InvestCloud | Investment Advisory Platform | Temenos WealthSuite | InvestCloud | InvestCloud X, NaviPlan |
@@ -902,7 +902,7 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Validate Order | Trade Order Management | 2 | Brokerage & Trading | Order Validation Step, Pre-Trade Validation Step |
 | Route Order | Trade Order Management | 3 | Brokerage & Trading | Order Routing Step, Venue Selection Step |
 | Execute Order | Trade Order Management | 4 | Brokerage & Trading | Order Execution Step, Fill Capture Step |
-| Confirm Trade | Trade Order Management | 5 | Brokerage & Trading | Trade Confirmation Step, Affirm Trade Step |
+| Confirm Trade | Trade Order Management | 5 | Brokerage & Trading | Trade Confirmation Step |
 | Allocate Fills | Trade Order Management | 6 | Brokerage & Trading | Trade Allocation Step, Block Allocation Step |
 | Settle Trade | Trade Order Management | 7 | Brokerage & Trading | Securities Settlement Step, Settle Securities Trade Step |
 | Value Portfolio | Performance Reporting | 1 | Portfolio Management | Portfolio Valuation Step, Mark-to-Market Step |

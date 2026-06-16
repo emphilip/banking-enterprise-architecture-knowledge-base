@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T16:38:04.121400Z",
+  "generated": "2026-06-16T16:42:09.103967Z",
   "phase": "all",
   "counts": {
     "FAIL": 0,
@@ -17,7 +17,7 @@
       "severity": "INFO",
       "phase": "weave",
       "path": "-",
-      "message": "depends_on edges counted: 890"
+      "message": "depends_on edges counted: 889"
     }
   ]
 }

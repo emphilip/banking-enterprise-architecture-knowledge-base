@@ -4,7 +4,7 @@ title: Confirm Trade
 type: process-step
 process: Trade Order Management
 order: 5
-aliases: ["Trade Confirmation Step", "Affirm Trade Step"]
+aliases: ["Trade Confirmation Step"]
 status: draft
 sources: ["https://www.udemy.com/course/the-securities-trade-lifecycle/"]
 ---
@@ -12,7 +12,7 @@ sources: ["https://www.udemy.com/course/the-securities-trade-lifecycle/"]
 # Confirm Trade
 
 **Definition.** Confirm Trade confirms executed fills with the counterparty or broker and issues the Trade Confirmation.
-**Also known as:** Trade Confirmation Step, Affirm Trade Step.
+**Also known as:** Trade Confirmation Step.
 
 ## Relationships
 - Confirm Trade is defined in the Trade Order Management process.
