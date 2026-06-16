@@ -6,7 +6,7 @@ domain: Data & Analytics
 level: L1
 aliases: ["Risk Data Platform", "BCBS 239 Platform", "Risk Data Aggregation and Reporting"]
 status: draft
-sources: ["https://atlan.com/bcbs-239-guide/", "https://www.solidatus.com/bcbs-239/", "https://financialit.net/products/data/sas-risk-data-aggregation-and-reporting"]
+sources: ["https://atlan.com/bcbs-239-guide/", "https://www.solidatus.com/bcbs-239/", "https://www.moodys.com/web/en/us/insights/regulatory-news.html", "https://www.quantexa.com/"]
 ---
 
 # Risk Data Aggregation
@@ -29,4 +29,5 @@ Risk Data Aggregation implements the four BCBS 239 risk-data principles — accu
 ## References
 - [Atlan BCBS 239 Guide](https://atlan.com/bcbs-239-guide/)
 - [Solidatus BCBS 239](https://www.solidatus.com/bcbs-239/)
-- [SAS Risk Data Aggregation and Reporting](https://financialit.net/products/data/sas-risk-data-aggregation-and-reporting)
+- [Moody's Analytics (RiskAuthority)](https://www.moodys.com/web/en/us/insights/regulatory-news.html)
+- [Quantexa](https://www.quantexa.com/)

@@ -329,3 +329,42 @@ related_to.
 capabilities (L1–L4), 109 technology capabilities + sub-capabilities, 98
 processes + sub-processes, 174 process-flow steps, 100 supporting concepts,
 64 legacy + 75 modern systems, 10 glossary terms.
+
+---
+
+## Deep-dive: Risk Management domain (2026-06-16)
+
+Seventh domain deep-dive via the eval-gated pipeline. Like Wealth, this domain had
+no dedicated top-level technology capability in v1, so the run minted new ones.
+
+**Added (~143 concepts):** 6 L2 + 22 L3 + 12 L4 business capabilities; **4 new
+top-level technology capabilities** (Risk Analytics Engine, Risk Data Aggregation,
+Model Risk Management Platform, Governance Risk & Compliance Platform) + 13
+sub-capabilities; 4 new top-level processes (Risk Appetite Setting, Risk
+Identification & Assessment, Stress Testing, Risk Reporting); 14 sub-processes; 34
+ordered process-flow steps across 6 processes — including the **first
+decomposition of the two fraud processes** — (with `## Flow` sections); 18
+supporting concepts (6 role, 6 event, 6 artifact, reusing the existing Fraud
+Alert); 8 new legacy + 8 new modern risk systems.
+
+**Eval gates (deterministic):** research / steward / author / weave / all → 0
+FAIL. The one advisory WARN is the pre-existing Cards Fiserv OmniPay gap.
+
+**Steward:** renames (Stress Testing capability → **Stress Testing Management**;
+sub-processes Risk Identification → Risk Capture & Registration, Risk Data
+Aggregation → Reporting Data Aggregation); a level-monotonicity adjustment (6
+cross-cutting caps leveled to L2, their children to L3); reused the existing Fraud
+Alert artifact; same-capability supersedes only (greenfield ValidMind/ModelOp left
+without a supersede, by design).
+
+**Eval gate (semantic, LLM-judge, `evals/judge-risk-management.md`):** PASS on
+first pass (means — accuracy 4.82, groundedness 4.36, relationships 5.00, naming
+5.00, granularity 4.64). Same-capability supersedes verified. One correctness fix
+applied (risk-data-aggregation source/claim mismatch repointed to Moody's
+RiskAuthority + Quantexa); three thin-source advisories on obvious process steps
+left as acceptable (all above the <3 floor).
+
+**Knowledge base totals after Risk Management deep-dive:** 328 business
+capabilities (L1–L4), 126 technology capabilities + sub-capabilities, 116
+processes + sub-processes, 208 process-flow steps, 118 supporting concepts,
+72 legacy + 83 modern systems, 10 glossary terms.

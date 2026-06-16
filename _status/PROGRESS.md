@@ -19,7 +19,7 @@ first row whose Status is not `done`).
 | 4 | Deposits & Accounts | business | done | done | done | done | done |
 | 5 | Cards | business | done | done | done | done | done |
 | 6 | Wealth & Investments | business | done | done | done | done | done |
-| 7 | Risk Management | business | done | done | done | in-progress | in-progress |
+| 7 | Risk Management | business | done | done | done | done | done |
 | 8 | Compliance & Financial Crime | business | todo | todo | todo | todo | todo |
 | 9 | Channels & Engagement | business | todo | todo | todo | todo | todo |
 | 10 | Finance & Treasury | business | todo | todo | todo | todo | todo |
@@ -35,21 +35,23 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Risk Management
-- Phase: 2 Steward (done) — reconciled _status/proposed-risk-management-{bian,flows,tech}.md into glossary/_canonical-names.md. 4 new top-level risk tech caps added; 40 new L2/L3/L4 risk caps; 4 new processes; 13 tech sub-caps; 14 sub-processes; 34 flow steps; 18 supporting concepts; 8 legacy + 8 modern systems. Steward gate: 0 FAIL, 1 WARN (pre-existing Fiserv OmniPay only).
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments (6 of 15); Risk Management registry reconciliation complete (Phase 3 author/weave note files still to do).
+- Domain: Risk Management (DONE) — 7 of 15 domains deep-dived
+- Phase: DONE — all 5 eval gates 0 FAIL (1 advisory WARN: pre-existing Cards OmniPay); LLM-judge PASS first pass (evals/judge-risk-management.md); baseline refreshed (1076 files)
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
 - [ ] Deepen the next domain: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
-      (first not-done row = Risk Management). Same eval-gated pipeline; source-anchored
-      Details up front; same-capability supersedes. Risk has L1 Risk Management + L2
-      Credit/Market/Operational/Liquidity Risk Management + Fraud Management and
-      processes Fraud Detection/Fraud Investigation; relevant tech = Fraud Analytics,
-      Machine Learning Platform, Analytics Platform (Threat Detection for op-risk).
-      Consider new processes (e.g. Risk Appetite Setting, Stress Testing, Model
-      Validation, Risk Reporting). Likely needs new top-level risk tech caps
-      (e.g. Risk Engine / Risk Data Aggregation) since none exist yet.
+      (first not-done row = Compliance & Financial Crime). Same eval-gated pipeline;
+      source-anchored Details up front; same-capability supersedes. Compliance has L1
+      Financial Crime Compliance + L2 KYC Management / AML Monitoring / Regulatory
+      Compliance (+ L3 Transaction Monitoring, Sanctions Screening, Regulatory
+      Reporting) and processes Suspicious Activity Reporting / Regulatory Filing;
+      relevant tech = Transaction Monitoring Platform, Data Governance, Regulatory
+      Reporting Engine. Consider new processes (KYC Refresh/Periodic Review, Sanctions
+      Screening, SAR Filing decomposition, Regulatory Change Management). May need a
+      new top-level FinCrime/RegTech tech cap if Transaction Monitoring Platform is
+      insufficient.
 
 ## Decisions log
 
