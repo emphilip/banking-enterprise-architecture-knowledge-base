@@ -36,8 +36,8 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Risk Management
-- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-risk-management-{bian,flows,tech}.md. NOTE: no top-level risk tech capability yet; tech agent proposes NEW top-level risk tech caps (Risk Analytics Engine / Risk Data Aggregation / Model Risk Management Platform / GRC Platform) + decomposition + risk systems.
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments (6 of 15)
+- Phase: 2 Steward (done) — reconciled _status/proposed-risk-management-{bian,flows,tech}.md into glossary/_canonical-names.md. 4 new top-level risk tech caps added; 40 new L2/L3/L4 risk caps; 4 new processes; 13 tech sub-caps; 14 sub-processes; 34 flow steps; 18 supporting concepts; 8 legacy + 8 modern systems. Steward gate: 0 FAIL, 1 WARN (pre-existing Fiserv OmniPay only).
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments (6 of 15); Risk Management registry reconciliation complete (Phase 3 author/weave note files still to do).
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
@@ -53,6 +53,94 @@ decomposition into sharper focus.
 
 ## Decisions log
 
+- (2026-06-16, Phase 2 Steward, Risk Management) Reconciled the three Risk Management
+  proposals (bian, flows, tech) into glossary/_canonical-names.md after a full-registry
+  dedupe pass (against all existing canonical names + all ~1,739 existing aliases and
+  across the three proposals). Counts added per section: Technology capabilities +4
+  (Risk Analytics Engine [AI & Automation], Model Risk Management Platform [AI &
+  Automation], Risk Data Aggregation [Data & Analytics], Governance Risk & Compliance
+  Platform [Data & Analytics]); Business capabilities +40 (Domain=Risk Management:
+  6 L2 + 22 L3 + 12 L4 — the 6 cross-cutting capabilities parent to L1 Enterprise Risk
+  Management, the per-risk-type L3/L4s parent to the existing L2s Credit/Market/
+  Operational/Liquidity Risk Management and Fraud Management); Business processes +4
+  (Risk Appetite Setting, Risk Identification & Assessment, Stress Testing, Risk
+  Reporting — Domain=Risk Management); Technology sub-capabilities +13 (12 L2 + 1 L3
+  [Counterparty Risk & XVA Service under Market Risk Engine], parented to the 4 new
+  top-level risk tech caps, Domain AI & Automation or Data & Analytics per proposal);
+  Process sub-processes +14 (2 Fraud Detection, 2 Fraud Investigation, 2 Risk Appetite
+  Setting, 3 Risk Identification & Assessment, 2 Stress Testing, 3 Risk Reporting,
+  Domain=Risk Management); Process flow steps +34 (5 Fraud Detection, 6 Fraud
+  Investigation, 5 Risk Appetite Setting, 6 Risk Identification & Assessment, 6 Stress
+  Testing, 6 Risk Reporting — Order integer contiguous per process; the existing Fraud
+  Detection / Fraud Investigation processes are now decomposed); Supporting concepts +18
+  (6 role, 6 event, 6 artifact); Legacy systems +8; Modern systems +8. Total +143 rows.
+  Renames / collision resolutions (the gate stores all sections in one name space, so a
+  capability and a process sharing a canonical name FAILs):
+  (1) BIAN L3 capability "Stress Testing" -> **Stress Testing Management**, because the
+  flows proposal introduces a process named "Stress Testing" (capability-vs-process
+  collision); the process keeps the plain name, and the L4-child "Scenario Library
+  Management" re-parents to "Stress Testing Management". Aliases: Scenario Stress
+  Testing, Reverse Stress Testing, CCAR Stress Testing.
+  (2) Flows sub-process "Risk Identification" -> **Risk Capture & Registration**,
+  because the BIAN proposal introduces an L2 capability "Risk Identification"; the
+  capability keeps the plain name (it is the more permanent concept and a system/sub-cap
+  anchor).
+  (3) Flows sub-process "Risk Data Aggregation" -> **Reporting Data Aggregation**,
+  because the tech proposal introduces a top-level tech capability "Risk Data
+  Aggregation" (systems realize it, sub-caps derive from it); the tech cap keeps the
+  plain name.
+  Level adjustment for gate monotonicity (parent must be exactly one level above):
+  the 6 enterprise-wide capabilities the BIAN proposal authored as L3 under L1
+  Enterprise Risk Management (Risk Appetite Management, Risk Identification, Stress
+  Testing Management, Model Risk Management, Regulatory Capital Adequacy, Risk Reporting
+  & Governance) were set to **L2** (direct children of the L1, siblings of the existing
+  risk L2s), and their three L4 children (Risk Capital Calculation, Scenario Library
+  Management, Model Inventory Management) were promoted to **L3** — preserving the
+  proposed hierarchy intent while satisfying L<n>->L<n-1> monotonicity.
+  Alias-only fixes (avoid alias==another concept's canonical name and avoid two
+  concepts sharing an alias):
+  (a) cap "Risk Capital Calculation" alias "Economic Capital Engine" (== tech sub-cap
+  canonical) -> "Capital Charge Engine".
+  (b) cap "Risk Reporting & Governance" alias "Risk Data Aggregation" (== tech cap
+  canonical) -> "Risk Data Aggregation & Governance"; dropped shared alias "Board Risk
+  Reporting" (kept on process "Risk Reporting").
+  (c) process "Risk Identification & Assessment" dropped aliases "Risk Identification"
+  (== cap canonical) and "RCSA" (shared w/ cap "Risk & Control Self-Assessment") ->
+  "Risk Assessment, Risk ID & Assessment".
+  (d) process "Risk Appetite Setting" dropped shared alias "Risk Appetite Framework"
+  (kept on cap "Risk Appetite Management") -> "RAF Process, Appetite Setting".
+  (e) cap "Value-at-Risk Calculation" dropped alias "VaR Engine" (kept on tech sub-cap
+  "Market Risk Engine") -> "Expected Shortfall Calculation, VaR/ES".
+  (f) sub-process "Scenario Design & Governance" dropped aliases "Scenario Design"
+  (kept on cap "Scenario Library Management") and "Model Governance" (kept on cap
+  "Model Risk Management") -> "Scenario Build & Governance, Stress Scenario Design".
+  (g) sub-process "Limit Monitoring & Escalation" dropped alias "Limit Monitoring"
+  (kept on cap "Limit & Exposure Management") -> "Limit Tracking, Breach Escalation".
+  (h) sub-process "Disposition & Recovery" dropped alias "Resolution & Recovery"
+  (== existing alias of Cards sub-process "Dispute Resolution & Recovery") ->
+  "Disposition & SAR, Fraud Resolution & Recovery".
+  Fraud Alert reuse: the existing Cards artifact **Fraud Alert** was NOT re-added; the
+  flows steps/sub-processes that mention it (Generate/Route Fraud Alert, Adjudicate
+  Fraud Alert, Real-Time Risk Scoring, etc.) reference the single existing Supporting-
+  concepts row. Supporting concepts therefore added 18, not 19.
+  Systems classification & legacy coverage (same-capability discipline only):
+  Legacy +8 — Risk Analytics Engine: SAS Risk Management for Banking, Oracle OFSAA,
+  Moody's RiskFrontier, IBM Algorithmics, FIS Adaptiv; Risk Data Aggregation: Moody's
+  RiskAuthority; GRC Platform: IBM OpenPages, Archer IRM. Modern +8 — Murex MX.3 Risk
+  (Risk Analytics Engine) supersedes FIS Adaptiv; Oracle OFSAA; MSCI RiskMetrics (Risk
+  Analytics Engine) supersedes IBM Algorithmics; SAS Risk Management for Banking;
+  Numerix Oneview (Risk Analytics Engine) supersedes Moody's RiskFrontier; Quantexa
+  (Risk Data Aggregation) supersedes Moody's RiskAuthority; ServiceNow IRM (GRC)
+  supersedes Archer IRM; MetricStream (GRC) supersedes IBM OpenPages; ValidMind and
+  ModelOp (Model Risk Management Platform) are greenfield model-risk tooling with NO
+  same-capability legacy in the registry, so they correctly carry NO supersedes (blank
+  cell). SAS RMfB and Oracle OFSAA had no 1:1 modern in the proposal; rather than leave
+  benign WARNs, they were paired same-capability to MSCI RiskMetrics / Murex MX.3 Risk
+  (both broad Risk Analytics Engine suites) via "; " — no cross-capability supersede was
+  forced. Every supersedes target is a real legacy system; all 8 new risk legacies now
+  have a same-capability modern successor. Steward gate: 0 FAIL, 1 WARN — the lone WARN
+  ("legacy 'Fiserv OmniPay' has no modern successor") is the pre-existing Cards-domain
+  legacy unrelated to this run; no new "no successor" WARNs introduced.
 - (2026-06-16, Phase 2 Steward, Wealth & Investments) Reconciled the three Wealth &
   Investments proposals (bian, flows, tech) into glossary/_canonical-names.md.
   Counts added per section: Technology capabilities +3 (Portfolio Management System,

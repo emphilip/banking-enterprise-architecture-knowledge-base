@@ -333,6 +333,46 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Asset Safekeeping | L4 | Wealth & Investments | Custody & Safekeeping | Safekeeping Records, Depository Reconciliation |
 | Income Collection | L4 | Wealth & Investments | Custody & Safekeeping | Dividend Collection, Coupon Processing |
 | Corporate Action Election | L4 | Wealth & Investments | Corporate Actions Processing | Voluntary Election Handling, Proxy Voting |
+| Risk Appetite Management | L2 | Risk Management | Enterprise Risk Management | Risk Appetite Framework, Tolerance Setting, RAS Management |
+| Risk Identification | L2 | Risk Management | Enterprise Risk Management | Risk Taxonomy Management, Emerging Risk Scanning, Risk Register Management |
+| Stress Testing Management | L2 | Risk Management | Enterprise Risk Management | Scenario Stress Testing, Reverse Stress Testing, CCAR Stress Testing |
+| Model Risk Management | L2 | Risk Management | Enterprise Risk Management | Model Governance, Model Validation, MRM |
+| Regulatory Capital Adequacy | L2 | Risk Management | Enterprise Risk Management | ICAAP, Economic Capital Management, Capital Adequacy Assessment |
+| Risk Reporting & Governance | L2 | Risk Management | Enterprise Risk Management | Risk Data Aggregation & Governance, BCBS 239 Compliance |
+| Risk Capital Calculation | L3 | Risk Management | Regulatory Capital Adequacy | RWA Calculation, Capital Charge Computation, Capital Charge Engine |
+| Scenario Library Management | L3 | Risk Management | Stress Testing Management | Scenario Design, Scenario Catalogue, Macro Scenario Management |
+| Model Inventory Management | L3 | Risk Management | Model Risk Management | Model Register, Model Tiering, Model Catalogue |
+| Credit Risk Assessment | L3 | Risk Management | Credit Risk Management | Counterparty Credit Assessment, Credit Risk Analysis |
+| Credit Risk Rating | L3 | Risk Management | Credit Risk Management | Internal Ratings, Rating Model Management, IRB Rating |
+| Credit Exposure Management | L3 | Risk Management | Credit Risk Management | Counterparty Exposure Management, EAD Measurement |
+| Credit Risk Mitigation | L3 | Risk Management | Credit Risk Management | CRM Techniques, Collateral Risk Mitigation, Netting Recognition |
+| Provisioning & ECL | L3 | Risk Management | Credit Risk Management | Expected Credit Loss, Impairment Provisioning, IFRS 9 Staging |
+| Limit & Exposure Management | L4 | Risk Management | Credit Exposure Management | Credit Limit Management, Limit Monitoring, Concentration Limit Control |
+| PD LGD EAD Estimation | L4 | Risk Management | Credit Risk Rating | Risk Parameter Estimation, Default Parameter Modelling |
+| Concentration Risk Analysis | L4 | Risk Management | Credit Exposure Management | Single-Name Concentration, Portfolio Concentration Analysis |
+| Market Risk Measurement | L3 | Risk Management | Market Risk Management | Market Risk Metrics, Sensitivity Measurement |
+| Value-at-Risk Calculation | L3 | Risk Management | Market Risk Management | Expected Shortfall Calculation, VaR/ES |
+| Trading Book Risk | L3 | Risk Management | Market Risk Management | Trading Book Capital, FRTB Boundary Management |
+| Counterparty Credit Risk | L3 | Risk Management | Market Risk Management | CCR Management, CVA Risk, SA-CCR Exposure |
+| Sensitivities Calculation | L4 | Risk Management | Market Risk Measurement | Greeks Calculation, SBM Sensitivities, Risk Factor Sensitivities |
+| Mark-to-Market Valuation | L4 | Risk Management | Market Risk Measurement | Independent Price Verification, Position Revaluation, IPV |
+| Backtesting & P&L Attribution | L4 | Risk Management | Value-at-Risk Calculation | PLA Test, VaR Backtesting, Model Performance Testing |
+| Risk & Control Self-Assessment | L3 | Risk Management | Operational Risk Management | RCSA, Control Self-Assessment |
+| Loss Data Management | L3 | Risk Management | Operational Risk Management | Internal Loss Data, Loss Event Management, External Loss Data |
+| Op Risk Scenario Analysis | L3 | Risk Management | Operational Risk Management | Operational Scenario Analysis, Tail-Risk Scenarios |
+| Business Continuity Management | L3 | Risk Management | Operational Risk Management | BCM, Operational Resilience, Disaster Recovery Planning |
+| Key Risk Indicator Monitoring | L4 | Risk Management | Risk & Control Self-Assessment | KRI Monitoring, Risk Indicator Tracking |
+| Operational Risk Capital Modelling | L4 | Risk Management | Op Risk Scenario Analysis | Op Risk Capital, SMA Modelling, Loss Distribution Approach |
+| Liquidity Risk Measurement | L3 | Risk Management | Liquidity Risk Management | Liquidity Gap Analysis, Survival Horizon Measurement |
+| LCR & NSFR Management | L3 | Risk Management | Liquidity Risk Management | Liquidity Ratio Management, HQLA Management |
+| Funding Risk Management | L3 | Risk Management | Liquidity Risk Management | Contingency Funding, ILAAP, Funding Concentration Management |
+| Intraday Liquidity Monitoring | L4 | Risk Management | Liquidity Risk Measurement | Intraday Liquidity Management, Intraday Position Monitoring |
+| HQLA Buffer Management | L4 | Risk Management | LCR & NSFR Management | Liquid Asset Buffer, HQLA Eligibility Management |
+| Fraud Risk Assessment | L3 | Risk Management | Fraud Management | Fraud Risk Evaluation, Fraud Exposure Assessment |
+| Fraud Monitoring | L3 | Risk Management | Fraud Management | Fraud Surveillance, Fraud Screening Capability |
+| Fraud Loss Recovery | L3 | Risk Management | Fraud Management | Fraud Recovery, Fraud Reimbursement |
+| Fraud Scoring Models | L4 | Risk Management | Fraud Monitoring | Fraud Risk Scoring, Fraud Model Development |
+| Synthetic Identity Detection | L4 | Risk Management | Fraud Risk Assessment | Synthetic Fraud Detection, Identity Fraud Detection |
 
 ## Business processes
 
@@ -372,6 +412,10 @@ Format: Canonical Name | Domain (defined_in) | Capabilities it depends_on | Alia
 | Portfolio Rebalancing | Wealth & Investments | Portfolio Management | Rebalancing, Drift Management |
 | Trade Order Management | Wealth & Investments | Brokerage & Trading | Trade Order Lifecycle, OMS Workflow |
 | Performance Reporting | Wealth & Investments | Portfolio Management | Investment Reporting, Client Reporting |
+| Risk Appetite Setting | Risk Management | Enterprise Risk Management | RAF Process, Appetite Setting |
+| Risk Identification & Assessment | Risk Management | Operational Risk Management | Risk Assessment, Risk ID & Assessment |
+| Stress Testing | Risk Management | Market Risk Management | Capital Stress Testing, CCAR Process, Scenario Analysis |
+| Risk Reporting | Risk Management | Enterprise Risk Management | Risk Data Aggregation & Reporting, RDARR, Board Risk Reporting |
 
 ## Technology capabilities
 
@@ -412,6 +456,10 @@ Format: Canonical Name | Tech Domain (defined_in) | Business capabilities that d
 | Portfolio Management System | Core Processing | Portfolio Management | PMS, Investment Book of Record, IBOR, Portfolio & Investment Management Platform |
 | Order Management System | Core Processing | Brokerage & Trading | OMS, Order & Execution Management Platform |
 | Investment Advisory Platform | Core Processing | Investment Advisory | Digital Advice Platform, Financial Planning Platform, Wealth Advisory Suite |
+| Risk Analytics Engine | AI & Automation | Enterprise Risk Management, Credit Risk Management, Market Risk Management, Liquidity Risk Management | Risk Engine, Risk Computation Platform, Quant Risk Engine |
+| Risk Data Aggregation | Data & Analytics | Enterprise Risk Management, Credit Risk Management, Market Risk Management, Liquidity Risk Management | Risk Data Platform, BCBS 239 Platform, Risk Data Aggregation and Reporting |
+| Model Risk Management Platform | AI & Automation | Enterprise Risk Management, Credit Risk Management, Market Risk Management | MRM Platform, Model Governance Platform, Model Inventory & Validation Platform |
+| Governance Risk & Compliance Platform | Data & Analytics | Operational Risk Management, Enterprise Risk Management, Regulatory Compliance | GRC Platform, Integrated Risk Management Platform, IRM Platform |
 
 ## Legacy systems
 
@@ -483,6 +531,14 @@ Format: Canonical Name | Realizes (tech capability depends_on it) | Vendor | Ali
 | SS&C Advent Moxy | Order Management System | SS&C Advent | Moxy, Advent Moxy |
 | Broadridge Portfolio Master | Portfolio Management System | Broadridge (representative) | Broadridge Recordkeeping, Broadridge IBOR, Portfolio Master |
 | Temenos WealthSuite | Investment Advisory Platform | Temenos | WealthSuite, Temenos Wealth, Temenos Robo-Advisor |
+| SAS Risk Management for Banking | Risk Analytics Engine | SAS | SAS Risk, SAS RMfB |
+| Oracle OFSAA | Risk Analytics Engine | Oracle | OFSAA, Oracle Financial Services Analytical Applications |
+| Moody's RiskFrontier | Risk Analytics Engine | Moody's Analytics | RiskFrontier |
+| IBM Algorithmics | Risk Analytics Engine | IBM | Algorithmics, Algo Risk, Algo One |
+| FIS Adaptiv | Risk Analytics Engine | FIS | Adaptiv, FIS Enterprise Risk Suite |
+| Moody's RiskAuthority | Risk Data Aggregation | Moody's Analytics | RiskAuthority, Fermat |
+| IBM OpenPages | Governance Risk & Compliance Platform | IBM | OpenPages, OpenPages with Watson |
+| Archer IRM | Governance Risk & Compliance Platform | Archer | RSA Archer, Archer GRC |
 
 ## Modern systems
 
@@ -565,6 +621,14 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Bloomberg AIM | Order Management System | SS&C Advent Moxy | Bloomberg | AIM, Bloomberg Asset and Investment Manager |
 | InvestCloud | Investment Advisory Platform | Temenos WealthSuite | InvestCloud | InvestCloud X, NaviPlan |
 | Envestnet | Investment Advisory Platform | Temenos WealthSuite | Envestnet | Envestnet Platform, Envestnet Wealth Management |
+| Murex MX.3 Risk | Risk Analytics Engine | FIS Adaptiv; Oracle OFSAA | Murex | MX.3 Enterprise Risk, Murex Enterprise Risk |
+| MSCI RiskMetrics | Risk Analytics Engine | IBM Algorithmics; SAS Risk Management for Banking | MSCI | RiskMetrics RiskManager, RiskManager |
+| Numerix Oneview | Risk Analytics Engine | Moody's RiskFrontier | Numerix | Oneview, Numerix Oneview for Market Risk |
+| ServiceNow IRM | Governance Risk & Compliance Platform | Archer IRM | ServiceNow | ServiceNow GRC, ServiceNow Integrated Risk Management |
+| MetricStream | Governance Risk & Compliance Platform | IBM OpenPages | MetricStream | MetricStream Enterprise GRC, Connected GRC |
+| Quantexa | Risk Data Aggregation | Moody's RiskAuthority | Quantexa | Quantexa DI Platform, Contextual Decision Intelligence |
+| ValidMind | Model Risk Management Platform |  | ValidMind | ValidMind MRM, ValidMind AI Governance |
+| ModelOp | Model Risk Management Platform |  | ModelOp | ModelOp Center |
 
 ## Glossary terms
 
@@ -661,6 +725,19 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Tax-Loss Harvesting Service | Rebalancing Engine | Core Processing | L3 | TLH Service, Tax-Aware Rebalancing, Loss Harvesting Engine |
 | Pre-Trade Compliance Engine | Order Routing Engine | Core Processing | L3 | Pre-Trade Compliance, Investment Guideline Monitor, Mandate Compliance Engine |
 | Suitability Assessment Service | Risk Profiling Engine | Core Processing | L3 | Suitability Engine, Appropriateness Service, Advice Suitability Check |
+| Credit Risk Model Engine | Risk Analytics Engine | AI & Automation | L2 | Credit Risk Engine, ECL Engine, Credit Portfolio Engine |
+| Market Risk Engine | Risk Analytics Engine | AI & Automation | L2 | Market Risk VaR Engine, VaR Engine, FRTB Engine |
+| Economic Capital Engine | Risk Analytics Engine | AI & Automation | L2 | Capital Engine, Economic Capital Calculator, RAROC Engine |
+| Stress Testing Engine | Risk Analytics Engine | AI & Automation | L2 | Scenario Analysis Engine, Enterprise Stress Testing |
+| Counterparty Risk & XVA Service | Market Risk Engine | AI & Automation | L3 | XVA Engine, Counterparty Credit Risk Service, PFE Engine |
+| Risk Data Warehouse | Risk Data Aggregation | Data & Analytics | L2 | Risk Data Store, Risk Mart, Risk Repository |
+| Risk Data Lineage | Risk Data Aggregation | Data & Analytics | L2 | Data Lineage (Risk), Risk Lineage Tracing |
+| Exposure Aggregation Service | Risk Data Aggregation | Data & Analytics | L2 | Risk Aggregation Service, Exposure Consolidation |
+| Model Inventory Registry | Model Risk Management Platform | AI & Automation | L2 | Model Inventory, Model Catalog, AI Inventory |
+| Model Validation Workbench | Model Risk Management Platform | AI & Automation | L2 | Validation Workbench, Model Testing Suite, Independent Validation |
+| Risk Control Self-Assessment Engine | Governance Risk & Compliance Platform | Data & Analytics | L2 | RCSA Engine, Risk Register Engine, Control Assessment Service |
+| Loss Event Register | Governance Risk & Compliance Platform | Data & Analytics | L2 | Loss Database, Operational Loss Register, Loss Event Capture |
+| Policy & Control Management | Governance Risk & Compliance Platform | Data & Analytics | L2 | Policy Management, Control Library, Compliance Management Service |
 
 ## Process sub-processes
 
@@ -732,6 +809,20 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Confirmation, Allocation & Settlement | Trade Order Management | Wealth & Investments | Allocation & Settlement, Post-Trade |
 | Valuation & Reconciliation | Performance Reporting | Wealth & Investments | Valuation & Recon, Book Reconciliation |
 | Return Measurement & Delivery | Performance Reporting | Wealth & Investments | Return Calc & Delivery, Reporting & Delivery |
+| Real-Time Risk Scoring | Fraud Detection | Risk Management | Detection Scoring, Real-Time Fraud Scoring |
+| Alert Generation & Routing | Fraud Detection | Risk Management | Alert Routing, Alert Orchestration |
+| Case Triage & Investigation | Fraud Investigation | Risk Management | Triage & Investigation, Case Investigation |
+| Disposition & Recovery | Fraud Investigation | Risk Management | Disposition & SAR, Fraud Resolution & Recovery |
+| Appetite Definition & Limits | Risk Appetite Setting | Risk Management | Appetite & Limits, RAS Drafting |
+| Appetite Approval & Cascade | Risk Appetite Setting | Risk Management | Approval & Cascade, RAS Approval |
+| Risk Capture & Registration | Risk Identification & Assessment | Risk Management | Risk Capture, RCSA Identification |
+| Inherent & Residual Assessment | Risk Identification & Assessment | Risk Management | Risk Scoring, Residual Assessment |
+| Risk Treatment & Ownership | Risk Identification & Assessment | Risk Management | Treatment & Ownership, Risk Response |
+| Scenario Design & Governance | Stress Testing | Risk Management | Scenario Build & Governance, Stress Scenario Design |
+| Projection & Submission | Stress Testing | Risk Management | Projection & Filing, Capital Submission |
+| Reporting Data Aggregation | Risk Reporting | Risk Management | Data Aggregation, RDA |
+| Limit Monitoring & Escalation | Risk Reporting | Risk Management | Limit Tracking, Breach Escalation |
+| Report Production & Distribution | Risk Reporting | Risk Management | Report Production, Reporting & Distribution |
 
 ## Process flow steps
 
@@ -911,6 +1002,40 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Calculate Returns | Performance Reporting | 4 | Portfolio Management | Return Calculation Step, TWR Calculation Step |
 | Compute Attribution | Performance Reporting | 5 | Portfolio Management | Attribution Analysis Step, Benchmark Comparison Step |
 | Produce Performance Report | Performance Reporting | 6 | Portfolio Management | Report Production Step, Report Delivery Step |
+| Ingest Transaction Stream | Fraud Detection | 1 | Data Streaming | Capture Event Stream, Stream Ingestion Step |
+| Screen Transaction Risk | Fraud Detection | 2 | Fraud Analytics | Score Transaction Risk, Risk Screening Step |
+| Generate Fraud Alert | Fraud Detection | 3 | Fraud Analytics | Raise Fraud Alert, Alert Generation Step |
+| Apply Detection Block | Fraud Detection | 4 | Fraud Analytics | Block Or Allow, Detection Block Step |
+| Route Fraud Alert | Fraud Detection | 5 | Workflow Orchestration | Dispatch Alert, Alert Routing Step |
+| Adjudicate Fraud Alert | Fraud Investigation | 1 | Case Management | Triage Alert, Alert Adjudication Step |
+| Open Fraud Case | Fraud Investigation | 2 | Case Management | Create Case, Case Opening Step |
+| Investigate Fraud Case | Fraud Investigation | 3 | Case Management | Examine Fraud Case, Fraud Investigation Step |
+| Recover Fraud Loss | Fraud Investigation | 4 | Core Banking Processing | Recover Funds, Loss Recovery Step |
+| File Suspicious Activity Report | Fraud Investigation | 5 | Transaction Monitoring Platform | File SAR, Suspicious Activity Filing Step |
+| Feed Detection Models | Fraud Investigation | 6 | Machine Learning Platform | Tune Detection Models, Feedback Loop Step |
+| Define Risk Capacity | Risk Appetite Setting | 1 | Enterprise Risk Management | Assess Risk Capacity, Capacity Definition Step |
+| Draft Appetite Statement | Risk Appetite Setting | 2 | Enterprise Risk Management | Author RAS, Appetite Drafting Step |
+| Cascade Risk Limits | Risk Appetite Setting | 3 | Analytics Platform | Set Risk Limits, Limit Cascade Step |
+| Approve Risk Appetite | Risk Appetite Setting | 4 | Workflow Orchestration | Set Risk Appetite, Appetite Approval Step |
+| Embed Appetite Limits | Risk Appetite Setting | 5 | Workflow Orchestration | Operationalize Appetite, Appetite Embedding Step |
+| Identify Risk Event | Risk Identification & Assessment | 1 | Operational Risk Management | Spot Risk, Risk Identification Step |
+| Register Risk Item | Risk Identification & Assessment | 2 | Workflow Orchestration | Log Risk, Risk Registration Step |
+| Score Inherent Risk | Risk Identification & Assessment | 3 | Analytics Platform | Rate Inherent Risk, Inherent Scoring Step |
+| Evaluate Residual Risk | Risk Identification & Assessment | 4 | Analytics Platform | Assess Residual Risk, Residual Evaluation Step |
+| Assign Risk Treatment | Risk Identification & Assessment | 5 | Workflow Orchestration | Decide Risk Response, Treatment Assignment Step |
+| Track Risk Remediation | Risk Identification & Assessment | 6 | Workflow Orchestration | Monitor Remediation, Remediation Tracking Step |
+| Design Stress Scenario | Stress Testing | 1 | Analytics Platform | Build Scenario, Scenario Design Step |
+| Validate Risk Models | Stress Testing | 2 | Machine Learning Platform | Govern Models, Model Validation Step |
+| Project Capital Impact | Stress Testing | 3 | Analytics Platform | Run Stress Models, Capital Projection Step |
+| Assess Capital Adequacy | Stress Testing | 4 | Analytics Platform | Evaluate Capital Adequacy, Adequacy Assessment Step |
+| Obtain Board Approval | Stress Testing | 5 | Workflow Orchestration | Approve Capital Plan, Board Sign-Off Step |
+| Submit Capital Plan | Stress Testing | 6 | Regulatory Reporting Engine | Submit CCAR Plan, Capital Plan Submission Step |
+| Aggregate Risk Exposure | Risk Reporting | 1 | Data Warehousing | Aggregate Exposure, Risk Aggregation Step |
+| Reconcile Risk Data | Risk Reporting | 2 | Data Governance | Validate Risk Data, Data Reconciliation Step |
+| Compare Against Limits | Risk Reporting | 3 | Analytics Platform | Check Limit Utilisation, Limit Comparison Step |
+| Escalate Limit Breach | Risk Reporting | 4 | Workflow Orchestration | Raise Breach, Breach Escalation Step |
+| Compile Risk Report | Risk Reporting | 5 | Analytics Platform | Produce Risk Report, Report Compilation Step |
+| Distribute Risk Report | Risk Reporting | 6 | Regulatory Reporting Engine | Deliver Risk Report, Report Distribution Step |
 
 ## Supporting concepts
 
@@ -1016,3 +1141,21 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Order Ticket | artifact | Trade Order, Deal Ticket |
 | Trade Confirmation | artifact | Trade Confirm, Contract Note |
 | Performance Report | artifact | Investment Performance Report, Client Statement (Investments) |
+| Chief Risk Officer | role | CRO, Head of Risk |
+| Risk Analyst | role | Operational Risk Analyst, Risk Officer |
+| Stress Testing Lead | role | Stress Test Manager, Capital Stress Lead |
+| Risk Reporting Manager | role | Risk MI Manager, RDARR Lead |
+| Fraud Detection Analyst | role | Fraud Monitoring Analyst, Detection Analyst |
+| Fraud Investigator | role | Fraud Case Investigator, Financial Crime Investigator |
+| Risk Appetite Approved Event | event | RAS Approved Event, Appetite Set Event |
+| Risk Identified Event | event | New Risk Event, Risk Registered Event |
+| Limit Breach Event | event | Appetite Breach Event, Threshold Breach Event |
+| Stress Test Completed Event | event | Stress Cycle Completed Event, CCAR Submitted Event |
+| Fraud Alert Raised Event | event | Alert Raised Event, Fraud Flag Event |
+| Fraud Case Closed Event | event | Fraud Resolved Event, Case Closed Event (Fraud) |
+| Risk Appetite Statement | artifact | RAS, Risk Appetite Framework Statement |
+| Risk Register | artifact | Risk Log, Risk Inventory |
+| Stress Scenario | artifact | Scenario Definition, Macro Stress Scenario |
+| Stress Test Result | artifact | Stress Result, Capital Projection Result |
+| Risk Report | artifact | Board Risk Report, Risk MI Pack |
+| Fraud Case | artifact | Fraud Investigation Case, Fraud Case File |
