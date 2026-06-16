@@ -86,13 +86,22 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Tuum supersedes Fiserv Premier.
 - SaaScada supersedes Jack Henry Core Director.
 - Thredd supersedes First Data Cards.
-- Thredd supersedes Fiserv OmniPay.
 - Lithic supersedes First Data Cards.
 - i2c supersedes TSYS TS2.
 - i2c supersedes Fiserv Optis.
 - Pismo supersedes TSYS TS2.
 - Pismo supersedes FIS Card Management.
 - Episode Six supersedes First Data Cards.
+- BlackRock Aladdin supersedes SS&C Advent Geneva.
+- BlackRock Aladdin supersedes SunGard Asset Arena.
+- SimCorp One supersedes FIS Global Plus.
+- SimCorp One supersedes SunGard Asset Arena.
+- Addepar supersedes SS&C Advent Geneva.
+- Addepar supersedes Broadridge Portfolio Master.
+- Charles River IMS supersedes SS&C Advent Moxy.
+- Bloomberg AIM supersedes SS&C Advent Moxy.
+- InvestCloud supersedes Temenos WealthSuite.
+- Envestnet supersedes Temenos WealthSuite.
 
 ## Realization statements
 
@@ -154,6 +163,12 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Card Processing depends on FIS Card Management.
 - Card Processing depends on Fiserv OmniPay.
 - Card Processing depends on Fiserv Optis.
+- Portfolio Management System depends on FIS Global Plus.
+- Portfolio Management System depends on SunGard Asset Arena.
+- Portfolio Management System depends on SS&C Advent Geneva.
+- Order Management System depends on SS&C Advent Moxy.
+- Portfolio Management System depends on Broadridge Portfolio Master.
+- Investment Advisory Platform depends on Temenos WealthSuite.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -222,6 +237,13 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Card Processing depends on i2c.
 - Card Processing depends on Pismo.
 - Card Processing depends on Episode Six.
+- Portfolio Management System depends on BlackRock Aladdin.
+- Portfolio Management System depends on SimCorp One.
+- Portfolio Management System depends on Addepar.
+- Order Management System depends on Charles River IMS.
+- Order Management System depends on Bloomberg AIM.
+- Investment Advisory Platform depends on InvestCloud.
+- Investment Advisory Platform depends on Envestnet.
 
 ## Successor matrix
 | Technology Capability | Legacy System | Modern Successor |
@@ -237,7 +259,6 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Card Processing | First Data Cards | Galileo |
 | Card Processing | First Data Cards | Lithic |
 | Card Processing | First Data Cards | Thredd |
-| Card Processing | Fiserv OmniPay | Thredd |
 | Card Processing | Fiserv Optis | i2c |
 | Card Processing | TSYS TS2 | Marqeta |
 | Card Processing | TSYS TS2 | Pismo |
@@ -283,6 +304,8 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Integration Platform | webMethods | Boomi |
 | Intelligent Document Processing | IBM FileNet | Hyperscience |
 | Intelligent Document Processing | OpenText Documentum | AWS Textract |
+| Investment Advisory Platform | Temenos WealthSuite | Envestnet |
+| Investment Advisory Platform | Temenos WealthSuite | InvestCloud |
 | Loan Origination Platform | Black Knight Empower | Blend |
 | Loan Origination Platform | Black Knight Empower | nCino |
 | Loan Origination Platform | Ellie Mae Encompass | Temenos Origination |
@@ -292,6 +315,8 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Machine Learning Platform | SAS Platform | DataRobot |
 | Machine Learning Platform | SAS Platform | Google Vertex AI |
 | Master Data Management | Informatica MDM | Reltio |
+| Order Management System | SS&C Advent Moxy | Bloomberg AIM |
+| Order Management System | SS&C Advent Moxy | Charles River IMS |
 | Payment Orchestration | ACH Batch Processor | Bottomline Payments |
 | Payment Orchestration | ACH Batch Processor | Modern Treasury |
 | Payment Orchestration | ACH Batch Processor | Stripe |
@@ -302,6 +327,12 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Payment Orchestration | Finastra Global PAYplus | Form3 |
 | Payment Orchestration | Legacy Payment Hub | Adyen |
 | Payment Orchestration | Legacy Payment Hub | Form3 |
+| Portfolio Management System | Broadridge Portfolio Master | Addepar |
+| Portfolio Management System | FIS Global Plus | SimCorp One |
+| Portfolio Management System | SS&C Advent Geneva | Addepar |
+| Portfolio Management System | SS&C Advent Geneva | BlackRock Aladdin |
+| Portfolio Management System | SunGard Asset Arena | BlackRock Aladdin |
+| Portfolio Management System | SunGard Asset Arena | SimCorp One |
 | Regulatory Reporting Engine | AxiomSL | Regnology |
 | Regulatory Reporting Engine | Wolters Kluwer OneSumX | Suade |
 | Transaction Monitoring Platform | NICE Actimize | ComplyAdvantage |

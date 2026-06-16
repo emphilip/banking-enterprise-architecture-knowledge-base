@@ -127,6 +127,15 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[05-adjudicate-dispute-outcome|Adjudicate Dispute Outcome]]
 - [[06-finalize-dispute-credit|Finalize Dispute Credit]]
 
+## Financial Planning
+
+- [[01-capture-client-goals|Capture Client Goals]]
+- [[02-determine-risk-tolerance|Determine Risk Tolerance]]
+- [[03-formulate-investment-plan|Formulate Investment Plan]]
+- [[04-confirm-suitability|Confirm Suitability]]
+- [[05-draft-investment-policy-statement|Draft Investment Policy Statement]]
+- [[06-agree-investment-plan|Agree Investment Plan]]
+
 ## Loan Collections
 
 - [[01-detect-delinquency|Detect Delinquency]]
@@ -176,6 +185,24 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[07-submit-to-clearing|Submit To Clearing]]
 - [[08-capture-clearing-response|Capture Clearing Response]]
 
+## Performance Reporting
+
+- [[01-value-portfolio|Value Portfolio]]
+- [[02-process-corporate-actions|Process Corporate Actions]]
+- [[03-reconcile-positions|Reconcile Positions]]
+- [[04-calculate-returns|Calculate Returns]]
+- [[05-compute-attribution|Compute Attribution]]
+- [[06-produce-performance-report|Produce Performance Report]]
+
+## Portfolio Rebalancing
+
+- [[01-measure-portfolio-drift|Measure Portfolio Drift]]
+- [[02-evaluate-drift-threshold|Evaluate Drift Threshold]]
+- [[03-generate-rebalance-proposal|Generate Rebalance Proposal]]
+- [[04-run-pre-trade-compliance|Run Pre-Trade Compliance]]
+- [[05-approve-rebalance-plan|Approve Rebalance Plan]]
+- [[06-raise-rebalance-orders|Raise Rebalance Orders]]
+
 ## Reconciliation And Settlement
 
 - [[01-confirm-settlement|Confirm Settlement]]
@@ -214,3 +241,22 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[04-advise-beneficiary|Advise Beneficiary]]
 - [[05-examine-trade-documents|Examine Trade Documents]]
 - [[06-settle-trade-payment|Settle Trade Payment]]
+
+## Trade Order Management
+
+- [[01-capture-order|Capture Order]]
+- [[02-validate-order|Validate Order]]
+- [[03-route-order|Route Order]]
+- [[04-execute-order|Execute Order]]
+- [[05-confirm-trade|Confirm Trade]]
+- [[06-allocate-fills|Allocate Fills]]
+- [[07-settle-trade|Settle Trade]]
+
+## Wealth Onboarding
+
+- [[01-capture-investor-profile|Capture Investor Profile]]
+- [[02-capture-risk-profile|Capture Risk Profile]]
+- [[03-assess-investor-suitability|Assess Investor Suitability]]
+- [[04-open-investment-account|Open Investment Account]]
+- [[05-execute-advisory-mandate|Execute Advisory Mandate]]
+- [[06-fund-investment-account|Fund Investment Account]]

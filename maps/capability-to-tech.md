@@ -33,12 +33,16 @@ Each business capability / process / step and the technology capabilities it dep
 - Adjudicate Credit depends on the Workflow Orchestration capability.
 - Adjudicate Dispute Outcome depends on the Workflow Orchestration capability.
 - Adjudicate Fraud Claim depends on the Workflow Orchestration capability.
+- Advice Generation depends on the Generative AI Platform capability.
+- Advice Generation depends on the Investment Advisory Platform capability.
 - Advise Beneficiary depends on the Notification Services capability.
 - Affordability Assessment depends on the Analytics Platform capability.
 - Affordability Assessment depends on the Credit Decisioning Engine capability.
 - Aggregate Balances depends on the Integration Platform capability.
 - Agreement Activation depends on the Core Banking Processing capability.
 - Alias Resolution depends on the API Management capability.
+- Allocation Optimisation depends on the Analytics Platform capability.
+- Allocation Optimisation depends on the Portfolio Management System capability.
 - Application Capture & Validation depends on the Deposit Account Management capability.
 - Application Data Capture depends on the Document Management capability.
 - Application Data Capture depends on the Loan Origination Platform capability.
@@ -59,7 +63,11 @@ Each business capability / process / step and the technology capabilities it dep
 - Assess Affordability depends on the Credit Decisioning Engine capability.
 - Assess Change Impact depends on the Workflow Orchestration capability.
 - Assess Trade Limit depends on the Credit Decisioning Engine capability.
+- Asset Allocation depends on the Analytics Platform capability.
+- Asset Allocation depends on the Portfolio Management System capability.
 - Asset Liability Management depends on the Analytics Platform capability.
+- Asset Safekeeping depends on the Core Banking Processing capability.
+- Asset Safekeeping depends on the Order Management System capability.
 - Assign Reason Code depends on the Card Processing capability.
 - Authenticate Requester depends on the Identity Access Management capability.
 - Authorization Controls depends on the Card Processing capability.
@@ -68,12 +76,18 @@ Each business capability / process / step and the technology capabilities it dep
 - Balance & Funds Verification depends on the Card Processing capability.
 - Balance Settlement & Deactivation depends on the Core Banking Processing capability.
 - Behavioural Analytics depends on the Analytics Platform capability.
+- Benchmark Management depends on the Analytics Platform capability.
+- Benchmark Management depends on the Portfolio Management System capability.
 - Beneficial Ownership Capture depends on the Deposit Account Management capability.
+- Best Interest Compliance depends on the Document Management capability.
+- Best Interest Compliance depends on the Investment Advisory Platform capability.
 - Block Compromised Card depends on the Card Processing capability.
 - Branch Banking depends on the Integration Platform capability.
 - Bulk Payment Origination depends on the Payment Orchestration capability.
 - Campaign Execution depends on the CRM Platform capability.
 - Campaign Management depends on the CRM Platform capability.
+- Capital Market Assumptions depends on the Analytics Platform capability.
+- Capital Market Assumptions depends on the Portfolio Management System capability.
 - Capture Account Application depends on the Digital Channel Platform capability.
 - Capture Card Application depends on the Digital Channel Platform capability.
 - Capture Clearing Response depends on the Payment Orchestration capability.
@@ -145,7 +159,13 @@ Each business capability / process / step and the technology capabilities it dep
 - Contact Center depends on the Contact Center Platform capability.
 - Contact Dialogue Management depends on the Conversational AI capability.
 - Contact Routing Management depends on the Contact Center Platform capability.
+- Corporate Action Election depends on the Notification Services capability.
+- Corporate Action Election depends on the Order Management System capability.
+- Corporate Actions Processing depends on the Core Banking Processing capability.
+- Corporate Actions Processing depends on the Order Management System capability.
 - Correspondent Banking depends on the Payment Orchestration capability.
+- Cost Basis Tracking depends on the Core Banking Processing capability.
+- Cost Basis Tracking depends on the Portfolio Management System capability.
 - Create Customer Record depends on the Master Data Management capability.
 - Credit Bureau Retrieval depends on the Analytics Platform capability.
 - Credit Bureau Retrieval depends on the Credit Decisioning Engine capability.
@@ -156,6 +176,8 @@ Each business capability / process / step and the technology capabilities it dep
 - Credit Transfer Execution depends on the Payment Orchestration capability.
 - Cross-Border Fee Calculation depends on the Payment Orchestration capability.
 - Cross-Border Payments depends on the Payment Orchestration capability.
+- Custody & Safekeeping depends on the Core Banking Processing capability.
+- Custody & Safekeeping depends on the Order Management System capability.
 - Customer Acquisition depends on the Workflow Orchestration capability.
 - Customer Due Diligence depends on the Document Management capability.
 - Customer Event Detection depends on the Analytics Platform capability.
@@ -231,6 +253,8 @@ Each business capability / process / step and the technology capabilities it dep
 - Finalize Dispute Credit depends on the Core Banking Processing capability.
 - Finance Management depends on the General Ledger Engine capability.
 - Financial Crime Compliance depends on the Transaction Monitoring Platform capability.
+- Financial Planning Advisory depends on the CRM Platform capability.
+- Financial Planning Advisory depends on the Investment Advisory Platform capability.
 - Financial Reporting depends on the General Ledger Engine capability.
 - First Deposit Funding depends on the Transaction Posting Engine capability.
 - Forecast Cash Flow depends on the Analytics Platform capability.
@@ -245,12 +269,16 @@ Each business capability / process / step and the technology capabilities it dep
 - Gather Dispute Evidence depends on the Document Management capability.
 - General Ledger Accounting depends on the General Ledger Engine capability.
 - Generate Card Credential depends on the Card Processing capability.
+- Goal Planning depends on the Analytics Platform capability.
+- Goal Planning depends on the Investment Advisory Platform capability.
 - Guarantee Administration depends on the Core Banking Processing capability.
 - Guarantee Administration depends on the Document Management capability.
 - Hardship & Forbearance depends on the Core Banking Processing capability.
 - Hardship & Forbearance depends on the Workflow Orchestration capability.
 - Identify Breaks depends on the Workflow Orchestration capability.
 - Identity Verification depends on the Customer Identity capability.
+- Income Collection depends on the Core Banking Processing capability.
+- Income Collection depends on the Order Management System capability.
 - Income Verification depends on the Analytics Platform capability.
 - Income Verification depends on the Document Management capability.
 - Ingest Bank Statement depends on the Integration Platform capability.
@@ -264,6 +292,12 @@ Each business capability / process / step and the technology capabilities it dep
 - Interest Calculation depends on the Core Banking Processing capability.
 - Investigate Break depends on the Workflow Orchestration capability.
 - Investment Advisory depends on the Generative AI Platform capability.
+- Investment Mandate Management depends on the Analytics Platform capability.
+- Investment Mandate Management depends on the Portfolio Management System capability.
+- Investment Research depends on the Analytics Platform capability.
+- Investment Research depends on the Investment Advisory Platform capability.
+- Investment Valuation depends on the Analytics Platform capability.
+- Investment Valuation depends on the Portfolio Management System capability.
 - Issue Dormancy Notice depends on the Notification Services capability.
 - Issue Final Response depends on the Notification Services capability.
 - Issue Final Statement depends on the Document Management capability.
@@ -314,6 +348,12 @@ Each business capability / process / step and the technology capabilities it dep
 - Onboarding Orchestration depends on the Workflow Orchestration capability.
 - Online Banking depends on the Customer Identity capability.
 - Operational Risk Management depends on the Threat Detection capability.
+- Order Allocation depends on the Core Banking Processing capability.
+- Order Allocation depends on the Order Management System capability.
+- Order Management depends on the Core Banking Processing capability.
+- Order Management depends on the Order Management System capability.
+- Order Routing depends on the Core Banking Processing capability.
+- Order Routing depends on the Order Management System capability.
 - Overdraft Facility Setup depends on the Core Banking Processing capability.
 - Overdraft Fee & Notice depends on the Notification Services capability.
 - Overdraft Interest & Fee Charging depends on the Interest & Charges Engine capability.
@@ -345,8 +385,16 @@ Each business capability / process / step and the technology capabilities it dep
 - Payment Services depends on the Payment Orchestration capability.
 - Payment Status Tracking depends on the Payment Orchestration capability.
 - Payoff & Closure depends on the Core Banking Processing capability.
+- Performance Measurement depends on the Analytics Platform capability.
+- Performance Measurement depends on the Portfolio Management System capability.
 - Personalize Card depends on the Card Processing capability.
+- Portfolio Accounting depends on the Core Banking Processing capability.
+- Portfolio Accounting depends on the Portfolio Management System capability.
+- Portfolio Construction depends on the Analytics Platform capability.
+- Portfolio Construction depends on the Portfolio Management System capability.
 - Portfolio Management depends on the Analytics Platform capability.
+- Portfolio Rebalancing Management depends on the Analytics Platform capability.
+- Portfolio Rebalancing Management depends on the Portfolio Management System capability.
 - Post Account Interest depends on the Core Banking Processing capability.
 - Post Adjustment depends on the General Ledger Engine capability.
 - Post Cleared Transaction depends on the Core Banking Processing capability.
@@ -354,6 +402,8 @@ Each business capability / process / step and the technology capabilities it dep
 - Pre-Qualify Borrower depends on the Credit Decisioning Engine capability.
 - Prepayment Handling depends on the Core Banking Processing capability.
 - Pricing Exception Handling depends on the Workflow Orchestration capability.
+- Product Recommendation depends on the Generative AI Platform capability.
+- Product Recommendation depends on the Investment Advisory Platform capability.
 - Promise-To-Pay Management depends on the Core Banking Processing capability.
 - Promise-To-Pay Management depends on the Workflow Orchestration capability.
 - Provision Wallet Token depends on the Card Processing capability.
@@ -391,6 +441,10 @@ Each business capability / process / step and the technology capabilities it dep
 - Repossession Management depends on the Workflow Orchestration capability.
 - Representment Handling depends on the Workflow Orchestration capability.
 - Request To Pay depends on the API Management capability.
+- Retirement Projection depends on the Analytics Platform capability.
+- Retirement Projection depends on the Investment Advisory Platform capability.
+- Return Attribution depends on the Analytics Platform capability.
+- Return Attribution depends on the Portfolio Management System capability.
 - Return Authorization Response depends on the Card Processing capability.
 - Revaluation Scheduling depends on the Analytics Platform capability.
 - Revaluation Scheduling depends on the Workflow Orchestration capability.
@@ -399,6 +453,8 @@ Each business capability / process / step and the technology capabilities it dep
 - Reward Points Accrual depends on the Core Banking Processing capability.
 - Reward Points Redemption depends on the Core Banking Processing capability.
 - Rewards Management depends on the Core Banking Processing capability.
+- Risk Tolerance Profiling depends on the CRM Platform capability.
+- Risk Tolerance Profiling depends on the Investment Advisory Platform capability.
 - Risk-Grade Assignment depends on the Analytics Platform capability.
 - Risk-Grade Assignment depends on the Credit Decisioning Engine capability.
 - Route Payment depends on the Payment Orchestration capability.
@@ -408,6 +464,8 @@ Each business capability / process / step and the technology capabilities it dep
 - Score Credit Risk depends on the Machine Learning Platform capability.
 - Screen Customer depends on the Transaction Monitoring Platform capability.
 - Screen Sanctions depends on the Transaction Monitoring Platform capability.
+- Securities Position Keeping depends on the Core Banking Processing capability.
+- Securities Position Keeping depends on the Order Management System capability.
 - Segment Arrears depends on the Analytics Platform capability.
 - Service Fulfilment depends on the Workflow Orchestration capability.
 - Servicing Order Orchestration depends on the Workflow Orchestration capability.
@@ -415,6 +473,8 @@ Each business capability / process / step and the technology capabilities it dep
 - Settle Residual Balance depends on the Core Banking Processing capability.
 - Settle Trade Payment depends on the Core Banking Processing capability.
 - Settlement Confirmation depends on the Payment Orchestration capability.
+- Settlement Instruction Management depends on the Core Banking Processing capability.
+- Settlement Instruction Management depends on the Order Management System capability.
 - Settlement Liquidity Management depends on the Payment Orchestration capability.
 - Settlement Quotation depends on the Core Banking Processing capability.
 - Settlement Reconciliation depends on the Payment Orchestration capability.
@@ -426,14 +486,30 @@ Each business capability / process / step and the technology capabilities it dep
 - Statement & Notices depends on the Document Management capability.
 - Statement Delivery depends on the Notification Services capability.
 - Submit To Clearing depends on the Payment Orchestration capability.
+- Suitability Assessment depends on the CRM Platform capability.
+- Suitability Assessment depends on the Investment Advisory Platform capability.
+- Suitability Report Production depends on the Document Management capability.
+- Suitability Report Production depends on the Investment Advisory Platform capability.
 - Suspicious Activity Reporting depends on the Transaction Monitoring Platform capability.
 - Sweep Rule Execution depends on the Core Banking Processing capability.
 - Syndicated Loan Administration depends on the Core Banking Processing capability.
 - Syndicated Loan Administration depends on the Workflow Orchestration capability.
 - Take Mortgage Application depends on the Loan Origination Platform capability.
 - Tax Reporting Consolidation depends on the Document Management capability.
+- Tax-Loss Harvesting depends on the Analytics Platform capability.
+- Tax-Loss Harvesting depends on the Portfolio Management System capability.
 - Term Deposit Lifecycle depends on the Core Banking Processing capability.
 - Tiered Interest Determination depends on the Interest & Charges Engine capability.
+- Tolerance Band Monitoring depends on the Analytics Platform capability.
+- Tolerance Band Monitoring depends on the Portfolio Management System capability.
+- Trade Affirmation depends on the Core Banking Processing capability.
+- Trade Affirmation depends on the Order Management System capability.
+- Trade Execution depends on the Core Banking Processing capability.
+- Trade Execution depends on the Order Management System capability.
+- Trade Fail Management depends on the Core Banking Processing capability.
+- Trade Fail Management depends on the Order Management System capability.
+- Trade Settlement depends on the Core Banking Processing capability.
+- Trade Settlement depends on the Order Management System capability.
 - Transaction Monitoring depends on the Transaction Monitoring Platform capability.
 - Transaction Posting depends on the Transaction Posting Engine capability.
 - Transaction Reversal Handling depends on the Transaction Posting Engine capability.
@@ -479,11 +555,13 @@ Each business capability / process / step and the technology capabilities it dep
 | Adjudicate Credit | Workflow Orchestration |
 | Adjudicate Dispute Outcome | Workflow Orchestration |
 | Adjudicate Fraud Claim | Workflow Orchestration |
+| Advice Generation | Generative AI Platform, Investment Advisory Platform |
 | Advise Beneficiary | Notification Services |
 | Affordability Assessment | Analytics Platform, Credit Decisioning Engine |
 | Aggregate Balances | Integration Platform |
 | Agreement Activation | Core Banking Processing |
 | Alias Resolution | API Management |
+| Allocation Optimisation | Analytics Platform, Portfolio Management System |
 | Application Capture & Validation | Deposit Account Management |
 | Application Data Capture | Document Management, Loan Origination Platform |
 | Application Decisioning | Workflow Orchestration |
@@ -503,7 +581,9 @@ Each business capability / process / step and the technology capabilities it dep
 | Assess Affordability | Credit Decisioning Engine |
 | Assess Change Impact | Workflow Orchestration |
 | Assess Trade Limit | Credit Decisioning Engine |
+| Asset Allocation | Analytics Platform, Portfolio Management System |
 | Asset Liability Management | Analytics Platform |
+| Asset Safekeeping | Core Banking Processing, Order Management System |
 | Assign Reason Code | Card Processing |
 | Authenticate Requester | Identity Access Management |
 | Authorization Controls | Card Processing |
@@ -512,12 +592,15 @@ Each business capability / process / step and the technology capabilities it dep
 | Balance & Funds Verification | Card Processing |
 | Balance Settlement & Deactivation | Core Banking Processing |
 | Behavioural Analytics | Analytics Platform |
+| Benchmark Management | Analytics Platform, Portfolio Management System |
 | Beneficial Ownership Capture | Deposit Account Management |
+| Best Interest Compliance | Document Management, Investment Advisory Platform |
 | Block Compromised Card | Card Processing |
 | Branch Banking | Integration Platform |
 | Bulk Payment Origination | Payment Orchestration |
 | Campaign Execution | CRM Platform |
 | Campaign Management | CRM Platform |
+| Capital Market Assumptions | Analytics Platform, Portfolio Management System |
 | Capture Account Application | Digital Channel Platform |
 | Capture Card Application | Digital Channel Platform |
 | Capture Clearing Response | Payment Orchestration |
@@ -585,7 +668,10 @@ Each business capability / process / step and the technology capabilities it dep
 | Contact Center | Contact Center Platform |
 | Contact Dialogue Management | Conversational AI |
 | Contact Routing Management | Contact Center Platform |
+| Corporate Action Election | Notification Services, Order Management System |
+| Corporate Actions Processing | Core Banking Processing, Order Management System |
 | Correspondent Banking | Payment Orchestration |
+| Cost Basis Tracking | Core Banking Processing, Portfolio Management System |
 | Create Customer Record | Master Data Management |
 | Credit Bureau Retrieval | Analytics Platform, Credit Decisioning Engine |
 | Credit Decisioning | Credit Decisioning Engine, Machine Learning Platform |
@@ -594,6 +680,7 @@ Each business capability / process / step and the technology capabilities it dep
 | Credit Transfer Execution | Payment Orchestration |
 | Cross-Border Fee Calculation | Payment Orchestration |
 | Cross-Border Payments | Payment Orchestration |
+| Custody & Safekeeping | Core Banking Processing, Order Management System |
 | Customer Acquisition | Workflow Orchestration |
 | Customer Due Diligence | Document Management |
 | Customer Event Detection | Analytics Platform |
@@ -664,6 +751,7 @@ Each business capability / process / step and the technology capabilities it dep
 | Finalize Dispute Credit | Core Banking Processing |
 | Finance Management | General Ledger Engine |
 | Financial Crime Compliance | Transaction Monitoring Platform |
+| Financial Planning Advisory | CRM Platform, Investment Advisory Platform |
 | Financial Reporting | General Ledger Engine |
 | First Deposit Funding | Transaction Posting Engine |
 | Forecast Cash Flow | Analytics Platform |
@@ -678,10 +766,12 @@ Each business capability / process / step and the technology capabilities it dep
 | Gather Dispute Evidence | Document Management |
 | General Ledger Accounting | General Ledger Engine |
 | Generate Card Credential | Card Processing |
+| Goal Planning | Analytics Platform, Investment Advisory Platform |
 | Guarantee Administration | Core Banking Processing, Document Management |
 | Hardship & Forbearance | Core Banking Processing, Workflow Orchestration |
 | Identify Breaks | Workflow Orchestration |
 | Identity Verification | Customer Identity |
+| Income Collection | Core Banking Processing, Order Management System |
 | Income Verification | Analytics Platform, Document Management |
 | Ingest Bank Statement | Integration Platform |
 | Instant Payment Clearing | Data Streaming |
@@ -694,6 +784,9 @@ Each business capability / process / step and the technology capabilities it dep
 | Interest Calculation | Core Banking Processing |
 | Investigate Break | Workflow Orchestration |
 | Investment Advisory | Generative AI Platform |
+| Investment Mandate Management | Analytics Platform, Portfolio Management System |
+| Investment Research | Analytics Platform, Investment Advisory Platform |
+| Investment Valuation | Analytics Platform, Portfolio Management System |
 | Issue Dormancy Notice | Notification Services |
 | Issue Final Response | Notification Services |
 | Issue Final Statement | Document Management |
@@ -734,6 +827,9 @@ Each business capability / process / step and the technology capabilities it dep
 | Onboarding Orchestration | Workflow Orchestration |
 | Online Banking | Customer Identity |
 | Operational Risk Management | Threat Detection |
+| Order Allocation | Core Banking Processing, Order Management System |
+| Order Management | Core Banking Processing, Order Management System |
+| Order Routing | Core Banking Processing, Order Management System |
 | Overdraft Facility Setup | Core Banking Processing |
 | Overdraft Fee & Notice | Notification Services |
 | Overdraft Interest & Fee Charging | Interest & Charges Engine |
@@ -763,8 +859,12 @@ Each business capability / process / step and the technology capabilities it dep
 | Payment Services | Core Banking Processing, Payment Orchestration |
 | Payment Status Tracking | Payment Orchestration |
 | Payoff & Closure | Core Banking Processing |
+| Performance Measurement | Analytics Platform, Portfolio Management System |
 | Personalize Card | Card Processing |
+| Portfolio Accounting | Core Banking Processing, Portfolio Management System |
+| Portfolio Construction | Analytics Platform, Portfolio Management System |
 | Portfolio Management | Analytics Platform |
+| Portfolio Rebalancing Management | Analytics Platform, Portfolio Management System |
 | Post Account Interest | Core Banking Processing |
 | Post Adjustment | General Ledger Engine |
 | Post Cleared Transaction | Core Banking Processing |
@@ -772,6 +872,7 @@ Each business capability / process / step and the technology capabilities it dep
 | Pre-Qualify Borrower | Credit Decisioning Engine |
 | Prepayment Handling | Core Banking Processing |
 | Pricing Exception Handling | Workflow Orchestration |
+| Product Recommendation | Generative AI Platform, Investment Advisory Platform |
 | Promise-To-Pay Management | Core Banking Processing, Workflow Orchestration |
 | Provision Wallet Token | Card Processing |
 | Provisional Credit & Resolution | Core Banking Processing |
@@ -804,6 +905,8 @@ Each business capability / process / step and the technology capabilities it dep
 | Repossession Management | Core Banking Processing, Workflow Orchestration |
 | Representment Handling | Workflow Orchestration |
 | Request To Pay | API Management |
+| Retirement Projection | Analytics Platform, Investment Advisory Platform |
+| Return Attribution | Analytics Platform, Portfolio Management System |
 | Return Authorization Response | Card Processing |
 | Revaluation Scheduling | Analytics Platform, Workflow Orchestration |
 | Review Representment Evidence | Document Management |
@@ -811,6 +914,7 @@ Each business capability / process / step and the technology capabilities it dep
 | Reward Points Accrual | Core Banking Processing |
 | Reward Points Redemption | Core Banking Processing |
 | Rewards Management | Core Banking Processing |
+| Risk Tolerance Profiling | CRM Platform, Investment Advisory Platform |
 | Risk-Grade Assignment | Analytics Platform, Credit Decisioning Engine |
 | Route Payment | Payment Orchestration |
 | SWIFT Message Processing | Integration Platform |
@@ -819,6 +923,7 @@ Each business capability / process / step and the technology capabilities it dep
 | Score Credit Risk | Machine Learning Platform |
 | Screen Customer | Transaction Monitoring Platform |
 | Screen Sanctions | Transaction Monitoring Platform |
+| Securities Position Keeping | Core Banking Processing, Order Management System |
 | Segment Arrears | Analytics Platform |
 | Service Fulfilment | Workflow Orchestration |
 | Servicing Order Orchestration | Workflow Orchestration |
@@ -826,6 +931,7 @@ Each business capability / process / step and the technology capabilities it dep
 | Settle Residual Balance | Core Banking Processing |
 | Settle Trade Payment | Core Banking Processing |
 | Settlement Confirmation | Payment Orchestration |
+| Settlement Instruction Management | Core Banking Processing, Order Management System |
 | Settlement Liquidity Management | Payment Orchestration |
 | Settlement Quotation | Core Banking Processing |
 | Settlement Reconciliation | Payment Orchestration |
@@ -836,13 +942,21 @@ Each business capability / process / step and the technology capabilities it dep
 | Statement & Notices | Core Banking Processing, Document Management |
 | Statement Delivery | Notification Services |
 | Submit To Clearing | Payment Orchestration |
+| Suitability Assessment | CRM Platform, Investment Advisory Platform |
+| Suitability Report Production | Document Management, Investment Advisory Platform |
 | Suspicious Activity Reporting | Transaction Monitoring Platform |
 | Sweep Rule Execution | Core Banking Processing |
 | Syndicated Loan Administration | Core Banking Processing, Workflow Orchestration |
 | Take Mortgage Application | Loan Origination Platform |
 | Tax Reporting Consolidation | Document Management |
+| Tax-Loss Harvesting | Analytics Platform, Portfolio Management System |
 | Term Deposit Lifecycle | Core Banking Processing |
 | Tiered Interest Determination | Interest & Charges Engine |
+| Tolerance Band Monitoring | Analytics Platform, Portfolio Management System |
+| Trade Affirmation | Core Banking Processing, Order Management System |
+| Trade Execution | Core Banking Processing, Order Management System |
+| Trade Fail Management | Core Banking Processing, Order Management System |
+| Trade Settlement | Core Banking Processing, Order Management System |
 | Transaction Monitoring | Transaction Monitoring Platform |
 | Transaction Posting | Transaction Posting Engine |
 | Transaction Reversal Handling | Transaction Posting Engine |
