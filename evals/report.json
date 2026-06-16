@@ -1,10 +1,17 @@
 {
-  "generated": "2026-06-16T16:24:11.759605Z",
-  "phase": "research",
+  "generated": "2026-06-16T16:31:03.756759Z",
+  "phase": "steward",
   "counts": {
     "FAIL": 0,
-    "WARN": 0,
+    "WARN": 1,
     "INFO": 0
   },
-  "findings": []
+  "findings": [
+    {
+      "severity": "WARN",
+      "phase": "steward",
+      "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
+      "message": "legacy 'Fiserv OmniPay' has no modern successor"
+    }
+  ]
 }

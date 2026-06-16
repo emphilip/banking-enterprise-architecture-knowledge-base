@@ -295,6 +295,44 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Reward Points Redemption | L4 | Cards | Rewards Management | Points Redemption, Loyalty Redemption |
 | Card Collections | L3 | Cards | Card Lifecycle Management | Card Dunning, Card Arrears Management |
 | Cardholder Notifications | L3 | Cards | Card Lifecycle Management | Card Alerts, Transaction Alerts |
+| Portfolio Construction | L3 | Wealth & Investments | Portfolio Management | Portfolio Build, Portfolio Modelling |
+| Asset Allocation | L3 | Wealth & Investments | Portfolio Management | Strategic Asset Allocation, SAA/TAA |
+| Portfolio Rebalancing Management | L3 | Wealth & Investments | Portfolio Management | Rebalancing Capability, Drift Management Capability |
+| Performance Measurement | L3 | Wealth & Investments | Portfolio Management | Performance & Attribution, GIPS Reporting |
+| Portfolio Accounting | L3 | Wealth & Investments | Portfolio Management | Investment Bookkeeping, Investment Book of Record Capability |
+| Investment Mandate Management | L3 | Wealth & Investments | Portfolio Management | Mandate Compliance, IPS Management |
+| Financial Planning Advisory | L3 | Wealth & Investments | Investment Advisory | Wealth Planning Capability, Comprehensive Planning |
+| Suitability Assessment | L3 | Wealth & Investments | Investment Advisory | Suitability & Appropriateness, Investor Profiling |
+| Investment Research | L3 | Wealth & Investments | Investment Advisory | Securities Research, Market Research (Investments) |
+| Advice Generation | L3 | Wealth & Investments | Investment Advisory | Advisory Recommendation, Robo-Advice |
+| Goal Planning | L3 | Wealth & Investments | Investment Advisory | Goal-Based Investing, Goal Tracking |
+| Best Interest Compliance | L3 | Wealth & Investments | Investment Advisory | Reg BI Compliance, Care Obligation Management |
+| Order Management | L3 | Wealth & Investments | Brokerage & Trading | Order Lifecycle Management, OMS Capability |
+| Trade Execution | L3 | Wealth & Investments | Brokerage & Trading | Execution Management, Best Execution |
+| Trade Settlement | L3 | Wealth & Investments | Brokerage & Trading | Securities Settlement, Clearing & Settlement (Securities) |
+| Custody & Safekeeping | L3 | Wealth & Investments | Brokerage & Trading | Custody Administration, Asset Servicing |
+| Corporate Actions Processing | L3 | Wealth & Investments | Brokerage & Trading | Corporate Action Handling, Asset Servicing Events |
+| Securities Position Keeping | L3 | Wealth & Investments | Brokerage & Trading | Position Management (Securities), Holdings Keeping |
+| Allocation Optimisation | L4 | Wealth & Investments | Asset Allocation | Mean-Variance Optimisation, Efficient Frontier |
+| Capital Market Assumptions | L4 | Wealth & Investments | Asset Allocation | CMA Modelling, Return Forecasting |
+| Tolerance Band Monitoring | L4 | Wealth & Investments | Portfolio Rebalancing Management | Drift Monitoring, Rebalance Trigger |
+| Tax-Loss Harvesting | L4 | Wealth & Investments | Portfolio Rebalancing Management | Tax Optimisation (Investments), TLH |
+| Return Attribution | L4 | Wealth & Investments | Performance Measurement | Performance Attribution, Brinson Attribution |
+| Benchmark Management | L4 | Wealth & Investments | Performance Measurement | Composite Management, Benchmark Administration |
+| Investment Valuation | L4 | Wealth & Investments | Portfolio Accounting | Pricing & Valuation (Investments), NAV Calculation |
+| Cost Basis Tracking | L4 | Wealth & Investments | Portfolio Accounting | Tax Lot Accounting, Basis Reporting |
+| Risk Tolerance Profiling | L4 | Wealth & Investments | Suitability Assessment | Risk Profiling, Risk Capacity Assessment |
+| Suitability Report Production | L4 | Wealth & Investments | Suitability Assessment | Suitability Statement, Advice Disclosure |
+| Product Recommendation | L4 | Wealth & Investments | Advice Generation | Investment Recommendation, Model Portfolio Matching |
+| Retirement Projection | L4 | Wealth & Investments | Goal Planning | Retirement Modelling, Decumulation Planning |
+| Order Routing | L4 | Wealth & Investments | Order Management | Smart Order Routing, Venue Selection |
+| Order Allocation | L4 | Wealth & Investments | Order Management | Block Allocation, Fill Allocation |
+| Trade Affirmation | L4 | Wealth & Investments | Trade Settlement | Affirmation & Confirmation, Trade Matching |
+| Settlement Instruction Management | L4 | Wealth & Investments | Trade Settlement | SSI Management, Settlement Messaging |
+| Trade Fail Management | L4 | Wealth & Investments | Trade Settlement | Fails Management, Settlement Exceptions |
+| Asset Safekeeping | L4 | Wealth & Investments | Custody & Safekeeping | Safekeeping Records, Depository Reconciliation |
+| Income Collection | L4 | Wealth & Investments | Custody & Safekeeping | Dividend Collection, Coupon Processing |
+| Corporate Action Election | L4 | Wealth & Investments | Corporate Actions Processing | Voluntary Election Handling, Proxy Voting |
 
 ## Business processes
 
@@ -330,6 +368,10 @@ Format: Canonical Name | Domain (defined_in) | Capabilities it depends_on | Alia
 | Card Transaction Authorization | Cards | Card Authorization | Authorization Process, Card Auth |
 | Chargeback Processing | Cards | Dispute Management | Chargeback Lifecycle, Dispute Chargeback |
 | Card Fraud Handling | Cards | Fraud Management | Card Fraud Management, Card Fraud Operations |
+| Financial Planning | Wealth & Investments | Investment Advisory | Wealth Planning, Advice Process |
+| Portfolio Rebalancing | Wealth & Investments | Portfolio Management | Rebalancing, Drift Management |
+| Trade Order Management | Wealth & Investments | Brokerage & Trading | Trade Order Lifecycle, OMS Workflow |
+| Performance Reporting | Wealth & Investments | Portfolio Management | Investment Reporting, Client Reporting |
 
 ## Technology capabilities
 
@@ -367,6 +409,9 @@ Format: Canonical Name | Tech Domain (defined_in) | Business capabilities that d
 | Digital Channel Platform | Channels & Engagement | Digital Banking, Mobile Banking | Digital Banking Platform |
 | Contact Center Platform | Channels & Engagement | Contact Center | CCaaS |
 | CRM Platform | Channels & Engagement | Relationship Management, Campaign Management | Customer Relationship Management |
+| Portfolio Management System | Core Processing | Portfolio Management | PMS, Investment Book of Record, IBOR, Portfolio & Investment Management Platform |
+| Order Management System | Core Processing | Brokerage & Trading | OMS, Order & Execution Management Platform |
+| Investment Advisory Platform | Core Processing | Investment Advisory | Digital Advice Platform, Financial Planning Platform, Wealth Advisory Suite |
 
 ## Legacy systems
 
@@ -432,6 +477,12 @@ Format: Canonical Name | Realizes (tech capability depends_on it) | Vendor | Ali
 | FIS Card Management | Card Processing | FIS | FIS CMS, FIS Payments One, FIS Card Processing |
 | Fiserv OmniPay | Card Processing | Fiserv | OmniPay, Fiserv OmniPay Platform |
 | Fiserv Optis | Card Processing | Fiserv | Optis, Fiserv Optis Platform |
+| FIS Global Plus | Portfolio Management System | FIS | Global Plus, Unity Powered by Global Plus |
+| SunGard Asset Arena | Portfolio Management System | FIS (SunGard) | Asset Arena, FIS Asset Arena |
+| SS&C Advent Geneva | Portfolio Management System | SS&C Advent | Geneva, Advent Geneva, APX |
+| SS&C Advent Moxy | Order Management System | SS&C Advent | Moxy, Advent Moxy |
+| Broadridge Portfolio Master | Portfolio Management System | Broadridge (representative) | Broadridge Recordkeeping, Broadridge IBOR, Portfolio Master |
+| Temenos WealthSuite | Investment Advisory Platform | Temenos | WealthSuite, Temenos Wealth, Temenos Robo-Advisor |
 
 ## Modern systems
 
@@ -507,6 +558,13 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | i2c | Card Processing | TSYS TS2; Fiserv Optis | i2c Inc | i2c Issuer Processing |
 | Pismo | Card Processing | TSYS TS2; FIS Card Management | Visa (Pismo) | Pismo Platform, Visa Global Issuer Processing |
 | Episode Six | Card Processing | First Data Cards | Episode Six | Episode Six TRITIUM, E6 |
+| BlackRock Aladdin | Portfolio Management System | SS&C Advent Geneva; SunGard Asset Arena | BlackRock | Aladdin, Aladdin Wealth |
+| SimCorp One | Portfolio Management System | FIS Global Plus; SunGard Asset Arena | SimCorp | SimCorp Dimension, SimCorp |
+| Addepar | Portfolio Management System | SS&C Advent Geneva; Broadridge Portfolio Master | Addepar | Addepar Platform |
+| Charles River IMS | Order Management System | SS&C Advent Moxy | State Street (Charles River Development) | Charles River, CRD IMS, Charles River Development |
+| Bloomberg AIM | Order Management System | SS&C Advent Moxy | Bloomberg | AIM, Bloomberg Asset and Investment Manager |
+| InvestCloud | Investment Advisory Platform | Temenos WealthSuite | InvestCloud | InvestCloud X, NaviPlan |
+| Envestnet | Investment Advisory Platform | Temenos WealthSuite | Envestnet | Envestnet Platform, Envestnet Wealth Management |
 
 ## Glossary terms
 
@@ -589,6 +647,20 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | EMV Cryptogram Validation | Card Authorization Engine | Core Processing | L3 | ARQC Validation, Chip Cryptogram Service, EMV Validation Service |
 | Stand-In Processing Service | Card Authorization Engine | Core Processing | L3 | STIP Service, On-Behalf-Of Processing, Stand-In Authorization Service |
 | 3-D Secure Service | Card Authorization Engine | Core Processing | L3 | 3DS Service, EMV 3DS ACS, Cardholder Authentication Service |
+| Portfolio Accounting Engine | Portfolio Management System | Core Processing | L2 | Investment Accounting Engine, Portfolio Bookkeeping, Position & Cash Engine |
+| Rebalancing Engine | Portfolio Management System | Core Processing | L2 | Portfolio Rebalancer, Drift Management Engine, Model Rebalancing Service |
+| Performance & Attribution Engine | Portfolio Management System | Core Processing | L2 | Performance Measurement Engine, Attribution Analytics, Returns & Attribution Service |
+| Model Portfolio Manager | Portfolio Management System | Core Processing | L2 | Model Management Service, Target Allocation Manager, Sleeve & Model Engine |
+| Order Routing Engine | Order Management System | Core Processing | L2 | Order Routing Service, FIX Routing Engine |
+| Execution Management Service | Order Management System | Core Processing | L2 | EMS, Execution Workbench, Trade Execution Service |
+| Trade Allocation Engine | Order Management System | Core Processing | L2 | Allocation Service, Block Allocation Engine, Average Price Allocation |
+| Securities Settlement Processor | Order Management System | Core Processing | L2 | Securities Settlement Engine, Post-Trade Processor, SSI & Confirmation Service |
+| Risk Profiling Engine | Investment Advisory Platform | Core Processing | L2 | Investor Risk Profiler, Risk Tolerance Engine, Suitability Profiling Service |
+| Goal-Based Planning Engine | Investment Advisory Platform | Core Processing | L2 | Financial Planning Engine, Goals-Based Planning Service, Cashflow Planning Engine |
+| Robo-Advisory Engine | Investment Advisory Platform | Core Processing | L2 | Robo-Advisor, Automated Advice Engine, Digital Advice Engine |
+| Tax-Loss Harvesting Service | Rebalancing Engine | Core Processing | L3 | TLH Service, Tax-Aware Rebalancing, Loss Harvesting Engine |
+| Pre-Trade Compliance Engine | Order Routing Engine | Core Processing | L3 | Pre-Trade Compliance, Investment Guideline Monitor, Mandate Compliance Engine |
+| Suitability Assessment Service | Risk Profiling Engine | Core Processing | L3 | Suitability Engine, Appropriateness Service, Advice Suitability Check |
 
 ## Process sub-processes
 
@@ -648,6 +720,18 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Fraud Detection & Triage | Card Fraud Handling | Cards | Detection & Triage, Alert Triage |
 | Card Containment & Reissue | Card Fraud Handling | Cards | Containment & Reissue, Block & Reissue |
 | Fraud Adjudication & Reporting | Card Fraud Handling | Cards | Adjudication & Reporting, Fraud Disposition |
+| Investor Profiling & Suitability | Wealth Onboarding | Wealth & Investments | Suitability Onboarding, Investor Profiling Sub-Process |
+| Investment Account Setup | Wealth Onboarding | Wealth & Investments | Investment Account Opening, Mandate Setup |
+| Client Discovery & Profiling | Financial Planning | Wealth & Investments | Discovery, Client Fact Find |
+| Plan Construction & Suitability | Financial Planning | Wealth & Investments | Plan Construction, Suitability Determination |
+| IPS Agreement & Documentation | Financial Planning | Wealth & Investments | IPS Agreement, Advice Documentation |
+| Drift Detection & Proposal | Portfolio Rebalancing | Wealth & Investments | Drift Detection, Rebalance Proposal |
+| Rebalance Compliance & Approval | Portfolio Rebalancing | Wealth & Investments | Rebalance Approval, Rebalance Pre-Trade Compliance |
+| Order Capture & Compliance | Trade Order Management | Wealth & Investments | Order Intake, Pre-Trade Check |
+| Routing & Execution | Trade Order Management | Wealth & Investments | Execution, Order Execution Sub-Process |
+| Confirmation, Allocation & Settlement | Trade Order Management | Wealth & Investments | Allocation & Settlement, Post-Trade |
+| Valuation & Reconciliation | Performance Reporting | Wealth & Investments | Valuation & Recon, Book Reconciliation |
+| Return Measurement & Delivery | Performance Reporting | Wealth & Investments | Return Calc & Delivery, Reporting & Delivery |
 
 ## Process flow steps
 
@@ -796,6 +880,37 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Reissue Card | Card Fraud Handling | 4 | Card Processing | Replace Card, Card Reissue Step |
 | Adjudicate Fraud Claim | Card Fraud Handling | 5 | Workflow Orchestration | Decide Fraud Claim, Fraud Adjudication Step |
 | Refer Suspicious Activity | Card Fraud Handling | 6 | Transaction Monitoring Platform | Refer For SAR, Suspicious Activity Referral Step |
+| Capture Investor Profile | Wealth Onboarding | 1 | Investment Advisory | Capture Investor Data, Investor Intake Step |
+| Capture Risk Profile | Wealth Onboarding | 2 | Investment Advisory | Profile Risk, Risk Profiling Step |
+| Assess Investor Suitability | Wealth Onboarding | 3 | Investment Advisory | Suitability Check Step, Best Interest Step |
+| Open Investment Account | Wealth Onboarding | 4 | Portfolio Management | Establish Investment Account, Account Opening Step |
+| Execute Advisory Mandate | Wealth Onboarding | 5 | Portfolio Management | Sign Mandate, Mandate Execution Step |
+| Fund Investment Account | Wealth Onboarding | 6 | Portfolio Management | Initial Investment Funding, Account Funding Step |
+| Capture Client Goals | Financial Planning | 1 | Investment Advisory | Client Fact Find Step, Goal Capture Step |
+| Determine Risk Tolerance | Financial Planning | 2 | Investment Advisory | Risk Tolerance Step, Determine Risk Appetite |
+| Formulate Investment Plan | Financial Planning | 3 | Investment Advisory | Construct Plan Step, Plan Formulation Step |
+| Confirm Suitability | Financial Planning | 4 | Investment Advisory | Suitability Confirmation Step, Best Interest Check Step |
+| Draft Investment Policy Statement | Financial Planning | 5 | Investment Advisory | Draft IPS Step, IPS Drafting Step |
+| Agree Investment Plan | Financial Planning | 6 | Investment Advisory | Agree Plan Step, IPS Sign-Off Step |
+| Measure Portfolio Drift | Portfolio Rebalancing | 1 | Portfolio Management | Drift Measurement Step, Measure Allocation Drift |
+| Evaluate Drift Threshold | Portfolio Rebalancing | 2 | Portfolio Management | Threshold Evaluation Step, Tolerance Check Step |
+| Generate Rebalance Proposal | Portfolio Rebalancing | 3 | Portfolio Management | Rebalance Proposal Step, Propose Rebalance Step |
+| Run Pre-Trade Compliance | Portfolio Rebalancing | 4 | Portfolio Management | Pre-Trade Compliance Step, Compliance Screening Step |
+| Approve Rebalance Plan | Portfolio Rebalancing | 5 | Portfolio Management | Rebalance Approval Step, Sign Off Rebalance Step |
+| Raise Rebalance Orders | Portfolio Rebalancing | 6 | Brokerage & Trading | Raise Orders Step, Order Generation Step |
+| Capture Order | Trade Order Management | 1 | Brokerage & Trading | Order Capture Step, Intake Order Step |
+| Validate Order | Trade Order Management | 2 | Brokerage & Trading | Order Validation Step, Pre-Trade Validation Step |
+| Route Order | Trade Order Management | 3 | Brokerage & Trading | Order Routing Step, Venue Selection Step |
+| Execute Order | Trade Order Management | 4 | Brokerage & Trading | Order Execution Step, Fill Capture Step |
+| Confirm Trade | Trade Order Management | 5 | Brokerage & Trading | Trade Confirmation Step, Affirm Trade Step |
+| Allocate Fills | Trade Order Management | 6 | Brokerage & Trading | Trade Allocation Step, Block Allocation Step |
+| Settle Trade | Trade Order Management | 7 | Brokerage & Trading | Securities Settlement Step, Settle Securities Trade Step |
+| Value Portfolio | Performance Reporting | 1 | Portfolio Management | Portfolio Valuation Step, Mark-to-Market Step |
+| Process Corporate Actions | Performance Reporting | 2 | Portfolio Management | Corporate Actions Step, Entitlement Processing Step |
+| Reconcile Positions | Performance Reporting | 3 | Portfolio Management | Position Reconciliation Step, Book Recon Step |
+| Calculate Returns | Performance Reporting | 4 | Portfolio Management | Return Calculation Step, TWR Calculation Step |
+| Compute Attribution | Performance Reporting | 5 | Portfolio Management | Attribution Analysis Step, Benchmark Comparison Step |
+| Produce Performance Report | Performance Reporting | 6 | Portfolio Management | Report Production Step, Report Delivery Step |
 
 ## Supporting concepts
 
@@ -885,3 +1000,19 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Chargeback Case | artifact | Dispute Case, Chargeback Record |
 | Card Statement | artifact | Credit Card Statement, Card Billing Statement |
 | Fraud Alert | artifact | Fraud Case Alert, Suspicious Transaction Alert |
+| Financial Advisor | role | Wealth Advisor, Investment Adviser |
+| Portfolio Manager | role | PM, Discretionary Manager |
+| Wealth Relationship Manager | role | Private Banker, Wealth RM |
+| Trader | role | Dealer, Execution Trader |
+| Settlement Operations Officer | role | Securities Settlement Officer, Middle Office Operations |
+| Performance Analyst | role | Investment Reporting Analyst, Performance Measurement Analyst |
+| Investment Plan Agreed Event | event | IPS Signed Event, Plan Agreed Event |
+| Rebalance Triggered Event | event | Drift Breach Event, Rebalance Trigger Event |
+| Order Placed Event | event | Order Raised Event, Order Submitted Event |
+| Trade Executed Event | event | Order Filled Event, Execution Event |
+| Corporate Action Announced Event | event | CA Announced Event, Issuer Event |
+| Investment Policy Statement | artifact | IPS, Investment Mandate Statement |
+| Risk Profile | artifact | Investor Risk Profile, Risk Tolerance Profile |
+| Order Ticket | artifact | Trade Order, Deal Ticket |
+| Trade Confirmation | artifact | Trade Confirm, Contract Note |
+| Performance Report | artifact | Investment Performance Report, Client Statement (Investments) |

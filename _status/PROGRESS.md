@@ -36,8 +36,8 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Wealth & Investments
-- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-wealth-and-investments-{bian,flows,tech}.md. NOTE: domain has no top-level tech capability yet; tech agent proposes NEW top-level wealth tech caps + decomposition + first wealth systems.
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards (5 of 15)
+- Phase: Phase 2 Steward (done) — reconciled the three Wealth & Investments proposals (bian, flows, tech) into glossary/_canonical-names.md; steward gate 0 FAIL.
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards (5 of 15); Wealth & Investments steward pass complete (author/weave phases next).
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
@@ -52,6 +52,72 @@ decomposition into sharper focus.
 
 ## Decisions log
 
+- (2026-06-16, Phase 2 Steward, Wealth & Investments) Reconciled the three Wealth &
+  Investments proposals (bian, flows, tech) into glossary/_canonical-names.md.
+  Counts added per section: Technology capabilities +3 (Portfolio Management System,
+  Order Management System, Investment Advisory Platform — all Domain=Core Processing,
+  Enables = Portfolio Management / Brokerage & Trading / Investment Advisory
+  respectively); Business capabilities +37 (18 L3 + 19 L4, all Domain=Wealth &
+  Investments — 6 L3 under Portfolio Management, 6 under Investment Advisory, 6 under
+  Brokerage & Trading; L4s parented to those L3s); Business processes +4 (Financial
+  Planning, Portfolio Rebalancing, Trade Order Management, Performance Reporting,
+  Domain=Wealth & Investments); Technology sub-capabilities +14 (11 L2 under the 3 new
+  top-level wealth tech caps + 3 L3 under Rebalancing Engine / Order Routing Engine /
+  Risk Profiling Engine, all Domain=Core Processing); Process sub-processes +12 (2
+  Wealth Onboarding, 3 Financial Planning, 2 Portfolio Rebalancing, 3 Trade Order
+  Management, 2 Performance Reporting); Process flow steps +31 (6 Wealth Onboarding,
+  6 Financial Planning, 6 Portfolio Rebalancing, 7 Trade Order Management, 6
+  Performance Reporting — Order integer contiguous per process); Supporting concepts
+  +16 (6 role, 5 event, 5 artifact); Legacy systems +6; Modern systems +7. Total +130
+  rows.
+  Renames / collision resolutions:
+  (1) BIAN L3 capability "Portfolio Rebalancing" -> **Portfolio Rebalancing
+  Management**, because the flows proposal introduces a process also named "Portfolio
+  Rebalancing" (capability-vs-process collision, per the registry naming rule). The
+  process keeps the plain name "Portfolio Rebalancing"; the two L4 children
+  (Tolerance Band Monitoring, Tax-Loss Harvesting) were re-parented to "Portfolio
+  Rebalancing Management". Its aliases were set to "Rebalancing Capability, Drift
+  Management Capability" to avoid sharing "Rebalancing"/"Drift Management" with the
+  process.
+  (2) BIAN L3 capability "Financial Planning" -> **Financial Planning Advisory**,
+  because the flows proposal introduces a process named "Financial Planning". The
+  process keeps the plain name; the capability's aliases became "Wealth Planning
+  Capability, Comprehensive Planning" (process keeps "Wealth Planning, Advice
+  Process"). No L4 children parent to this capability, so no re-parenting needed.
+  Alias-only adjustments (avoid alias==other-concept canonical, and avoid two
+  concepts sharing an alias):
+  (a) tech cap "Order Management System" dropped alias "Trade Order Management"
+  (equals the new process canonical name).
+  (b) BIAN cap "Portfolio Accounting" dropped aliases "Investment Book of Record" /
+  "IBOR" (kept on tech cap "Portfolio Management System"); replaced with "Investment
+  Bookkeeping, Investment Book of Record Capability".
+  (c) tech sub-cap "Order Routing Engine" dropped alias "Smart Order Routing" (kept on
+  BIAN L4 cap "Order Routing").
+  (d) sub-process "Investor Profiling & Suitability" dropped alias "Investor Profiling"
+  (kept on cap "Suitability Assessment") -> "Investor Profiling Sub-Process".
+  (e) sub-process "Routing & Execution" dropped alias "Best Execution" (kept on cap
+  "Trade Execution") -> "Order Execution Sub-Process".
+  (f) sub-process "Rebalance Compliance & Approval" dropped alias "Pre-Trade
+  Compliance" (kept on tech sub-cap "Pre-Trade Compliance Engine") -> "Rebalance
+  Pre-Trade Compliance".
+  (g) support event "Rebalance Triggered Event" alias "Rebalance Trigger" ->
+  "Rebalance Trigger Event" (kept "Rebalance Trigger" on cap "Tolerance Band
+  Monitoring").
+  (h) step "Settle Trade" alias "Trade Settlement Step" -> "Settle Securities Trade
+  Step" (the string "Trade Settlement Step" is an existing alias of the Trade Finance
+  step "Settle Trade Payment").
+  Temenos WealthSuite classification: classified as a **LEGACY** Investment Advisory
+  Platform system (advisory incumbent), since InvestCloud and Envestnet supersede it.
+  Legacy coverage (same-capability successors only): FIS Global Plus (PMS) <- SimCorp
+  One; SunGard Asset Arena (PMS) <- BlackRock Aladdin, SimCorp One; SS&C Advent Geneva
+  (PMS) <- BlackRock Aladdin, Addepar; Broadridge Portfolio Master (PMS,
+  generic/representative — vendor marked "Broadridge (representative)") <- Addepar;
+  SS&C Advent Moxy (OMS) <- Charles River IMS, Bloomberg AIM; Temenos WealthSuite
+  (advisory) <- InvestCloud, Envestnet. Every new legacy has at least one
+  same-capability modern successor; every supersedes target is a real legacy system;
+  no cross-capability pairing. Steward gate: 0 FAIL, 1 WARN — the lone WARN ("legacy
+  'Fiserv OmniPay' has no modern successor") is a pre-existing Cards-domain legacy
+  unrelated to this run; no new "no successor" WARNs introduced.
 - (2026-06-15, Phase 2 Steward, Cards) Reconciled the three Cards proposals (bian,
   flows, tech) into glossary/_canonical-names.md. Most capability/process/tech-subcap/
   sub-process rows from the proposals were already present in the registry from an
