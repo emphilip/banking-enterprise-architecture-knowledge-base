@@ -96,12 +96,19 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - BlackRock Aladdin supersedes SunGard Asset Arena.
 - SimCorp One supersedes FIS Global Plus.
 - SimCorp One supersedes SunGard Asset Arena.
-- Addepar supersedes SS&C Advent Geneva.
 - Addepar supersedes Broadridge Portfolio Master.
 - Charles River IMS supersedes SS&C Advent Moxy.
 - Bloomberg AIM supersedes SS&C Advent Moxy.
 - InvestCloud supersedes Temenos WealthSuite.
 - Envestnet supersedes Temenos WealthSuite.
+- Murex MX.3 Risk supersedes FIS Adaptiv.
+- Murex MX.3 Risk supersedes Oracle OFSAA.
+- MSCI RiskMetrics supersedes IBM Algorithmics.
+- MSCI RiskMetrics supersedes SAS Risk Management for Banking.
+- Numerix Oneview supersedes Moody's RiskFrontier.
+- ServiceNow IRM supersedes Archer IRM.
+- MetricStream supersedes IBM OpenPages.
+- Quantexa supersedes Moody's RiskAuthority.
 
 ## Realization statements
 
@@ -169,6 +176,14 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Order Management System depends on SS&C Advent Moxy.
 - Portfolio Management System depends on Broadridge Portfolio Master.
 - Investment Advisory Platform depends on Temenos WealthSuite.
+- Risk Analytics Engine depends on SAS Risk Management for Banking.
+- Risk Analytics Engine depends on Oracle OFSAA.
+- Risk Analytics Engine depends on Moody's RiskFrontier.
+- Risk Analytics Engine depends on IBM Algorithmics.
+- Risk Analytics Engine depends on FIS Adaptiv.
+- Risk Data Aggregation depends on Moody's RiskAuthority.
+- Governance Risk & Compliance Platform depends on IBM OpenPages.
+- Governance Risk & Compliance Platform depends on Archer IRM.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -244,6 +259,14 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Order Management System depends on Bloomberg AIM.
 - Investment Advisory Platform depends on InvestCloud.
 - Investment Advisory Platform depends on Envestnet.
+- Risk Analytics Engine depends on Murex MX.3 Risk.
+- Risk Analytics Engine depends on MSCI RiskMetrics.
+- Risk Analytics Engine depends on Numerix Oneview.
+- Governance Risk & Compliance Platform depends on ServiceNow IRM.
+- Governance Risk & Compliance Platform depends on MetricStream.
+- Risk Data Aggregation depends on Quantexa.
+- Model Risk Management Platform depends on ValidMind.
+- Model Risk Management Platform depends on ModelOp.
 
 ## Successor matrix
 | Technology Capability | Legacy System | Modern Successor |
@@ -297,6 +320,8 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | General Ledger Engine | SAP ECC | Oracle Fusion ERP |
 | General Ledger Engine | SAP ECC | Workday Financials |
 | Generative AI Platform | Legacy IVR System | Anthropic Claude |
+| Governance Risk & Compliance Platform | Archer IRM | ServiceNow IRM |
+| Governance Risk & Compliance Platform | IBM OpenPages | MetricStream |
 | Identity Access Management | CA SiteMinder | Okta |
 | Identity Access Management | Oracle Identity Manager | ForgeRock |
 | Integration Platform | Oracle SOA Suite | MuleSoft |
@@ -329,12 +354,17 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Payment Orchestration | Legacy Payment Hub | Form3 |
 | Portfolio Management System | Broadridge Portfolio Master | Addepar |
 | Portfolio Management System | FIS Global Plus | SimCorp One |
-| Portfolio Management System | SS&C Advent Geneva | Addepar |
 | Portfolio Management System | SS&C Advent Geneva | BlackRock Aladdin |
 | Portfolio Management System | SunGard Asset Arena | BlackRock Aladdin |
 | Portfolio Management System | SunGard Asset Arena | SimCorp One |
 | Regulatory Reporting Engine | AxiomSL | Regnology |
 | Regulatory Reporting Engine | Wolters Kluwer OneSumX | Suade |
+| Risk Analytics Engine | FIS Adaptiv | Murex MX.3 Risk |
+| Risk Analytics Engine | IBM Algorithmics | MSCI RiskMetrics |
+| Risk Analytics Engine | Moody's RiskFrontier | Numerix Oneview |
+| Risk Analytics Engine | Oracle OFSAA | Murex MX.3 Risk |
+| Risk Analytics Engine | SAS Risk Management for Banking | MSCI RiskMetrics |
+| Risk Data Aggregation | Moody's RiskAuthority | Quantexa |
 | Transaction Monitoring Platform | NICE Actimize | ComplyAdvantage |
 | Transaction Monitoring Platform | Oracle Mantas | Hawk AI |
 | Workflow Orchestration | Pega BPM | Camunda |

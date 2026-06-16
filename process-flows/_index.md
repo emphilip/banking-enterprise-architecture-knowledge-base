@@ -136,6 +136,23 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[05-draft-investment-policy-statement|Draft Investment Policy Statement]]
 - [[06-agree-investment-plan|Agree Investment Plan]]
 
+## Fraud Detection
+
+- [[01-ingest-transaction-stream|Ingest Transaction Stream]]
+- [[02-screen-transaction-risk|Screen Transaction Risk]]
+- [[03-generate-fraud-alert|Generate Fraud Alert]]
+- [[04-apply-detection-block|Apply Detection Block]]
+- [[05-route-fraud-alert|Route Fraud Alert]]
+
+## Fraud Investigation
+
+- [[01-adjudicate-fraud-alert|Adjudicate Fraud Alert]]
+- [[02-open-fraud-case|Open Fraud Case]]
+- [[03-investigate-fraud-case|Investigate Fraud Case]]
+- [[04-recover-fraud-loss|Recover Fraud Loss]]
+- [[05-file-suspicious-activity-report|File Suspicious Activity Report]]
+- [[06-feed-detection-models|Feed Detection Models]]
+
 ## Loan Collections
 
 - [[01-detect-delinquency|Detect Delinquency]]
@@ -213,6 +230,32 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[06-post-adjustment|Post Adjustment]]
 - [[07-sign-off-reconciliation|Sign Off Reconciliation]]
 
+## Risk Appetite Setting
+
+- [[01-define-risk-capacity|Define Risk Capacity]]
+- [[02-draft-appetite-statement|Draft Appetite Statement]]
+- [[03-cascade-risk-limits|Cascade Risk Limits]]
+- [[04-approve-risk-appetite|Approve Risk Appetite]]
+- [[05-embed-appetite-limits|Embed Appetite Limits]]
+
+## Risk Identification And Assessment
+
+- [[01-identify-risk-event|Identify Risk Event]]
+- [[02-register-risk-item|Register Risk Item]]
+- [[03-score-inherent-risk|Score Inherent Risk]]
+- [[04-evaluate-residual-risk|Evaluate Residual Risk]]
+- [[05-assign-risk-treatment|Assign Risk Treatment]]
+- [[06-track-risk-remediation|Track Risk Remediation]]
+
+## Risk Reporting
+
+- [[01-aggregate-risk-exposure|Aggregate Risk Exposure]]
+- [[02-reconcile-risk-data|Reconcile Risk Data]]
+- [[03-compare-against-limits|Compare Against Limits]]
+- [[04-escalate-limit-breach|Escalate Limit Breach]]
+- [[05-compile-risk-report|Compile Risk Report]]
+- [[06-distribute-risk-report|Distribute Risk Report]]
+
 ## Service Request Handling
 
 - [[01-capture-request|Capture Request]]
@@ -232,6 +275,15 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[05-render-statement-output|Render Statement Output]]
 - [[06-deliver-statement|Deliver Statement]]
 - [[07-archive-statement|Archive Statement]]
+
+## Stress Testing
+
+- [[01-design-stress-scenario|Design Stress Scenario]]
+- [[02-validate-risk-models|Validate Risk Models]]
+- [[03-project-capital-impact|Project Capital Impact]]
+- [[04-assess-capital-adequacy|Assess Capital Adequacy]]
+- [[05-obtain-board-approval|Obtain Board Approval]]
+- [[06-submit-capital-plan|Submit Capital Plan]]
 
 ## Trade Finance Processing
 
