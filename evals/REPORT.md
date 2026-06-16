@@ -1,9 +1,8 @@
 # Eval Report
 
-Generated: 2026-06-16T16:31:03.756759Z  
-Phase: `steward`  
-**FAIL: 0  WARN: 1  INFO: 0**
+Generated: 2026-06-16T16:37:00.852399Z  
+Phase: `author`  
+**FAIL: 0  WARN: 0  INFO: 0**
 
 | Severity | Phase | Path | Message |
 |---|---|---|---|
-| WARN | steward | /home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md | legacy 'Fiserv OmniPay' has no modern successor |
