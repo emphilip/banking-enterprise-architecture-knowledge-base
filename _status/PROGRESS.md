@@ -18,7 +18,7 @@ first row whose Status is not `done`).
 | 3 | Lending & Credit | business | done | done | done | done | done |
 | 4 | Deposits & Accounts | business | done | done | done | done | done |
 | 5 | Cards | business | done | done | done | done | done |
-| 6 | Wealth & Investments | business | todo | todo | todo | todo | in-progress |
+| 6 | Wealth & Investments | business | done | done | done | todo | in-progress |
 | 7 | Risk Management | business | todo | todo | todo | todo | todo |
 | 8 | Compliance & Financial Crime | business | todo | todo | todo | todo | todo |
 | 9 | Channels & Engagement | business | todo | todo | todo | todo | todo |
