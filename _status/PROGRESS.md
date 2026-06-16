@@ -18,7 +18,7 @@ first row whose Status is not `done`).
 | 3 | Lending & Credit | business | done | done | done | done | done |
 | 4 | Deposits & Accounts | business | done | done | done | done | done |
 | 5 | Cards | business | done | done | done | done | done |
-| 6 | Wealth & Investments | business | todo | todo | todo | todo | todo |
+| 6 | Wealth & Investments | business | todo | todo | todo | todo | in-progress |
 | 7 | Risk Management | business | todo | todo | todo | todo | todo |
 | 8 | Compliance & Financial Crime | business | todo | todo | todo | todo | todo |
 | 9 | Channels & Engagement | business | todo | todo | todo | todo | todo |
@@ -35,9 +35,9 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Cards (DONE) — 5 of 15 domains deep-dived
-- Phase: DONE — all 5 eval gates 0 FAIL (1 advisory WARN: Fiserv OmniPay acquirer-side, no in-scope modern successor); LLM-judge PASS after 2 relationship fixes (evals/judge-cards.md); baseline refreshed (802 files)
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards
+- Domain: Wealth & Investments
+- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-wealth-and-investments-{bian,flows,tech}.md. NOTE: domain has no top-level tech capability yet; tech agent proposes NEW top-level wealth tech caps + decomposition + first wealth systems.
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards (5 of 15)
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
