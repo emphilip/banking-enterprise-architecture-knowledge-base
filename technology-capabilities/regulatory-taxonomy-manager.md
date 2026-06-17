@@ -6,7 +6,7 @@ domain: Data & Analytics
 level: L2
 aliases: ["Taxonomy Manager", "Reporting Template Manager", "XBRL Taxonomy Service", "Regulatory Rules Library"]
 status: draft
-sources: ["https://www.regnology.net/en/solutions/for-the-regulated/regnology-reporting-hub/", "https://medium.com/@pratikchavan977/how-regtech-platforms-like-suade-are-transforming-regulatory-reporting-in-modern-banks-bfaa53363b0d"]
+sources: ["https://www.regnology.net/en/solutions/for-the-regulated/regnology-reporting-hub/", "https://www.eba.europa.eu/risk-and-data-analysis/reporting-frameworks"]
 ---
 
 # Regulatory Taxonomy Manager
@@ -25,4 +25,4 @@ Regulatory Taxonomy Manager holds the machine-readable definitions of regulatory
 
 ## References
 - [Regnology Reporting Hub](https://www.regnology.net/en/solutions/for-the-regulated/regnology-reporting-hub/)
-- [How RegTech Platforms Like Suade Are Transforming Regulatory Reporting](https://medium.com/@pratikchavan977/how-regtech-platforms-like-suade-are-transforming-regulatory-reporting-in-modern-banks-bfaa53363b0d)
+- [EBA Reporting Frameworks (DPM / XBRL taxonomy)](https://www.eba.europa.eu/risk-and-data-analysis/reporting-frameworks)

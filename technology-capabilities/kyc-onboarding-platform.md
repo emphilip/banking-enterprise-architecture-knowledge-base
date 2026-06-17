@@ -23,7 +23,7 @@ sources: ["https://www.fenergo.com/client-lifecycle-management", "https://www.fe
 - KYC Onboarding Platform mentions Master Data Management.
 
 ## Details
-KYC Onboarding Platform is the system class that enables KYC Management and Customer Due Diligence: API-first client lifecycle management products such as Fenergo, NICE Actimize CDD and SAS CDD drive policy-driven due diligence rules by jurisdiction, entity type and risk, capturing and verifying identity and beneficial-ownership documents through document AI. It coordinates sanctions, PEP and adverse-media screening, computes customer risk ratings, and runs perpetual KYC — event-driven and periodic review that continuously refreshes the customer profile rather than relying on fixed-cycle remediation. It is distinct from the transaction-centric Transaction Monitoring Platform and focuses on onboarding and the ongoing client lifecycle.
+KYC Onboarding Platform is the system class that enables KYC Management and Customer Due Diligence: API-first client lifecycle management products such as Fenergo drive policy-driven due diligence rules by jurisdiction, entity type and risk, capturing and verifying identity and beneficial-ownership documents through document AI. It coordinates sanctions, PEP and adverse-media screening, computes customer risk ratings, and runs perpetual KYC — event-driven and periodic review that continuously refreshes the customer profile rather than relying on fixed-cycle remediation. It is distinct from the transaction-centric Transaction Monitoring Platform and focuses on onboarding and the ongoing client lifecycle.
 
 ## References
 - [Fenergo Client Lifecycle Management](https://www.fenergo.com/client-lifecycle-management)

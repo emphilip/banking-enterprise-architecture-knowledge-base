@@ -11,7 +11,7 @@ sources: ["https://www.lenzo.ai/blog/sanctions-screening-false-positives-resolut
 
 # Resolve Sanctions Hit
 
-**Definition.** Resolve Sanctions Hit is the decision point that determines true match versus false positive on the preponderance standard with evidence.
+**Definition.** Resolve Sanctions Hit is the decision point that determines true match versus false positive through a documented true-match/false-positive determination.
 **Also known as:** Adjudicate Sanctions Hit, Hit Resolution Step.
 
 ## Relationships
@@ -22,7 +22,7 @@ sources: ["https://www.lenzo.ai/blog/sanctions-screening-false-positives-resolut
 - Resolve Sanctions Hit mentions Sanctions Hit.
 
 ## Details
-The Compliance Screening Officer adjudicates the triage decision and evidence into a hit disposition. Controls include the preponderance standard, evidence documentation and a branch on true versus false match.
+The Compliance Screening Officer adjudicates the triage decision and evidence into a hit disposition. Controls include a documented true-match/false-positive determination, evidence retention and a branch on true versus false match.
 
 ## References
 - [Lenzo — False-positive resolution criteria](https://www.lenzo.ai/blog/sanctions-screening-false-positives-resolution-criteria/)

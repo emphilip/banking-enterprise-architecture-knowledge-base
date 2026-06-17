@@ -5,13 +5,13 @@ type: role
 domain: Compliance & Financial Crime
 aliases: ["Money Laundering Reporting Officer", "BSA/AML Compliance Officer"]
 status: draft
-sources: ["https://www.flagright.com/post/the-fcas-aml-framework-explained", "https://www.fincen.gov/resources/frequently-asked-questions-regarding-fincen-suspicious-activity-report-sar"]
+sources: ["https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html", "https://www.fincen.gov/resources/frequently-asked-questions-regarding-fincen-suspicious-activity-report-sar"]
 ---
 
 # MLRO
 
 **Definition.** MLRO is the Money Laundering Reporting Officer, the named senior individual accountable for the bank's AML program, for deciding whether suspicious activity must be reported, and for filing suspicious activity reports with the financial intelligence unit and regulator. MLRO gives the final sign-off before a SAR is lodged.
-**Also known as:** Money Laundering Reporting Officer, BSA/AML Compliance Officer.
+**Also known as:** Money Laundering Reporting Officer, BSA/AML Compliance Officer (US analogue).
 
 ## Relationships
 - MLRO is related to the Compliance & Financial Crime domain.

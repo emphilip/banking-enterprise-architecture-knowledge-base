@@ -6,7 +6,7 @@ domain: Data & Analytics
 level: L2
 aliases: ["Lineage Service", "Data Lineage Engine", "Provenance Tracker", "End-to-End Lineage"]
 status: draft
-sources: ["https://thedatagovernor.com/what-is-collibra/", "https://moderntechnologist.com/collibra-overview/"]
+sources: ["https://www.bis.org/publ/bcbs239.htm", "https://www.collibra.com/"]
 ---
 
 # Data Lineage Tracker
@@ -24,5 +24,5 @@ sources: ["https://thedatagovernor.com/what-is-collibra/", "https://moderntechno
 Data Lineage Tracker harvests lineage from ETL/ELT tools, databases, BI layers and code to build a column-level, transformation-aware map from source systems to final reports and dashboards. Interactive lineage diagrams support upstream/downstream impact analysis when a field changes and provide the complete-lineage evidence BCBS 239 expects, letting a reported figure be traced to its origin. It draws asset definitions from the metadata catalogue and is the enterprise counterpart to the risk-specific lineage capability.
 
 ## References
-- [The Data Governor: What is Collibra](https://thedatagovernor.com/what-is-collibra/)
-- [Modern Technologist: Collibra Overview](https://moderntechnologist.com/collibra-overview/)
+- [BCBS 239 — Principles for effective risk data aggregation](https://www.bis.org/publ/bcbs239.htm)
+- [Collibra (data lineage)](https://www.collibra.com/)

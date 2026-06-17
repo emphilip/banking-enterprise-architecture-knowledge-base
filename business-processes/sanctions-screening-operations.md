@@ -18,7 +18,7 @@ sources: ["https://salv.com/blog/sanctions-screening-guide/", "https://www.lenzo
 - Sanctions Screening Operations depends on the Sanctions Screening capability.
 
 ## Details
-Sanctions Screening Operations applies exact and fuzzy matching against OFAC SDN and consolidated lists, raises Sanctions Hit alerts above threshold, performs three-tier triage (clear/review/block), resolves true matches on the preponderance standard with documented evidence, and blocks and reports confirmed matches within 10 business days under four-eyes. The lead actor is the Compliance Screening Officer. Outputs include the Sanctions Hit disposition, cleared alerts and the blocking report.
+Sanctions Screening Operations applies exact and fuzzy matching against OFAC SDN and consolidated lists, raises Sanctions Hit alerts above threshold, performs three-tier triage (clear/review/block), resolves true matches with documented true-match/false-positive determinations, and blocks and reports confirmed matches within 10 business days under four-eyes. The lead actor is the Compliance Screening Officer. Outputs include the Sanctions Hit disposition, cleared alerts and the blocking report.
 
 ## Flow
 - Match Against Watchlist causes Generate Sanctions Alert.
