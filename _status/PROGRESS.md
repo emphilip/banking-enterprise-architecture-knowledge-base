@@ -36,7 +36,8 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Core Processing (technology, tech-only run)
-- Phase: 2 Steward (done) — reconciled _status/proposed-core-processing-{tech,systems}.md into glossary/_canonical-names.md after full-registry dedupe. Next: Phase 3 Author (write the tech-subcap + system note files) then Phase 4 Weave/Validate.
+- Phase: 3 Author (in-progress) — 2 sub-agents writing 26 L3 tech sub-caps + 12 systems (and patching Thought Machine Vault / Mambu supersedes)
+
 - Done so far: ALL 10 business domains complete (1504 files). Tech domains remaining: Core Processing (now), Data & Analytics, Integration & APIs, Security & Identity, AI & Automation.
 
 ## Next actions (ordered — keep specific enough to resume cold)
