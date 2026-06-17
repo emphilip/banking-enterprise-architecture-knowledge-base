@@ -694,6 +694,13 @@ Format: Canonical Name | Realizes (tech capability depends_on it) | Vendor | Ali
 | SAP Treasury And Risk Management | Treasury Management System | SAP | SAP TRM, SAP Treasury, FSCM Treasury |
 | QRM Balance Sheet Management | Asset Liability Management Engine | Quantitative Risk Management | QRM, Quantitative Risk Management, QRM ALM |
 | SAS Asset And Liability Management | Asset Liability Management Engine | SAS | SAS ALM, SAS Risk Management for Banking ALM |
+| Avaloq Banking Suite | Core Banking Processing | Avaloq (NEC) | Avaloq, Avaloq Core, Avaloq Wealth |
+| Sopra Amplitude | Core Banking Processing | Sopra Banking Software (Sopra Steria) | Amplitude, Sopra Banking Amplitude, Amplitude Up, SBP Core Amplitude |
+| Infor SunSystems | General Ledger Engine | Infor | SunSystems, Infor SunSystems Financials, Infor FSM |
+| Fidessa | Order Management System | ION Group | Fidessa OMS, Fidessa Trading Platform, ION Fidessa |
+| Linedata Longview | Order Management System | Linedata | Longview, Linedata Longview OMS, Longview Trading |
+| Nasdaq Calypso | Order Management System | Nasdaq (formerly Calypso/Adenza) | Calypso, Adenza Calypso, Calypso Technology |
+| Objectway | Investment Advisory Platform | Objectway | Objectway Platform, Objectway Digital Wealth |
 
 ## Modern systems
 
@@ -701,8 +708,8 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 
 | Canonical Name | Realizes (tech cap) | Supersedes | Vendor | Aliases |
 |---|---|---|---|---|
-| Thought Machine Vault | Core Banking Processing | Temenos T24; Oracle FLEXCUBE | Thought Machine | Vault, Vault Core |
-| Mambu | Core Banking Processing | Fiserv DNA; Jack Henry SilverLake | Mambu | Mambu Core |
+| Thought Machine Vault | Core Banking Processing | Temenos T24; Oracle FLEXCUBE; Avaloq Banking Suite | Thought Machine | Vault, Vault Core |
+| Mambu | Core Banking Processing | Fiserv DNA; Jack Henry SilverLake; Sopra Amplitude | Mambu | Mambu Core |
 | 10x Banking | Core Banking Processing | Legacy Mainframe Core; TCS BaNCS | 10x Banking | 10x, SuperCore |
 | Finxact | Core Banking Processing | FIS Profile; Infosys Finacle | Fiserv | Finxact Core |
 | Temenos Transact | Core Banking Processing | Temenos T24 | Temenos | Transact |
@@ -802,6 +809,11 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | GTreasury | Treasury Management System | SunGard AvantGard | GTreasury | GTreasury Platform, GTreasury TRMS |
 | Empyrean Sol ALM | Asset Liability Management Engine | QRM Balance Sheet Management; SAS Asset And Liability Management | Empyrean Solutions | Sol ALM, Empyrean ALM, Empyrean Solutions |
 | Moody's Balance Sheet Management | Asset Liability Management Engine | QRM Balance Sheet Management | Moody's Analytics | Moody's ALM, RiskConfidence |
+| FIS Modern Banking Platform | Core Banking Processing | FIS Profile; FIS Horizon | FIS | MBP, FIS MBP, Modern Banking Platform |
+| Sage Intacct | General Ledger Engine | Infor SunSystems | Sage | Intacct, Sage Business Cloud Intacct |
+| FlexONE | Order Management System | Linedata Longview; Fidessa; Nasdaq Calypso | FlexTrade Systems | FlexTrade FlexONE, FlexONE OEMS, FlexOMS |
+| Orion | Investment Advisory Platform | Objectway | Orion Advisor Solutions | Orion Advisor Tech, Orion Advisor Solutions, Orion Wealth |
+| Coupa Treasury | Treasury Management System | SunGard AvantGard | Coupa (formerly BELLIN) | Bellin, BELLIN tm5, Coupa Treasury Management |
 
 ## Glossary terms
 
@@ -979,6 +991,32 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Planning & Budgeting Engine | Financial Consolidation Platform | Core Processing | L2 | Planning Engine, FP&A Engine, Budgeting & Forecasting Service, EPM Planning |
 | Disclosure Management Service | Financial Consolidation Platform | Core Processing | L2 | Narrative Reporting Service, XBRL Tagging Service, Statutory Reporting Service |
 | Financial Data Quality Service | Financial Consolidation Platform | Core Processing | L3 | Financial Data Quality Management, FDQM, Data Integration & Validation (Finance) |
+| Product Catalog Service | Product & Pricing Engine | Core Processing | L3 | Product Catalogue Service, Product Definition Service, Universal Product Catalog |
+| Fee & Charge Calculator | Product & Pricing Engine | Core Processing | L3 | Fee Calculation Service, Charge Computation Engine, Relationship Pricing Service |
+| Posting Determination Service | Transaction Posting Engine | Core Processing | L3 | Posting Rule Resolver, Ledger Entry Determination, Entry Generation Service |
+| Accrual Calculation Service | Interest & Charges Engine | Core Processing | L3 | Daily Accrual Service, Interest Accrual Calculator, Accrual Engine Service |
+| ISO 8583 Message Switch | Card Transaction Switch | Core Processing | L3 | 8583 Switch Service, Card Scheme Message Switch, Authorization Message Switch |
+| Network Token Service | Card Tokenization Service | Core Processing | L3 | Scheme Token Connector, EMVCo Token Service, VTS MDES Connector |
+| Token Vault Manager | Card Tokenization Service | Core Processing | L3 | Issuer Token Vault Service, PAN Token Vault, Token Mapping Store |
+| Document Splitting Engine | Accounting Rules Engine | Core Processing | L3 | Document Split Service, Segment Splitting Engine, Line-Item Splitting Service |
+| Assessment Cycle Engine | Allocation Engine | Core Processing | L3 | Assessment & Distribution Engine, Cost Cycle Engine, Allocation Cycle Service |
+| Bank Statement Ingestion Service | Cash Positioning Service | Core Processing | L3 | Statement Parsing Service, BAI2 MT940 Parser, Electronic Bank Statement Loader |
+| FX Exposure Aggregation Service | Treasury Risk Management Service | Core Processing | L3 | FX Exposure Engine, Currency Exposure Aggregator, Net FX Position Service |
+| Hedge Accounting Service | Treasury Risk Management Service | Core Processing | L3 | Hedge Accounting Engine, Hedge Designation Service, IFRS 9 Hedge Service |
+| Repricing Gap Engine | IRRBB Analytics Engine | Core Processing | L3 | Gap Analysis Engine, Repricing Bucket Engine, Maturity Gap Service |
+| Transfer Curve Engine | Funds Transfer Pricing Engine | Core Processing | L3 | FTP Curve Engine, Matched-Maturity Curve Service, Transfer Rate Curve Builder |
+| Brinson Attribution Service | Performance & Attribution Engine | Core Processing | L3 | Brinson-Fachler Service, Return Attribution Engine, Active Return Decomposition |
+| GIPS Composite Service | Performance & Attribution Engine | Core Processing | L3 | GIPS Reporting Service, Composite Management Service, Performance Composite Engine |
+| Drift Monitoring Service | Model Portfolio Manager | Core Processing | L3 | Model Drift Monitor, Tolerance Band Service, Rebalance Trigger Service |
+| FIX Order Gateway | Execution Management Service | Core Processing | L3 | FIX Connectivity Gateway, FIX Session Manager, Execution FIX Gateway |
+| Average Price Book Service | Trade Allocation Engine | Core Processing | L3 | Average Pricing Service, Block Average Price Engine, Fill Aggregation Service |
+| Adverse Action Reason Service | Adverse Action Generator | Core Processing | L3 | Reason Code Derivation Service, Principal Reason Service, ECOA Reason Service |
+| Bureau Response Normalizer | Bureau Data Integration | Core Processing | L3 | Bureau Data Normaliser, Credit Report Parser, Bureau Attribute Mapper |
+| Document Classification Service | Document Capture & Verification | Core Processing | L3 | Document Type Classifier, Page Classification Service, Doc Sorting Service |
+| Data Extraction Service | Document Capture & Verification | Core Processing | L3 | OCR Extraction Service, Field Extraction Engine, Document Data Extractor |
+| Beneficiary Verification Service | Payment Validation Engine | Core Processing | L3 | Confirmation of Payee Service, Payee Validation Service, Account Verification Service |
+| Sanctions Hit Disposition Service | Payment Sanctions Filter | Core Processing | L3 | Hit Disposition Workbench, Sanctions Alert Disposition, Screening Hit Workflow |
+| Intercompany Matching Service | Consolidation Engine | Core Processing | L3 | IC Matching Service, Intercompany Reconciliation (Consolidation), Group Matching Service |
 
 ## Process sub-processes
 

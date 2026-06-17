@@ -36,7 +36,7 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Core Processing (technology, tech-only run)
-- Phase: 1 Research (in-progress) — 2 sub-agents (tech-L3 deepening + systems-refresh) writing _status/proposed-core-processing-{tech,systems}.md. All 12 top-level Core Processing tech caps already decomposed to L2/L3 by business runs; this run adds focused L3 depth + missing systems only. bian-deep/apqc-process = n/a for tech domains.
+- Phase: 2 Steward (done) — reconciled _status/proposed-core-processing-{tech,systems}.md into glossary/_canonical-names.md after full-registry dedupe. Next: Phase 3 Author (write the tech-subcap + system note files) then Phase 4 Weave/Validate.
 - Done so far: ALL 10 business domains complete (1504 files). Tech domains remaining: Core Processing (now), Data & Analytics, Integration & APIs, Security & Identity, AI & Automation.
 
 ## Next actions (ordered — keep specific enough to resume cold)
@@ -57,6 +57,57 @@ decomposition into sharper focus.
 
 ## Decisions log
 
+- (2026-06-17, Phase 2 Steward, Core Processing) Reconciled the two Core Processing
+  proposals (tech L3 + systems) into glossary/_canonical-names.md after a full-registry
+  dedupe (against every existing canonical name + every existing alias and across the two
+  proposals). This is a TECHNOLOGY-domain run: NO business caps/processes/sub-processes/
+  flow steps/supporting concepts. Counts added per section: Technology sub-capabilities +26
+  (all Domain=Core Processing, all L3; each parents to an EXISTING L2 Core Processing tech
+  sub-cap, verified L2→L3 monotonic — Product & Pricing Engine [2: Product Catalog Service,
+  Fee & Charge Calculator], Transaction Posting Engine [1: Posting Determination Service],
+  Interest & Charges Engine [1: Accrual Calculation Service], Card Transaction Switch [1:
+  ISO 8583 Message Switch], Card Tokenization Service [2: Network Token Service, Token Vault
+  Manager], Accounting Rules Engine [1: Document Splitting Engine], Allocation Engine [1:
+  Assessment Cycle Engine], Cash Positioning Service [1: Bank Statement Ingestion Service],
+  Treasury Risk Management Service [2: FX Exposure Aggregation Service, Hedge Accounting
+  Service], IRRBB Analytics Engine [1: Repricing Gap Engine], Funds Transfer Pricing Engine
+  [1: Transfer Curve Engine], Performance & Attribution Engine [2: Brinson Attribution
+  Service, GIPS Composite Service], Model Portfolio Manager [1: Drift Monitoring Service],
+  Execution Management Service [1: FIX Order Gateway], Trade Allocation Engine [1: Average
+  Price Book Service], Adverse Action Generator [1: Adverse Action Reason Service], Bureau
+  Data Integration [1: Bureau Response Normalizer], Document Capture & Verification [2:
+  Document Classification Service, Data Extraction Service], Payment Validation Engine [1:
+  Beneficiary Verification Service], Payment Sanctions Filter [1: Sanctions Hit Disposition
+  Service], Consolidation Engine [1: Intercompany Matching Service]); Legacy systems +7
+  (Avaloq Banking Suite, Sopra Amplitude [Core Banking Processing]; Infor SunSystems
+  [General Ledger Engine]; Fidessa, Linedata Longview, Nasdaq Calypso [Order Management
+  System]; Objectway [Investment Advisory Platform]); Modern systems +5 (FIS Modern Banking
+  Platform [Core Banking Processing], Sage Intacct [General Ledger Engine], FlexONE [Order
+  Management System], Orion [Investment Advisory Platform], Coupa Treasury [Treasury
+  Management System]). Total +38 rows.
+  Dedupe / collision resolutions: the 26 L3 canonical names are all globally unique (no
+  canonical-name or canonical-vs-alias collisions). Two proposed ALIASES collided with
+  existing aliases and were renamed: (a) Token Vault Manager alias "Token Vault Service" ->
+  **Issuer Token Vault Service** (Token Vault Service is an existing alias of L2 cap "Card
+  Tokenization Service"); (b) ISO 8583 Message Switch alias "Scheme Message Switch" ->
+  **Card Scheme Message Switch** (Scheme Message Switch is an existing alias of L2 cap
+  "Card Transaction Switch", which is this L3's own parent). The two research-agent
+  adjustments verified clean with NO residual clash: "Posting Determination Service" (alias
+  set Posting Rule Resolver / Ledger Entry Determination / Entry Generation Service) does
+  not touch "Posting Rules Engine" (Accounting Rules Engine alias); "Document Splitting
+  Engine" (alias set Document Split Service / Segment Splitting Engine / Line-Item Splitting
+  Service) does not touch "Document Splitting Service" (Accounting Rules Engine alias). No
+  system name collided; all 5 system "realizes" targets are real Core Processing top-level
+  tech caps; all supersedes targets are real legacy systems (FIS MBP -> FIS Profile + FIS
+  Horizon [pre-existing]; Sage Intacct -> Infor SunSystems [this batch]; FlexONE -> Linedata
+  Longview + Fidessa [this batch]; Orion -> Objectway [this batch]; Coupa Treasury ->
+  SunGard AvantGard [pre-existing]) — same-capability discipline only, no cross-pairing.
+  Legacy coverage: Infor SunSystems, Fidessa, Linedata Longview, Objectway all have a
+  same-capability modern successor. Avaloq Banking Suite + Sopra Amplitude (Core Banking
+  Processing) and Nasdaq Calypso (Order Management System) have no modern peer proposed and
+  were left uncovered (benign no-cross-pair WARNs, as instructed). Steward gate: 0 FAIL,
+  4 WARN — all benign "legacy has no modern successor": the pre-existing Fiserv OmniPay plus
+  the 3 new uncovered legacies (Avaloq Banking Suite, Sopra Amplitude, Nasdaq Calypso).
 - (2026-06-17, Phase 2 Steward, Finance & Treasury) Reconciled the three Finance &
   Treasury proposals (bian, flows, tech) into glossary/_canonical-names.md after a
   full-registry dedupe (against every existing canonical name + every existing alias
