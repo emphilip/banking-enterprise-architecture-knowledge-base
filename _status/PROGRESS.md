@@ -22,7 +22,7 @@ first row whose Status is not `done`).
 | 7 | Risk Management | business | done | done | done | done | done |
 | 8 | Compliance & Financial Crime | business | done | done | done | done | done |
 | 9 | Channels & Engagement | business | done | done | done | done | done |
-| 10 | Finance & Treasury | business | todo | todo | todo | todo | todo |
+| 10 | Finance & Treasury | business | todo | todo | todo | todo | in-progress |
 | 11 | Core Processing | technology | n/a | todo | n/a | todo | todo |
 | 12 | Data & Analytics | technology | n/a | todo | n/a | todo | todo |
 | 13 | Integration & APIs | technology | n/a | todo | n/a | todo | todo |
@@ -35,9 +35,9 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Channels & Engagement (DONE) — 9 of 15 domains deep-dived
-- Phase: DONE — all 5 eval gates 0 FAIL (1 advisory WARN: pre-existing Cards OmniPay); LLM-judge PASS after fixes incl. removing a fabricated BIAN domain (evals/judge-channels-and-engagement.md); baseline refreshed (1352 files)
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime, Channels & Engagement
+- Domain: Finance & Treasury
+- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-finance-and-treasury-{bian,flows,tech}.md. NO existing processes (propose 5 new); tech agent proposes new top-level caps (Treasury Management System / ALM Engine / Financial Consolidation Platform) + decompose General Ledger Engine.
+- Done so far: 9 domains (all business except Finance & Treasury) — Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime, Channels & Engagement
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
