@@ -137,10 +137,17 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - FIS Modern Banking Platform supersedes FIS Horizon.
 - Sage Intacct supersedes Infor SunSystems.
 - FlexONE supersedes Linedata Longview.
-- FlexONE supersedes Fidessa.
-- FlexONE supersedes Nasdaq Calypso.
 - Orion supersedes Objectway.
 - Coupa Treasury supersedes SunGard AvantGard.
+- Tableau supersedes SAP BusinessObjects.
+- Qlik supersedes SAP BusinessObjects.
+- ThoughtSpot supersedes SAP BusinessObjects.
+- Collibra supersedes Informatica Axon.
+- Alation supersedes Informatica Axon.
+- dbt supersedes Informatica PowerCenter.
+- Fivetran supersedes Informatica PowerCenter.
+- Microsoft SharePoint supersedes IBM FileNet.
+- OpenText Content Suite supersedes OpenText Documentum.
 
 ## Realization statements
 
@@ -234,6 +241,9 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Order Management System depends on Linedata Longview.
 - Order Management System depends on Nasdaq Calypso.
 - Investment Advisory Platform depends on Objectway.
+- Analytics Platform depends on SAP BusinessObjects.
+- Data Governance depends on Informatica Axon.
+- Data Warehousing depends on Informatica PowerCenter.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -340,6 +350,17 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Order Management System depends on FlexONE.
 - Investment Advisory Platform depends on Orion.
 - Treasury Management System depends on Coupa Treasury.
+- Analytics Platform depends on Tableau.
+- Analytics Platform depends on Qlik.
+- Analytics Platform depends on ThoughtSpot.
+- Data Governance depends on Collibra.
+- Data Governance depends on Alation.
+- Data Warehousing depends on dbt.
+- Data Warehousing depends on Fivetran.
+- Data Streaming depends on Apache Kafka.
+- Data Streaming depends on Apache Flink.
+- Document Management depends on Microsoft SharePoint.
+- Document Management depends on OpenText Content Suite.
 
 ## Successor matrix
 | Technology Capability | Legacy System | Modern Successor |
@@ -347,6 +368,9 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | API Management | CA API Gateway | Apigee |
 | API Management | CA API Gateway | Kong |
 | Analytics Platform | IBM Cognos | Microsoft Power BI |
+| Analytics Platform | SAP BusinessObjects | Qlik |
+| Analytics Platform | SAP BusinessObjects | Tableau |
+| Analytics Platform | SAP BusinessObjects | ThoughtSpot |
 | Asset Liability Management Engine | QRM Balance Sheet Management | Empyrean Sol ALM |
 | Asset Liability Management Engine | QRM Balance Sheet Management | Moody's Balance Sheet Management |
 | Asset Liability Management Engine | SAS Asset And Liability Management | Empyrean Sol ALM |
@@ -394,8 +418,12 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Credit Decisioning Engine | Legacy Credit Scoring | Zest AI |
 | Customer Identity | IBM Tivoli Identity Manager | Auth0 |
 | Customer Identity | IBM Tivoli Identity Manager | Ping Identity |
+| Data Governance | Informatica Axon | Alation |
+| Data Governance | Informatica Axon | Collibra |
 | Data Streaming | IBM MQ | Confluent Platform |
 | Data Warehousing | IBM Db2 | Google BigQuery |
+| Data Warehousing | Informatica PowerCenter | Fivetran |
+| Data Warehousing | Informatica PowerCenter | dbt |
 | Data Warehousing | Oracle Exadata | Databricks |
 | Data Warehousing | Teradata | Snowflake |
 | Digital Channel Platform | Kony DBX | Temenos Infinity |
@@ -403,6 +431,8 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Digital Channel Platform | Legacy Online Banking | Backbase |
 | Digital Channel Platform | Legacy Online Banking | Q2 |
 | Digital Channel Platform | Legacy Online Banking | Temenos Infinity |
+| Document Management | IBM FileNet | Microsoft SharePoint |
+| Document Management | OpenText Documentum | OpenText Content Suite |
 | Financial Consolidation Platform | Oracle Hyperion HFM | OneStream |
 | Financial Consolidation Platform | Oracle Hyperion HFM | Oracle EPM Cloud |
 | Financial Consolidation Platform | SAP BPC | Anaplan |
@@ -436,9 +466,7 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Machine Learning Platform | SAS Platform | DataRobot |
 | Machine Learning Platform | SAS Platform | Google Vertex AI |
 | Master Data Management | Informatica MDM | Reltio |
-| Order Management System | Fidessa | FlexONE |
 | Order Management System | Linedata Longview | FlexONE |
-| Order Management System | Nasdaq Calypso | FlexONE |
 | Order Management System | SS&C Advent Moxy | Bloomberg AIM |
 | Order Management System | SS&C Advent Moxy | Charles River IMS |
 | Payment Orchestration | ACH Batch Processor | Bottomline Payments |

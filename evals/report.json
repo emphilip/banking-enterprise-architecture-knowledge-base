@@ -1,10 +1,35 @@
 {
-  "generated": "2026-06-17T16:07:02.728410Z",
-  "phase": "author",
+  "generated": "2026-06-17T16:07:43.480669Z",
+  "phase": "all",
   "counts": {
     "FAIL": 0,
-    "WARN": 0,
-    "INFO": 0
+    "WARN": 3,
+    "INFO": 1
   },
-  "findings": []
+  "findings": [
+    {
+      "severity": "WARN",
+      "phase": "steward",
+      "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
+      "message": "legacy 'Fiserv OmniPay' has no modern successor"
+    },
+    {
+      "severity": "WARN",
+      "phase": "steward",
+      "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
+      "message": "legacy 'Fidessa' has no modern successor"
+    },
+    {
+      "severity": "WARN",
+      "phase": "steward",
+      "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
+      "message": "legacy 'Nasdaq Calypso' has no modern successor"
+    },
+    {
+      "severity": "INFO",
+      "phase": "weave",
+      "path": "-",
+      "message": "depends_on edges counted: 1490"
+    }
+  ]
 }
