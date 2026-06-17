@@ -23,7 +23,7 @@ first row whose Status is not `done`).
 | 8 | Compliance & Financial Crime | business | done | done | done | done | done |
 | 9 | Channels & Engagement | business | done | done | done | done | done |
 | 10 | Finance & Treasury | business | done | done | done | done | done |
-| 11 | Core Processing | technology | n/a | in-progress | n/a | todo | in-progress |
+| 11 | Core Processing | technology | n/a | done | n/a | in-progress | in-progress |
 | 12 | Data & Analytics | technology | n/a | todo | n/a | todo | todo |
 | 13 | Integration & APIs | technology | n/a | todo | n/a | todo | todo |
 | 14 | Security & Identity | technology | n/a | todo | n/a | todo | todo |
@@ -36,7 +36,7 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Core Processing (technology, tech-only run)
-- Phase: 3 Author (in-progress) — 2 sub-agents writing 26 L3 tech sub-caps + 12 systems (and patching Thought Machine Vault / Mambu supersedes)
+- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-core-processing.md)
 
 - Done so far: ALL 10 business domains complete (1504 files). Tech domains remaining: Core Processing (now), Data & Analytics, Integration & APIs, Security & Identity, AI & Automation.
 
