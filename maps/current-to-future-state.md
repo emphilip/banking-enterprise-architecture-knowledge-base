@@ -111,6 +111,14 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Quantexa supersedes Moody's RiskAuthority.
 - Napier AI supersedes SAS Anti-Money Laundering.
 - Napier AI supersedes LexisNexis Bridger Insight.
+- Temenos Infinity supersedes Legacy Online Banking.
+- Temenos Infinity supersedes Kony DBX.
+- Alkami supersedes Legacy Online Banking.
+- NICE CXone supersedes Avaya Aura.
+- Five9 supersedes Cisco UCCE.
+- Twilio Flex supersedes Avaya Aura.
+- Glia supersedes Cisco UCCE.
+- Verint WFM Cloud supersedes Verint WFM.
 
 ## Realization statements
 
@@ -188,6 +196,8 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Governance Risk & Compliance Platform depends on Archer IRM.
 - Transaction Monitoring Platform depends on SAS Anti-Money Laundering.
 - Transaction Monitoring Platform depends on LexisNexis Bridger Insight.
+- Digital Channel Platform depends on Kony DBX.
+- Contact Center Platform depends on Verint WFM.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -273,6 +283,13 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Model Risk Management Platform depends on ModelOp.
 - Transaction Monitoring Platform depends on Napier AI.
 - KYC Onboarding Platform depends on Fenergo.
+- Digital Channel Platform depends on Temenos Infinity.
+- Digital Channel Platform depends on Alkami.
+- Contact Center Platform depends on NICE CXone.
+- Contact Center Platform depends on Five9.
+- Contact Center Platform depends on Twilio Flex.
+- Contact Center Platform depends on Glia.
+- Contact Center Platform depends on Verint WFM Cloud.
 
 ## Successor matrix
 | Technology Capability | Legacy System | Modern Successor |
@@ -293,7 +310,12 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Card Processing | TSYS TS2 | Pismo |
 | Card Processing | TSYS TS2 | i2c |
 | Contact Center Platform | Avaya Aura | Amazon Connect |
+| Contact Center Platform | Avaya Aura | NICE CXone |
+| Contact Center Platform | Avaya Aura | Twilio Flex |
+| Contact Center Platform | Cisco UCCE | Five9 |
 | Contact Center Platform | Cisco UCCE | Genesys Cloud |
+| Contact Center Platform | Cisco UCCE | Glia |
+| Contact Center Platform | Verint WFM | Verint WFM Cloud |
 | Conversational AI | Legacy IVR System | Amazon Lex |
 | Conversational AI | Legacy IVR System | Kasisto |
 | Core Banking Processing | FIS Horizon | SAP Deposits Management |
@@ -319,8 +341,11 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Data Warehousing | IBM Db2 | Google BigQuery |
 | Data Warehousing | Oracle Exadata | Databricks |
 | Data Warehousing | Teradata | Snowflake |
+| Digital Channel Platform | Kony DBX | Temenos Infinity |
+| Digital Channel Platform | Legacy Online Banking | Alkami |
 | Digital Channel Platform | Legacy Online Banking | Backbase |
 | Digital Channel Platform | Legacy Online Banking | Q2 |
+| Digital Channel Platform | Legacy Online Banking | Temenos Infinity |
 | Fraud Analytics | FICO Falcon | Feedzai |
 | Fraud Analytics | SAS Fraud Management | Featurespace |
 | General Ledger Engine | SAP ECC | Oracle Fusion ERP |

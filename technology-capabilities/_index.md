@@ -42,13 +42,38 @@ Map-of-Content for technology capabilities and their L2/L3 sub-capabilities, gro
 
 ## Channels & Engagement
 
+- [[a-b-testing-service|A/B Testing Service]]
+- [[agent-desktop|Agent Desktop]]
+- [[automatic-call-distribution|Automatic Call Distribution]]
 - [[crm-platform|CRM Platform]]
 - [[campaign-automation|Campaign Automation]]
 - [[case-management-workbench|Case Management Workbench]]
+- [[channel-orchestration-layer|Channel Orchestration Layer]]
+- [[computer-telephony-integration|Computer Telephony Integration]]
 - [[contact-and-account-management|Contact & Account Management]]
 - [[contact-center-platform|Contact Center Platform]]
 - [[customer-360-view|Customer 360 View]]
+- [[digital-analytics|Digital Analytics]]
 - [[digital-channel-platform|Digital Channel Platform]]
+- [[digital-sca-service|Digital SCA Service]]
+- [[feature-flag-service|Feature Flag Service]]
+- [[in-app-messaging|In-App Messaging]]
+- [[interaction-analytics|Interaction Analytics]]
+- [[interactive-voice-response|Interactive Voice Response]]
+- [[knowledge-base-service|Knowledge Base Service]]
+- [[mobile-app-framework|Mobile App Framework]]
+- [[native-mobile-sdk|Native Mobile SDK]]
+- [[omnichannel-routing-engine|Omnichannel Routing Engine]]
+- [[onboarding-journey-orchestrator|Onboarding Journey Orchestrator]]
+- [[outbound-dialer|Outbound Dialer]]
+- [[personalisation-engine|Personalisation Engine]]
+- [[progressive-web-app-runtime|Progressive Web App Runtime]]
+- [[quality-management-service|Quality Management Service]]
+- [[real-time-transcription|Real-Time Transcription]]
+- [[screen-pop-service|Screen Pop Service]]
+- [[skills-based-routing|Skills-Based Routing]]
+- [[web-banking-portal|Web Banking Portal]]
+- [[workforce-engagement-management|Workforce Engagement Management]]
 
 ## Core Processing
 

@@ -1,10 +1,17 @@
 {
-  "generated": "2026-06-17T04:34:31.080544Z",
-  "phase": "author",
+  "generated": "2026-06-17T04:35:22.649861Z",
+  "phase": "weave",
   "counts": {
     "FAIL": 0,
     "WARN": 0,
-    "INFO": 0
+    "INFO": 1
   },
-  "findings": []
+  "findings": [
+    {
+      "severity": "INFO",
+      "phase": "weave",
+      "path": "-",
+      "message": "depends_on edges counted: 1333"
+    }
+  ]
 }
