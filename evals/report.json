@@ -1,180 +1,12 @@
 {
-  "generated": "2026-06-17T14:12:46.299606Z",
+  "generated": "2026-06-17T14:14:35.939091Z",
   "phase": "author",
   "counts": {
-    "FAIL": 28,
-    "WARN": 16,
+    "FAIL": 0,
+    "WARN": 35,
     "INFO": 0
   },
   "findings": [
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-behavioural-modelling.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-capital-stress-forecasting.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-cash-flow-forecasting.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-collateral-optimisation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-eve-sensitivity-analysis.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-ftp-rate-curve-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-hedge-effectiveness-testing.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-nii-sensitivity-analysis.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-wholesale-funding-execution.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/cash-and-liquidity-management/01-aggregate-cash-balances.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/cash-and-liquidity-management/02-project-liquidity-position.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/cash-and-liquidity-management/03-assess-liquidity-buffers.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/cash-and-liquidity-management/04-decide-funding-action.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/cash-and-liquidity-management/05-execute-funding-action.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/cash-and-liquidity-management/06-reconcile-end-of-day-cash.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/cash-and-liquidity-management/07-report-liquidity-position.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/funds-transfer-pricing/01-assemble-market-curves.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/funds-transfer-pricing/02-build-ftp-curve.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/funds-transfer-pricing/03-set-behavioural-assumptions.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/funds-transfer-pricing/04-approve-ftp-methodology.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/funds-transfer-pricing/05-apply-transfer-rates.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/funds-transfer-pricing/06-attribute-net-margin.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/funds-transfer-pricing/07-report-ftp-outcome.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/regulatory-capital-reporting/03-determine-own-funds.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/regulatory-capital-reporting/04-assemble-capital-return.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/regulatory-capital-reporting/05-validate-return-quality.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/regulatory-capital-reporting/06-attest-capital-return.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/regulatory-capital-reporting/07-submit-capital-return.md",
-      "message": "registry step missing its file"
-    },
     {
       "severity": "WARN",
       "phase": "author",
@@ -185,6 +17,120 @@
       "severity": "WARN",
       "phase": "author",
       "path": "process-flows/regulatory-capital-reporting/02-calculate-rwa.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/regulatory-capital-reporting/03-determine-own-funds.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/regulatory-capital-reporting/04-assemble-capital-return.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/regulatory-capital-reporting/05-validate-return-quality.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/regulatory-capital-reporting/06-attest-capital-return.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/regulatory-capital-reporting/07-submit-capital-return.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/cash-and-liquidity-management/03-assess-liquidity-buffers.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/cash-and-liquidity-management/02-project-liquidity-position.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/cash-and-liquidity-management/06-reconcile-end-of-day-cash.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/cash-and-liquidity-management/07-report-liquidity-position.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/cash-and-liquidity-management/04-decide-funding-action.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/cash-and-liquidity-management/01-aggregate-cash-balances.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/cash-and-liquidity-management/05-execute-funding-action.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/funds-transfer-pricing/07-report-ftp-outcome.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/funds-transfer-pricing/06-attribute-net-margin.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/funds-transfer-pricing/02-build-ftp-curve.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/funds-transfer-pricing/01-assemble-market-curves.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/funds-transfer-pricing/03-set-behavioural-assumptions.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/funds-transfer-pricing/04-approve-ftp-methodology.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/funds-transfer-pricing/05-apply-transfer-rates.md",
       "message": "declares aliases but has no 'Also known as' line"
     },
     {
