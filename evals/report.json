@@ -1,168 +1,12 @@
 {
-  "generated": "2026-06-17T03:29:45.835496Z",
+  "generated": "2026-06-17T03:31:44.275671Z",
   "phase": "author",
   "counts": {
-    "FAIL": 63,
+    "FAIL": 19,
     "WARN": 0,
     "INFO": 0
   },
   "findings": [
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-alert-prioritisation-scoring.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-compliance-training-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-control-person-identification.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-control-testing-execution.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-issue-and-remediation-tracking.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-network-link-analysis.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-obligation-mapping.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-ownership-structure-unwrapping.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-risk-model-calibration.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-sanctions-list-curation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-sanctions-list-ingestion.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-sar-confidentiality-control.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-sar-filing-and-tracking.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-scenario-threshold-tuning.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-senior-management-approval.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-typology-modelling.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/horizon-scanning-and-impact.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/remediation-and-attestation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/business-glossary-manager.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/data-lineage-tracker.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/data-policy-and-stewardship-service.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/data-quality-engine.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/metadata-catalog.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/regulatory-submission-gateway.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/report-validation-service.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/reporting-reconciliation-workbench.md",
-      "message": "registry concept missing its file"
-    },
     {
       "severity": "FAIL",
       "phase": "author",
@@ -208,42 +52,6 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "process-flows/kyc-verification/01-collect-kyc-documents.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/kyc-verification/02-validate-customer-identity.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/kyc-verification/03-screen-against-watchlists.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/kyc-verification/04-compile-kyc-profile.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/kyc-verification/05-approve-kyc-outcome.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/kyc-verification/06-schedule-kyc-review.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "process-flows/regulatory-change-management/01-scan-regulatory-change.md",
       "message": "registry step missing its file"
     },
@@ -280,42 +88,6 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "process-flows/regulatory-filing/01-identify-filing-obligation.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/regulatory-filing/02-aggregate-filing-data.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/regulatory-filing/03-compile-regulatory-return.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/regulatory-filing/04-validate-filing-quality.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/regulatory-filing/05-submit-regulatory-return.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/regulatory-filing/06-archive-filing-record.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "process-flows/sanctions-screening-operations/01-match-against-watchlist.md",
       "message": "registry step missing its file"
     },
@@ -347,42 +119,6 @@
       "severity": "FAIL",
       "phase": "author",
       "path": "process-flows/sanctions-screening-operations/06-report-sanctions-block.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/suspicious-activity-reporting/01-triage-aml-alert.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/suspicious-activity-reporting/02-open-investigation-case.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/suspicious-activity-reporting/03-analyse-transaction-pattern.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/suspicious-activity-reporting/04-determine-suspicion.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/suspicious-activity-reporting/05-lodge-sar-filing.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/suspicious-activity-reporting/06-notify-financial-intelligence.md",
       "message": "registry step missing its file"
     }
   ]
