@@ -76,6 +76,16 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[06-return-authorization-response|Return Authorization Response]]
 - [[07-post-cleared-transaction|Post Cleared Transaction]]
 
+## Cash And Liquidity Management
+
+- [[01-aggregate-cash-balances|Aggregate Cash Balances]]
+- [[02-project-liquidity-position|Project Liquidity Position]]
+- [[03-assess-liquidity-buffers|Assess Liquidity Buffers]]
+- [[04-decide-funding-action|Decide Funding Action]]
+- [[05-execute-funding-action|Execute Funding Action]]
+- [[06-reconcile-end-of-day-cash|Reconcile End-Of-Day Cash]]
+- [[07-report-liquidity-position|Report Liquidity Position]]
+
 ## Cash Management
 
 - [[01-aggregate-balances|Aggregate Balances]]
@@ -184,6 +194,16 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[05-adjudicate-dispute-outcome|Adjudicate Dispute Outcome]]
 - [[06-finalize-dispute-credit|Finalize Dispute Credit]]
 
+## Financial Close
+
+- [[01-close-subledgers|Close Subledgers]]
+- [[02-post-closing-journals|Post Closing Journals]]
+- [[03-reconcile-ledger-accounts|Reconcile Ledger Accounts]]
+- [[04-eliminate-intercompany-balances|Eliminate Intercompany Balances]]
+- [[05-run-consolidation|Run Consolidation]]
+- [[06-prepare-consolidated-statements|Prepare Consolidated Statements]]
+- [[07-certify-period-close|Certify Period Close]]
+
 ## Financial Planning
 
 - [[01-capture-client-goals|Capture Client Goals]]
@@ -209,6 +229,16 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[04-recover-fraud-loss|Recover Fraud Loss]]
 - [[05-file-suspicious-activity-report|File Suspicious Activity Report]]
 - [[06-feed-detection-models|Feed Detection Models]]
+
+## Funds Transfer Pricing
+
+- [[01-assemble-market-curves|Assemble Market Curves]]
+- [[02-build-ftp-curve|Build FTP Curve]]
+- [[03-set-behavioural-assumptions|Set Behavioural Assumptions]]
+- [[04-approve-ftp-methodology|Approve FTP Methodology]]
+- [[05-apply-transfer-rates|Apply Transfer Rates]]
+- [[06-attribute-net-margin|Attribute Net Margin]]
+- [[07-report-ftp-outcome|Report FTP Outcome]]
 
 ## Kyc Verification
 
@@ -237,6 +267,16 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[05-render-loan-decision|Render Loan Decision]]
 - [[06-issue-loan-offer|Issue Loan Offer]]
 - [[07-disburse-loan-funds|Disburse Loan Funds]]
+
+## Management Reporting
+
+- [[01-build-operating-budget|Build Operating Budget]]
+- [[02-approve-budget-plan|Approve Budget Plan]]
+- [[03-roll-forward-forecast|Roll Forward Forecast]]
+- [[04-capture-actual-results|Capture Actual Results]]
+- [[05-analyse-budget-variance|Analyse Budget Variance]]
+- [[06-compile-management-accounts|Compile Management Accounts]]
+- [[07-present-board-pack|Present Board Pack]]
 
 ## Mortgage Origination
 
@@ -295,6 +335,16 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[05-investigate-break|Investigate Break]]
 - [[06-post-adjustment|Post Adjustment]]
 - [[07-sign-off-reconciliation|Sign Off Reconciliation]]
+
+## Regulatory Capital Reporting
+
+- [[01-source-regulatory-data|Source Regulatory Data]]
+- [[02-calculate-rwa|Calculate RWA]]
+- [[03-determine-own-funds|Determine Own Funds]]
+- [[04-assemble-capital-return|Assemble Capital Return]]
+- [[05-validate-return-quality|Validate Return Quality]]
+- [[06-attest-capital-return|Attest Capital Return]]
+- [[07-submit-capital-return|Submit Capital Return]]
 
 ## Regulatory Change Management
 

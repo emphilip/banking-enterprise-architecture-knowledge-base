@@ -119,6 +119,18 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Twilio Flex supersedes Avaya Aura.
 - Glia supersedes Cisco UCCE.
 - Verint WFM Cloud supersedes Verint WFM.
+- SAP S/4HANA Finance supersedes SAP ECC.
+- SAP S/4HANA Finance supersedes Oracle E-Business Suite.
+- OneStream supersedes Oracle Hyperion HFM.
+- OneStream supersedes SAP BPC.
+- Oracle EPM Cloud supersedes Oracle Hyperion HFM.
+- Anaplan supersedes SAP BPC.
+- Kyriba supersedes SunGard AvantGard.
+- ION Treasury supersedes SAP Treasury And Risk Management.
+- GTreasury supersedes SunGard AvantGard.
+- Empyrean Sol ALM supersedes QRM Balance Sheet Management.
+- Empyrean Sol ALM supersedes SAS Asset And Liability Management.
+- Moody's Balance Sheet Management supersedes QRM Balance Sheet Management.
 
 ## Realization statements
 
@@ -198,6 +210,13 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Transaction Monitoring Platform depends on LexisNexis Bridger Insight.
 - Digital Channel Platform depends on Kony DBX.
 - Contact Center Platform depends on Verint WFM.
+- General Ledger Engine depends on Oracle E-Business Suite.
+- Financial Consolidation Platform depends on Oracle Hyperion HFM.
+- Financial Consolidation Platform depends on SAP BPC.
+- Treasury Management System depends on SunGard AvantGard.
+- Treasury Management System depends on SAP Treasury And Risk Management.
+- Asset Liability Management Engine depends on QRM Balance Sheet Management.
+- Asset Liability Management Engine depends on SAS Asset And Liability Management.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -290,6 +309,15 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Contact Center Platform depends on Twilio Flex.
 - Contact Center Platform depends on Glia.
 - Contact Center Platform depends on Verint WFM Cloud.
+- General Ledger Engine depends on SAP S/4HANA Finance.
+- Financial Consolidation Platform depends on OneStream.
+- Financial Consolidation Platform depends on Oracle EPM Cloud.
+- Financial Consolidation Platform depends on Anaplan.
+- Treasury Management System depends on Kyriba.
+- Treasury Management System depends on ION Treasury.
+- Treasury Management System depends on GTreasury.
+- Asset Liability Management Engine depends on Empyrean Sol ALM.
+- Asset Liability Management Engine depends on Moody's Balance Sheet Management.
 
 ## Successor matrix
 | Technology Capability | Legacy System | Modern Successor |
@@ -297,6 +325,9 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | API Management | CA API Gateway | Apigee |
 | API Management | CA API Gateway | Kong |
 | Analytics Platform | IBM Cognos | Microsoft Power BI |
+| Asset Liability Management Engine | QRM Balance Sheet Management | Empyrean Sol ALM |
+| Asset Liability Management Engine | QRM Balance Sheet Management | Moody's Balance Sheet Management |
+| Asset Liability Management Engine | SAS Asset And Liability Management | Empyrean Sol ALM |
 | CRM Platform | SAP CRM | Microsoft Dynamics 365 |
 | CRM Platform | Siebel CRM | Pega Customer Service |
 | CRM Platform | Siebel CRM | Salesforce Financial Services Cloud |
@@ -346,9 +377,15 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Digital Channel Platform | Legacy Online Banking | Backbase |
 | Digital Channel Platform | Legacy Online Banking | Q2 |
 | Digital Channel Platform | Legacy Online Banking | Temenos Infinity |
+| Financial Consolidation Platform | Oracle Hyperion HFM | OneStream |
+| Financial Consolidation Platform | Oracle Hyperion HFM | Oracle EPM Cloud |
+| Financial Consolidation Platform | SAP BPC | Anaplan |
+| Financial Consolidation Platform | SAP BPC | OneStream |
 | Fraud Analytics | FICO Falcon | Feedzai |
 | Fraud Analytics | SAS Fraud Management | Featurespace |
+| General Ledger Engine | Oracle E-Business Suite | SAP S/4HANA Finance |
 | General Ledger Engine | SAP ECC | Oracle Fusion ERP |
+| General Ledger Engine | SAP ECC | SAP S/4HANA Finance |
 | General Ledger Engine | SAP ECC | Workday Financials |
 | Generative AI Platform | Legacy IVR System | Anthropic Claude |
 | Governance Risk & Compliance Platform | Archer IRM | ServiceNow IRM |
@@ -400,5 +437,8 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Transaction Monitoring Platform | NICE Actimize | ComplyAdvantage |
 | Transaction Monitoring Platform | Oracle Mantas | Hawk AI |
 | Transaction Monitoring Platform | SAS Anti-Money Laundering | Napier AI |
+| Treasury Management System | SAP Treasury And Risk Management | ION Treasury |
+| Treasury Management System | SunGard AvantGard | GTreasury |
+| Treasury Management System | SunGard AvantGard | Kyriba |
 | Workflow Orchestration | Pega BPM | Camunda |
 | Workflow Orchestration | Pega BPM | Temporal |
