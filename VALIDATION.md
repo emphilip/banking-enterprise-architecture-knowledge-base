@@ -411,3 +411,42 @@ relationships 4.64, naming 4.43, granularity 4.32.
 business capabilities (L1–L4), 147 technology capabilities + sub-capabilities,
 132 processes + sub-processes, 245 process-flow steps, 134 supporting
 concepts, 74 legacy + 85 modern systems, 10 glossary terms.
+
+---
+
+## Deep-dive: Channels & Engagement domain (2026-06-17)
+
+Ninth domain deep-dive via the eval-gated pipeline.
+
+**Added (~127 concepts):** 22 L3 + 22 L4 business capabilities; 25 technology
+sub-capabilities (decomposing Digital Channel Platform + Contact Center Platform;
+CRM Platform was already decomposed); 4 new top-level processes (Digital
+Onboarding Journey, Channel Servicing, ATM Cash Servicing, Contact Centre
+Interaction); 10 sub-processes; 32 ordered process-flow steps across 5 processes
+— including the **first decomposition of Branch Operations** — (with `## Flow`
+sections); 16 supporting concepts (6 role, 5 event, 5 artifact); 2 new legacy + 7
+new modern systems.
+
+**Eval gates (deterministic):** research / steward / author / weave / all → 0
+FAIL. The one advisory WARN is the pre-existing Cards Fiserv OmniPay gap.
+
+**Steward:** resolved two cross-proposal collisions (tech sub-cap Digital
+Onboarding Journey → **Onboarding Journey Orchestrator**; process ATM Cash
+Management → **ATM Cash Servicing**, keeping the L3 capability canonical) plus 12
+alias fixes; same-capability supersedes for both new legacies (Kony DBX → Temenos
+Infinity; Verint WFM → Verint WFM Cloud).
+
+**Eval gate (semantic, LLM-judge, `evals/judge-channels-and-engagement.md`):**
+initial run FAILed on a blocking per-note error — L3 Servicing Resource
+Management cited a non-existent BIAN "Servicing Position Management" service
+domain (Groundedness 2). Fixed: re-grounded in contact-centre workforce
+engagement management (WEM) practice with no fabricated framework claim, plus two
+advisory step fixes (human-agent step depends_on Contact Center Platform not
+Conversational AI; self-service IVR step no longer attributed to an agent role).
+Re-judge: PASS — means accuracy 4.75, groundedness 4.25, relationships 4.75,
+naming 4.82, granularity 4.93.
+
+**Knowledge base totals after Channels & Engagement deep-dive:** 414 business
+capabilities (L1–L4), 172 technology capabilities + sub-capabilities, 146
+processes + sub-processes, 277 process-flow steps, 150 supporting concepts,
+76 legacy + 92 modern systems, 10 glossary terms.

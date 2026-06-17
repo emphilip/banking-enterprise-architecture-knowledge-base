@@ -21,7 +21,7 @@ first row whose Status is not `done`).
 | 6 | Wealth & Investments | business | done | done | done | done | done |
 | 7 | Risk Management | business | done | done | done | done | done |
 | 8 | Compliance & Financial Crime | business | done | done | done | done | done |
-| 9 | Channels & Engagement | business | done | done | done | in-progress | in-progress |
+| 9 | Channels & Engagement | business | done | done | done | done | done |
 | 10 | Finance & Treasury | business | todo | todo | todo | todo | todo |
 | 11 | Core Processing | technology | n/a | todo | n/a | todo | todo |
 | 12 | Data & Analytics | technology | n/a | todo | n/a | todo | todo |
@@ -35,23 +35,24 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Channels & Engagement
-- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-channels-and-engagement.md)
-
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime (8 of 15); Channels & Engagement registry reconciled (author/weave pending)
+- Domain: Channels & Engagement (DONE) — 9 of 15 domains deep-dived
+- Phase: DONE — all 5 eval gates 0 FAIL (1 advisory WARN: pre-existing Cards OmniPay); LLM-judge PASS after fixes incl. removing a fabricated BIAN domain (evals/judge-channels-and-engagement.md); baseline refreshed (1352 files)
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime, Channels & Engagement
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
 - [ ] Deepen the next domain: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
-      (first not-done row = Channels & Engagement). Same eval-gated pipeline;
-      source-anchored Details up front; same-capability supersedes. Channels has L1
-      Channel Management + L2 Digital Banking / Branch Banking / Contact Center /
-      ATM Management (+ L3 Mobile Banking, Online Banking) and no dedicated process
-      yet beyond Branch Operations; relevant tech = Digital Channel Platform,
-      Contact Center Platform, CRM Platform, Conversational AI, API Management.
-      Propose new processes (Digital Onboarding Journey, Channel Servicing, ATM
-      Cash Management, Branch Servicing, Omnichannel Engagement). Decompose Digital
-      Channel Platform / Contact Center Platform to L2/L3 + channel systems.
+      (first not-done row = Finance & Treasury — the LAST business domain). Same
+      eval-gated pipeline; source-anchored Details up front; same-capability
+      supersedes. Finance & Treasury has L1 Finance Management + Treasury
+      Management, L2 General Ledger Accounting / Financial Reporting / Regulatory
+      Capital Management / Liquidity Management / Asset Liability Management, and
+      no dedicated process yet; relevant tech = General Ledger Engine, Regulatory
+      Reporting Engine, Analytics Platform, Data Warehousing. Propose new processes
+      (Financial Close, Management Reporting, Funds Transfer Pricing, Cash & Liquidity
+      Management, Regulatory Capital Reporting). Likely needs new top-level treasury
+      tech caps (e.g. Treasury Management System / ALM Engine). After Finance &
+      Treasury, the 5 technology domains (11-15) remain for tech-only deepening.
 
 ## Decisions log
 

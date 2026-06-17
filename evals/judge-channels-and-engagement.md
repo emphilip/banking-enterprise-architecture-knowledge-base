@@ -73,3 +73,23 @@ Rubric: `evals/rubric.md`. Scores 1–5 per dimension (3 = acceptable, <3 = fail
 - **systems/modern/nice-cxone.md & systems/modern/twilio-flex.md (Rel — advisory, not blocking):**
   - Three modern systems now `supersede Avaya Aura` while `cisco-ucce` (legacy contact-center) has no superseding modern system. Same-capability test passes, so not a gate failure, but consider distributing supersedes so Cisco UCCE is also covered, and/or model the relationship at the platform/capability grain rather than fanning every CCaaS onto one legacy node.
   - NICE CXone/Twilio Flex cite comparison/buyer-guide pages rather than primary vendor capability docs; adding a primary vendor source would lift Groundedness.
+
+## Re-judge (groundedness/relationship fixes)
+
+Reviewer: judge sub-agent (strict). Date: 2026-06-17. Re-scored ONLY the three revised notes on Definitional accuracy and Groundedness, plus a Relationship-sensibility check. Corroboration: BIAN landscape re-checked (no "Servicing Position Management" claim remains); registry/canonical-names verified for `Contact Center Platform` (L2, real tech cap), `Workforce Engagement Management` (L2, real tech cap), `Channel Interaction Routing` (real L3 registry name — prior naming ding no longer applies), `Interaction Record` (real artifact), `Contact Centre Agent` (real role); WEM practice (forecasting, Erlang-C staffing, shrinkage-adjusted rosters, intraday re-forecast, adherence/occupancy analytics, real-time agent state to routing, skills-aware staffing) confirmed as standard via multiple WFM/WEM sources.
+
+| path | grounded(before->after) | accuracy | rel | notes |
+|---|---|---|---|---|
+| business-capabilities/L3-servicing-resource-management.md | 2 -> 4 | 5 | 5 | BLOCKER FIXED. Fabricated BIAN "Servicing Position Management" removed; now grounds in contact-centre WEM practice with no framework claim. depends_on Contact Center Platform + Workforce Engagement Management — both real tech caps, correct business->tech direction/grain. "Channel Interaction Routing" is a real registry L3 name (prior naming ding void). Nextiva source 403s to bot fetch but topic is bank contact-centre software; APQC + WEM practice fully support every claim. |
+| process-flows/contact-centre-interaction/04-handle-customer-interaction.md | 3 -> 4 | 5 | 5 | depends_on now Contact Center Platform (matches registry order-4 mapping) instead of Conversational AI — accurate for a human-agent handling step backed by the CCaaS platform. mentions Contact Centre Agent (real role). USPTO agent-assist source now corroborative rather than load-bearing. |
+| process-flows/contact-centre-interaction/01-capture-ivr-selection.md | 4 -> 4 | 5 | 5 | Incorrect Contact Centre Agent role attribution removed; IVR step now system/self-service owned and mentions Interaction Record (real artifact) — correct grain. Teneo IVR source supports. Already >=3; rel/naming improved. |
+
+### Recomputed gate
+
+- Prior full-sample (n=28) Groundedness mean was 4.14 with these notes at 2, 3, 4. Holding all other sampled notes unchanged, net Groundedness delta = (4-2)+(4-3)+(4-4) = +3. New sum = 116 + 3 = 119; **new Groundedness mean = 119/28 = 4.25** (>= 4.0).
+- All other dimension means already cleared 4.0 and are unchanged (re-judge raised accuracy on these three to 5, so Definitional-accuracy mean does not fall).
+- No individual note now scores <3 on Groundedness or Relationship sensibility. The lone blocking note (L3-servicing-resource-management.md) is now Groundedness 4.
+
+### Verdict: **PASS**
+
+The blocking Groundedness failure is resolved (L3 note 2 -> 4) and the two advisory items (04 dependency retargeted to Contact Center Platform; 01 agent-role mention replaced with Interaction Record) are fixed. The Channels & Engagement domain now passes the gate and may be marked `done`.
