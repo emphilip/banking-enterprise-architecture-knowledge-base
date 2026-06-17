@@ -1,32 +1,20 @@
 # Eval Report
 
-Generated: 2026-06-17T03:26:41.566943Z  
+Generated: 2026-06-17T03:28:05.365679Z  
 Phase: `author`  
-**FAIL: 134  WARN: 0  INFO: 0**
+**FAIL: 107  WARN: 0  INFO: 0**
 
 | Severity | Phase | Path | Message |
 |---|---|---|---|
-| FAIL | author | business-capabilities/L3-adverse-media-screening.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-alert-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-aml-case-investigation.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L3-anti-bribery-and-corruption.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-beneficial-ownership-identification.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L3-compliance-monitoring-and-testing.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L3-compliance-policy-management.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L3-compliance-risk-assessment.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L3-conduct-risk-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-correspondent-banking-due-diligence.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L3-currency-transaction-reporting.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-customer-risk-rating.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-enhanced-due-diligence-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-kyc-refresh-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-pep-screening.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L3-regulatory-change-compliance.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L3-regulatory-examination-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-sar-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-suspicious-activity-detection.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L3-tax-evasion-compliance.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-watchlist-management.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-alert-prioritisation-scoring.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-bribery-and-corruption-risk-assessment.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-compliance-training-management.md | registry concept missing its file |
@@ -62,35 +50,23 @@ Phase: `author`
 | FAIL | author | business-processes/risk-rating-and-edd-decision.md | registry concept missing its file |
 | FAIL | author | business-processes/sanctions-screening-operations.md | registry concept missing its file |
 | FAIL | author | business-processes/sar-decision-and-filing.md | registry concept missing its file |
-| FAIL | author | concepts/aml-compliance-officer.md | registry concept missing its file |
-| FAIL | author | concepts/aml-investigator.md | registry concept missing its file |
 | FAIL | author | concepts/ctr-filing.md | registry concept missing its file |
 | FAIL | author | concepts/customer-risk-rated-event.md | registry concept missing its file |
 | FAIL | author | concepts/customer-risk-score.md | registry concept missing its file |
 | FAIL | author | concepts/kyc-profile-verified-event.md | registry concept missing its file |
-| FAIL | author | concepts/mlro.md | registry concept missing its file |
-| FAIL | author | concepts/regulatory-change-manager.md | registry concept missing its file |
 | FAIL | author | concepts/regulatory-filing-submitted-event.md | registry concept missing its file |
 | FAIL | author | concepts/regulatory-obligation-updated-event.md | registry concept missing its file |
 | FAIL | author | concepts/regulatory-obligation.md | registry concept missing its file |
-| FAIL | author | concepts/regulatory-reporting-analyst.md | registry concept missing its file |
 | FAIL | author | concepts/sanctions-alert-event.md | registry concept missing its file |
 | FAIL | author | concepts/sanctions-hit.md | registry concept missing its file |
 | FAIL | author | concepts/sar-filing.md | registry concept missing its file |
 | FAIL | author | concepts/suspicious-activity-detected-event.md | registry concept missing its file |
-| FAIL | author | systems/legacy/lexisnexis-bridger-insight.md | registry concept missing its file |
-| FAIL | author | systems/legacy/sas-anti-money-laundering.md | registry concept missing its file |
-| FAIL | author | systems/modern/fenergo.md | registry concept missing its file |
-| FAIL | author | systems/modern/napier-ai.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/alert-scoring-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/behavioural-risk-analytics.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/business-glossary-manager.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/data-lineage-tracker.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/data-policy-and-stewardship-service.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/data-quality-engine.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/detection-scenario-library.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/financial-crime-case-manager.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/kyc-onboarding-platform.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/metadata-catalog.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/network-entity-resolution.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/regulatory-data-model.md | registry concept missing its file |
@@ -100,9 +76,6 @@ Phase: `author`
 | FAIL | author | technology-capabilities/report-validation-service.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/reporting-reconciliation-workbench.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/sar-filing-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/scenario-detection-engine.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/watchlist-data-management.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/watchlist-screening-engine.md | registry concept missing its file |
 | FAIL | author | process-flows/customer-due-diligence-onboarding/01-capture-cip-data.md | registry step missing its file |
 | FAIL | author | process-flows/customer-due-diligence-onboarding/02-identify-beneficial-owner.md | registry step missing its file |
 | FAIL | author | process-flows/customer-due-diligence-onboarding/03-screen-cdd-parties.md | registry step missing its file |
