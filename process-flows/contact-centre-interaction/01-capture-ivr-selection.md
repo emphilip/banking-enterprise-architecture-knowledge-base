@@ -18,10 +18,10 @@ sources: ["https://www.teneo.ai/blog/ivr-call-center"]
 - Capture IVR Selection is defined in the Contact Centre Interaction process.
 - Capture IVR Selection causes Authenticate Caller.
 - Capture IVR Selection depends on the Contact Center capability.
-- Capture IVR Selection mentions Contact Centre Agent.
+- Capture IVR Selection mentions Interaction Record.
 
 ## Details
-The Contact Centre Agent picks up after IVR capture. Inputs are the inbound contact; outputs are a captured intent. Controls include IVR containment and call recording with consent ahead of caller authentication.
+The IVR system captures the caller's menu selection as self-service, with no agent involved. Inputs are the inbound contact; outputs are a captured intent. Controls include IVR containment and call recording with consent ahead of caller authentication.
 
 ## References
 - [Teneo IVR call center](https://www.teneo.ai/blog/ivr-call-center)

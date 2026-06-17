@@ -1277,7 +1277,7 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Capture IVR Selection | Contact Centre Interaction | 1 | Contact Center | IVR Capture, Menu Selection |
 | Authenticate Caller | Contact Centre Interaction | 2 | Customer Authentication | Caller Authentication, Voice Verification |
 | Route Interaction | Contact Centre Interaction | 3 | Contact Center Platform | Distribute Interaction, Skills Routing Step |
-| Handle Customer Interaction | Contact Centre Interaction | 4 | Conversational AI | Interaction Handling, Call Handling |
+| Handle Customer Interaction | Contact Centre Interaction | 4 | Contact Center Platform | Interaction Handling, Call Handling |
 | Wrap Up Interaction | Contact Centre Interaction | 5 | CRM Platform | After-Call Work, Disposition & Notes |
 | Score Interaction Quality | Contact Centre Interaction | 6 | Contact Center Platform | QA Scoring, Quality Review |
 

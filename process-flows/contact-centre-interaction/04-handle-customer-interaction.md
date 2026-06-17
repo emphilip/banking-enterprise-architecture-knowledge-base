@@ -17,7 +17,7 @@ sources: ["https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/1209
 ## Relationships
 - Handle Customer Interaction is defined in the Contact Centre Interaction process.
 - Handle Customer Interaction causes Wrap Up Interaction.
-- Handle Customer Interaction depends on the Conversational AI capability.
+- Handle Customer Interaction depends on the Contact Center Platform capability.
 - Handle Customer Interaction mentions Contact Centre Agent.
 
 ## Details
