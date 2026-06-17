@@ -21,7 +21,7 @@ first row whose Status is not `done`).
 | 6 | Wealth & Investments | business | done | done | done | done | done |
 | 7 | Risk Management | business | done | done | done | done | done |
 | 8 | Compliance & Financial Crime | business | done | done | done | done | done |
-| 9 | Channels & Engagement | business | todo | todo | todo | todo | in-progress |
+| 9 | Channels & Engagement | business | done | done | done | todo | in-progress |
 | 10 | Finance & Treasury | business | todo | todo | todo | todo | todo |
 | 11 | Core Processing | technology | n/a | todo | n/a | todo | todo |
 | 12 | Data & Analytics | technology | n/a | todo | n/a | todo | todo |
@@ -36,8 +36,9 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Channels & Engagement
-- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-channels-and-engagement-{bian,flows,tech}.md (CRM Platform already decomposed; decompose Digital Channel Platform + Contact Center Platform)
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime (8 of 15)
+- Phase: 3 Author (in-progress) — 5 sub-agents writing ~127 notes (44 caps, 25 tech sub-caps, 9 systems, 4 new processes + 10 sub-processes + 32 steps, 16 supporting)
+
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime (8 of 15); Channels & Engagement registry reconciled (author/weave pending)
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
@@ -54,6 +55,84 @@ decomposition into sharper focus.
 
 ## Decisions log
 
+- (2026-06-17, Phase 2 Steward, Channels & Engagement) Reconciled the three Channels &
+  Engagement proposals (bian, flows, tech) into glossary/_canonical-names.md after a
+  full-registry dedupe (against every existing canonical name + every existing alias
+  and across the three proposals). Counts added per section: Business capabilities +44
+  (Domain=Channels & Engagement: 22 L3 + 22 L4 — 7 L3 under Digital Banking, 5 under
+  Branch Banking, 6 under Contact Center, 4 under ATM Management; L4s parent to those
+  L3s); Business processes +4 (Digital Onboarding Journey, Channel Servicing, ATM Cash
+  Servicing [renamed], Contact Centre Interaction — Domain=Channels & Engagement);
+  Technology sub-capabilities +25 (17 L2 + 8 L3 — Digital Channel Platform 9 L2 + 3 L3,
+  Contact Center Platform 8 L2 + 4 L3, CRM Platform 1 L2; Domain=Channels & Engagement;
+  no new top-level tech caps); Process sub-processes +10 (2 per process across Branch
+  Operations + the 4 new processes — Branch Operations is now decomposed); Process flow
+  steps +32 (Branch Operations 7; Digital Onboarding Journey 6; Channel Servicing 7;
+  ATM Cash Servicing 6; Contact Centre Interaction 6 — Order integer contiguous per
+  process); Supporting concepts +16 (6 role, 5 event, 5 artifact); Legacy systems +2
+  (Kony DBX [Digital Channel Platform], Verint WFM [Contact Center Platform]); Modern
+  systems +7 (Temenos Infinity, Alkami, NICE CXone, Five9, Twilio Flex, Glia, Verint
+  WFM Cloud — all Digital Channel Platform or Contact Center Platform). Total +130 rows.
+  Collision resolutions (the gate keeps all sections in one namespace):
+  (1) "Digital Onboarding Journey" was proposed BOTH as a PROCESS (flows) and a
+  TECHNOLOGY sub-capability (tech, under Digital Channel Platform). The PROCESS keeps
+  the canonical "Digital Onboarding Journey"; the TECH sub-capability was renamed to
+  **Onboarding Journey Orchestrator** (aliases Onboarding Journey Engine, Origination
+  Front-End, Digital Onboarding Module). Its proposed alias "Digital Account Opening"
+  was dropped (kept on the L3 capability "Digital Onboarding").
+  (2) "ATM Cash Management" was proposed BOTH as an L3 CAPABILITY (bian, under ATM
+  Management) and a PROCESS (flows). The CAPABILITY keeps the canonical "ATM Cash
+  Management"; the PROCESS was renamed to **ATM Cash Servicing** (aliases ATM Cash
+  Cycle, ATM Replenishment Process). All its sub-processes (ATM Cash Forecasting &
+  Ordering, ATM Replenishment & Reconciliation) and steps (Forecast ATM Demand … Resolve
+  Cash Discrepancy) re-parent to "ATM Cash Servicing".
+  Other renames / alias fixes (avoid alias==another concept's canonical, and avoid two
+  concepts sharing an alias):
+  (a) Existing L4 cap "Contact Routing Management" alias "Skills-Based Routing" dropped
+  (-> "Contact Skills Routing"), because the tech proposal introduces a sub-capability
+  whose canonical name is "Skills-Based Routing" (under Omnichannel Routing Engine).
+  (b) L3 cap "Channel Interaction Routing" alias "Skills-Based Routing" dropped (->
+  "Channel Routing Capability") for the same reason.
+  (c) Step "Route Interaction" (Contact Centre Interaction) aliases "Skills-Based
+  Routing" / "Interaction Routing" dropped (-> "Distribute Interaction, Skills Routing
+  Step"); "Interaction Routing" is an existing alias of Contact Routing Management.
+  (d) L3 cap "Self-Service IVR" alias "Interactive Voice Response" dropped (-> "IVR
+  Self-Service"), because the tech proposal makes "Interactive Voice Response" a
+  sub-capability canonical (under Contact Center Platform).
+  (e) L3 cap "ATM Cash Management" alias "ATM Cash Forecasting" dropped (-> "ATM Estate
+  Cash Forecasting"), because the bian proposal also makes "ATM Cash Forecasting" an L4
+  capability canonical (under ATM Cash Management).
+  (f) L4 cap "Interaction Recording & Quality" alias "Quality Monitoring" dropped (->
+  "Contact Quality Monitoring") — shared with tech sub-cap "Data Quality Engine".
+  (g) L4 cap "Agent Desktop Servicing" alias "Unified Agent Desktop" dropped (->
+  "Servicing Agent Desktop") — kept on tech sub-cap "Agent Desktop".
+  (h) Tech sub-cap "Automatic Call Distribution" alias "Queue Management" dropped (->
+  "ACD Engine, Call Distribution Engine") — shared with L3 cap "Branch Appointment &
+  Queue".
+  (i) Step "Fund Digital Account" alias "Initial Funding" dropped (-> "Fund Online
+  Account, First Deposit Capture") — shared with cap "First Deposit Funding".
+  (j) Step "Orchestrate Channel Journey" alias "Journey Orchestration" dropped (->
+  "Channel Routing, Cross-Channel Orchestration") — shared with tech sub-cap "Campaign
+  Automation".
+  (k) Step "Forecast ATM Demand" alias "ATM Demand Forecast" dropped (-> "Cash
+  Forecasting (ATM), Per-Terminal Forecast") — kept on artifact "ATM Cash Forecast".
+  (l) Proposed-vs-proposed alias splits: sub-process "Branch Counter Servicing" ("Teller
+  Servicing, Branch Counter Operations"; "Counter Operations" kept on cap "Teller
+  Operations"); sub-process "Branch Cash Control" ("Vault & Drawer Control, Branch Cash
+  Balancing"; "Branch Balancing" kept on step "Reconcile Branch Cash"); sub-process
+  "Digital Application Intake" ("DAO Intake, Digital Intake"; "Online Application
+  Capture" kept on cap "Digital Application Capture"); sub-process "Self-Service
+  Resolution" ("Self-Service Handling, In-Channel Servicing"; "In-Channel Resolution"
+  kept on step "Resolve Self-Service Request").
+  Legacy coverage (same-capability discipline only; digital->digital, CCaaS->CCaaS):
+  every new legacy has a same-capability successor — Kony DBX (Digital Channel Platform)
+  <- Temenos Infinity (supersedes "Legacy Online Banking; Kony DBX"); Verint WFM
+  (Contact Center Platform) <- Verint WFM Cloud. Modern CCaaS systems with no legacy peer
+  carry only existing legacy targets (NICE CXone / Twilio Flex -> Avaya Aura; Five9 /
+  Glia -> Cisco UCCE; Alkami -> Legacy Online Banking). Every supersedes target is a
+  real legacy system. Steward gate: 0 FAIL, 1 WARN — the lone WARN ("legacy 'Fiserv
+  OmniPay' has no modern successor") is the pre-existing Cards-domain legacy unrelated to
+  this run; no new "no successor" WARN introduced.
 - (2026-06-17, Phase 2 Steward, Compliance & Financial Crime) Reconciled the three
   Compliance & Financial Crime proposals (bian, flows, tech) into
   glossary/_canonical-names.md after a full-registry dedupe (against every existing

@@ -170,7 +170,7 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Data Survivorship | L4 | Customer Management | Party Data Quality | Survivorship Rules, Record Merge, Golden Record Resolution |
 | Consent Lifecycle | L4 | Customer Management | Consent & Preference Management | Consent Tracking, Consent Versioning |
 | Communication Preference Management | L4 | Customer Management | Consent & Preference Management | Channel Preferences, Marketing Permissions, Contact Preferences |
-| Contact Routing Management | L4 | Customer Management | Contact Dialogue Management | Interaction Routing, Skills-Based Routing |
+| Contact Routing Management | L4 | Customer Management | Contact Dialogue Management | Interaction Routing, Contact Skills Routing |
 | Interaction History | L4 | Customer Management | Contact Dialogue Management | Contact History, Channel Activity History |
 | Complaint Resolution | L4 | Customer Management | Complaint Management | Complaint Investigation, Redress Management |
 | Complaint Root-Cause Analysis | L4 | Customer Management | Complaint Management | Complaint Analytics, Root Cause Feedback |
@@ -415,6 +415,50 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Control Testing Execution | L4 | Compliance & Financial Crime | Compliance Monitoring & Testing | Compliance Control Testing, Assurance Testing |
 | Issue & Remediation Tracking | L4 | Compliance & Financial Crime | Compliance Monitoring & Testing | Findings Management, Remediation Tracking |
 | Compliance Training Management | L4 | Compliance & Financial Crime | Compliance Policy Management | AML Training, Awareness Management |
+| Digital Onboarding | L3 | Channels & Engagement | Digital Banking | Digital Account Opening, Self-Service Onboarding |
+| Digital Self-Service | L3 | Channels & Engagement | Digital Banking | Self-Service Banking, Digital Self Service |
+| Digital Servicing | L3 | Channels & Engagement | Digital Banking | In-App Servicing, Digital Service Requests |
+| Digital Engagement & Personalisation | L3 | Channels & Engagement | Digital Banking | Digital Personalisation, In-Channel Engagement |
+| Conversational Banking | L3 | Channels & Engagement | Digital Banking | Chat Banking, Messaging Banking |
+| Channel Accessibility | L3 | Channels & Engagement | Digital Banking | Digital Accessibility, Inclusive Design |
+| Open Banking Channel | L3 | Channels & Engagement | Digital Banking | Third-Party Channel, Embedded Banking Channel |
+| Teller Operations | L3 | Channels & Engagement | Branch Banking | Counter Operations, Cashier Operations |
+| Branch Servicing | L3 | Channels & Engagement | Branch Banking | In-Branch Servicing, Assisted Servicing |
+| Cash & Vault Management | L3 | Channels & Engagement | Branch Banking | Branch Cash Management, Vault Management |
+| Branch Appointment & Queue | L3 | Channels & Engagement | Branch Banking | Appointment Booking, Queue Management |
+| Branch Sales | L3 | Channels & Engagement | Branch Banking | In-Branch Sales, Counter Sales |
+| Inbound Contact Servicing | L3 | Channels & Engagement | Contact Center | Inbound Servicing, Inbound Voice Servicing |
+| Outbound Engagement | L3 | Channels & Engagement | Contact Center | Outbound Calling, Outbound Contact |
+| Channel Interaction Routing | L3 | Channels & Engagement | Contact Center | Intent Routing, Channel Routing Capability |
+| Self-Service IVR | L3 | Channels & Engagement | Contact Center | Voice Self-Service, IVR Self-Service |
+| Contact Complaint Intake | L3 | Channels & Engagement | Contact Center | Complaint Capture, Complaint Logging (Channel) |
+| Servicing Resource Management | L3 | Channels & Engagement | Contact Center | Agent Scheduling, Position Management |
+| ATM Transaction Processing | L3 | Channels & Engagement | ATM Management | ATM Transactions, Self-Service Terminal Processing |
+| ATM Cash Management | L3 | Channels & Engagement | ATM Management | ATM Cash Replenishment, ATM Estate Cash Forecasting |
+| ATM Monitoring & Servicing | L3 | Channels & Engagement | ATM Management | ATM Device Monitoring, ATM Maintenance |
+| ATM Network Management | L3 | Channels & Engagement | ATM Management | ATM Estate Management, ATM Fleet Management |
+| Digital Identity Verification | L4 | Channels & Engagement | Digital Onboarding | Remote ID Verification, eKYC Capture |
+| Digital Application Capture | L4 | Channels & Engagement | Digital Onboarding | Online Application Capture, Digital Form Capture |
+| Digital Consent Capture | L4 | Channels & Engagement | Digital Onboarding | E-Consent Capture, Terms Acceptance |
+| Funds Transfer Self-Service | L4 | Channels & Engagement | Digital Self-Service | Self-Service Transfers, Move Money |
+| Card & Account Controls | L4 | Channels & Engagement | Digital Self-Service | Self-Service Controls, Card Management Self-Service |
+| Digital Statements & Documents | L4 | Channels & Engagement | Digital Self-Service | E-Statements, Secure Document Inbox |
+| Chatbot Servicing | L4 | Channels & Engagement | Conversational Banking | Virtual Assistant Banking, Chatbot Banking |
+| Voice Assistant Banking | L4 | Channels & Engagement | Conversational Banking | Voice Banking, Smart Speaker Banking |
+| Wearable Banking | L4 | Channels & Engagement | Digital Engagement & Personalisation | Smartwatch Banking, Wearable Channel |
+| Channel Experience Management | L4 | Channels & Engagement | Digital Engagement & Personalisation | CX Management, Journey Optimisation |
+| Cash Handling | L4 | Channels & Engagement | Teller Operations | Till Operations, Counter Cash Handling |
+| Negotiable Instrument Processing | L4 | Channels & Engagement | Teller Operations | Cheque Processing (Branch), Draft Handling |
+| Vault Float Control | L4 | Channels & Engagement | Cash & Vault Management | Float Management, Currency Float Control |
+| Cash-in-Transit Coordination | L4 | Channels & Engagement | Cash & Vault Management | CIT Coordination, Armoured Carrier Management |
+| Interaction Recording & Quality | L4 | Channels & Engagement | Inbound Contact Servicing | Call Recording, Contact Quality Monitoring |
+| Agent Desktop Servicing | L4 | Channels & Engagement | Inbound Contact Servicing | Agent Workbench, Servicing Agent Desktop |
+| Outbound Dialer Management | L4 | Channels & Engagement | Outbound Engagement | Dialer Operations, Predictive Dialing |
+| Self-Service IVR Authentication | L4 | Channels & Engagement | Self-Service IVR | Voice Authentication, IVR Caller Verification |
+| ATM Authorization Handling | L4 | Channels & Engagement | ATM Transaction Processing | ATM Auth Handling, Terminal Authorization |
+| ATM Deposit Handling | L4 | Channels & Engagement | ATM Transaction Processing | ATM Cash Deposit, Deposit Automation |
+| ATM Cash Forecasting | L4 | Channels & Engagement | ATM Cash Management | Cash Demand Forecasting, Replenishment Optimisation |
+| ATM Fault Detection | L4 | Channels & Engagement | ATM Monitoring & Servicing | Device Alert Detection, ATM Alarm Handling |
 
 ## Business processes
 
@@ -461,6 +505,10 @@ Format: Canonical Name | Domain (defined_in) | Capabilities it depends_on | Alia
 | Customer Due Diligence Onboarding | Compliance & Financial Crime | Customer Due Diligence, Sanctions Screening | CDD Onboarding, Diligence Onboarding, AML Onboarding |
 | Sanctions Screening Operations | Compliance & Financial Crime | Sanctions Screening | Sanctions Operations, Watchlist Screening Operations, Screening Ops |
 | Regulatory Change Management | Compliance & Financial Crime | Regulatory Compliance | Reg Change Management, RCM, Regulatory Change Tracking |
+| Digital Onboarding Journey | Channels & Engagement | Digital Banking, Digital Onboarding | Digital Account Opening Journey, Online Onboarding Flow |
+| Channel Servicing | Channels & Engagement | Channel Management, Digital Self-Service | Omnichannel Servicing, Self-Service Channel Process |
+| ATM Cash Servicing | Channels & Engagement | ATM Management, ATM Cash Management | ATM Cash Cycle, ATM Replenishment Process |
+| Contact Centre Interaction | Channels & Engagement | Contact Center, Inbound Contact Servicing | Call Centre Interaction Handling, Contact Handling Process |
 
 ## Technology capabilities
 
@@ -587,6 +635,8 @@ Format: Canonical Name | Realizes (tech capability depends_on it) | Vendor | Ali
 | Archer IRM | Governance Risk & Compliance Platform | Archer | RSA Archer, Archer GRC |
 | SAS Anti-Money Laundering | Transaction Monitoring Platform | SAS | SAS AML, SAS Anti Money Laundering |
 | LexisNexis Bridger Insight | Transaction Monitoring Platform | LexisNexis Risk Solutions (Fircosoft) | Bridger Insight XG, Fircosoft, Firco, Firco Continuity |
+| Kony DBX | Digital Channel Platform | Temenos (Kony) | Kony Digital Banking, DBX |
+| Verint WFM | Contact Center Platform | Verint | Verint Workforce Management, Verint WFO, Verint Impact 360 |
 
 ## Modern systems
 
@@ -679,6 +729,13 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | ModelOp | Model Risk Management Platform |  | ModelOp | ModelOp Center |
 | Napier AI | Transaction Monitoring Platform | SAS Anti-Money Laundering; LexisNexis Bridger Insight | Napier AI | Napier, Napier Continuum, Continuum, NapierAI |
 | Fenergo | KYC Onboarding Platform |  | Fenergo | Fenergo CLM, Fenergo KYC, Fenergo Client Lifecycle Management |
+| Temenos Infinity | Digital Channel Platform | Legacy Online Banking; Kony DBX | Temenos | Infinity, Temenos Digital, Infinity Engage |
+| Alkami | Digital Channel Platform | Legacy Online Banking | Alkami Technology | Alkami Platform, Alkami Digital Banking, ORB |
+| NICE CXone | Contact Center Platform | Avaya Aura | NICE | CXone, NICE CXone Mpower, inContact |
+| Five9 | Contact Center Platform | Cisco UCCE | Five9 | Five9 Intelligent CX Platform |
+| Twilio Flex | Contact Center Platform | Avaya Aura | Twilio | Flex, Twilio Flex CCaaS |
+| Glia | Contact Center Platform | Cisco UCCE | Glia | Glia Interaction Platform, Digital Customer Service, DCS |
+| Verint WFM Cloud | Contact Center Platform | Verint WFM | Verint | Verint Workforce Management Cloud, Verint WEM, Verint Open Platform WFM |
 
 ## Glossary terms
 
@@ -808,6 +865,31 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Metadata Catalog | Data Governance | Data & Analytics | L2 | Data Catalog Service, Metadata Repository, Asset Catalog, Data Discovery |
 | Business Glossary Manager | Metadata Catalog | Data & Analytics | L3 | Business Glossary, Term Management, Semantic Glossary, Data Dictionary |
 | Data Policy & Stewardship Service | Data Governance | Data & Analytics | L2 | Stewardship Workflow, Policy Management (Data), Data Governance Workflow, Data Ownership Service |
+| Mobile App Framework | Digital Channel Platform | Channels & Engagement | L2 | Mobile SDK Platform, Mobile Banking Framework, Multi-Experience Framework |
+| Web Banking Portal | Digital Channel Platform | Channels & Engagement | L2 | Internet Banking Portal, Web Channel, Online Banking Portal |
+| Channel Orchestration Layer | Digital Channel Platform | Channels & Engagement | L2 | Experience Orchestration, Backend-for-Frontend, Journey Orchestration Mid-Tier |
+| Onboarding Journey Orchestrator | Digital Channel Platform | Channels & Engagement | L2 | Onboarding Journey Engine, Origination Front-End, Digital Onboarding Module |
+| Digital SCA Service | Digital Channel Platform | Channels & Engagement | L2 | Step-Up Authentication Service, In-App SCA, Dynamic Linking Service |
+| In-App Messaging | Digital Channel Platform | Channels & Engagement | L2 | In-Session Messaging, Secure Inbox, Contextual Messaging |
+| Personalisation Engine | Digital Channel Platform | Channels & Engagement | L2 | Personalization Engine, Offer Targeting Engine, Next-Best-Experience Engine |
+| Digital Analytics | Digital Channel Platform | Channels & Engagement | L2 | Digital Behavioural Analytics, Journey Analytics, Product Analytics |
+| Feature Flag Service | Digital Channel Platform | Channels & Engagement | L2 | Feature Toggle Service, Release Flagging, Progressive Delivery Service |
+| Native Mobile SDK | Mobile App Framework | Channels & Engagement | L3 | Mobile Banking SDK, Embeddable Mobile SDK |
+| Progressive Web App Runtime | Web Banking Portal | Channels & Engagement | L3 | PWA Runtime, Responsive Web Runtime |
+| A/B Testing Service | Feature Flag Service | Channels & Engagement | L3 | Experimentation Service, Multivariate Testing |
+| Interactive Voice Response | Contact Center Platform | Channels & Engagement | L2 | IVR Engine, Voice Self-Service Engine, Conversational IVR |
+| Automatic Call Distribution | Contact Center Platform | Channels & Engagement | L2 | ACD Engine, Call Distribution Engine |
+| Omnichannel Routing Engine | Contact Center Platform | Channels & Engagement | L2 | Omnichannel Routing, Interaction Routing Engine, Universal Queue |
+| Agent Desktop | Contact Center Platform | Channels & Engagement | L2 | Agent Workspace, Unified Agent Desktop, Contact Centre Desktop |
+| Interaction Analytics | Contact Center Platform | Channels & Engagement | L2 | Speech Analytics, Conversation Analytics, Interaction Insights |
+| Workforce Engagement Management | Contact Center Platform | Channels & Engagement | L2 | WEM, Workforce Optimization, WFO |
+| Computer Telephony Integration | Contact Center Platform | Channels & Engagement | L2 | CTI, Telephony Integration, Call Control Service |
+| Outbound Dialer | Contact Center Platform | Channels & Engagement | L2 | Predictive Dialer, Campaign Dialer, Proactive Outbound |
+| Skills-Based Routing | Omnichannel Routing Engine | Channels & Engagement | L3 | Skill Routing, Proficiency Routing |
+| Real-Time Transcription | Interaction Analytics | Channels & Engagement | L3 | Live Transcription, Real-Time Speech-to-Text |
+| Quality Management Service | Workforce Engagement Management | Channels & Engagement | L3 | Quality Management, QM, Automated QA |
+| Screen Pop Service | Computer Telephony Integration | Channels & Engagement | L3 | Screen Pop, Contextual Pop |
+| Knowledge Base Service | CRM Platform | Channels & Engagement | L2 | Knowledge Management, Service Knowledge Base, Answer Library |
 
 ## Process sub-processes
 
@@ -906,6 +988,16 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Filing Review & Submission | Regulatory Filing | Compliance & Financial Crime | Review & Submit, Filing Submission |
 | Horizon Scanning & Impact | Regulatory Change Management | Compliance & Financial Crime | Horizon Scanning, Impact Assessment |
 | Remediation & Attestation | Regulatory Change Management | Compliance & Financial Crime | Remediation & Sign-Off, Change Attestation |
+| Branch Counter Servicing | Branch Operations | Channels & Engagement | Teller Servicing, Branch Counter Operations |
+| Branch Cash Control | Branch Operations | Channels & Engagement | Vault & Drawer Control, Branch Cash Balancing |
+| Digital Application Intake | Digital Onboarding Journey | Channels & Engagement | DAO Intake, Digital Intake |
+| Digital Identity & Activation | Digital Onboarding Journey | Channels & Engagement | eKYC & Activation, Verify & Activate |
+| Channel Authentication & Orchestration | Channel Servicing | Channels & Engagement | Session Orchestration, Channel Auth |
+| Self-Service Resolution | Channel Servicing | Channels & Engagement | Self-Service Handling, In-Channel Servicing |
+| ATM Cash Forecasting & Ordering | ATM Cash Servicing | Channels & Engagement | ATM Forecasting, Cash Ordering |
+| ATM Replenishment & Reconciliation | ATM Cash Servicing | Channels & Engagement | Replenishment & Recon, ATM Balancing |
+| Interaction Intake & Routing | Contact Centre Interaction | Channels & Engagement | IVR & Routing, Contact Intake |
+| Interaction Handling & QA | Contact Centre Interaction | Channels & Engagement | Handling & QA, Resolution & Wrap-Up |
 
 ## Process flow steps
 
@@ -1156,6 +1248,38 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Plan Change Remediation | Regulatory Change Management | 4 | Workflow Orchestration | Plan Remediation, Remediation Planning Step |
 | Implement Compliance Control | Regulatory Change Management | 5 | Policy & Control Management | Embed Compliance Change, Control Implementation Step |
 | Attest Change Compliance | Regulatory Change Management | 6 | Governance Risk & Compliance Platform | Sign Off Change, Change Attestation Step |
+| Open Branch Cash | Branch Operations | 1 | Branch Banking | Branch Opening, Float Issuance |
+| Serve Counter Customer | Branch Operations | 2 | Branch Banking | Counter Service, Customer Identification |
+| Process Teller Transaction | Branch Operations | 3 | Core Banking Processing | Teller Posting, Transaction Execution |
+| Replenish Teller Drawer | Branch Operations | 4 | Branch Banking | Drawer Buy/Sell, Cash Transfer |
+| Balance Teller Drawer | Branch Operations | 5 | Branch Banking | Drawer Balancing, Teller Recon |
+| Reconcile Branch Cash | Branch Operations | 6 | Branch Banking | Branch Balancing, EOD Recon |
+| Close Branch | Branch Operations | 7 | Branch Banking | Branch Closing, EOD Close |
+| Start Digital Application | Digital Onboarding Journey | 1 | Digital Banking | Begin Online Application, Start DAO |
+| Capture Applicant Details | Digital Onboarding Journey | 2 | Digital Banking | Capture Application Data, Applicant Capture |
+| Verify Digital Identity | Digital Onboarding Journey | 3 | Identity Proofing Service | Run eKYC, Digital ID Proofing |
+| Enrol Strong Authentication | Digital Onboarding Journey | 4 | Customer Authentication | Enrol SCA, Set Up MFA |
+| Fund Digital Account | Digital Onboarding Journey | 5 | Payment Orchestration | Fund Online Account, First Deposit Capture |
+| Activate Digital Channel | Digital Onboarding Journey | 6 | Notification Services | Channel Activation, Welcome Enablement |
+| Open Channel Session | Channel Servicing | 1 | Channel Management | Start Channel Session, Session Init |
+| Authenticate Channel User | Channel Servicing | 2 | Customer Authentication | Channel User Authentication, Step-Up Auth |
+| Identify Service Intent | Channel Servicing | 3 | Conversational AI | Intent Detection, Need Identification |
+| Orchestrate Channel Journey | Channel Servicing | 4 | Integration Platform | Channel Routing, Cross-Channel Orchestration |
+| Resolve Self-Service Request | Channel Servicing | 5 | Core Banking Processing | In-Channel Resolution, Self-Serve Action |
+| Escalate To Assisted Servicing | Channel Servicing | 6 | Workflow Orchestration | Assisted Escalation, Warm Transfer |
+| Record Channel Interaction | Channel Servicing | 7 | CRM Platform | Log Interaction, Capture Channel Activity |
+| Forecast ATM Demand | ATM Cash Servicing | 1 | ATM Management | Cash Forecasting (ATM), Per-Terminal Forecast |
+| Plan Cash Order | ATM Cash Servicing | 2 | ATM Management | Cash Order Planning, Load Planning |
+| Schedule Cash Delivery | ATM Cash Servicing | 3 | Integration Platform | CIT Scheduling, Delivery Scheduling |
+| Replenish ATM Cash | ATM Cash Servicing | 4 | ATM Management | ATM Replenishment, Cassette Loading |
+| Reconcile ATM Cash | ATM Cash Servicing | 5 | Core Banking Processing | ATM Reconciliation, Cash Balancing (ATM) |
+| Resolve Cash Discrepancy | ATM Cash Servicing | 6 | Workflow Orchestration | Cash Variance Resolution, Exception Handling (ATM) |
+| Capture IVR Selection | Contact Centre Interaction | 1 | Contact Center | IVR Capture, Menu Selection |
+| Authenticate Caller | Contact Centre Interaction | 2 | Customer Authentication | Caller Authentication, Voice Verification |
+| Route Interaction | Contact Centre Interaction | 3 | Contact Center Platform | Distribute Interaction, Skills Routing Step |
+| Handle Customer Interaction | Contact Centre Interaction | 4 | Conversational AI | Interaction Handling, Call Handling |
+| Wrap Up Interaction | Contact Centre Interaction | 5 | CRM Platform | After-Call Work, Disposition & Notes |
+| Score Interaction Quality | Contact Centre Interaction | 6 | Contact Center Platform | QA Scoring, Quality Review |
 
 ## Supporting concepts
 
@@ -1295,3 +1419,19 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | SAR Filing | artifact | Suspicious Activity Report, FinCEN Form 111 |
 | CTR Filing | artifact | Currency Transaction Report, FinCEN Form 112 |
 | Regulatory Obligation | artifact | Compliance Obligation, Regulatory Requirement |
+| Teller | role | Bank Teller, Counter Clerk |
+| Branch Manager | role | Branch Supervisor, Head Teller |
+| Digital Onboarding Specialist | role | Digital Onboarding Officer, DAO Specialist |
+| Channel Operations Analyst | role | Channel Ops Analyst, Omnichannel Analyst |
+| ATM Custodian | role | ATM Cash Officer, ATM Operations Custodian |
+| Contact Centre Agent | role | Call Centre Agent, Customer Service Representative |
+| Session Started Event | event | Channel Session Opened Event, Session Init Event |
+| Digital Application Submitted Event | event | Online Application Submitted Event, DAO Submitted Event |
+| Interaction Captured Event | event | Contact Received Event, Interaction Logged Event |
+| ATM Replenishment Due Event | event | Cash-Out Forecast Event, Replenishment Triggered Event |
+| Cash Variance Event | event | Cash Discrepancy Event, ATM Variance Event |
+| Digital Application | artifact | Online Application, DAO Application |
+| Channel Session | artifact | Customer Session, Omnichannel Session |
+| Interaction Record | artifact | Contact Record, Interaction Log |
+| ATM Cash Forecast | artifact | ATM Demand Forecast, Cash Load Forecast |
+| ATM Replenishment Record | artifact | Cash Load Record, ATM Load Sheet |
