@@ -811,7 +811,7 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Moody's Balance Sheet Management | Asset Liability Management Engine | QRM Balance Sheet Management | Moody's Analytics | Moody's ALM, RiskConfidence |
 | FIS Modern Banking Platform | Core Banking Processing | FIS Profile; FIS Horizon | FIS | MBP, FIS MBP, Modern Banking Platform |
 | Sage Intacct | General Ledger Engine | Infor SunSystems | Sage | Intacct, Sage Business Cloud Intacct |
-| FlexONE | Order Management System | Linedata Longview; Fidessa; Nasdaq Calypso | FlexTrade Systems | FlexTrade FlexONE, FlexONE OEMS, FlexOMS |
+| FlexONE | Order Management System | Linedata Longview | FlexTrade Systems | FlexTrade FlexONE, FlexONE OEMS, FlexOMS |
 | Orion | Investment Advisory Platform | Objectway | Orion Advisor Solutions | Orion Advisor Tech, Orion Advisor Solutions, Orion Wealth |
 | Coupa Treasury | Treasury Management System | SunGard AvantGard | Coupa (formerly BELLIN) | Bellin, BELLIN tm5, Coupa Treasury Management |
 

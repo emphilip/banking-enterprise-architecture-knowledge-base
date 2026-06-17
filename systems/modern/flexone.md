@@ -17,8 +17,6 @@ sources: ["https://flextrade.com/products/flexone-order-execution-management-sys
 ## Relationships
 - Order Management System depends on FlexONE.
 - FlexONE supersedes Linedata Longview.
-- FlexONE supersedes Fidessa.
-- FlexONE supersedes Nasdaq Calypso.
 
 ## Details
 FlexONE unifies order and execution management for buy-side firms, covering order generation, intraday P&L and risk, allocations, and pre/post-trade compliance and operations. Built on a modern gRPC API framework, it integrates tightly with the FlexTRADER EMS. The platform was awarded Best Buy-Side OMS in 2026.
