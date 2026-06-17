@@ -36,7 +36,7 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Data & Analytics (technology, tech-only run)
-- Phase: 3 Author (in-progress) — 2 sub-agents writing 34 tech sub-caps (25 L2 + 9 L3) + 14 systems (3 legacy + 11 modern)
+- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-data-and-analytics.md)
 
 - Done so far: all 10 business domains + Core Processing (11 of 15; 1542 files). Remaining: Data & Analytics (now), Integration & APIs, Security & Identity, AI & Automation.
 
