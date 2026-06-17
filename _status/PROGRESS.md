@@ -22,7 +22,7 @@ first row whose Status is not `done`).
 | 7 | Risk Management | business | done | done | done | done | done |
 | 8 | Compliance & Financial Crime | business | done | done | done | done | done |
 | 9 | Channels & Engagement | business | done | done | done | done | done |
-| 10 | Finance & Treasury | business | todo | todo | todo | todo | in-progress |
+| 10 | Finance & Treasury | business | done | done | done | todo | in-progress |
 | 11 | Core Processing | technology | n/a | todo | n/a | todo | todo |
 | 12 | Data & Analytics | technology | n/a | todo | n/a | todo | todo |
 | 13 | Integration & APIs | technology | n/a | todo | n/a | todo | todo |
@@ -36,7 +36,8 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Finance & Treasury
-- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-finance-and-treasury-{bian,flows,tech}.md. NO existing processes (propose 5 new); tech agent proposes new top-level caps (Treasury Management System / ALM Engine / Financial Consolidation Platform) + decompose General Ledger Engine.
+- Phase: 3 Author (in-progress) — 5 sub-agents writing ~152 notes (42 caps, 3 top-level tech caps + 23 sub-caps, 16 systems, 5 new processes + 12 sub-processes + 35 steps, 16 supporting)
+
 - Done so far: 9 domains (all business except Finance & Treasury) — Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime, Channels & Engagement
 
 ## Next actions (ordered — keep specific enough to resume cold)
@@ -56,6 +57,96 @@ decomposition into sharper focus.
 
 ## Decisions log
 
+- (2026-06-17, Phase 2 Steward, Finance & Treasury) Reconciled the three Finance &
+  Treasury proposals (bian, flows, tech) into glossary/_canonical-names.md after a
+  full-registry dedupe (against every existing canonical name + every existing alias
+  and across the three proposals). Counts added per section: Business capabilities +42
+  (Domain=Finance & Treasury: 20 L3 + 22 L4 — L3s parent to existing L2s General Ledger
+  Accounting [5], Financial Reporting [4], Regulatory Capital Management [3], Liquidity
+  Management [4], Asset Liability Management [4]; L4s parent to those new L3s); Business
+  processes +5 (Financial Close, Management Reporting, Regulatory Capital Reporting,
+  Cash & Liquidity Management, Funds Transfer Pricing — Domain=Finance & Treasury, the
+  domain previously had 0 processes); Technology capabilities +3 (Treasury Management
+  System, Asset Liability Management Engine, Financial Consolidation Platform — all
+  Domain=Core Processing; Enables = the relevant F&T business caps); Technology
+  sub-capabilities +23 (Domain=Core Processing: General Ledger Engine 7 L2 + 2 L3,
+  Treasury Management System 5 L2 + 1 L3, Asset Liability Management Engine 4 L2,
+  Financial Consolidation Platform 3 L2 + 1 L3); Process sub-processes +12 (3 Financial
+  Close, 2 Management Reporting, 3 Regulatory Capital Reporting, 2 Cash & Liquidity
+  Management, 2 Funds Transfer Pricing); Process flow steps +35 (7 per process × 5 — Order
+  integer contiguous per process); Supporting concepts +16 (5 role, 4 event, 7 artifact);
+  Legacy systems +7 (Oracle E-Business Suite [GL Engine]; Oracle Hyperion HFM, SAP BPC
+  [Financial Consolidation Platform]; SunGard AvantGard, SAP Treasury And Risk Management
+  [Treasury Management System]; QRM Balance Sheet Management, SAS Asset And Liability
+  Management [Asset Liability Management Engine]); Modern systems +9 (SAP S/4HANA Finance,
+  OneStream, Oracle EPM Cloud, Anaplan, Kyriba, ION Treasury, GTreasury, Empyrean Sol ALM,
+  Moody's Balance Sheet Management). Total +152 rows.
+  Management Reporting three-way collision (resolved as instructed): "Management Reporting"
+  existed as an ALIAS of L2 cap "Financial Reporting", was proposed as a bian L3 CAPABILITY,
+  and as a flows PROCESS. Resolution: the PROCESS keeps the canonical "Management Reporting";
+  the "Management Reporting" alias was DROPPED from "Financial Reporting" and replaced with
+  **Internal Reporting**; the L3 capability was RENAMED to **Internal Management Reporting**
+  and its two L4 children (Profitability Analytics, Budgeting & Forecasting) re-parented to
+  it. The renamed cap's alias list dropped "Internal Reporting" (now Financial Reporting's
+  alias) to avoid two concepts sharing it (kept MI Reporting, Performance Reporting (Finance)).
+  Other renames / collision resolutions (the gate keeps all sections in one namespace):
+  (1) bian L3 cap "Funds Transfer Pricing" -> **Funds Transfer Pricing Management**, because
+  the flows proposal introduces a PROCESS "Funds Transfer Pricing" (capability-vs-process
+  collision); the process keeps the plain name and the L4 child "FTP Rate Curve Management"
+  re-parents to the renamed cap. Cap aliases set to "FTP Management, Internal Funds Pricing
+  Capability, Matched-Maturity FTP" so it does not share FTP / Internal Funds Pricing /
+  Transfer Pricing (Treasury) with the process.
+  (2) bian L4 cap "Budgeting & Forecasting" kept canonical; the flows SUB-PROCESS also named
+  "Budgeting & Forecasting" was renamed to **Budget & Forecast Preparation** (aliases Budget
+  Build, Operating Budget Preparation) to avoid the duplicate canonical name.
+  (3) bian L3 cap "Cash Positioning" -> **Treasury Cash Positioning**, because "Cash
+  Positioning" is already a canonical PROCESS SUB-PROCESS (Payments / Cash Management); the
+  L4 child "Cash Flow Forecasting" re-parents to the renamed cap.
+  (4) Flow step "Capture Actual Results" verified globally unique (not in any existing
+  canonical name or alias) — kept as-is, no rename.
+  Existing-row alias fixes (a new CANONICAL must not equal any existing alias — that FAILs):
+  (a) cap "Risk Capital Calculation" (Risk) alias "RWA Calculation" -> "RWA Charge
+  Calculation", freeing the new cap canonical "RWA Calculation".
+  (b) cap "Behavioural Analytics" (Customer Mgmt) alias "Behavioural Modelling" ->
+  "Behavioural Pattern Modelling", freeing the new L4 cap canonical "Behavioural Modelling".
+  (c) cap "Intraday Liquidity Monitoring" (Risk) alias "Intraday Liquidity Management" ->
+  "Intraday Liquidity Oversight", freeing the new L3 cap canonical "Intraday Liquidity
+  Management".
+  New-row alias fixes (avoid alias==another concept's canonical, existing or new):
+  (d) cap "Reconciliation & Close" dropped alias "Financial Close" (== new process canonical).
+  (e) process "Regulatory Capital Reporting" dropped alias "Capital Adequacy Reporting"
+  (== new cap canonical) -> "Prudential Reporting, COREP Reporting, CCAR Reporting".
+  (f) process "Cash & Liquidity Management" dropped aliases "Cash Positioning" (== existing
+  sub-process) and "Intraday Liquidity Management" (== new cap) -> "Liquidity Operations,
+  Treasury Cash Operations".
+  (g) sub-process "Intraday Liquidity Positioning" dropped alias "Cash Positioning"
+  (== existing sub-process) -> "Intraday Positioning, Position Projection".
+  (h) sub-process "Funding & Buffer Management" dropped alias "Funding Management" (== new
+  cap canonical) -> "Buffer Management, Funding Execution Sub-Process".
+  (i) sub-process "Scenario & Capital Planning" dropped alias "Capital Planning" (== new cap
+  canonical) -> "CCAR Planning, Capital Plan Assembly".
+  (j) tech sub-cap "Disclosure Management Service" dropped alias "Disclosure Management"
+  (== new L3 cap canonical) -> "Narrative Reporting Service, XBRL Tagging Service, Statutory
+  Reporting Service".
+  (k) step "Eliminate Intercompany Balances" dropped alias "Intercompany Elimination"
+  (== new L4 cap canonical) -> "Eliminate IC, IC Balance Elimination".
+  (l) step "Certify Period Close" alias "Close Certification" -> "Close Sign-Off" (Close
+  Certification is an alias of cap "Close Task Orchestration"); step "Analyse Budget
+  Variance" alias "Variance Analysis" -> "Budget Variance Analysis" (Variance Analysis is
+  an alias of cap "Budgeting & Forecasting" and sub-process "Variance & Insight Reporting").
+  (m) modern system "Moody's Balance Sheet Management" dropped self-referential alias
+  "Moody's Balance Sheet Management" -> "Moody's ALM, RiskConfidence".
+  Legacy coverage (same-capability discipline only — GL/ERP->GL/ERP, consolidation/EPM->
+  consolidation/EPM, treasury->treasury, ALM->ALM): every new legacy has a same-capability
+  modern successor — Oracle E-Business Suite (GL Engine) <- SAP S/4HANA Finance (supersedes
+  "SAP ECC; Oracle E-Business Suite"); Oracle Hyperion HFM (FCP) <- OneStream, Oracle EPM
+  Cloud; SAP BPC (FCP) <- OneStream, Anaplan; SunGard AvantGard (TMS) <- Kyriba, GTreasury;
+  SAP Treasury And Risk Management (TMS) <- ION Treasury; QRM Balance Sheet Management (ALM
+  Engine) <- Empyrean Sol ALM, Moody's Balance Sheet Management; SAS Asset And Liability
+  Management (ALM Engine) <- Empyrean Sol ALM. Every supersedes target is a real legacy
+  system; no cross-capability pairing; no new "no successor" WARN introduced. Steward gate:
+  0 FAIL, 1 WARN — the lone WARN ("legacy 'Fiserv OmniPay' has no modern successor") is the
+  pre-existing Cards-domain legacy unrelated to this run.
 - (2026-06-17, Phase 2 Steward, Channels & Engagement) Reconciled the three Channels &
   Engagement proposals (bian, flows, tech) into glossary/_canonical-names.md after a
   full-registry dedupe (against every existing canonical name + every existing alias

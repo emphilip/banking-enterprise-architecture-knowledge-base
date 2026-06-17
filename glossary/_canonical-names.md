@@ -107,11 +107,53 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | ATM Management | L2 | Channels & Engagement | Channel Management | ATM Network |
 | Finance Management | L1 | Finance & Treasury | — | Finance |
 | General Ledger Accounting | L2 | Finance & Treasury | Finance Management | GL Accounting |
-| Financial Reporting | L2 | Finance & Treasury | Finance Management | Management Reporting |
+| Financial Reporting | L2 | Finance & Treasury | Finance Management | Internal Reporting |
 | Regulatory Capital Management | L2 | Finance & Treasury | Finance Management | Capital Management |
 | Treasury Management | L1 | Finance & Treasury | — | Treasury |
 | Liquidity Management | L2 | Finance & Treasury | Treasury Management | Cash & Liquidity |
 | Asset Liability Management | L2 | Finance & Treasury | Treasury Management | ALM |
+| Journal Management | L3 | Finance & Treasury | General Ledger Accounting | Journal Entry Management, GL Posting Management, Manual Journals |
+| Chart Of Accounts Management | L3 | Finance & Treasury | General Ledger Accounting | COA Management, Account Structure Governance, Ledger Hierarchy Management |
+| Intercompany Accounting | L3 | Finance & Treasury | General Ledger Accounting | Intercompany Transactions, IC Accounting, Inter-Entity Accounting |
+| Reconciliation & Close | L3 | Finance & Treasury | General Ledger Accounting | Period-End Close, GL Reconciliation |
+| Fixed Asset Accounting | L3 | Finance & Treasury | General Ledger Accounting | Asset Register Management, Depreciation Accounting, Capital Asset Accounting |
+| Financial Consolidation | L3 | Finance & Treasury | Financial Reporting | Group Consolidation, Consolidation & Eliminations, IFRS 10 Consolidation |
+| Statutory Reporting | L3 | Finance & Treasury | Financial Reporting | External Financial Reporting, Statutory Accounts, IAS 1 Reporting |
+| Internal Management Reporting | L3 | Finance & Treasury | Financial Reporting | MI Reporting, Performance Reporting (Finance) |
+| Disclosure Management | L3 | Finance & Treasury | Financial Reporting | Notes & Disclosures, Disclosure Reporting, XBRL Disclosure |
+| RWA Calculation | L3 | Finance & Treasury | Regulatory Capital Management | Risk-Weighted Assets Calculation, RWA Computation, Basel RWA |
+| Capital Planning | L3 | Finance & Treasury | Regulatory Capital Management | Capital Forecasting, Capital Plan Management, Capital Strategy |
+| Capital Adequacy Reporting | L3 | Finance & Treasury | Regulatory Capital Management | Capital Reporting, COREP Reporting, Own Funds Reporting |
+| Treasury Cash Positioning | L3 | Finance & Treasury | Liquidity Management | Cash Position Keeping, Nostro Positioning |
+| Funding Management | L3 | Finance & Treasury | Liquidity Management | Funding Execution, Wholesale Funding Management, Treasury Funding |
+| Collateral & Reserve Management | L3 | Finance & Treasury | Liquidity Management | Treasury Collateral Management, Reserve Management, Liquidity Collateral Management |
+| Intraday Liquidity Management | L3 | Finance & Treasury | Liquidity Management | Intraday Funding Management, Intraday Cash Management, Throughput Management |
+| Interest Rate Risk In The Banking Book | L3 | Finance & Treasury | Asset Liability Management | IRRBB Management, Banking Book Rate Risk, EVE & NII Management |
+| Funds Transfer Pricing Management | L3 | Finance & Treasury | Asset Liability Management | FTP Management, Internal Funds Pricing Capability, Matched-Maturity FTP |
+| Balance Sheet Management | L3 | Finance & Treasury | Asset Liability Management | Structural Balance Sheet Management, ALCO Management, Balance Sheet Optimisation |
+| Hedge Management | L3 | Finance & Treasury | Asset Liability Management | Hedge Accounting Management, Treasury Hedging, Macro Hedge Management |
+| Journal Validation & Control | L4 | Finance & Treasury | Journal Management | Journal Approval Control, Posting Validation, Journal SoD Control |
+| Accruals & Provisions Posting | L4 | Finance & Treasury | Journal Management | Accrual Posting, Provision Posting, Period-End Accruals |
+| Ledger Account Mapping | L4 | Finance & Treasury | Chart Of Accounts Management | Account Mapping, GL Mapping Rules, Sub-Ledger Mapping |
+| Intercompany Elimination | L4 | Finance & Treasury | Intercompany Accounting | IC Elimination, Intra-Group Elimination, Reciprocal Elimination |
+| Close Task Orchestration | L4 | Finance & Treasury | Reconciliation & Close | Close Calendar Management, Close Checklist Orchestration, Close Certification |
+| Account Substantiation | L4 | Finance & Treasury | Reconciliation & Close | Balance Sheet Substantiation, Account Certification, Recon Substantiation |
+| Consolidation Eliminations | L4 | Finance & Treasury | Financial Consolidation | Consolidation Adjustments, Group Eliminations, NCI Adjustments |
+| Currency Translation | L4 | Finance & Treasury | Financial Consolidation | FX Translation, Foreign Currency Translation, CTA Management |
+| Primary Statement Production | L4 | Finance & Treasury | Statutory Reporting | Financial Statement Production, Primary Statements, IAS 1 Statements |
+| Profitability Analytics | L4 | Finance & Treasury | Internal Management Reporting | Cost & Profitability Analysis, Product Profitability, Customer Profitability |
+| Budgeting & Forecasting | L4 | Finance & Treasury | Internal Management Reporting | Planning & Forecasting, Budget Management, Variance Analysis |
+| Credit Risk RWA | L4 | Finance & Treasury | RWA Calculation | Credit RWA, SA-CR RWA, IRB RWA |
+| Leverage Ratio Calculation | L4 | Finance & Treasury | RWA Calculation | Leverage Exposure Measure, LR Calculation, Leverage Ratio |
+| Capital Stress Forecasting | L4 | Finance & Treasury | Capital Planning | Capital Projection, Stressed Capital Forecast, Capital Scenario Forecasting |
+| Cash Flow Forecasting | L4 | Finance & Treasury | Treasury Cash Positioning | Treasury Cash Forecasting, Liquidity Cash Forecasting, Cash Projection |
+| Wholesale Funding Execution | L4 | Finance & Treasury | Funding Management | Money Market Funding, Repo Funding, Debt Issuance Funding |
+| Collateral Optimisation | L4 | Finance & Treasury | Collateral & Reserve Management | Collateral Allocation, Collateral Substitution, Treasury Collateral Optimisation |
+| EVE Sensitivity Analysis | L4 | Finance & Treasury | Interest Rate Risk In The Banking Book | Economic Value Of Equity Analysis, EVE Shock Analysis, EVE Measurement |
+| NII Sensitivity Analysis | L4 | Finance & Treasury | Interest Rate Risk In The Banking Book | Net Interest Income Sensitivity, Earnings-at-Risk, NII Simulation |
+| Behavioural Modelling | L4 | Finance & Treasury | Interest Rate Risk In The Banking Book | NMD Modelling, Prepayment Modelling, Behavioural Assumptions |
+| FTP Rate Curve Management | L4 | Finance & Treasury | Funds Transfer Pricing Management | Transfer Curve Management, FTP Curve Construction, Liquidity Premium Curves |
+| Hedge Effectiveness Testing | L4 | Finance & Treasury | Hedge Management | Effectiveness Testing, Hedge Qualification Testing, IFRS 9 Effectiveness |
 | Payment Order Capture | L3 | Payments | Payment Initiation | Payment Order Management, Order Capture |
 | Request To Pay | L3 | Payments | Payment Initiation | Request for Payment, RfP, RTP Request |
 | Payment Pre-Validation | L3 | Payments | Payment Initiation | Beneficiary Validation, Account Verification, Confirmation of Payee |
@@ -158,7 +200,7 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Next-Best-Action | L3 | Customer Management | Relationship Management | NBA, Next Best Offer, Recommendation Management |
 | Campaign Execution | L3 | Customer Management | Campaign Management | Campaign Operations, Campaign Delivery, Marketing Execution |
 | Customer Insight | L3 | Customer Management | Customer Segmentation | Customer Analytics, Customer Intelligence, Customer Value Analytics |
-| Behavioural Analytics | L3 | Customer Management | Customer Segmentation | Behavioral Analytics, Customer Event Analytics, Behavioural Modelling |
+| Behavioural Analytics | L3 | Customer Management | Customer Segmentation | Behavioral Analytics, Customer Event Analytics, Behavioural Pattern Modelling |
 | Lead Capture | L4 | Customer Management | Lead Management | Lead Intake, Inquiry Capture |
 | Lead Qualification | L4 | Customer Management | Lead Management | Lead Scoring, Lead Routing |
 | Application Decisioning | L4 | Customer Management | Application Processing | Application Adjudication, Eligibility Decisioning |
@@ -339,7 +381,7 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Model Risk Management | L2 | Risk Management | Enterprise Risk Management | Model Governance, Model Validation, MRM |
 | Regulatory Capital Adequacy | L2 | Risk Management | Enterprise Risk Management | ICAAP, Economic Capital Management, Capital Adequacy Assessment |
 | Risk Reporting & Governance | L2 | Risk Management | Enterprise Risk Management | Risk Data Aggregation & Governance, BCBS 239 Compliance |
-| Risk Capital Calculation | L3 | Risk Management | Regulatory Capital Adequacy | RWA Calculation, Capital Charge Computation, Capital Charge Engine |
+| Risk Capital Calculation | L3 | Risk Management | Regulatory Capital Adequacy | RWA Charge Calculation, Capital Charge Computation, Capital Charge Engine |
 | Scenario Library Management | L3 | Risk Management | Stress Testing Management | Scenario Design, Scenario Catalogue, Macro Scenario Management |
 | Model Inventory Management | L3 | Risk Management | Model Risk Management | Model Register, Model Tiering, Model Catalogue |
 | Credit Risk Assessment | L3 | Risk Management | Credit Risk Management | Counterparty Credit Assessment, Credit Risk Analysis |
@@ -366,7 +408,7 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Liquidity Risk Measurement | L3 | Risk Management | Liquidity Risk Management | Liquidity Gap Analysis, Survival Horizon Measurement |
 | LCR & NSFR Management | L3 | Risk Management | Liquidity Risk Management | Liquidity Ratio Management, HQLA Management |
 | Funding Risk Management | L3 | Risk Management | Liquidity Risk Management | Contingency Funding, ILAAP, Funding Concentration Management |
-| Intraday Liquidity Monitoring | L4 | Risk Management | Liquidity Risk Measurement | Intraday Liquidity Management, Intraday Position Monitoring |
+| Intraday Liquidity Monitoring | L4 | Risk Management | Liquidity Risk Measurement | Intraday Liquidity Oversight, Intraday Position Monitoring |
 | HQLA Buffer Management | L4 | Risk Management | LCR & NSFR Management | Liquid Asset Buffer, HQLA Eligibility Management |
 | Fraud Risk Assessment | L3 | Risk Management | Fraud Management | Fraud Risk Evaluation, Fraud Exposure Assessment |
 | Fraud Monitoring | L3 | Risk Management | Fraud Management | Fraud Surveillance, Fraud Screening Capability |
@@ -509,6 +551,11 @@ Format: Canonical Name | Domain (defined_in) | Capabilities it depends_on | Alia
 | Channel Servicing | Channels & Engagement | Channel Management, Digital Self-Service | Omnichannel Servicing, Self-Service Channel Process |
 | ATM Cash Servicing | Channels & Engagement | ATM Management, ATM Cash Management | ATM Cash Cycle, ATM Replenishment Process |
 | Contact Centre Interaction | Channels & Engagement | Contact Center, Inbound Contact Servicing | Call Centre Interaction Handling, Contact Handling Process |
+| Financial Close | Finance & Treasury | General Ledger Accounting, Financial Reporting | Record to Report, R2R, Month-End Close, Period Close |
+| Management Reporting | Finance & Treasury | Financial Reporting | FP&A Process, Performance Management Reporting, Management Accounting, Board Reporting |
+| Regulatory Capital Reporting | Finance & Treasury | Regulatory Capital Management | Prudential Reporting, COREP Reporting, CCAR Reporting |
+| Cash & Liquidity Management | Finance & Treasury | Liquidity Management | Liquidity Operations, Treasury Cash Operations |
+| Funds Transfer Pricing | Finance & Treasury | Asset Liability Management | FTP, Liquidity Transfer Pricing, Internal Funds Pricing, Transfer Pricing (Treasury) |
 
 ## Technology capabilities
 
@@ -554,6 +601,9 @@ Format: Canonical Name | Tech Domain (defined_in) | Business capabilities that d
 | Model Risk Management Platform | AI & Automation | Enterprise Risk Management, Credit Risk Management, Market Risk Management | MRM Platform, Model Governance Platform, Model Inventory & Validation Platform |
 | Governance Risk & Compliance Platform | Data & Analytics | Operational Risk Management, Enterprise Risk Management, Regulatory Compliance | GRC Platform, Integrated Risk Management Platform, IRM Platform |
 | KYC Onboarding Platform | AI & Automation | KYC Management, Customer Due Diligence, Customer Acquisition | Client Lifecycle Management Platform, KYC Platform, CLM Platform, Perpetual KYC Platform |
+| Treasury Management System | Core Processing | Treasury Management, Liquidity Management | TMS, Treasury & Risk Management Platform, Treasury Workstation |
+| Asset Liability Management Engine | Core Processing | Asset Liability Management, Liquidity Management, Regulatory Capital Management | ALM Engine, Balance Sheet Management Platform, IRRBB Engine, ALM/FTP Platform |
+| Financial Consolidation Platform | Core Processing | Financial Reporting, General Ledger Accounting, Regulatory Capital Management | CPM Platform, EPM Platform, Consolidation & Close Platform, Corporate Performance Management |
 
 ## Legacy systems
 
@@ -637,6 +687,13 @@ Format: Canonical Name | Realizes (tech capability depends_on it) | Vendor | Ali
 | LexisNexis Bridger Insight | Transaction Monitoring Platform | LexisNexis Risk Solutions (Fircosoft) | Bridger Insight XG, Fircosoft, Firco, Firco Continuity |
 | Kony DBX | Digital Channel Platform | Temenos (Kony) | Kony Digital Banking, DBX |
 | Verint WFM | Contact Center Platform | Verint | Verint Workforce Management, Verint WFO, Verint Impact 360 |
+| Oracle E-Business Suite | General Ledger Engine | Oracle | Oracle EBS, Oracle Financials, E-Business Suite |
+| Oracle Hyperion HFM | Financial Consolidation Platform | Oracle | HFM, Hyperion Financial Management, Hyperion |
+| SAP BPC | Financial Consolidation Platform | SAP | Business Planning and Consolidation, SEM-BCS |
+| SunGard AvantGard | Treasury Management System | FIS (SunGard) | AvantGard, AvantGard Integrity, AvantGard Quantum |
+| SAP Treasury And Risk Management | Treasury Management System | SAP | SAP TRM, SAP Treasury, FSCM Treasury |
+| QRM Balance Sheet Management | Asset Liability Management Engine | Quantitative Risk Management | QRM, Quantitative Risk Management, QRM ALM |
+| SAS Asset And Liability Management | Asset Liability Management Engine | SAS | SAS ALM, SAS Risk Management for Banking ALM |
 
 ## Modern systems
 
@@ -736,6 +793,15 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Twilio Flex | Contact Center Platform | Avaya Aura | Twilio | Flex, Twilio Flex CCaaS |
 | Glia | Contact Center Platform | Cisco UCCE | Glia | Glia Interaction Platform, Digital Customer Service, DCS |
 | Verint WFM Cloud | Contact Center Platform | Verint WFM | Verint | Verint Workforce Management Cloud, Verint WEM, Verint Open Platform WFM |
+| SAP S/4HANA Finance | General Ledger Engine | SAP ECC; Oracle E-Business Suite | SAP | S/4HANA Finance, Simple Finance, S/4HANA Central Finance |
+| OneStream | Financial Consolidation Platform | Oracle Hyperion HFM; SAP BPC | OneStream Software | OneStream Software, OneStream Platform, OneStream XF |
+| Oracle EPM Cloud | Financial Consolidation Platform | Oracle Hyperion HFM | Oracle | Oracle EPM, Oracle Fusion EPM, FCCS, EPM Cloud |
+| Anaplan | Financial Consolidation Platform | SAP BPC | Anaplan | Anaplan Platform, Connected Planning |
+| Kyriba | Treasury Management System | SunGard AvantGard | Kyriba | Kyriba Liquidity Performance, Kyriba TMS |
+| ION Treasury | Treasury Management System | SAP Treasury And Risk Management | ION Group | ION Wallstreet Suite, Reval, IT2, Wallstreet Suite |
+| GTreasury | Treasury Management System | SunGard AvantGard | GTreasury | GTreasury Platform, GTreasury TRMS |
+| Empyrean Sol ALM | Asset Liability Management Engine | QRM Balance Sheet Management; SAS Asset And Liability Management | Empyrean Solutions | Sol ALM, Empyrean ALM, Empyrean Solutions |
+| Moody's Balance Sheet Management | Asset Liability Management Engine | QRM Balance Sheet Management | Moody's Analytics | Moody's ALM, RiskConfidence |
 
 ## Glossary terms
 
@@ -890,6 +956,29 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Quality Management Service | Workforce Engagement Management | Channels & Engagement | L3 | Quality Management, QM, Automated QA |
 | Screen Pop Service | Computer Telephony Integration | Channels & Engagement | L3 | Screen Pop, Contextual Pop |
 | Knowledge Base Service | CRM Platform | Channels & Engagement | L2 | Knowledge Management, Service Knowledge Base, Answer Library |
+| Journal Processing Engine | General Ledger Engine | Core Processing | L2 | Journal Engine, Universal Journal Service, GL Posting Engine, Document Posting Engine |
+| Subledger Accounting | General Ledger Engine | Core Processing | L2 | SLA, Subledger Accounting Engine, Accounting Hub, Subledger Service |
+| Chart Of Accounts Service | General Ledger Engine | Core Processing | L2 | COA Service, Accounting Structure Service, Ledger & Segment Master, Account Master Service |
+| Accounting Rules Engine | General Ledger Engine | Core Processing | L2 | Account Determination Engine, Posting Rules Engine, Document Splitting Service |
+| Allocation Engine | General Ledger Engine | Core Processing | L2 | Cost Allocation Engine, Distribution & Assessment Engine, Profitability Allocation Service |
+| Period Close Manager | General Ledger Engine | Core Processing | L2 | Financial Close Cockpit, Close Orchestration Service, GL Close Manager |
+| Account Reconciliation Service | General Ledger Engine | Core Processing | L2 | Reconciliation Engine, Transaction Matching Service, Balance Sheet Reconciliation |
+| Multi-Currency Ledger Service | Journal Processing Engine | Core Processing | L3 | Currency Translation Service, FX Revaluation Service, Multi-Currency Posting |
+| Intercompany Accounting Service | Subledger Accounting | Core Processing | L3 | Intercompany Engine, ICO Matching Service, Intercompany Reconciliation |
+| Cash Positioning Service | Treasury Management System | Core Processing | L2 | Cash Visibility Service, Cash Position Engine, Global Cash Management |
+| Bank Connectivity Hub | Treasury Management System | Core Processing | L2 | Bank Connectivity Service, SWIFT Service Bureau, Treasury Connectivity Gateway, Multi-Bank Connectivity |
+| Deal Management | Treasury Management System | Core Processing | L2 | Treasury Deal Capture, Front-Office Dealing, Treasury Instrument Management, Trade & Position Management |
+| Liquidity Forecasting Engine | Treasury Management System | Core Processing | L2 | Cash Forecasting Engine, AI Cash Forecasting, Liquidity Planning Service |
+| Treasury Risk Management Service | Treasury Management System | Core Processing | L2 | FX & Risk Management Service, Hedge Management Service, Treasury Exposure Management |
+| In-House Banking Service | Treasury Management System | Core Processing | L3 | IHB Service, Payment Factory, POBO/COBO Service, Internal Bank |
+| IRRBB Analytics Engine | Asset Liability Management Engine | Core Processing | L2 | Interest Rate Risk Engine, EVE/NII Engine, Banking Book Rate Risk Engine |
+| Funds Transfer Pricing Engine | Asset Liability Management Engine | Core Processing | L2 | FTP Engine, Transfer Pricing Service, Funds Transfer Pricing Service |
+| Behavioural Modelling Service | Asset Liability Management Engine | Core Processing | L2 | Behavioral Modeling Service, NMD Modelling Service, Prepayment Modelling Engine |
+| Balance Sheet Planning Engine | Asset Liability Management Engine | Core Processing | L2 | Balance Sheet Management Engine, NII Simulation Engine, ALM Scenario Engine |
+| Consolidation Engine | Financial Consolidation Platform | Core Processing | L2 | Group Consolidation Engine, Financial Consolidation Service, Consol Engine |
+| Planning & Budgeting Engine | Financial Consolidation Platform | Core Processing | L2 | Planning Engine, FP&A Engine, Budgeting & Forecasting Service, EPM Planning |
+| Disclosure Management Service | Financial Consolidation Platform | Core Processing | L2 | Narrative Reporting Service, XBRL Tagging Service, Statutory Reporting Service |
+| Financial Data Quality Service | Financial Consolidation Platform | Core Processing | L3 | Financial Data Quality Management, FDQM, Data Integration & Validation (Finance) |
 
 ## Process sub-processes
 
@@ -938,6 +1027,18 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Card Application & Decisioning | Card Issuance | Cards | Card App & Decision, Issuance Decisioning |
 | Card Production & Fulfillment | Card Issuance | Cards | Production & Fulfillment, Card Personalization |
 | Card Activation & Provisioning | Card Issuance | Cards | Activation & Wallet Provisioning |
+| Ledger Close & Reconciliation | Financial Close | Finance & Treasury | Subledger Close, GL Close, Close & Recon |
+| Consolidation & Statements | Financial Close | Finance & Treasury | Group Consolidation, Statement Preparation |
+| Period-End Adjustments | Financial Close | Finance & Treasury | Accruals & Adjustments, Period-End Journals |
+| Budget & Forecast Preparation | Management Reporting | Finance & Treasury | Budget Build, Operating Budget Preparation |
+| Variance & Insight Reporting | Management Reporting | Finance & Treasury | Variance Analysis, MI Reporting |
+| Capital Calculation & Aggregation | Regulatory Capital Reporting | Finance & Treasury | RWA & Own Funds, Capital Aggregation |
+| Return Assembly & Submission | Regulatory Capital Reporting | Finance & Treasury | COREP Submission, Capital Return Filing |
+| Scenario & Capital Planning | Regulatory Capital Reporting | Finance & Treasury | CCAR Planning, Capital Plan Assembly |
+| Intraday Liquidity Positioning | Cash & Liquidity Management | Finance & Treasury | Intraday Positioning, Position Projection |
+| Funding & Buffer Management | Cash & Liquidity Management | Finance & Treasury | Buffer Management, Funding Execution Sub-Process |
+| Curve Construction & Governance | Funds Transfer Pricing | Finance & Treasury | FTP Curve Build, Curve Governance |
+| Rate Application & Attribution | Funds Transfer Pricing | Finance & Treasury | FTP Application, Margin Attribution |
 | Dispute Intake & Investigation | Dispute Resolution | Cards | Dispute Intake |
 | Provisional Credit & Resolution | Dispute Resolution | Cards | Resolution & Credit, Dispute Closure |
 | Authorization Validation & Decisioning | Card Transaction Authorization | Cards | Auth Decisioning, Approve/Decline |
@@ -1280,6 +1381,41 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Handle Customer Interaction | Contact Centre Interaction | 4 | Contact Center Platform | Interaction Handling, Call Handling |
 | Wrap Up Interaction | Contact Centre Interaction | 5 | CRM Platform | After-Call Work, Disposition & Notes |
 | Score Interaction Quality | Contact Centre Interaction | 6 | Contact Center Platform | QA Scoring, Quality Review |
+| Close Subledgers | Financial Close | 1 | General Ledger Accounting | Cut Off Period, Close Sub-Ledgers |
+| Post Closing Journals | Financial Close | 2 | General Ledger Accounting | Post Adjusting Entries, Book Period-End Journals |
+| Reconcile Ledger Accounts | Financial Close | 3 | General Ledger Accounting | Reconcile GL, Account Reconciliation (Close) |
+| Eliminate Intercompany Balances | Financial Close | 4 | Financial Reporting | Eliminate IC, IC Balance Elimination |
+| Run Consolidation | Financial Close | 5 | Financial Reporting | Consolidate Group, Process Consolidation |
+| Prepare Consolidated Statements | Financial Close | 6 | Financial Reporting | Prepare Group Accounts, Draft Statements |
+| Certify Period Close | Financial Close | 7 | Financial Reporting | Sign Off Close, Close Sign-Off |
+| Build Operating Budget | Management Reporting | 1 | Financial Reporting | Construct Budget, Prepare Budget |
+| Approve Budget Plan | Management Reporting | 2 | Financial Reporting | Lock Budget, Sign Off Budget |
+| Roll Forward Forecast | Management Reporting | 3 | Financial Reporting | Update Forecast, Reforecast |
+| Capture Actual Results | Management Reporting | 4 | Financial Reporting | Load Actuals, Capture Actuals |
+| Analyse Budget Variance | Management Reporting | 5 | Financial Reporting | Explain Variance, Budget Variance Analysis |
+| Compile Management Accounts | Management Reporting | 6 | Financial Reporting | Build MI Pack, Prepare Management Accounts |
+| Present Board Pack | Management Reporting | 7 | Financial Reporting | Distribute MI Pack, Board Sign-Off |
+| Source Regulatory Data | Regulatory Capital Reporting | 1 | Regulatory Capital Management | Gather Capital Data, Ingest Reg Data |
+| Calculate RWA | Regulatory Capital Reporting | 2 | Regulatory Capital Management | Compute RWA, Calculate Risk-Weighted Assets |
+| Determine Own Funds | Regulatory Capital Reporting | 3 | Regulatory Capital Management | Compute Own Funds, Determine Capital Base |
+| Assemble Capital Return | Regulatory Capital Reporting | 4 | Regulatory Capital Management | Build Capital Return, Compile COREP |
+| Validate Return Quality | Regulatory Capital Reporting | 5 | Regulatory Capital Management | Validate COREP, Run Taxonomy Checks |
+| Attest Capital Return | Regulatory Capital Reporting | 6 | Regulatory Capital Management | Sign Off Capital Return, Attest FR Y-14 |
+| Submit Capital Return | Regulatory Capital Reporting | 7 | Regulatory Capital Management | File Capital Return, Submit COREP |
+| Aggregate Cash Balances | Cash & Liquidity Management | 1 | Liquidity Management | Aggregate Nostro Balances, Consolidate Cash |
+| Project Liquidity Position | Cash & Liquidity Management | 2 | Liquidity Management | Forecast Liquidity, Project Cash Position |
+| Assess Liquidity Buffers | Cash & Liquidity Management | 3 | Liquidity Management | Check Liquidity Limits, Assess LCR Buffer |
+| Decide Funding Action | Cash & Liquidity Management | 4 | Liquidity Management | Decide Funding, Determine Funding Action |
+| Execute Funding Action | Cash & Liquidity Management | 5 | Liquidity Management | Execute Funding, Place Funds |
+| Reconcile End-Of-Day Cash | Cash & Liquidity Management | 6 | Liquidity Management | EOD Cash Reconciliation, Reconcile Nostro |
+| Report Liquidity Position | Cash & Liquidity Management | 7 | Liquidity Management | Produce Liquidity Report, Report Liquidity |
+| Assemble Market Curves | Funds Transfer Pricing | 1 | Asset Liability Management | Gather Market Curves, Assemble Funding Curves |
+| Build FTP Curve | Funds Transfer Pricing | 2 | Asset Liability Management | Construct FTP Curve, Build Transfer Curve |
+| Set Behavioural Assumptions | Funds Transfer Pricing | 3 | Asset Liability Management | Define Behavioural Assumptions, Set FTP Assumptions |
+| Approve FTP Methodology | Funds Transfer Pricing | 4 | Asset Liability Management | ALCO FTP Approval, Approve Transfer Curve |
+| Apply Transfer Rates | Funds Transfer Pricing | 5 | Asset Liability Management | Apply FTP Rates, Assign Transfer Rates |
+| Attribute Net Margin | Funds Transfer Pricing | 6 | Asset Liability Management | Attribute NIM, Allocate Net Margin |
+| Report FTP Outcome | Funds Transfer Pricing | 7 | Asset Liability Management | Report Transfer Pricing, Publish FTP Results |
 
 ## Supporting concepts
 
@@ -1435,3 +1571,19 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Interaction Record | artifact | Contact Record, Interaction Log |
 | ATM Cash Forecast | artifact | ATM Demand Forecast, Cash Load Forecast |
 | ATM Replenishment Record | artifact | Cash Load Record, ATM Load Sheet |
+| Financial Controller | role | Group Financial Controller, Head of Financial Control |
+| FP&A Manager | role | Head of FP&A, Planning & Analysis Manager |
+| Regulatory Reporting Specialist | role | Prudential Reporting Analyst, Capital Reporting Specialist |
+| Treasury Analyst | role | Liquidity Analyst, Treasury Operations Analyst |
+| ALM Analyst | role | Asset-Liability Analyst, FTP Analyst |
+| Period Close Initiated Event | event | Close Started Event, Period-End Triggered Event |
+| Reporting Deadline Reached Event | event | Remittance Deadline Event, Reporting Cut-Off Event |
+| Liquidity Limit Breach Event | event | Liquidity Breach Event, Buffer Breach Event |
+| FTP Curve Approved Event | event | Curve Approved Event, ALCO Approval Event |
+| Trial Balance | artifact | Adjusted Trial Balance, TB |
+| Journal Entry | artifact | Adjusting Journal, GL Journal |
+| Consolidated Financial Statements | artifact | Group Accounts, Consolidated Accounts |
+| Management Accounts | artifact | Board MI Pack, Management Reporting Pack |
+| Capital Adequacy Return | artifact | Prudential Return, COREP Return |
+| Liquidity Position | artifact | Cash Position, Intraday Position |
+| FTP Curve | artifact | Transfer Pricing Curve, Funding Curve |
