@@ -23,7 +23,7 @@ first row whose Status is not `done`).
 | 8 | Compliance & Financial Crime | business | done | done | done | done | done |
 | 9 | Channels & Engagement | business | done | done | done | done | done |
 | 10 | Finance & Treasury | business | done | done | done | done | done |
-| 11 | Core Processing | technology | n/a | done | n/a | in-progress | in-progress |
+| 11 | Core Processing | technology | n/a | done | n/a | done | done |
 | 12 | Data & Analytics | technology | n/a | todo | n/a | todo | todo |
 | 13 | Integration & APIs | technology | n/a | todo | n/a | todo | todo |
 | 14 | Security & Identity | technology | n/a | todo | n/a | todo | todo |
@@ -35,26 +35,23 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Core Processing (technology, tech-only run)
-- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-core-processing.md)
-
-- Done so far: ALL 10 business domains complete (1504 files). Tech domains remaining: Core Processing (now), Data & Analytics, Integration & APIs, Security & Identity, AI & Automation.
+- Domain: Core Processing (DONE) — 11 of 15 domains; first technology domain complete
+- Phase: DONE — all 5 eval gates 0 FAIL (3 advisory WARNs: OmniPay/Fidessa/Nasdaq Calypso, no same-capability modern in scope); LLM-judge PASS after FlexONE same-capability fix (evals/judge-core-processing.md); baseline refreshed (1542 files)
+- Done so far: all 10 business domains + Core Processing. Remaining tech domains: Data & Analytics, Integration & APIs, Security & Identity, AI & Automation.
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
-- [ ] Begin the TECHNOLOGY domains: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
-      (first not-done row = Core Processing). NOTE: technology domains are tech-only —
-      Caps L3/L4 = n/a and Flows = n/a in the ledger; the run should DEEPEN the tech
-      decomposition (any remaining L2/L3 under the domain's top-level tech capabilities
-      not already covered), refresh systems coverage, and may add cross-cutting tech
-      reference concepts. Many Core Processing top-level caps (Core Banking Processing,
-      Payment Orchestration, Card Processing, Loan Origination Platform, Credit
-      Decisioning Engine, General Ledger Engine, + the new TMS/ALM/Consolidation/
-      Portfolio/Order/Advisory caps) are ALREADY decomposed from business-domain runs —
-      so for tech domains, focus on (a) any undecomposed top-level tech caps in that
-      domain, (b) systems-refresh with same-capability supersedes, (c) cross-cutting
-      patterns. Adjust the research prompts accordingly (tech-decomposition + systems-
-      refresh are the primary sub-agents; bian-deep/apqc-process are minimal/n/a).
+- [ ] Deepen the next domain: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
+      (first not-done row = Data & Analytics — technology domain). Tech-only run like
+      Core Processing: top-level caps in this domain (Data Warehousing, Data Streaming,
+      Analytics Platform, Data Governance, Master Data Management, Document Management,
+      Regulatory Reporting Engine, + Risk Data Aggregation) are mostly already
+      decomposed by business runs — so use 2 research sub-agents (tech-L3 deepening +
+      systems-refresh), NOT the 3-agent business pipeline. Add focused L3 under existing
+      L2 sub-caps + missing systems (e.g. Snowflake/Databricks/BigQuery already present;
+      check Teradata/Informatica/Collibra/Confluent coverage). KEEP supersedes strictly
+      same-capability (the Core Processing run's FlexONE failure was a cross-capability
+      supersede — leave a legacy uncovered rather than cross-pair).
 
 ## Decisions log
 

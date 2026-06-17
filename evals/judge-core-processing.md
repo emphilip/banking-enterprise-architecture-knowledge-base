@@ -76,3 +76,38 @@ which trips the per-note floor. Domain cannot be marked `done` until fixed and r
   hedge-accounting specifics (economic-relationship test, OCI/CFH reserve, FVH carrying-amount
   adjustment) are sourced only to generic TMS overviews. Add an IFRS 9 / IAS 39 hedge-accounting
   source that substantiates these mechanics.
+
+## Re-judge (relationship/groundedness fixes)
+
+Date: 2026-06-17. Reviewer: judge sub-agent (strict). Scope: re-score ONLY the three revised
+notes on Relationship sensibility and Groundedness. Corroboration: Linedata Longview confirmed in
+registry as a buy-side multi-asset OMS (same capability as FlexONE's buy-side OEMS); CFA Institute
+GIPS pages and ifrs.org / IAS Plus IFRS 9 pages confirmed as the authoritative standard-setter
+sources for the respective claims (cfainstitute.org and ifrs.org returned HTTP 403 to the fetcher
+— bot-blocking, not dead links; topical alignment and accuracy corroborated via search of GIPS and
+IFRS 9 content). Per the run scope, Fidessa and Nasdaq Calypso are intentionally left without a
+modern same-capability successor (none in scope) — acceptable, not a relationship error.
+
+| path | rel (before->after) | grounded (before->after) | notes |
+|---|---|---|---|
+| systems/modern/flexone.md | 2 -> 5 | 4 -> 4 | Cross-capability supersedes removed. Now supersedes only Linedata Longview (buy-side multi-asset OMS = same capability) and "Order Management System depends on FlexONE" (correct direction/grain). No cross-capability supersede remains. |
+| technology-capabilities/gips-composite-service.md | 5 -> 5 | 3 -> 5 | Sources swapped to CFA Institute GIPS program page + GIPS Standards for Firms (2020) — the standard-setter's authoritative docs. They directly substantiate the load-bearing composite-construction, disclosure and claim-of-compliance claims. |
+| technology-capabilities/hedge-accounting-service.md | 5 -> 5 | 3 -> 5 | Sources swapped to ifrs.org IFRS 9 page + IAS Plus IFRS 9 — authoritative for the economic-relationship test (replacing the 80–125% bright line), CFH effective-portion-to-OCI reserve, and FVH carrying-amount adjustment. |
+
+### Recomputed per-dimension means (n=22)
+
+Groundedness: prior sum 100, with gips 3->5 (+2) and hedge 3->5 (+2) => 104/22 = **4.73**
+(was 4.55).
+Relationship sensibility: prior sum 100, with flexone 2->5 (+3) => 103/22 = **4.68** (was 4.55).
+Unchanged dimensions: Definitional accuracy **5.00**, Canonical-naming fidelity **5.00**,
+Granularity fit **4.91**.
+
+Per-note floor check (Groundedness & Relationship sensibility): no note now scores <3 on either
+dimension. Lowest Groundedness is 4 (flexone, unchanged and acceptable); lowest Relationship is 4
+(nasdaq-calypso depends_on OMS — advisory, >=3); the prior failing flexone rel=2 is now 5.
+
+### Re-judge verdict: **PASS**
+
+Every dimension mean >= 4.0 (accuracy 5.00, grounded 4.73, rel 4.68, naming 5.00, gran 4.91) AND
+no individual note scores <3 on Groundedness or Relationship sensibility. The prior blocking
+failure (flexone rel=2) and both advisory groundedness gaps (gips=3, hedge=3) are resolved.

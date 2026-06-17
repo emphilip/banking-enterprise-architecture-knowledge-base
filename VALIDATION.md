@@ -488,3 +488,44 @@ domains complete):** 456 business capabilities (L1–L4), 198 technology
 capabilities + sub-capabilities, 163 processes + sub-processes, 312
 process-flow steps, 166 supporting concepts, 83 legacy + 101 modern systems,
 10 glossary terms.
+
+---
+
+## Deep-dive: Core Processing domain (2026-06-17)
+
+Eleventh domain deep-dive — first of the 5 TECHNOLOGY domains. Tech-only run (no
+business capabilities, processes, or flows): all 12 Core Processing top-level tech
+capabilities were already decomposed to L2/L3 by the business-domain runs, so this
+run added focused L3 depth + a systems refresh.
+
+**Added (+38 concepts):** 26 new L3 technology sub-capabilities (deepening
+existing L2 sub-caps across Core Banking Processing, Payment Orchestration, Card
+Processing, GL Engine, Treasury Management System, ALM Engine, Financial
+Consolidation Platform, Portfolio Management System, Order Management System,
+Credit Decisioning Engine, Loan Origination Platform — e.g. ISO 8583 Message
+Switch, Network Token Service, Brinson Attribution Service, GIPS Composite
+Service, FIX Order Gateway, Repricing Gap Engine, Transfer Curve Engine,
+Document Splitting Engine, Hedge Accounting Service); 7 new legacy + 5 new modern
+systems (Avaloq, Sopra Amplitude, Infor SunSystems, Fidessa, Linedata Longview,
+Nasdaq Calypso, Objectway; FIS Modern Banking Platform, Sage Intacct, FlexONE,
+Orion, Coupa Treasury).
+
+**Eval gates (deterministic):** research / steward / author / weave / all → 0
+FAIL. Three advisory WARNs (legacy without same-capability modern successor):
+pre-existing Fiserv OmniPay, plus Fidessa (sell-side OMS) and Nasdaq Calypso
+(cross-asset derivatives/risk) — deliberately left uncovered rather than
+cross-paired, per the same-capability rule. Avaloq/Sopra Amplitude were given
+same-capability successors (Thought Machine Vault, Mambu).
+
+**Eval gate (semantic, LLM-judge, `evals/judge-core-processing.md`):** initial run
+FAILed on a blocking per-note error — FlexONE (buy-side OEMS) had been extended to
+supersede Fidessa and Nasdaq Calypso (different capabilities). Reverted FlexONE to
+supersede only the same-capability Linedata Longview (rel 2→5); also swapped two
+L3 notes to authoritative sources (CFA Institute GIPS, IFRS 9). Re-judge: PASS —
+means accuracy 5.00, groundedness 4.73, relationships 4.68, naming 5.00,
+granularity 4.91.
+
+**Knowledge base totals after Core Processing deep-dive:** 456 business
+capabilities (L1–L4), 224 technology capabilities + sub-capabilities, 163
+processes + sub-processes, 312 process-flow steps, 166 supporting concepts,
+90 legacy + 106 modern systems, 10 glossary terms.
