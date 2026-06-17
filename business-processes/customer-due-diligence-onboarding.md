@@ -21,6 +21,14 @@ sources: ["https://legal.thomsonreuters.com/blog/customer-due-diligence-cdd-an-o
 ## Details
 Customer Due Diligence Onboarding captures the CIP minimum data set, identifies ultimate beneficial owners at the 25% threshold and control persons, screens parties against sanctions, PEP and adverse-media lists, assigns a customer risk score and triggers Enhanced Due Diligence for high-risk customers. The accept/reject/condition decision is made under four-eyes. The lead actor is the AML Compliance Officer. Outputs include the verified KYC Profile, the Customer Risk Score and the CDD decision.
 
+## Flow
+- Capture CIP Data causes Identify Beneficial Owner.
+- Identify Beneficial Owner causes Screen CDD Parties.
+- Screen CDD Parties causes Rate Customer Risk.
+- Rate Customer Risk causes Trigger Enhanced Diligence.
+- Trigger Enhanced Diligence causes Approve CDD Outcome.
+- Approve CDD Outcome causes Establish CDD Profile.
+
 ## References
 - [Thomson Reuters — Customer Due Diligence overview](https://legal.thomsonreuters.com/blog/customer-due-diligence-cdd-an-overview/)
 - [First AML — Conducting CDD](https://www.firstaml.com/resources/conducting-customer-due-diligence-cdd/)

@@ -20,6 +20,13 @@ sources: ["https://www.beinformed.com/horizon-scanning-in-banks-how-to-see-regul
 ## Details
 Regulatory Change Management scans regulatory feeds and publications for emerging or finalised change, maps each change to affected internal Regulatory Obligations, policies, controls and owners, assesses multi-dimension business and operational impact, plans and implements remediation, and attests that the change is embedded and operating. The lead actor is the Regulatory Change Manager. Outputs include the updated Regulatory Obligation, the remediation plan and the attestation record.
 
+## Flow
+- Scan Regulatory Change causes Map Regulatory Obligation.
+- Map Regulatory Obligation causes Assess Regulatory Impact.
+- Assess Regulatory Impact causes Plan Change Remediation.
+- Plan Change Remediation causes Implement Compliance Control.
+- Implement Compliance Control causes Attest Change Compliance.
+
 ## References
 - [BeInformed — Horizon scanning in banks](https://www.beinformed.com/horizon-scanning-in-banks-how-to-see-regulatory-change-early/)
 - [Finreg-e — Horizon scanning](https://finreg-e.com/horizon-scanning/)
