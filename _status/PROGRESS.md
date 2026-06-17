@@ -22,7 +22,7 @@ first row whose Status is not `done`).
 | 7 | Risk Management | business | done | done | done | done | done |
 | 8 | Compliance & Financial Crime | business | done | done | done | done | done |
 | 9 | Channels & Engagement | business | done | done | done | done | done |
-| 10 | Finance & Treasury | business | done | done | done | todo | in-progress |
+| 10 | Finance & Treasury | business | done | done | done | in-progress | in-progress |
 | 11 | Core Processing | technology | n/a | todo | n/a | todo | todo |
 | 12 | Data & Analytics | technology | n/a | todo | n/a | todo | todo |
 | 13 | Integration & APIs | technology | n/a | todo | n/a | todo | todo |
@@ -36,7 +36,7 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Finance & Treasury
-- Phase: 3 Author (in-progress) — 5 sub-agents writing ~152 notes (42 caps, 3 top-level tech caps + 23 sub-caps, 16 systems, 5 new processes + 12 sub-processes + 35 steps, 16 supporting)
+- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-finance-and-treasury.md)
 
 - Done so far: 9 domains (all business except Finance & Treasury) — Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime, Channels & Engagement
 
