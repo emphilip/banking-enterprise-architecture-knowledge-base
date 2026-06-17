@@ -1,17 +1,713 @@
 {
-  "generated": "2026-06-17T04:24:58.640685Z",
-  "phase": "steward",
+  "generated": "2026-06-17T04:26:58.237489Z",
+  "phase": "author",
   "counts": {
-    "FAIL": 0,
-    "WARN": 1,
+    "FAIL": 117,
+    "WARN": 0,
     "INFO": 0
   },
   "findings": [
     {
-      "severity": "WARN",
-      "phase": "steward",
-      "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
-      "message": "legacy 'Fiserv OmniPay' has no modern successor"
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-atm-cash-management.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-atm-monitoring-and-servicing.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-atm-network-management.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-atm-transaction-processing.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-branch-appointment-and-queue.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-branch-sales.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-branch-servicing.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-cash-and-vault-management.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-channel-accessibility.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-channel-interaction-routing.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-contact-complaint-intake.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-inbound-contact-servicing.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-open-banking-channel.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-outbound-engagement.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-self-service-ivr.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-servicing-resource-management.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L3-teller-operations.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-agent-desktop-servicing.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-atm-authorization-handling.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-atm-cash-forecasting.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-atm-deposit-handling.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-atm-fault-detection.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-card-and-account-controls.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-cash-handling.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-cash-in-transit-coordination.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-channel-experience-management.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-chatbot-servicing.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-digital-application-capture.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-digital-consent-capture.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-digital-identity-verification.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-digital-statements-and-documents.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-funds-transfer-self-service.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-interaction-recording-and-quality.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-negotiable-instrument-processing.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-outbound-dialer-management.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-self-service-ivr-authentication.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-vault-float-control.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-voice-assistant-banking.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-capabilities/L4-wearable-banking.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-processes/atm-cash-forecasting-and-ordering.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-processes/atm-cash-servicing.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-processes/atm-replenishment-and-reconciliation.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-processes/branch-cash-control.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-processes/branch-counter-servicing.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-processes/channel-authentication-and-orchestration.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-processes/channel-servicing.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-processes/contact-centre-interaction.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-processes/digital-application-intake.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-processes/digital-identity-and-activation.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-processes/digital-onboarding-journey.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-processes/interaction-handling-and-qa.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-processes/interaction-intake-and-routing.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "business-processes/self-service-resolution.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/atm-cash-forecast.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/atm-custodian.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/atm-replenishment-due-event.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/atm-replenishment-record.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/cash-variance-event.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/channel-operations-analyst.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/channel-session.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/contact-centre-agent.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/digital-application-submitted-event.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/digital-application.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/digital-onboarding-specialist.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/interaction-captured-event.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/interaction-record.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "concepts/session-started-event.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/a-b-testing-service.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/agent-desktop.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/automatic-call-distribution.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/computer-telephony-integration.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/digital-analytics.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/feature-flag-service.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/interaction-analytics.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/interactive-voice-response.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/knowledge-base-service.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/native-mobile-sdk.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/omnichannel-routing-engine.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/outbound-dialer.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/progressive-web-app-runtime.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/quality-management-service.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/real-time-transcription.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/screen-pop-service.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/skills-based-routing.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/workforce-engagement-management.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/atm-cash-servicing/01-forecast-atm-demand.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/atm-cash-servicing/02-plan-cash-order.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/atm-cash-servicing/03-schedule-cash-delivery.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/atm-cash-servicing/04-replenish-atm-cash.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/atm-cash-servicing/05-reconcile-atm-cash.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/atm-cash-servicing/06-resolve-cash-discrepancy.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/branch-operations/01-open-branch-cash.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/branch-operations/02-serve-counter-customer.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/branch-operations/03-process-teller-transaction.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/branch-operations/04-replenish-teller-drawer.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/branch-operations/05-balance-teller-drawer.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/branch-operations/06-reconcile-branch-cash.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/branch-operations/07-close-branch.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/channel-servicing/01-open-channel-session.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/channel-servicing/02-authenticate-channel-user.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/channel-servicing/03-identify-service-intent.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/channel-servicing/04-orchestrate-channel-journey.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/channel-servicing/05-resolve-self-service-request.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/channel-servicing/06-escalate-to-assisted-servicing.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/channel-servicing/07-record-channel-interaction.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/contact-centre-interaction/01-capture-ivr-selection.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/contact-centre-interaction/02-authenticate-caller.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/contact-centre-interaction/03-route-interaction.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/contact-centre-interaction/04-handle-customer-interaction.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/contact-centre-interaction/05-wrap-up-interaction.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/contact-centre-interaction/06-score-interaction-quality.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/digital-onboarding-journey/01-start-digital-application.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/digital-onboarding-journey/02-capture-applicant-details.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/digital-onboarding-journey/03-verify-digital-identity.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/digital-onboarding-journey/04-enrol-strong-authentication.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/digital-onboarding-journey/05-fund-digital-account.md",
+      "message": "registry step missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "process-flows/digital-onboarding-journey/06-activate-digital-channel.md",
+      "message": "registry step missing its file"
     }
   ]
 }

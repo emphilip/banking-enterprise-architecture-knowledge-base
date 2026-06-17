@@ -1,9 +1,125 @@
 # Eval Report
 
-Generated: 2026-06-17T04:24:58.640685Z  
-Phase: `steward`  
-**FAIL: 0  WARN: 1  INFO: 0**
+Generated: 2026-06-17T04:26:58.237489Z  
+Phase: `author`  
+**FAIL: 117  WARN: 0  INFO: 0**
 
 | Severity | Phase | Path | Message |
 |---|---|---|---|
-| WARN | steward | /home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md | legacy 'Fiserv OmniPay' has no modern successor |
+| FAIL | author | business-capabilities/L3-atm-cash-management.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-atm-monitoring-and-servicing.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-atm-network-management.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-atm-transaction-processing.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-branch-appointment-and-queue.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-branch-sales.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-branch-servicing.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-cash-and-vault-management.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-channel-accessibility.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-channel-interaction-routing.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-contact-complaint-intake.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-inbound-contact-servicing.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-open-banking-channel.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-outbound-engagement.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-self-service-ivr.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-servicing-resource-management.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L3-teller-operations.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-agent-desktop-servicing.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-atm-authorization-handling.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-atm-cash-forecasting.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-atm-deposit-handling.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-atm-fault-detection.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-card-and-account-controls.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-cash-handling.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-cash-in-transit-coordination.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-channel-experience-management.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-chatbot-servicing.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-digital-application-capture.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-digital-consent-capture.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-digital-identity-verification.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-digital-statements-and-documents.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-funds-transfer-self-service.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-interaction-recording-and-quality.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-negotiable-instrument-processing.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-outbound-dialer-management.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-self-service-ivr-authentication.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-vault-float-control.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-voice-assistant-banking.md | registry concept missing its file |
+| FAIL | author | business-capabilities/L4-wearable-banking.md | registry concept missing its file |
+| FAIL | author | business-processes/atm-cash-forecasting-and-ordering.md | registry concept missing its file |
+| FAIL | author | business-processes/atm-cash-servicing.md | registry concept missing its file |
+| FAIL | author | business-processes/atm-replenishment-and-reconciliation.md | registry concept missing its file |
+| FAIL | author | business-processes/branch-cash-control.md | registry concept missing its file |
+| FAIL | author | business-processes/branch-counter-servicing.md | registry concept missing its file |
+| FAIL | author | business-processes/channel-authentication-and-orchestration.md | registry concept missing its file |
+| FAIL | author | business-processes/channel-servicing.md | registry concept missing its file |
+| FAIL | author | business-processes/contact-centre-interaction.md | registry concept missing its file |
+| FAIL | author | business-processes/digital-application-intake.md | registry concept missing its file |
+| FAIL | author | business-processes/digital-identity-and-activation.md | registry concept missing its file |
+| FAIL | author | business-processes/digital-onboarding-journey.md | registry concept missing its file |
+| FAIL | author | business-processes/interaction-handling-and-qa.md | registry concept missing its file |
+| FAIL | author | business-processes/interaction-intake-and-routing.md | registry concept missing its file |
+| FAIL | author | business-processes/self-service-resolution.md | registry concept missing its file |
+| FAIL | author | concepts/atm-cash-forecast.md | registry concept missing its file |
+| FAIL | author | concepts/atm-custodian.md | registry concept missing its file |
+| FAIL | author | concepts/atm-replenishment-due-event.md | registry concept missing its file |
+| FAIL | author | concepts/atm-replenishment-record.md | registry concept missing its file |
+| FAIL | author | concepts/cash-variance-event.md | registry concept missing its file |
+| FAIL | author | concepts/channel-operations-analyst.md | registry concept missing its file |
+| FAIL | author | concepts/channel-session.md | registry concept missing its file |
+| FAIL | author | concepts/contact-centre-agent.md | registry concept missing its file |
+| FAIL | author | concepts/digital-application-submitted-event.md | registry concept missing its file |
+| FAIL | author | concepts/digital-application.md | registry concept missing its file |
+| FAIL | author | concepts/digital-onboarding-specialist.md | registry concept missing its file |
+| FAIL | author | concepts/interaction-captured-event.md | registry concept missing its file |
+| FAIL | author | concepts/interaction-record.md | registry concept missing its file |
+| FAIL | author | concepts/session-started-event.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/a-b-testing-service.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/agent-desktop.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/automatic-call-distribution.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/computer-telephony-integration.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/digital-analytics.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/feature-flag-service.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/interaction-analytics.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/interactive-voice-response.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/knowledge-base-service.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/native-mobile-sdk.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/omnichannel-routing-engine.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/outbound-dialer.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/progressive-web-app-runtime.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/quality-management-service.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/real-time-transcription.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/screen-pop-service.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/skills-based-routing.md | registry concept missing its file |
+| FAIL | author | technology-capabilities/workforce-engagement-management.md | registry concept missing its file |
+| FAIL | author | process-flows/atm-cash-servicing/01-forecast-atm-demand.md | registry step missing its file |
+| FAIL | author | process-flows/atm-cash-servicing/02-plan-cash-order.md | registry step missing its file |
+| FAIL | author | process-flows/atm-cash-servicing/03-schedule-cash-delivery.md | registry step missing its file |
+| FAIL | author | process-flows/atm-cash-servicing/04-replenish-atm-cash.md | registry step missing its file |
+| FAIL | author | process-flows/atm-cash-servicing/05-reconcile-atm-cash.md | registry step missing its file |
+| FAIL | author | process-flows/atm-cash-servicing/06-resolve-cash-discrepancy.md | registry step missing its file |
+| FAIL | author | process-flows/branch-operations/01-open-branch-cash.md | registry step missing its file |
+| FAIL | author | process-flows/branch-operations/02-serve-counter-customer.md | registry step missing its file |
+| FAIL | author | process-flows/branch-operations/03-process-teller-transaction.md | registry step missing its file |
+| FAIL | author | process-flows/branch-operations/04-replenish-teller-drawer.md | registry step missing its file |
+| FAIL | author | process-flows/branch-operations/05-balance-teller-drawer.md | registry step missing its file |
+| FAIL | author | process-flows/branch-operations/06-reconcile-branch-cash.md | registry step missing its file |
+| FAIL | author | process-flows/branch-operations/07-close-branch.md | registry step missing its file |
+| FAIL | author | process-flows/channel-servicing/01-open-channel-session.md | registry step missing its file |
+| FAIL | author | process-flows/channel-servicing/02-authenticate-channel-user.md | registry step missing its file |
+| FAIL | author | process-flows/channel-servicing/03-identify-service-intent.md | registry step missing its file |
+| FAIL | author | process-flows/channel-servicing/04-orchestrate-channel-journey.md | registry step missing its file |
+| FAIL | author | process-flows/channel-servicing/05-resolve-self-service-request.md | registry step missing its file |
+| FAIL | author | process-flows/channel-servicing/06-escalate-to-assisted-servicing.md | registry step missing its file |
+| FAIL | author | process-flows/channel-servicing/07-record-channel-interaction.md | registry step missing its file |
+| FAIL | author | process-flows/contact-centre-interaction/01-capture-ivr-selection.md | registry step missing its file |
+| FAIL | author | process-flows/contact-centre-interaction/02-authenticate-caller.md | registry step missing its file |
+| FAIL | author | process-flows/contact-centre-interaction/03-route-interaction.md | registry step missing its file |
+| FAIL | author | process-flows/contact-centre-interaction/04-handle-customer-interaction.md | registry step missing its file |
+| FAIL | author | process-flows/contact-centre-interaction/05-wrap-up-interaction.md | registry step missing its file |
+| FAIL | author | process-flows/contact-centre-interaction/06-score-interaction-quality.md | registry step missing its file |
+| FAIL | author | process-flows/digital-onboarding-journey/01-start-digital-application.md | registry step missing its file |
+| FAIL | author | process-flows/digital-onboarding-journey/02-capture-applicant-details.md | registry step missing its file |
+| FAIL | author | process-flows/digital-onboarding-journey/03-verify-digital-identity.md | registry step missing its file |
+| FAIL | author | process-flows/digital-onboarding-journey/04-enrol-strong-authentication.md | registry step missing its file |
+| FAIL | author | process-flows/digital-onboarding-journey/05-fund-digital-account.md | registry step missing its file |
+| FAIL | author | process-flows/digital-onboarding-journey/06-activate-digital-channel.md | registry step missing its file |
