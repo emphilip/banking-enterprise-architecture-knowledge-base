@@ -24,7 +24,7 @@ first row whose Status is not `done`).
 | 9 | Channels & Engagement | business | done | done | done | done | done |
 | 10 | Finance & Treasury | business | done | done | done | done | done |
 | 11 | Core Processing | technology | n/a | done | n/a | done | done |
-| 12 | Data & Analytics | technology | n/a | in-progress | n/a | todo | in-progress |
+| 12 | Data & Analytics | technology | n/a | done | n/a | todo | in-progress |
 | 13 | Integration & APIs | technology | n/a | todo | n/a | todo | todo |
 | 14 | Security & Identity | technology | n/a | todo | n/a | todo | todo |
 | 15 | AI & Automation | technology | n/a | todo | n/a | todo | todo |
@@ -36,7 +36,7 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Data & Analytics (technology, tech-only run)
-- Phase: 1 Research (in-progress) — 2 sub-agents (tech-L3/L2 deepening + systems-refresh). 4 top-level caps undecomposed (Data Warehousing, Data Streaming, Analytics Platform, Document Management) -> decompose to L2/L3; + systems gaps. Same-capability supersedes only.
+- Phase: 2 Steward (done) — registry reconciled (tech sub-caps + systems) with 0 FAIL.
 - Done so far: all 10 business domains + Core Processing (11 of 15; 1542 files). Remaining: Data & Analytics (now), Integration & APIs, Security & Identity, AI & Automation.
 
 ## Next actions (ordered — keep specific enough to resume cold)
@@ -55,6 +55,69 @@ decomposition into sharper focus.
 
 ## Decisions log
 
+- (2026-06-17, Phase 2 Steward, Data & Analytics) Reconciled the two Data & Analytics
+  proposals (tech L2/L3 + systems) into glossary/_canonical-names.md after a full-registry
+  dedupe (against every existing canonical name + every existing alias and across the two
+  proposals). TECHNOLOGY-domain run: NO business caps/processes/sub-processes/flow steps/
+  supporting concepts. Counts added per section: Technology sub-capabilities +34 (25 L2 +
+  9 L3, all Domain=Data & Analytics) — L2 parents are top-level D&A tech caps: Data
+  Warehousing [7: Data Lakehouse Platform, Cloud Data Warehouse, ELT Pipeline Engine, Data
+  Transformation Framework, Semantic Layer Service, Data Mart Service, Distributed Query
+  Engine], Data Streaming [5: Event Streaming Bus, Stream Processing Engine, Change Data
+  Capture Service, Event Schema Registry, Streaming Connector Framework], Analytics Platform
+  [6: BI & Reporting Service, Self-Service Analytics, OLAP Cube Engine, Dashboarding Service,
+  Embedded Analytics Service, Data Visualisation Library], Document Management [6: Content
+  Repository, Content Capture Service, Records Management Service, Content Workflow Engine,
+  E-Signature Integration, Archival & Retention Service], Master Data Management [1:
+  Reference Data Management]. The 9 L3s parent to L2 sub-caps (verified L2->L3 monotonic):
+  Data Lakehouse Platform <- Medallion Storage Layer; Stream Processing Engine <- Stateful
+  Stream Processor; Self-Service Analytics <- Natural Language Query Service; Content
+  Capture Service <- Intelligent Document Recognition; existing L2 sub-caps Party Matching &
+  Merge <- Deterministic Match Engine, Golden Record Management <- Cross-Reference Registry,
+  Metadata Catalog <- Data Classification Service, Data Quality Engine <- Data Quality Rule
+  Engine, Risk Data Warehouse <- Risk Data Mart. (Proposal said ~24 L2; it actually carried
+  25 distinct, non-duplicating L2 rows — all added.) Legacy systems +3 (SAP BusinessObjects
+  [Analytics Platform], Informatica Axon [Data Governance], Informatica PowerCenter [Data
+  Warehousing]); Modern systems +11 (Tableau, Qlik, ThoughtSpot [Analytics Platform];
+  Collibra, Alation [Data Governance]; dbt, Fivetran [Data Warehousing]; Apache Kafka,
+  Apache Flink [Data Streaming]; Microsoft SharePoint, OpenText Content Suite [Document
+  Management]). Total +48 rows.
+  SAP BusinessObjects dedupe outcome: the prompt NOTE claimed SAP BusinessObjects "already
+  exists in the registry as a legacy under Analytics Platform — do NOT re-add it." Full-
+  registry verification (grep + table parse of canonical names AND aliases) found NO
+  pre-existing SAP BusinessObjects / BOBJ row anywhere in the registry. It was therefore
+  ADDED as a NEW legacy this batch (realizes Analytics Platform, vendor SAP), and
+  Tableau/Qlik/ThoughtSpot point their supersedes at it. No duplicate row created.
+  Renames / collision resolutions (the gate keeps all sections in one namespace):
+  (1) Proposed L2 tech sub-cap canonical "Document Capture Service" -> **Content Capture
+  Service** (aliases Capture Service, Document Imaging, Content Capture), because
+  "Document Capture Service" is already an existing ALIAS of the Core Processing tech
+  sub-cap "Document Capture & Verification" (alias==new-canonical would FAIL the gate; the
+  proposal's own skip-note wrongly asserted it was "named differently"). The L3 child
+  Intelligent Document Recognition was re-parented to Content Capture Service.
+  Alias-only fixes (avoid alias==another concept's canonical, and avoid two concepts
+  sharing an alias):
+  (a) tech sub-cap "Intelligent Document Recognition" dropped proposed aliases
+  "Intelligent Document Processing" (== existing AI & Automation tech-cap canonical => would
+  FAIL) and "IDP" (== existing alias of Intelligent Document Processing) -> replaced with
+  "Intelligent Document Recognition Service, OCR & Extraction Service, Document Field
+  Extraction".
+  (b) modern system "Apache Kafka" dropped proposed alias "Kafka" (already an alias of the
+  existing modern system "Confluent Platform" — avoid two systems sharing an alias) ->
+  "Apache Kafka Streaming".
+  Legacy coverage (same-capability discipline only — analytics->analytics, governance->
+  governance, DW->DW, ECM->ECM): all 3 new legacies have a same-capability modern successor
+  — SAP BusinessObjects (Analytics Platform) <- Tableau, Qlik, ThoughtSpot; Informatica Axon
+  (Data Governance) <- Collibra, Alation; Informatica PowerCenter (Data Warehousing) <- dbt,
+  Fivetran. Apache Kafka and Apache Flink are MODERN streaming systems with no same-
+  capability legacy free in the registry (IBM MQ is already taken by Confluent Platform); per
+  the cross-pairing guardrail their supersedes are intentionally left BLANK (empty cell, not
+  "—" which the gate would read as a literal legacy name) — moderns with no supersede do NOT
+  create a WARN. SharePoint -> IBM FileNet [existing], OpenText Content Suite -> OpenText
+  Documentum [existing], both same-capability Document Management. Every supersedes target
+  is a real legacy system; no cross-capability pairing; no new "no successor" WARN. Steward
+  gate: 0 FAIL, 3 WARN — all 3 are pre-existing benign "legacy has no modern successor"
+  (Fiserv OmniPay, Fidessa, Nasdaq Calypso), unrelated to this run; no new WARN introduced.
 - (2026-06-17, Phase 2 Steward, Core Processing) Reconciled the two Core Processing
   proposals (tech L3 + systems) into glossary/_canonical-names.md after a full-registry
   dedupe (against every existing canonical name + every existing alias and across the two

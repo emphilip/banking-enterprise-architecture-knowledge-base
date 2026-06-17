@@ -701,6 +701,9 @@ Format: Canonical Name | Realizes (tech capability depends_on it) | Vendor | Ali
 | Linedata Longview | Order Management System | Linedata | Longview, Linedata Longview OMS, Longview Trading |
 | Nasdaq Calypso | Order Management System | Nasdaq (formerly Calypso/Adenza) | Calypso, Adenza Calypso, Calypso Technology |
 | Objectway | Investment Advisory Platform | Objectway | Objectway Platform, Objectway Digital Wealth |
+| SAP BusinessObjects | Analytics Platform | SAP | BOBJ, BusinessObjects BI, Web Intelligence, Crystal Reports |
+| Informatica Axon | Data Governance | Informatica | Axon Data Governance, Informatica Axon Data Governance |
+| Informatica PowerCenter | Data Warehousing | Informatica | PowerCenter, Informatica ETL |
 
 ## Modern systems
 
@@ -814,6 +817,17 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | FlexONE | Order Management System | Linedata Longview | FlexTrade Systems | FlexTrade FlexONE, FlexONE OEMS, FlexOMS |
 | Orion | Investment Advisory Platform | Objectway | Orion Advisor Solutions | Orion Advisor Tech, Orion Advisor Solutions, Orion Wealth |
 | Coupa Treasury | Treasury Management System | SunGard AvantGard | Coupa (formerly BELLIN) | Bellin, BELLIN tm5, Coupa Treasury Management |
+| Tableau | Analytics Platform | SAP BusinessObjects | Salesforce | Tableau Desktop, Tableau Cloud, Tableau Server |
+| Qlik | Analytics Platform | SAP BusinessObjects | Qlik | Qlik Sense, QlikView, Qlik Cloud |
+| ThoughtSpot | Analytics Platform | SAP BusinessObjects | ThoughtSpot | ThoughtSpot Analytics, ThoughtSpot Sage |
+| Collibra | Data Governance | Informatica Axon | Collibra | Collibra Data Intelligence Platform, Collibra Data Catalog, Collibra Data Governance |
+| Alation | Data Governance | Informatica Axon | Alation | Alation Data Catalog, Alation Data Governance |
+| dbt | Data Warehousing | Informatica PowerCenter | dbt Labs | dbt Core, dbt Cloud, data build tool |
+| Fivetran | Data Warehousing | Informatica PowerCenter | Fivetran | Fivetran ELT, Fivetran connectors |
+| Apache Kafka | Data Streaming |  | Apache Software Foundation | Apache Kafka Streaming |
+| Apache Flink | Data Streaming |  | Apache Software Foundation | Flink, Managed Service for Apache Flink |
+| Microsoft SharePoint | Document Management | IBM FileNet | Microsoft | SharePoint Online, SharePoint Server, M365 SharePoint |
+| OpenText Content Suite | Document Management | OpenText Documentum | OpenText | OpenText Content Management, OpenText Extended ECM, Content Suite Platform |
 
 ## Glossary terms
 
@@ -1017,6 +1031,40 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Beneficiary Verification Service | Payment Validation Engine | Core Processing | L3 | Confirmation of Payee Service, Payee Validation Service, Account Verification Service |
 | Sanctions Hit Disposition Service | Payment Sanctions Filter | Core Processing | L3 | Hit Disposition Workbench, Sanctions Alert Disposition, Screening Hit Workflow |
 | Intercompany Matching Service | Consolidation Engine | Core Processing | L3 | IC Matching Service, Intercompany Reconciliation (Consolidation), Group Matching Service |
+| Data Lakehouse Platform | Data Warehousing | Data & Analytics | L2 | Lakehouse Platform, Open Lakehouse, Delta/Iceberg Lakehouse |
+| Cloud Data Warehouse | Data Warehousing | Data & Analytics | L2 | Cloud DW, MPP Warehouse, Analytical Data Store |
+| ELT Pipeline Engine | Data Warehousing | Data & Analytics | L2 | ETL/ELT Pipeline Engine, Data Pipeline Orchestrator, Ingestion & Load Engine |
+| Data Transformation Framework | Data Warehousing | Data & Analytics | L2 | dbt Framework, In-Warehouse Transformation, Analytics Engineering Framework |
+| Semantic Layer Service | Data Warehousing | Data & Analytics | L2 | Semantic Layer, Metrics Layer, Universal Semantic Model |
+| Data Mart Service | Data Warehousing | Data & Analytics | L2 | Data Mart Management, Subject-Area Mart, Marts Layer |
+| Distributed Query Engine | Data Warehousing | Data & Analytics | L2 | Query Engine, Federated Query Engine, MPP Query Engine |
+| Medallion Storage Layer | Data Lakehouse Platform | Data & Analytics | L3 | Medallion Architecture, Bronze-Silver-Gold Layers, Curated Storage Zones |
+| Event Streaming Bus | Data Streaming | Data & Analytics | L2 | Streaming Backbone, Kafka Bus, Event Log |
+| Stream Processing Engine | Data Streaming | Data & Analytics | L2 | Stream Compute Engine, Real-Time Processing Engine, Flink Engine |
+| Change Data Capture Service | Data Streaming | Data & Analytics | L2 | CDC Service, Debezium Connector, Log-Based CDC |
+| Event Schema Registry | Data Streaming | Data & Analytics | L2 | Schema Registry, Stream Schema Service, Message Contract Registry |
+| Streaming Connector Framework | Data Streaming | Data & Analytics | L2 | Streaming Connectors, Kafka Connect, Connector Hub |
+| Stateful Stream Processor | Stream Processing Engine | Data & Analytics | L3 | Windowed Aggregation Service, Keyed State Processor, Stream Join Engine |
+| BI & Reporting Service | Analytics Platform | Data & Analytics | L2 | BI Reporting Service, Reporting Service, Operational Reporting |
+| Self-Service Analytics | Analytics Platform | Data & Analytics | L2 | Self-Serve Analytics, Ad-Hoc Exploration, Citizen Analytics |
+| OLAP Cube Engine | Analytics Platform | Data & Analytics | L2 | OLAP Engine, Multidimensional Model Engine, Analysis Services Engine |
+| Dashboarding Service | Analytics Platform | Data & Analytics | L2 | Dashboard Service, Interactive Dashboards, KPI Dashboards |
+| Embedded Analytics Service | Analytics Platform | Data & Analytics | L2 | Embedded Analytics, Embedded BI, White-Label Analytics |
+| Data Visualisation Library | Analytics Platform | Data & Analytics | L2 | Data Visualization Library, Charting Library, Visualisation Components |
+| Natural Language Query Service | Self-Service Analytics | Data & Analytics | L3 | NL Query Service, Search Analytics, AI-Assisted Query |
+| Content Repository | Document Management | Data & Analytics | L2 | Content Store, Document Repository, ECM Repository |
+| Content Capture Service | Document Management | Data & Analytics | L2 | Capture Service, Document Imaging, Content Capture |
+| Records Management Service | Document Management | Data & Analytics | L2 | Records Management, Recordkeeping Service, RM Service |
+| Content Workflow Engine | Document Management | Data & Analytics | L2 | Content Workflow, Document Workflow, Process Automation (ECM) |
+| E-Signature Integration | Document Management | Data & Analytics | L2 | Electronic Signature Service, E-Sign Integration, Digital Signing Service |
+| Archival & Retention Service | Document Management | Data & Analytics | L2 | Archival Service, Retention Management, Preservation Service |
+| Intelligent Document Recognition | Content Capture Service | Data & Analytics | L3 | Intelligent Document Recognition Service, OCR & Extraction Service, Document Field Extraction |
+| Reference Data Management | Master Data Management | Data & Analytics | L2 | Reference Data Service, Code Table Management, RDM |
+| Deterministic Match Engine | Party Matching & Merge | Data & Analytics | L3 | Rule-Based Matching, Exact Match Engine, Identifier Matching |
+| Cross-Reference Registry | Golden Record Management | Data & Analytics | L3 | Cross-Reference Service, Key Mapping Registry, XREF Registry |
+| Data Classification Service | Metadata Catalog | Data & Analytics | L3 | Data Tagging Service, Sensitivity Classification, Data Categorisation |
+| Data Quality Rule Engine | Data Quality Engine | Data & Analytics | L3 | DQ Rule Engine, Validation Rule Service, Quality Rule Manager |
+| Risk Data Mart | Risk Data Warehouse | Data & Analytics | L3 | Risk Subject-Area Mart, Risk Reporting Mart |
 
 ## Process sub-processes
 
