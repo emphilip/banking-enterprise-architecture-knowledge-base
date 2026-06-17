@@ -24,7 +24,7 @@ first row whose Status is not `done`).
 | 9 | Channels & Engagement | business | done | done | done | done | done |
 | 10 | Finance & Treasury | business | done | done | done | done | done |
 | 11 | Core Processing | technology | n/a | done | n/a | done | done |
-| 12 | Data & Analytics | technology | n/a | done | n/a | todo | in-progress |
+| 12 | Data & Analytics | technology | n/a | done | n/a | in-progress | in-progress |
 | 13 | Integration & APIs | technology | n/a | todo | n/a | todo | todo |
 | 14 | Security & Identity | technology | n/a | todo | n/a | todo | todo |
 | 15 | AI & Automation | technology | n/a | todo | n/a | todo | todo |
@@ -36,7 +36,8 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Data & Analytics (technology, tech-only run)
-- Phase: 2 Steward (done) — registry reconciled (tech sub-caps + systems) with 0 FAIL.
+- Phase: 3 Author (in-progress) — 2 sub-agents writing 34 tech sub-caps (25 L2 + 9 L3) + 14 systems (3 legacy + 11 modern)
+
 - Done so far: all 10 business domains + Core Processing (11 of 15; 1542 files). Remaining: Data & Analytics (now), Integration & APIs, Security & Identity, AI & Automation.
 
 ## Next actions (ordered — keep specific enough to resume cold)
