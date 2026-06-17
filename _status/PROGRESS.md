@@ -21,7 +21,7 @@ first row whose Status is not `done`).
 | 6 | Wealth & Investments | business | done | done | done | done | done |
 | 7 | Risk Management | business | done | done | done | done | done |
 | 8 | Compliance & Financial Crime | business | done | done | done | done | done |
-| 9 | Channels & Engagement | business | done | done | done | todo | in-progress |
+| 9 | Channels & Engagement | business | done | done | done | in-progress | in-progress |
 | 10 | Finance & Treasury | business | todo | todo | todo | todo | todo |
 | 11 | Core Processing | technology | n/a | todo | n/a | todo | todo |
 | 12 | Data & Analytics | technology | n/a | todo | n/a | todo | todo |
@@ -36,7 +36,7 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Channels & Engagement
-- Phase: 3 Author (in-progress) — 5 sub-agents writing ~127 notes (44 caps, 25 tech sub-caps, 9 systems, 4 new processes + 10 sub-processes + 32 steps, 16 supporting)
+- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-channels-and-engagement.md)
 
 - Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime (8 of 15); Channels & Engagement registry reconciled (author/weave pending)
 
