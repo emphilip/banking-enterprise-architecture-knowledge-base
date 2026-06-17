@@ -13,8 +13,10 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 
 - Thought Machine Vault supersedes Temenos T24.
 - Thought Machine Vault supersedes Oracle FLEXCUBE.
+- Thought Machine Vault supersedes Avaloq Banking Suite.
 - Mambu supersedes Fiserv DNA.
 - Mambu supersedes Jack Henry SilverLake.
+- Mambu supersedes Sopra Amplitude.
 - 10x Banking supersedes Legacy Mainframe Core.
 - 10x Banking supersedes TCS BaNCS.
 - Finxact supersedes FIS Profile.
@@ -131,6 +133,14 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Empyrean Sol ALM supersedes QRM Balance Sheet Management.
 - Empyrean Sol ALM supersedes SAS Asset And Liability Management.
 - Moody's Balance Sheet Management supersedes QRM Balance Sheet Management.
+- FIS Modern Banking Platform supersedes FIS Profile.
+- FIS Modern Banking Platform supersedes FIS Horizon.
+- Sage Intacct supersedes Infor SunSystems.
+- FlexONE supersedes Linedata Longview.
+- FlexONE supersedes Fidessa.
+- FlexONE supersedes Nasdaq Calypso.
+- Orion supersedes Objectway.
+- Coupa Treasury supersedes SunGard AvantGard.
 
 ## Realization statements
 
@@ -217,6 +227,13 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Treasury Management System depends on SAP Treasury And Risk Management.
 - Asset Liability Management Engine depends on QRM Balance Sheet Management.
 - Asset Liability Management Engine depends on SAS Asset And Liability Management.
+- Core Banking Processing depends on Avaloq Banking Suite.
+- Core Banking Processing depends on Sopra Amplitude.
+- General Ledger Engine depends on Infor SunSystems.
+- Order Management System depends on Fidessa.
+- Order Management System depends on Linedata Longview.
+- Order Management System depends on Nasdaq Calypso.
+- Investment Advisory Platform depends on Objectway.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -318,6 +335,11 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Treasury Management System depends on GTreasury.
 - Asset Liability Management Engine depends on Empyrean Sol ALM.
 - Asset Liability Management Engine depends on Moody's Balance Sheet Management.
+- Core Banking Processing depends on FIS Modern Banking Platform.
+- General Ledger Engine depends on Sage Intacct.
+- Order Management System depends on FlexONE.
+- Investment Advisory Platform depends on Orion.
+- Treasury Management System depends on Coupa Treasury.
 
 ## Successor matrix
 | Technology Capability | Legacy System | Modern Successor |
@@ -349,7 +371,10 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Contact Center Platform | Verint WFM | Verint WFM Cloud |
 | Conversational AI | Legacy IVR System | Amazon Lex |
 | Conversational AI | Legacy IVR System | Kasisto |
+| Core Banking Processing | Avaloq Banking Suite | Thought Machine Vault |
+| Core Banking Processing | FIS Horizon | FIS Modern Banking Platform |
 | Core Banking Processing | FIS Horizon | SAP Deposits Management |
+| Core Banking Processing | FIS Profile | FIS Modern Banking Platform |
 | Core Banking Processing | FIS Profile | Finxact |
 | Core Banking Processing | Fiserv DNA | Mambu |
 | Core Banking Processing | Fiserv Premier | Tuum |
@@ -359,6 +384,7 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Core Banking Processing | Legacy Mainframe Core | 10x Banking |
 | Core Banking Processing | Legacy Mainframe Core | SAP Deposits Management |
 | Core Banking Processing | Oracle FLEXCUBE | Thought Machine Vault |
+| Core Banking Processing | Sopra Amplitude | Mambu |
 | Core Banking Processing | TCS BaNCS | 10x Banking |
 | Core Banking Processing | Temenos T24 | Temenos Transact |
 | Core Banking Processing | Temenos T24 | Thought Machine Vault |
@@ -383,6 +409,7 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Financial Consolidation Platform | SAP BPC | OneStream |
 | Fraud Analytics | FICO Falcon | Feedzai |
 | Fraud Analytics | SAS Fraud Management | Featurespace |
+| General Ledger Engine | Infor SunSystems | Sage Intacct |
 | General Ledger Engine | Oracle E-Business Suite | SAP S/4HANA Finance |
 | General Ledger Engine | SAP ECC | Oracle Fusion ERP |
 | General Ledger Engine | SAP ECC | SAP S/4HANA Finance |
@@ -397,6 +424,7 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Integration Platform | webMethods | Boomi |
 | Intelligent Document Processing | IBM FileNet | Hyperscience |
 | Intelligent Document Processing | OpenText Documentum | AWS Textract |
+| Investment Advisory Platform | Objectway | Orion |
 | Investment Advisory Platform | Temenos WealthSuite | Envestnet |
 | Investment Advisory Platform | Temenos WealthSuite | InvestCloud |
 | Loan Origination Platform | Black Knight Empower | Blend |
@@ -408,6 +436,9 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Machine Learning Platform | SAS Platform | DataRobot |
 | Machine Learning Platform | SAS Platform | Google Vertex AI |
 | Master Data Management | Informatica MDM | Reltio |
+| Order Management System | Fidessa | FlexONE |
+| Order Management System | Linedata Longview | FlexONE |
+| Order Management System | Nasdaq Calypso | FlexONE |
 | Order Management System | SS&C Advent Moxy | Bloomberg AIM |
 | Order Management System | SS&C Advent Moxy | Charles River IMS |
 | Payment Orchestration | ACH Batch Processor | Bottomline Payments |
@@ -438,6 +469,7 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Transaction Monitoring Platform | Oracle Mantas | Hawk AI |
 | Transaction Monitoring Platform | SAS Anti-Money Laundering | Napier AI |
 | Treasury Management System | SAP Treasury And Risk Management | ION Treasury |
+| Treasury Management System | SunGard AvantGard | Coupa Treasury |
 | Treasury Management System | SunGard AvantGard | GTreasury |
 | Treasury Management System | SunGard AvantGard | Kyriba |
 | Workflow Orchestration | Pega BPM | Camunda |
