@@ -1,8 +1,8 @@
 # Eval Report
 
-Generated: 2026-06-17T04:28:36.976181Z  
+Generated: 2026-06-17T04:29:20.638596Z  
 Phase: `author`  
-**FAIL: 75  WARN: 0  INFO: 0**
+**FAIL: 59  WARN: 0  INFO: 0**
 
 | Severity | Phase | Path | Message |
 |---|---|---|---|
@@ -10,10 +10,6 @@ Phase: `author`
 | FAIL | author | business-capabilities/L3-atm-monitoring-and-servicing.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L3-atm-network-management.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L3-atm-transaction-processing.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-channel-interaction-routing.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-contact-complaint-intake.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-self-service-ivr.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-servicing-resource-management.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-agent-desktop-servicing.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-atm-authorization-handling.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-atm-cash-forecasting.md | registry concept missing its file |
@@ -36,19 +32,7 @@ Phase: `author`
 | FAIL | author | business-capabilities/L4-vault-float-control.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-voice-assistant-banking.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-wearable-banking.md | registry concept missing its file |
-| FAIL | author | business-processes/atm-cash-forecasting-and-ordering.md | registry concept missing its file |
-| FAIL | author | business-processes/atm-replenishment-and-reconciliation.md | registry concept missing its file |
-| FAIL | author | business-processes/channel-authentication-and-orchestration.md | registry concept missing its file |
-| FAIL | author | business-processes/digital-application-intake.md | registry concept missing its file |
-| FAIL | author | business-processes/digital-identity-and-activation.md | registry concept missing its file |
 | FAIL | author | business-processes/interaction-handling-and-qa.md | registry concept missing its file |
-| FAIL | author | business-processes/interaction-intake-and-routing.md | registry concept missing its file |
-| FAIL | author | business-processes/self-service-resolution.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/knowledge-base-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/quality-management-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/real-time-transcription.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/screen-pop-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/skills-based-routing.md | registry concept missing its file |
 | FAIL | author | process-flows/atm-cash-servicing/01-forecast-atm-demand.md | registry step missing its file |
 | FAIL | author | process-flows/atm-cash-servicing/02-plan-cash-order.md | registry step missing its file |
 | FAIL | author | process-flows/atm-cash-servicing/03-schedule-cash-delivery.md | registry step missing its file |
