@@ -12,6 +12,7 @@ sources: ["https://corporatefinanceinstitute.com/resources/fpa/budgeting-process
 # Approve Budget Plan
 
 **Definition.** Approve Budget Plan reviews and approves the operating budget at the management and board level and loads it as the baseline.
+**Also known as:** Lock Budget, Sign Off Budget.
 
 ## Relationships
 - Approve Budget Plan is defined in the Management Reporting process.

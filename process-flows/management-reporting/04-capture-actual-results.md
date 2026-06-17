@@ -12,6 +12,7 @@ sources: ["https://planful.com/blog/4-reports-every-fpa-team-should-be-using/"]
 # Capture Actual Results
 
 **Definition.** Capture Actual Results captures period actuals from the closed ledger and maps them to the management reporting hierarchy and segments.
+**Also known as:** Load Actuals, Capture Actuals.
 
 ## Relationships
 - Capture Actual Results is defined in the Management Reporting process.

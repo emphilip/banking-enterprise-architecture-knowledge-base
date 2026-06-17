@@ -12,6 +12,7 @@ sources: ["https://www.regnology.net/en/resources/regulatory-topics/common-repor
 # Determine Own Funds
 
 **Definition.** Determine Own Funds determines Tier 1 and Tier 2 own funds and computes capital-adequacy ratios from risk-weighted assets.
+**Also known as:** Compute Own Funds, Determine Capital Base.
 
 ## Relationships
 - Determine Own Funds is defined in the Regulatory Capital Reporting process.

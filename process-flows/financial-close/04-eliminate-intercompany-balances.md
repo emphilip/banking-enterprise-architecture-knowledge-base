@@ -12,6 +12,7 @@ sources: ["https://www.readyratios.com/reference/accounting/intercompany_elimina
 # Eliminate Intercompany Balances
 
 **Definition.** Eliminate Intercompany Balances matches and eliminates intercompany balances, transactions and unrealised profit across group entities.
+**Also known as:** Eliminate IC, IC Balance Elimination.
 
 ## Relationships
 - Eliminate Intercompany Balances is defined in the Financial Close process.

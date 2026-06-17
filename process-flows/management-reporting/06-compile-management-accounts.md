@@ -12,6 +12,7 @@ sources: ["https://planful.com/blog/4-reports-every-fpa-team-should-be-using/", 
 # Compile Management Accounts
 
 **Definition.** Compile Management Accounts assembles the management accounts and board MI pack with KPIs, segment performance and variance commentary.
+**Also known as:** Build MI Pack, Prepare Management Accounts.
 
 ## Relationships
 - Compile Management Accounts is defined in the Management Reporting process.

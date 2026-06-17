@@ -12,6 +12,7 @@ sources: ["https://batonsystems.com/insights/blog-posts/intraday-liquidity-monit
 # Reconcile End-Of-Day Cash
 
 **Definition.** Reconcile End-Of-Day Cash reconciles end-of-day nostro and central-bank movements to expected flows and clears cash breaks.
+**Also known as:** EOD Cash Reconciliation, Reconcile Nostro.
 
 ## Relationships
 - Reconcile End-Of-Day Cash is defined in the Cash & Liquidity Management process.

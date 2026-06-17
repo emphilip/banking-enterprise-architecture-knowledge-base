@@ -12,6 +12,7 @@ sources: ["https://www.fca.org.uk/firms/regdata/corep-finrep-reporting", "https:
 # Assemble Capital Return
 
 **Definition.** Assemble Capital Return assembles the COREP/FINREP and FR Y-9C/FR Y-14 schedules into the Capital Adequacy Return.
+**Also known as:** Build Capital Return, Compile COREP.
 
 ## Relationships
 - Assemble Capital Return is defined in the Regulatory Capital Reporting process.

@@ -12,6 +12,7 @@ sources: ["https://www.tcs.com/what-we-do/industries/banking/white-paper/next-ge
 # Assess Liquidity Buffers
 
 **Definition.** Assess Liquidity Buffers assesses the projected position against LCR/NSFR buffers and internal limits, flagging breaches.
+**Also known as:** Check Liquidity Limits, Assess LCR Buffer.
 
 ## Relationships
 - Assess Liquidity Buffers is defined in the Cash & Liquidity Management process.

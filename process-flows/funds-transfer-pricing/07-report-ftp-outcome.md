@@ -12,6 +12,7 @@ sources: ["https://www.moodys.com/web/en/us/insights/banking/funds-transfer-pric
 # Report FTP Outcome
 
 **Definition.** Report FTP Outcome reports FTP results and margin attribution to ALCO and business units for performance steering.
+**Also known as:** Report Transfer Pricing, Publish FTP Results.
 
 ## Relationships
 - Report FTP Outcome is defined in the Funds Transfer Pricing process.

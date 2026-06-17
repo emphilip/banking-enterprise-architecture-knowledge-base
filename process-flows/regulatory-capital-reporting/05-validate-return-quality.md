@@ -12,6 +12,7 @@ sources: ["https://www.sas.com/en_us/software/regulatory-content-eba-taxonomies.
 # Validate Return Quality
 
 **Definition.** Validate Return Quality validates the return against the regulator DPM/XBRL taxonomy and validation rules, resolving errors.
+**Also known as:** Validate COREP, Run Taxonomy Checks.
 
 ## Relationships
 - Validate Return Quality is defined in the Regulatory Capital Reporting process.

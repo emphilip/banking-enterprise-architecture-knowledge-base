@@ -12,6 +12,7 @@ sources: ["https://www.oreilly.com/library/view/the-fast-close/9781119554493/c05
 # Close Subledgers
 
 **Definition.** Close Subledgers cuts off the accounting period and closes the AP, AR, fixed-asset and inventory subledgers, posting their balances to the general ledger.
+**Also known as:** Cut Off Period, Close Sub-Ledgers.
 
 ## Relationships
 - Close Subledgers is defined in the Financial Close process.

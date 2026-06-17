@@ -12,6 +12,7 @@ sources: ["https://www.federalreserve.gov/publications/comprehensive-capital-ana
 # Submit Capital Return
 
 **Definition.** Submit Capital Return submits the attested return and capital plan to the regulator through the secure channel and archives the filing.
+**Also known as:** File Capital Return, Submit COREP.
 
 ## Relationships
 - Submit Capital Return is defined in the Regulatory Capital Reporting process.

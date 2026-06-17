@@ -12,6 +12,7 @@ sources: ["https://bsnswheel.com/funds-transfer-pricing-what-it-is-why-banks-nee
 # Apply Transfer Rates
 
 **Definition.** Apply Transfer Rates applies approved transfer rates to assets and liabilities to assign FTP charges and credits.
+**Also known as:** Apply FTP Rates, Assign Transfer Rates.
 
 ## Relationships
 - Apply Transfer Rates is defined in the Funds Transfer Pricing process.

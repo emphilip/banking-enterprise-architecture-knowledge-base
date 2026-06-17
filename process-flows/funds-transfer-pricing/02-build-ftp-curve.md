@@ -12,6 +12,7 @@ sources: ["https://www.moodys.com/web/en/us/insights/banking/funds-transfer-pric
 # Build FTP Curve
 
 **Definition.** Build FTP Curve builds the matched-maturity FTP curve and adds liquidity-premium and contingency add-ons by tenor.
+**Also known as:** Construct FTP Curve, Build Transfer Curve.
 
 ## Relationships
 - Build FTP Curve is defined in the Funds Transfer Pricing process.

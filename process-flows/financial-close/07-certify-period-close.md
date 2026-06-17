@@ -12,6 +12,7 @@ sources: ["https://www.highradius.com/resources/Blog/ultimate-guide-on-financial
 # Certify Period Close
 
 **Definition.** Certify Period Close reviews reconciliations and statements, evidences ICFR controls and obtains controller sign-off to certify the period close.
+**Also known as:** Sign Off Close, Close Sign-Off.
 
 ## Relationships
 - Certify Period Close is defined in the Financial Close process.

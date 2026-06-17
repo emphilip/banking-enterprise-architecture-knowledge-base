@@ -12,6 +12,7 @@ sources: ["https://www.abacum.ai/blog/how-to-use-budget-vs-actuals-variance-anal
 # Analyse Budget Variance
 
 **Definition.** Analyse Budget Variance compares actuals to budget and forecast, quantifies variances and captures management commentary explaining drivers.
+**Also known as:** Explain Variance, Budget Variance Analysis.
 
 ## Relationships
 - Analyse Budget Variance is defined in the Management Reporting process.

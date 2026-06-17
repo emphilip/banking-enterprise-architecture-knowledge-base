@@ -12,6 +12,7 @@ sources: ["https://keitercpa.com/blog/financial-close-checklist/", "https://www.
 # Post Closing Journals
 
 **Definition.** Post Closing Journals posts recurring and adjusting period-end journals (accruals, prepaids, depreciation, reclasses) with maker-checker approval.
+**Also known as:** Post Adjusting Entries, Book Period-End Journals.
 
 ## Relationships
 - Post Closing Journals is defined in the Financial Close process.

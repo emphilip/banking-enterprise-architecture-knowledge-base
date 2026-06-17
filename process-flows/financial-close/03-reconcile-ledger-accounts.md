@@ -12,6 +12,7 @@ sources: ["https://www.numeric.io/blog/month-end-reconciliation", "https://strat
 # Reconcile Ledger Accounts
 
 **Definition.** Reconcile Ledger Accounts reconciles general-ledger accounts to subledgers and supporting schedules, clearing breaks before consolidation.
+**Also known as:** Reconcile GL, Account Reconciliation (Close).
 
 ## Relationships
 - Reconcile Ledger Accounts is defined in the Financial Close process.

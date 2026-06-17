@@ -12,6 +12,7 @@ sources: ["https://analystprep.com/study-notes/frm/part-2/intraday-liquidity-ris
 # Execute Funding Action
 
 **Definition.** Execute Funding Action executes the agreed funding and placement transactions and updates the live position.
+**Also known as:** Execute Funding, Place Funds.
 
 ## Relationships
 - Execute Funding Action is defined in the Cash & Liquidity Management process.

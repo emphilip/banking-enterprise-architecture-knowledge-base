@@ -12,6 +12,7 @@ sources: ["https://ltd24.co.uk/funds-transfer-pricing-banking/", "https://bsnswh
 # Attribute Net Margin
 
 **Definition.** Attribute Net Margin attributes net interest margin to business units, splitting customer spread from funding and liquidity cost.
+**Also known as:** Attribute NIM, Allocate Net Margin.
 
 ## Relationships
 - Attribute Net Margin is defined in the Funds Transfer Pricing process.

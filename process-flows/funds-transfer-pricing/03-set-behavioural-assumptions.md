@@ -12,6 +12,7 @@ sources: ["https://aptivaa.com/insights-blogs/fund-transfer-pricing-in-a-dynamic
 # Set Behavioural Assumptions
 
 **Definition.** Set Behavioural Assumptions sets behavioural assumptions (non-maturity deposit tenor, prepayment) used to assign transfer tenors.
+**Also known as:** Define Behavioural Assumptions, Set FTP Assumptions.
 
 ## Relationships
 - Set Behavioural Assumptions is defined in the Funds Transfer Pricing process.

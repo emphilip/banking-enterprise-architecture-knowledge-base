@@ -12,6 +12,7 @@ sources: ["https://www.venasolutions.com/blog/fpa-roles-best-practices", "https:
 # Present Board Pack
 
 **Definition.** Present Board Pack presents the management accounts to the CFO and board, obtains sign-off and distributes the approved pack.
+**Also known as:** Distribute MI Pack, Board Sign-Off.
 
 ## Relationships
 - Present Board Pack is defined in the Management Reporting process.

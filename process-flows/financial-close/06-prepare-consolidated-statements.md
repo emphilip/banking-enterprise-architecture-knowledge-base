@@ -12,6 +12,7 @@ sources: ["https://www.apqc.org/resource-library/resource-listing/90-manage-fina
 # Prepare Consolidated Statements
 
 **Definition.** Prepare Consolidated Statements prepares the consolidated balance sheet, income statement, cash-flow statement and equity statement from the consolidated position.
+**Also known as:** Prepare Group Accounts, Draft Statements.
 
 ## Relationships
 - Prepare Consolidated Statements is defined in the Financial Close process.

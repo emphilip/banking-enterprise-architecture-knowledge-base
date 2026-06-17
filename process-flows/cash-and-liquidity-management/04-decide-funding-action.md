@@ -12,6 +12,7 @@ sources: ["https://www.tcs.com/what-we-do/industries/banking/white-paper/next-ge
 # Decide Funding Action
 
 **Definition.** Decide Funding Action decides funding, placement or buffer actions to keep the position within limits and escalates breaches to the treasurer.
+**Also known as:** Decide Funding, Determine Funding Action.
 
 ## Relationships
 - Decide Funding Action is defined in the Cash & Liquidity Management process.

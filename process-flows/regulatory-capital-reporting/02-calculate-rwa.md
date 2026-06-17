@@ -12,6 +12,7 @@ sources: ["https://regreportingdesk.com/corep-reporting-explained/", "https://ww
 # Calculate RWA
 
 **Definition.** Calculate RWA calculates risk-weighted assets across credit, market and operational risk per the prudential rule set.
+**Also known as:** Compute RWA, Calculate Risk-Weighted Assets.
 
 ## Relationships
 - Calculate RWA is defined in the Regulatory Capital Reporting process.

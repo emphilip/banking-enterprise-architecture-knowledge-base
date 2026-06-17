@@ -12,6 +12,7 @@ sources: ["https://www.moodys.com/web/en/us/insights/banking/funds-transfer-pric
 # Assemble Market Curves
 
 **Definition.** Assemble Market Curves assembles market funding curves (senior unsecured debt yields, swap-plus-spread) as inputs to the transfer curve.
+**Also known as:** Gather Market Curves, Assemble Funding Curves.
 
 ## Relationships
 - Assemble Market Curves is defined in the Funds Transfer Pricing process.

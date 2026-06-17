@@ -12,6 +12,7 @@ sources: ["https://batonsystems.com/insights/blog-posts/intraday-liquidity-monit
 # Aggregate Cash Balances
 
 **Definition.** Aggregate Cash Balances aggregates posted balances across nostro and central-bank accounts to establish the opening cash position.
+**Also known as:** Aggregate Nostro Balances, Consolidate Cash.
 
 ## Relationships
 - Aggregate Cash Balances is defined in the Cash & Liquidity Management process.

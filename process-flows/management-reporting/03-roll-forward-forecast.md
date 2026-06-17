@@ -12,6 +12,7 @@ sources: ["https://www.savvy-cfo.cpa/current-matters/comprehensive-guide-to-fina
 # Roll Forward Forecast
 
 **Definition.** Roll Forward Forecast updates the rolling forecast for actual trends and revised assumptions on a periodic cadence.
+**Also known as:** Update Forecast, Reforecast.
 
 ## Relationships
 - Roll Forward Forecast is defined in the Management Reporting process.

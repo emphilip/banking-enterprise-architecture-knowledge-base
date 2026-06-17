@@ -12,6 +12,7 @@ sources: ["https://www.federalreserve.gov/publications/comprehensive-capital-ana
 # Attest Capital Return
 
 **Definition.** Attest Capital Return evidences ICFR over regulatory reporting and obtains CFO and board attestation of the return and capital plan.
+**Also known as:** Sign Off Capital Return, Attest FR Y-14.
 
 ## Relationships
 - Attest Capital Return is defined in the Regulatory Capital Reporting process.

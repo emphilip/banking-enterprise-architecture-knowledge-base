@@ -12,6 +12,7 @@ sources: ["https://www.regnology.net/en/resources/regulatory-topics/common-repor
 # Source Regulatory Data
 
 **Definition.** Source Regulatory Data sources and reconciles finance (GL) and risk (exposure) data feeds for the reporting reference date.
+**Also known as:** Gather Capital Data, Ingest Reg Data.
 
 ## Relationships
 - Source Regulatory Data is defined in the Regulatory Capital Reporting process.

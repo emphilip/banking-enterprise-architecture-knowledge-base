@@ -12,6 +12,7 @@ sources: ["https://www.netsuite.com/portal/resource/articles/accounting/consolid
 # Run Consolidation
 
 **Definition.** Run Consolidation aggregates entity trial balances with elimination adjustments into the consolidated group position and produces the adjusted Trial Balance.
+**Also known as:** Consolidate Group, Process Consolidation.
 
 ## Relationships
 - Run Consolidation is defined in the Financial Close process.

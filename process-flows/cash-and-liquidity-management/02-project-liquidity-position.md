@@ -12,6 +12,7 @@ sources: ["https://analystprep.com/study-notes/frm/part-2/intraday-liquidity-ris
 # Project Liquidity Position
 
 **Definition.** Project Liquidity Position projects the intraday and short-term liquidity position from known and forecast payment flows.
+**Also known as:** Forecast Liquidity, Project Cash Position.
 
 ## Relationships
 - Project Liquidity Position is defined in the Cash & Liquidity Management process.

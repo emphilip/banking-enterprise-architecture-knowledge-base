@@ -12,6 +12,7 @@ sources: ["https://www.tcs.com/what-we-do/industries/banking/white-paper/next-ge
 # Report Liquidity Position
 
 **Definition.** Report Liquidity Position produces the intraday and daily liquidity report for ALCO and the treasurer and obtains end-of-day sign-off.
+**Also known as:** Produce Liquidity Report, Report Liquidity.
 
 ## Relationships
 - Report Liquidity Position is defined in the Cash & Liquidity Management process.

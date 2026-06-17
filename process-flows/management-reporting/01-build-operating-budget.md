@@ -12,6 +12,7 @@ sources: ["https://corporatefinanceinstitute.com/resources/fpa/budgeting-process
 # Build Operating Budget
 
 **Definition.** Build Operating Budget constructs the annual operating budget from strategic targets and driver assumptions, consolidating business-unit submissions.
+**Also known as:** Construct Budget, Prepare Budget.
 
 ## Relationships
 - Build Operating Budget is defined in the Management Reporting process.

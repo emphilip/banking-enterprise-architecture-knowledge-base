@@ -12,6 +12,7 @@ sources: ["https://financeunlocked.com/videos/funds-transfer-pricing-part-ii", "
 # Approve FTP Methodology
 
 **Definition.** Approve FTP Methodology presents the methodology, curve and assumptions to ALCO for approval before application.
+**Also known as:** ALCO FTP Approval, Approve Transfer Curve.
 
 ## Relationships
 - Approve FTP Methodology is defined in the Funds Transfer Pricing process.
