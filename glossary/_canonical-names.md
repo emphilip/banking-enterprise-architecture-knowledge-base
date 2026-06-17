@@ -373,6 +373,48 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Fraud Loss Recovery | L3 | Risk Management | Fraud Management | Fraud Recovery, Fraud Reimbursement |
 | Fraud Scoring Models | L4 | Risk Management | Fraud Monitoring | Fraud Risk Scoring, Fraud Model Development |
 | Synthetic Identity Detection | L4 | Risk Management | Fraud Risk Assessment | Synthetic Fraud Detection, Identity Fraud Detection |
+| Financial Crime Risk Compliance | L2 | Compliance & Financial Crime | Financial Crime Compliance | FinCrime Risk Compliance, Wider Financial Crime |
+| AML Customer Due Diligence | L3 | Compliance & Financial Crime | KYC Management | CDD Management, AML CDD, Standard Due Diligence |
+| Enhanced Due Diligence Management | L3 | Compliance & Financial Crime | KYC Management | EDD Management, High-Risk Diligence |
+| Beneficial Ownership Identification | L3 | Compliance & Financial Crime | KYC Management | UBO Identification, Ownership Verification |
+| Customer Risk Rating | L3 | Compliance & Financial Crime | KYC Management | AML Risk Scoring, Customer Risk Profiling |
+| PEP Screening | L3 | Compliance & Financial Crime | KYC Management | Politically Exposed Person Screening, PEP Identification |
+| KYC Refresh Management | L3 | Compliance & Financial Crime | KYC Management | Perpetual KYC, Periodic Review, KYC Remediation |
+| Correspondent Banking Due Diligence | L3 | Compliance & Financial Crime | KYC Management | CBDDQ Management, Respondent Bank Diligence |
+| Suspicious Activity Detection | L3 | Compliance & Financial Crime | AML Monitoring | Suspicious Behaviour Detection, AML Detection |
+| Alert Management | L3 | Compliance & Financial Crime | AML Monitoring | AML Alert Triage, Alert Disposition |
+| AML Case Investigation | L3 | Compliance & Financial Crime | AML Monitoring | Financial Crime Investigation, AML Case Handling |
+| SAR Management | L3 | Compliance & Financial Crime | AML Monitoring | STR Management, Suspicious Activity Reporting Management |
+| Watchlist Management | L3 | Compliance & Financial Crime | AML Monitoring | List Management, Sanctions List Management |
+| Adverse Media Screening | L3 | Compliance & Financial Crime | AML Monitoring | Negative News Screening, Media Monitoring |
+| Currency Transaction Reporting | L3 | Compliance & Financial Crime | AML Monitoring | CTR Management, Cash Transaction Reporting |
+| Regulatory Change Compliance | L3 | Compliance & Financial Crime | Regulatory Compliance | Reg Change Tracking, Regulatory Change Interpretation |
+| Compliance Risk Assessment | L3 | Compliance & Financial Crime | Regulatory Compliance | Financial Crime Risk Assessment, AML Risk Assessment |
+| Compliance Policy Management | L3 | Compliance & Financial Crime | Regulatory Compliance | Policy & Standards Management, Compliance Procedures Management |
+| Compliance Monitoring & Testing | L3 | Compliance & Financial Crime | Regulatory Compliance | Compliance Assurance, Independent Testing |
+| Conduct Risk Management | L3 | Compliance & Financial Crime | Regulatory Compliance | Conduct Compliance, Market Conduct Management |
+| Regulatory Examination Management | L3 | Compliance & Financial Crime | Regulatory Compliance | Exam Management, Regulator Relations |
+| Anti-Bribery & Corruption | L3 | Compliance & Financial Crime | Financial Crime Risk Compliance | ABC Compliance, Bribery Prevention |
+| Tax Evasion Compliance | L3 | Compliance & Financial Crime | Financial Crime Risk Compliance | Customer Tax Compliance, FATCA CRS Compliance |
+| Bribery & Corruption Risk Assessment | L4 | Compliance & Financial Crime | Anti-Bribery & Corruption | ABC Risk Assessment, Corruption Risk Scoring |
+| Third-Party Integrity Due Diligence | L4 | Compliance & Financial Crime | Anti-Bribery & Corruption | Intermediary Due Diligence, Vendor Integrity Screening |
+| Source Of Wealth Verification | L4 | Compliance & Financial Crime | Enhanced Due Diligence Management | SoW Verification, Source Of Funds Verification |
+| Senior Management Approval | L4 | Compliance & Financial Crime | Enhanced Due Diligence Management | EDD Approval, High-Risk Sign-Off |
+| Ownership Structure Unwrapping | L4 | Compliance & Financial Crime | Beneficial Ownership Identification | Layered Ownership Analysis, UBO Unwrapping |
+| Control Person Identification | L4 | Compliance & Financial Crime | Beneficial Ownership Identification | Controlling Party Identification, Control Prong |
+| Risk Model Calibration | L4 | Compliance & Financial Crime | Customer Risk Rating | Rating Model Tuning, Risk Factor Weighting |
+| Scenario Threshold Tuning | L4 | Compliance & Financial Crime | Suspicious Activity Detection | Detection Tuning, Rule Optimisation |
+| Typology Modelling | L4 | Compliance & Financial Crime | Suspicious Activity Detection | ML Typology Modelling, Risk Typology Library |
+| Alert Prioritisation Scoring | L4 | Compliance & Financial Crime | Alert Management | Alert Risk Scoring, Alert Ranking |
+| Network Link Analysis | L4 | Compliance & Financial Crime | AML Case Investigation | Entity Network Analysis, Link Analytics |
+| SAR Filing & Tracking | L4 | Compliance & Financial Crime | SAR Management | STR Filing, SAR Submission |
+| SAR Confidentiality Control | L4 | Compliance & Financial Crime | SAR Management | Tipping-Off Prevention, SAR Access Control |
+| Sanctions List Ingestion | L4 | Compliance & Financial Crime | Watchlist Management | List Ingestion, SDN Loading |
+| Sanctions List Curation | L4 | Compliance & Financial Crime | Watchlist Management | List Quality Management, Whitelist Management |
+| Obligation Mapping | L4 | Compliance & Financial Crime | Regulatory Change Compliance | Requirement Mapping, Control Mapping |
+| Control Testing Execution | L4 | Compliance & Financial Crime | Compliance Monitoring & Testing | Compliance Control Testing, Assurance Testing |
+| Issue & Remediation Tracking | L4 | Compliance & Financial Crime | Compliance Monitoring & Testing | Findings Management, Remediation Tracking |
+| Compliance Training Management | L4 | Compliance & Financial Crime | Compliance Policy Management | AML Training, Awareness Management |
 
 ## Business processes
 
@@ -392,7 +434,7 @@ Format: Canonical Name | Domain (defined_in) | Capabilities it depends_on | Alia
 | Dispute Resolution | Cards | Dispute Management | Chargeback Process |
 | Fraud Detection | Risk Management | Fraud Management | Fraud Screening |
 | Fraud Investigation | Risk Management | Fraud Management, Case Management | Fraud Case Handling |
-| Suspicious Activity Reporting | Compliance & Financial Crime | Transaction Monitoring | SAR Filing |
+| Suspicious Activity Reporting | Compliance & Financial Crime | Transaction Monitoring | SAR Process |
 | Regulatory Filing | Compliance & Financial Crime | Regulatory Reporting | Regulatory Submission |
 | Statement Generation | Deposits & Accounts | Account Servicing | Statement Production |
 | Reconciliation & Settlement | Payments | Payment Clearing & Settlement | Recon & Settlement |
@@ -416,6 +458,9 @@ Format: Canonical Name | Domain (defined_in) | Capabilities it depends_on | Alia
 | Risk Identification & Assessment | Risk Management | Operational Risk Management | Risk Assessment, Risk ID & Assessment |
 | Stress Testing | Risk Management | Market Risk Management | Capital Stress Testing, CCAR Process, Scenario Analysis |
 | Risk Reporting | Risk Management | Enterprise Risk Management | Risk Data Aggregation & Reporting, RDARR, Board Risk Reporting |
+| Customer Due Diligence Onboarding | Compliance & Financial Crime | Customer Due Diligence, Sanctions Screening | CDD Onboarding, Diligence Onboarding, AML Onboarding |
+| Sanctions Screening Operations | Compliance & Financial Crime | Sanctions Screening | Sanctions Operations, Watchlist Screening Operations, Screening Ops |
+| Regulatory Change Management | Compliance & Financial Crime | Regulatory Compliance | Reg Change Management, RCM, Regulatory Change Tracking |
 
 ## Technology capabilities
 
@@ -460,6 +505,7 @@ Format: Canonical Name | Tech Domain (defined_in) | Business capabilities that d
 | Risk Data Aggregation | Data & Analytics | Enterprise Risk Management, Credit Risk Management, Market Risk Management, Liquidity Risk Management | Risk Data Platform, BCBS 239 Platform, Risk Data Aggregation and Reporting |
 | Model Risk Management Platform | AI & Automation | Enterprise Risk Management, Credit Risk Management, Market Risk Management | MRM Platform, Model Governance Platform, Model Inventory & Validation Platform |
 | Governance Risk & Compliance Platform | Data & Analytics | Operational Risk Management, Enterprise Risk Management, Regulatory Compliance | GRC Platform, Integrated Risk Management Platform, IRM Platform |
+| KYC Onboarding Platform | AI & Automation | KYC Management, Customer Due Diligence, Customer Acquisition | Client Lifecycle Management Platform, KYC Platform, CLM Platform, Perpetual KYC Platform |
 
 ## Legacy systems
 
@@ -539,6 +585,8 @@ Format: Canonical Name | Realizes (tech capability depends_on it) | Vendor | Ali
 | Moody's RiskAuthority | Risk Data Aggregation | Moody's Analytics | RiskAuthority, Fermat |
 | IBM OpenPages | Governance Risk & Compliance Platform | IBM | OpenPages, OpenPages with Watson |
 | Archer IRM | Governance Risk & Compliance Platform | Archer | RSA Archer, Archer GRC |
+| SAS Anti-Money Laundering | Transaction Monitoring Platform | SAS | SAS AML, SAS Anti Money Laundering |
+| LexisNexis Bridger Insight | Transaction Monitoring Platform | LexisNexis Risk Solutions (Fircosoft) | Bridger Insight XG, Fircosoft, Firco, Firco Continuity |
 
 ## Modern systems
 
@@ -629,6 +677,8 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Quantexa | Risk Data Aggregation | Moody's RiskAuthority | Quantexa | Quantexa DI Platform, Contextual Decision Intelligence |
 | ValidMind | Model Risk Management Platform |  | ValidMind | ValidMind MRM, ValidMind AI Governance |
 | ModelOp | Model Risk Management Platform |  | ModelOp | ModelOp Center |
+| Napier AI | Transaction Monitoring Platform | SAS Anti-Money Laundering; LexisNexis Bridger Insight | Napier AI | Napier, Napier Continuum, Continuum, NapierAI |
+| Fenergo | KYC Onboarding Platform |  | Fenergo | Fenergo CLM, Fenergo KYC, Fenergo Client Lifecycle Management |
 
 ## Glossary terms
 
@@ -738,6 +788,26 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Risk Control Self-Assessment Engine | Governance Risk & Compliance Platform | Data & Analytics | L2 | RCSA Engine, Risk Register Engine, Control Assessment Service |
 | Loss Event Register | Governance Risk & Compliance Platform | Data & Analytics | L2 | Loss Database, Operational Loss Register, Loss Event Capture |
 | Policy & Control Management | Governance Risk & Compliance Platform | Data & Analytics | L2 | Policy Management, Control Library, Compliance Management Service |
+| Scenario Detection Engine | Transaction Monitoring Platform | AI & Automation | L2 | Behavior Detection Engine, Scenario Engine, AML Detection Engine, Typology Engine |
+| Detection Scenario Library | Scenario Detection Engine | AI & Automation | L3 | Scenario Library, Scenario Manager, Rule Library |
+| Behavioural Risk Analytics | Transaction Monitoring Platform | AI & Automation | L2 | AML Machine Learning, Anomaly Detection Service, Behavioural Profiling, Unsupervised Detection |
+| Watchlist Screening Engine | Transaction Monitoring Platform | AI & Automation | L2 | Name Screening Engine, Sanctions Matching Engine, List Screening Engine, Filter Engine |
+| Watchlist Data Management | Watchlist Screening Engine | AI & Automation | L3 | List Management Service, Reference List Manager, Sanctions List Loader, WorldCompliance Data |
+| Alert Scoring Service | Transaction Monitoring Platform | AI & Automation | L2 | Alert Prioritisation Service, Alert Correlation Service, Alert Triage Engine, Alert Generation Engine |
+| Financial Crime Case Manager | Transaction Monitoring Platform | AI & Automation | L2 | FinCrime Case Management, Investigation Workbench, Enterprise Case Management, ActOne |
+| SAR Filing Service | Financial Crime Case Manager | AI & Automation | L3 | STR Filing Service, Regulatory Report Filing (AML), goAML Connector, SAR Generator |
+| Network Entity Resolution | Transaction Monitoring Platform | AI & Automation | L2 | Entity Resolution Engine, Network Analytics, Link Analysis |
+| Regulatory Report Calculation Engine | Regulatory Reporting Engine | Data & Analytics | L2 | Report Calculation Engine, Reporting Computation Engine, Abacus Calculation Engine, Reg Calc Engine |
+| Regulatory Data Model | Regulatory Reporting Engine | Data & Analytics | L2 | Harmonised Data Model, Granular Data Layer, Reporting Data Model, Reg Data Layer |
+| Regulatory Taxonomy Manager | Regulatory Reporting Engine | Data & Analytics | L2 | Taxonomy Manager, Reporting Template Manager, XBRL Taxonomy Service, Regulatory Rules Library |
+| Report Validation Service | Regulatory Reporting Engine | Data & Analytics | L2 | Reporting Validation Service, Plausibility Check Service, Quality Rule Engine |
+| Reporting Reconciliation Workbench | Regulatory Reporting Engine | Data & Analytics | L2 | Reconciliation Workbench, Reg Reconciliation Service, Figure Reconciliation, Reporting Sign-Off |
+| Regulatory Submission Gateway | Regulatory Reporting Engine | Data & Analytics | L2 | Submission Gateway, Regulator Connectivity, Filing Gateway, Reporting API Gateway |
+| Data Quality Engine | Data Governance | Data & Analytics | L2 | Data Quality Service, DQ Engine, Data Profiling Service, Quality Monitoring |
+| Data Lineage Tracker | Data Governance | Data & Analytics | L2 | Lineage Service, Data Lineage Engine, Provenance Tracker, End-to-End Lineage |
+| Metadata Catalog | Data Governance | Data & Analytics | L2 | Data Catalog Service, Metadata Repository, Asset Catalog, Data Discovery |
+| Business Glossary Manager | Metadata Catalog | Data & Analytics | L3 | Business Glossary, Term Management, Semantic Glossary, Data Dictionary |
+| Data Policy & Stewardship Service | Data Governance | Data & Analytics | L2 | Stewardship Workflow, Policy Management (Data), Data Governance Workflow, Data Ownership Service |
 
 ## Process sub-processes
 
@@ -823,6 +893,19 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Reporting Data Aggregation | Risk Reporting | Risk Management | Data Aggregation, RDA |
 | Limit Monitoring & Escalation | Risk Reporting | Risk Management | Limit Tracking, Breach Escalation |
 | Report Production & Distribution | Risk Reporting | Risk Management | Report Production, Reporting & Distribution |
+| Identity Proofing & Verification | KYC Verification | Compliance & Financial Crime | CIP Verification |
+| Customer Watchlist Screening | KYC Verification | Compliance & Financial Crime | Onboarding Screening, KYC Screening |
+| Ongoing KYC Monitoring | KYC Verification | Compliance & Financial Crime | Ongoing Monitoring, KYC Refresh |
+| Identification & Beneficial Ownership | Customer Due Diligence Onboarding | Compliance & Financial Crime | CIP & UBO, Onboarding Identification |
+| Risk Rating & EDD Decision | Customer Due Diligence Onboarding | Compliance & Financial Crime | EDD Decisioning, Risk Rating & Approval |
+| AML Alert Investigation | Suspicious Activity Reporting | Compliance & Financial Crime | Alert Investigation, AML Case Work |
+| SAR Decision & Filing | Suspicious Activity Reporting | Compliance & Financial Crime | STR Decision |
+| Match Generation & Triage | Sanctions Screening Operations | Compliance & Financial Crime | Alert Generation & Triage, Screening Triage |
+| Hit Resolution & Reporting | Sanctions Screening Operations | Compliance & Financial Crime | Hit Disposition, Match Resolution |
+| Regulatory Filing Preparation | Regulatory Filing | Compliance & Financial Crime | Return Preparation, Filing Prep |
+| Filing Review & Submission | Regulatory Filing | Compliance & Financial Crime | Review & Submit, Filing Submission |
+| Horizon Scanning & Impact | Regulatory Change Management | Compliance & Financial Crime | Horizon Scanning, Impact Assessment |
+| Remediation & Attestation | Regulatory Change Management | Compliance & Financial Crime | Remediation & Sign-Off, Change Attestation |
 
 ## Process flow steps
 
@@ -1036,6 +1119,43 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Escalate Limit Breach | Risk Reporting | 4 | Workflow Orchestration | Raise Breach, Breach Escalation Step |
 | Compile Risk Report | Risk Reporting | 5 | Analytics Platform | Produce Risk Report, Report Compilation Step |
 | Distribute Risk Report | Risk Reporting | 6 | Regulatory Reporting Engine | Deliver Risk Report, Report Distribution Step |
+| Collect KYC Documents | KYC Verification | 1 | Intelligent Document Processing | Gather KYC Documents, KYC Intake Step |
+| Validate Customer Identity | KYC Verification | 2 | Identity Verification | Prove Customer Identity |
+| Screen Against Watchlists | KYC Verification | 3 | Sanctions Screening | Run KYC Screening |
+| Compile KYC Profile | KYC Verification | 4 | KYC Management | Build KYC Profile, Profile Compilation Step |
+| Approve KYC Outcome | KYC Verification | 5 | Workflow Orchestration | Decide KYC Outcome, KYC Approval Step |
+| Schedule KYC Review | KYC Verification | 6 | KYC Management | Set KYC Review, Review Scheduling Step |
+| Triage AML Alert | Suspicious Activity Reporting | 1 | Transaction Monitoring Platform | Screen AML Alert, Alert Triage Step |
+| Open Investigation Case | Suspicious Activity Reporting | 2 | Transaction Monitoring Platform | Create AML Case |
+| Analyse Transaction Pattern | Suspicious Activity Reporting | 3 | Transaction Monitoring | Examine Transactions, Pattern Analysis Step |
+| Determine Suspicion | Suspicious Activity Reporting | 4 | Governance Risk & Compliance Platform | Decide Suspicion, Suspicion Decision Step |
+| Lodge SAR Filing | Suspicious Activity Reporting | 5 | Regulatory Reporting Engine | Submit SAR, SAR Filing Step |
+| Notify Financial Intelligence | Suspicious Activity Reporting | 6 | Regulatory Reporting Engine | Confirm SAR, FIU Notification Step |
+| Identify Filing Obligation | Regulatory Filing | 1 | Regulatory Compliance | Determine Filing, Obligation Identification Step |
+| Aggregate Filing Data | Regulatory Filing | 2 | Data Warehousing | Gather Filing Data, Data Aggregation Step (Filing) |
+| Compile Regulatory Return | Regulatory Filing | 3 | Regulatory Reporting Engine | Build Return, Return Compilation Step |
+| Validate Filing Quality | Regulatory Filing | 4 | Regulatory Reporting Engine | Review Return, Filing Validation Step |
+| Submit Regulatory Return | Regulatory Filing | 5 | Regulatory Reporting Engine | File Return, Return Submission Step |
+| Archive Filing Record | Regulatory Filing | 6 | Document Management | Retain Filing, Filing Archival Step |
+| Capture CIP Data | Customer Due Diligence Onboarding | 1 | Customer Due Diligence | Collect CIP Data, CIP Capture Step |
+| Identify Beneficial Owner | Customer Due Diligence Onboarding | 2 | Customer Due Diligence | Capture UBO, Beneficial Ownership Step |
+| Screen CDD Parties | Customer Due Diligence Onboarding | 3 | Sanctions Screening | Diligence Screening, CDD Screening Step |
+| Rate Customer Risk | Customer Due Diligence Onboarding | 4 | Governance Risk & Compliance Platform | Score Customer Risk, Risk Rating Step |
+| Trigger Enhanced Diligence | Customer Due Diligence Onboarding | 5 | Customer Due Diligence | Perform EDD, Enhanced Diligence Step |
+| Approve CDD Outcome | Customer Due Diligence Onboarding | 6 | Workflow Orchestration | Decide CDD Outcome, CDD Approval Step |
+| Establish CDD Profile | Customer Due Diligence Onboarding | 7 | KYC Management | Create CDD Profile, Profile Establishment Step |
+| Match Against Watchlist | Sanctions Screening Operations | 1 | Sanctions Screening | Run Watchlist Match, Watchlist Matching Step |
+| Generate Sanctions Alert | Sanctions Screening Operations | 2 | Payment Sanctions Filter | Raise Sanctions Alert, Alert Generation Step (Sanctions) |
+| Triage Potential Match | Sanctions Screening Operations | 3 | Governance Risk & Compliance Platform | Screen Potential Match, L1 Triage Step |
+| Resolve Sanctions Hit | Sanctions Screening Operations | 4 | Governance Risk & Compliance Platform | Adjudicate Sanctions Hit, Hit Resolution Step |
+| Confirm Sanctions Block | Sanctions Screening Operations | 5 | Payment Sanctions Filter | Approve Sanctions Block, Block Confirmation Step |
+| Report Sanctions Block | Sanctions Screening Operations | 6 | Regulatory Reporting Engine | File Sanctions Report, Block Reporting Step |
+| Scan Regulatory Change | Regulatory Change Management | 1 | Regulatory Compliance | Horizon Scan, Regulatory Scanning Step |
+| Map Regulatory Obligation | Regulatory Change Management | 2 | Governance Risk & Compliance Platform | Map Obligation, Obligation Mapping Step |
+| Assess Regulatory Impact | Regulatory Change Management | 3 | Governance Risk & Compliance Platform | Evaluate Change Impact, Regulatory Impact Assessment Step |
+| Plan Change Remediation | Regulatory Change Management | 4 | Workflow Orchestration | Plan Remediation, Remediation Planning Step |
+| Implement Compliance Control | Regulatory Change Management | 5 | Policy & Control Management | Embed Compliance Change, Control Implementation Step |
+| Attest Change Compliance | Regulatory Change Management | 6 | Governance Risk & Compliance Platform | Sign Off Change, Change Attestation Step |
 
 ## Supporting concepts
 
@@ -1159,3 +1279,19 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Stress Test Result | artifact | Stress Result, Capital Projection Result |
 | Risk Report | artifact | Board Risk Report, Risk MI Pack |
 | Fraud Case | artifact | Fraud Investigation Case, Fraud Case File |
+| AML Compliance Officer | role | BSA Officer, CDD Officer, Onboarding AML Officer |
+| AML Investigator | role | AML Analyst, Transaction Monitoring Investigator |
+| MLRO | role | Money Laundering Reporting Officer, BSA/AML Compliance Officer |
+| Regulatory Reporting Analyst | role | Reg Reporting Analyst, Compliance Reporting Analyst |
+| Regulatory Change Manager | role | Reg Change Manager, Compliance Change Lead |
+| Customer Risk Rated Event | event | CDD Completed Event, Risk Rating Assigned Event |
+| KYC Profile Verified Event | event | KYC Completed Event, KYC Verified Event |
+| Suspicious Activity Detected Event | event | Suspicion Confirmed Event, SAR Triggered Event |
+| Sanctions Alert Event | event | Sanctions Match Event, Watchlist Hit Event |
+| Regulatory Obligation Updated Event | event | Reg Change Embedded Event, Obligation Updated Event |
+| Regulatory Filing Submitted Event | event | Filing Submitted Event, Return Filed Event |
+| Customer Risk Score | artifact | CDD Risk Score, Customer Risk Tier |
+| Sanctions Hit | artifact | Watchlist Match, Sanctions Match Alert |
+| SAR Filing | artifact | Suspicious Activity Report, FinCEN Form 111 |
+| CTR Filing | artifact | Currency Transaction Report, FinCEN Form 112 |
+| Regulatory Obligation | artifact | Compliance Obligation, Regulatory Requirement |

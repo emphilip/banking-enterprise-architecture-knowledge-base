@@ -20,7 +20,7 @@ first row whose Status is not `done`).
 | 5 | Cards | business | done | done | done | done | done |
 | 6 | Wealth & Investments | business | done | done | done | done | done |
 | 7 | Risk Management | business | done | done | done | done | done |
-| 8 | Compliance & Financial Crime | business | todo | todo | todo | todo | in-progress |
+| 8 | Compliance & Financial Crime | business | done | done | done | todo | in-progress |
 | 9 | Channels & Engagement | business | todo | todo | todo | todo | todo |
 | 10 | Finance & Treasury | business | todo | todo | todo | todo | todo |
 | 11 | Core Processing | technology | n/a | todo | n/a | todo | todo |
@@ -36,8 +36,8 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Compliance & Financial Crime
-- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-compliance-and-financial-crime-{bian,flows,tech}.md
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management (7 of 15)
+- Phase: Phase 2 Steward (done) — three proposals reconciled into glossary/_canonical-names.md; steward gate 0 FAIL / 1 WARN (pre-existing Fiserv OmniPay). Next: Phase 3 Author (write the concept/step/system files for the rows added this run).
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime registry-reconciled (8 of 15)
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
@@ -55,6 +55,88 @@ decomposition into sharper focus.
 
 ## Decisions log
 
+- (2026-06-17, Phase 2 Steward, Compliance & Financial Crime) Reconciled the three
+  Compliance & Financial Crime proposals (bian, flows, tech) into
+  glossary/_canonical-names.md after a full-registry dedupe (against every existing
+  canonical name + every existing alias and across the three proposals).
+  Counts added per section: Business capabilities +43 (Domain=Compliance & Financial
+  Crime: 1 new L2 [Financial Crime Risk Compliance, parent L1 Financial Crime
+  Compliance] + 23 L3 + 19 L4 — L3s parent to KYC Management / AML Monitoring /
+  Regulatory Compliance / the new Financial Crime Risk Compliance; L4s parent to those
+  L3s); Business processes +3 (Customer Due Diligence Onboarding, Sanctions Screening
+  Operations, Regulatory Change Management — Domain=Compliance & Financial Crime);
+  Technology capabilities +1 (KYC Onboarding Platform, Domain=AI & Automation, Enables
+  KYC Management / Customer Due Diligence / Customer Acquisition); Technology
+  sub-capabilities +20 (16 L2 + 4 L3 [Detection Scenario Library, Watchlist Data
+  Management, SAR Filing Service, Business Glossary Manager], parented to Transaction
+  Monitoring Platform / Regulatory Reporting Engine / Data Governance and their L2s;
+  Domain = same as parent: AI & Automation under TMP, Data & Analytics under the reg/
+  data-gov caps); Process sub-processes +13 (3 KYC Verification, 2 Customer Due
+  Diligence Onboarding, 2 Suspicious Activity Reporting, 2 Sanctions Screening
+  Operations, 2 Regulatory Filing, 2 Regulatory Change Management; Domain=Compliance &
+  Financial Crime); Process flow steps +37 (6 KYC Verification + 6 Suspicious Activity
+  Reporting + 6 Regulatory Filing + 7 Customer Due Diligence Onboarding + 6 Sanctions
+  Screening Operations + 6 Regulatory Change Management — Order integer contiguous per
+  process; the existing KYC Verification / Suspicious Activity Reporting / Regulatory
+  Filing processes are now decomposed); Supporting concepts +16 (5 role, 6 event, 5
+  artifact); Legacy systems +2 (SAS Anti-Money Laundering, LexisNexis Bridger Insight —
+  both realize Transaction Monitoring Platform); Modern systems +2 (Napier AI, Fenergo).
+  Total +137 rows.
+  Renames / collision resolutions (the gate keeps all sections in one name space):
+  (1) BIAN L3 capability "Regulatory Change Management" -> **Regulatory Change
+  Compliance**, because the flows proposal introduces a PROCESS named "Regulatory
+  Change Management" (capability-vs-process collision); the process keeps the plain
+  name, and the L4 child "Obligation Mapping" parents to "Regulatory Change Compliance".
+  The capability's alias "Horizon Scanning" was dropped (kept on the flows sub-process
+  "Horizon Scanning & Impact") and replaced with "Regulatory Change Interpretation".
+  (2) Existing process "Suspicious Activity Reporting" alias "SAR Filing" -> **SAR
+  Process**, so the new flows ARTIFACT "SAR Filing" can take that canonical name
+  (alias-vs-canonical clash; the artifact is the load-bearing deliverable referenced by
+  step outputs).
+  (3) New flows step "Assess Change Impact" (Regulatory Change Management, order 3) ->
+  **Assess Regulatory Impact**, because an existing step "Assess Change Impact"
+  (Account Maintenance, order 3) already carries that canonical name and the alias
+  "Impact Assessment Step"; the new step's alias became "Regulatory Impact Assessment
+  Step".
+  Alias-only fixes (avoid alias==another concept's canonical, and avoid two concepts
+  sharing an alias):
+  (a) tech sub-cap "Detection Scenario Library" dropped alias "Scenario Catalogue"
+  (== alias of cap "Scenario Library Management").
+  (b) tech sub-cap "Network Entity Resolution" dropped alias "Contextual Decision
+  Intelligence" (== alias of system "Quantexa").
+  (c) tech sub-cap "Report Validation Service" dropped alias "Validation Engine"
+  (== alias of tech sub-cap "Payment Validation Engine").
+  (d) sub-process "Identity Proofing & Verification" dropped alias "Identity
+  Verification" (== capability canonical) -> "CIP Verification".
+  (e) sub-process "SAR Decision & Filing" dropped alias "SAR Filing" (== artifact
+  canonical / process alias) -> kept "STR Decision".
+  (f) steps "Validate Customer Identity" / "Screen Against Watchlists" / "Open
+  Investigation Case" dropped aliases "Identity Proofing Step" / "Watchlist Screening
+  Step" / "Case Opening Step" respectively (each an existing step alias).
+  (g) artifact "Customer Risk Score" dropped alias "Customer Risk Rating" (== new
+  capability canonical) -> "CDD Risk Score, Customer Risk Tier".
+  (h) artifact "SAR Filing" dropped alias "STR Filing" (shared with cap "SAR Filing &
+  Tracking", which keeps it) -> "Suspicious Activity Report, FinCEN Form 111".
+  (i) sub-process "Ongoing KYC Monitoring" dropped aliases "Periodic Review" /
+  "Perpetual KYC" (shared with cap "KYC Refresh Management", which keeps them) ->
+  "Ongoing Monitoring, KYC Refresh".
+  Reuse handling (NOT re-added — flows steps/sub-processes reference the existing rows):
+  artifact **KYC Profile** (Customer Management; alias "CDD Profile") reused across KYC
+  Verification / Customer Due Diligence Onboarding; roles **Compliance Screening
+  Officer** (Sanctions Screening Operations) and **KYC Analyst** (KYC Verification / CDD
+  Onboarding) reused. So supporting concepts added 16, not the 17 declared in the flows
+  proposal.
+  Systems classification & legacy coverage (same-capability discipline only):
+  Legacy = SAS Anti-Money Laundering and LexisNexis Bridger Insight (both realize
+  Transaction Monitoring Platform). Modern = Napier AI (Transaction Monitoring Platform)
+  supersedes "SAS Anti-Money Laundering; LexisNexis Bridger Insight" — the watchlist-
+  screening legacy LexisNexis Bridger Insight was given its same-capability successor by
+  appending it to Napier AI's supersedes (both TMP), so both new legacies are covered;
+  Fenergo (KYC Onboarding Platform) is greenfield realizing the brand-new tech cap and
+  correctly carries NO supersedes (blank cell). Every supersedes target is a real
+  legacy system; no new "no successor" WARN introduced. Steward gate: 0 FAIL, 1 WARN —
+  the lone WARN ("legacy 'Fiserv OmniPay' has no modern successor") is the pre-existing
+  Cards-domain legacy unrelated to this run.
 - (2026-06-16, Phase 2 Steward, Risk Management) Reconciled the three Risk Management
   proposals (bian, flows, tech) into glossary/_canonical-names.md after a full-registry
   dedupe pass (against all existing canonical names + all ~1,739 existing aliases and
