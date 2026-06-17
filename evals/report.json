@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-17T15:50:26.431282Z",
-  "phase": "all",
+  "generated": "2026-06-17T15:55:39.366727Z",
+  "phase": "steward",
   "counts": {
     "FAIL": 0,
     "WARN": 3,
-    "INFO": 1
+    "INFO": 0
   },
   "findings": [
     {
@@ -24,12 +24,6 @@
       "phase": "steward",
       "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
       "message": "legacy 'Nasdaq Calypso' has no modern successor"
-    },
-    {
-      "severity": "INFO",
-      "phase": "weave",
-      "path": "-",
-      "message": "depends_on edges counted: 1460"
     }
   ]
 }
