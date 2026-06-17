@@ -23,7 +23,7 @@ first row whose Status is not `done`).
 | 8 | Compliance & Financial Crime | business | done | done | done | done | done |
 | 9 | Channels & Engagement | business | done | done | done | done | done |
 | 10 | Finance & Treasury | business | done | done | done | done | done |
-| 11 | Core Processing | technology | n/a | todo | n/a | todo | todo |
+| 11 | Core Processing | technology | n/a | in-progress | n/a | todo | in-progress |
 | 12 | Data & Analytics | technology | n/a | todo | n/a | todo | todo |
 | 13 | Integration & APIs | technology | n/a | todo | n/a | todo | todo |
 | 14 | Security & Identity | technology | n/a | todo | n/a | todo | todo |
@@ -35,9 +35,9 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Finance & Treasury (DONE) — 10 of 15 domains deep-dived; ALL 10 BUSINESS DOMAINS COMPLETE
-- Phase: DONE — all 5 eval gates 0 FAIL (1 advisory WARN: pre-existing Cards OmniPay); LLM-judge PASS first pass (evals/judge-finance-and-treasury.md); baseline refreshed (1504 files)
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime, Channels & Engagement, Finance & Treasury
+- Domain: Core Processing (technology, tech-only run)
+- Phase: 1 Research (in-progress) — 2 sub-agents (tech-L3 deepening + systems-refresh) writing _status/proposed-core-processing-{tech,systems}.md. All 12 top-level Core Processing tech caps already decomposed to L2/L3 by business runs; this run adds focused L3 depth + missing systems only. bian-deep/apqc-process = n/a for tech domains.
+- Done so far: ALL 10 business domains complete (1504 files). Tech domains remaining: Core Processing (now), Data & Analytics, Integration & APIs, Security & Identity, AI & Automation.
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
