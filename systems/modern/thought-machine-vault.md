@@ -18,6 +18,7 @@ sources: ["https://www.thoughtmachine.net/"]
 - Core Banking Processing depends on Thought Machine Vault.
 - Thought Machine Vault supersedes Temenos T24.
 - Thought Machine Vault supersedes Oracle FLEXCUBE.
+- Thought Machine Vault supersedes Avaloq Banking Suite.
 - Thought Machine Vault is related to Mambu.
 
 ## Details

@@ -18,6 +18,7 @@ sources: ["https://www.mambu.com/"]
 - Core Banking Processing depends on Mambu.
 - Mambu supersedes Fiserv DNA.
 - Mambu supersedes Jack Henry SilverLake.
+- Mambu supersedes Sopra Amplitude.
 - Mambu is related to Thought Machine Vault.
 
 ## Details
