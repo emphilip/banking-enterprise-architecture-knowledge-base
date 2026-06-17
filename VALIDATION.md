@@ -368,3 +368,46 @@ left as acceptable (all above the <3 floor).
 capabilities (L1–L4), 126 technology capabilities + sub-capabilities, 116
 processes + sub-processes, 208 process-flow steps, 118 supporting concepts,
 72 legacy + 83 modern systems, 10 glossary terms.
+
+---
+
+## Deep-dive: Compliance & Financial Crime domain (2026-06-16)
+
+Eighth domain deep-dive via the eval-gated pipeline.
+
+**Added (~137 concepts):** 1 L2 + 23 L3 + 19 L4 business capabilities; **1 new
+top-level technology capability** (KYC Onboarding Platform) + 20 sub-capabilities
+(decomposing Transaction Monitoring Platform, Regulatory Reporting Engine, Data
+Governance); 3 new top-level processes (Customer Due Diligence Onboarding,
+Sanctions Screening Operations, Regulatory Change Management); 13 sub-processes;
+37 ordered process-flow steps across 6 processes — including the **first
+decomposition of KYC Verification, Suspicious Activity Reporting, and Regulatory
+Filing** — (with `## Flow` sections); 16 supporting concepts (reusing KYC
+Profile, Compliance Screening Officer, KYC Analyst); 2 new legacy + 2 new modern
+systems.
+
+**Eval gates (deterministic):** research / steward / author / weave / all → 0
+FAIL. The one advisory WARN is the pre-existing Cards Fiserv OmniPay gap.
+
+**Steward:** renames (cap Regulatory Change Management → **Regulatory Change
+Compliance**; process keeps the plain name; existing SAR process alias → SAR
+Process so the new SAR Filing artifact takes that canonical; step Assess Change
+Impact → Assess Regulatory Impact); reused KYC Profile / Compliance Screening
+Officer / KYC Analyst; Napier AI covers both new legacies same-capability;
+Fenergo greenfield.
+
+**Eval gate (semantic, LLM-judge, `evals/judge-compliance-and-financial-crime.md`):**
+initial run FAILed — Groundedness 3.96 and a blocking per-note error
+(L2 Financial Crime Risk Compliance mis-attributed the 22 predicate offences /
+criminal liability for legal persons to Directive (EU) 2024/1640; these belong to
+the criminal-law 6AMLD = Directive (EU) 2018/1673). Fixed the directive citation
+(L2 re-judged 2→5 on accuracy and groundedness) plus removed an unsourced ">90%"
+false-positive stat, replaced an unsourced "preponderance standard" with a
+documented true/false-match determination, and swapped blog sources for EBA
+DPM/XBRL and BCBS 239. Re-judge: PASS — means accuracy 4.57, groundedness 4.21,
+relationships 4.64, naming 4.43, granularity 4.32.
+
+**Knowledge base totals after Compliance & Financial Crime deep-dive:** 370
+business capabilities (L1–L4), 147 technology capabilities + sub-capabilities,
+132 processes + sub-processes, 245 process-flow steps, 134 supporting
+concepts, 74 legacy + 85 modern systems, 10 glossary terms.

@@ -20,7 +20,7 @@ first row whose Status is not `done`).
 | 5 | Cards | business | done | done | done | done | done |
 | 6 | Wealth & Investments | business | done | done | done | done | done |
 | 7 | Risk Management | business | done | done | done | done | done |
-| 8 | Compliance & Financial Crime | business | done | done | done | in-progress | in-progress |
+| 8 | Compliance & Financial Crime | business | done | done | done | done | done |
 | 9 | Channels & Engagement | business | todo | todo | todo | todo | todo |
 | 10 | Finance & Treasury | business | todo | todo | todo | todo | todo |
 | 11 | Core Processing | technology | n/a | todo | n/a | todo | todo |
@@ -35,23 +35,22 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Compliance & Financial Crime
-- Phase: Phase 2 Steward (done) — three proposals reconciled into glossary/_canonical-names.md; steward gate 0 FAIL / 1 WARN (pre-existing Fiserv OmniPay). Next: Phase 3 Author (write the concept/step/system files for the rows added this run).
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime registry-reconciled (8 of 15)
+- Domain: Compliance & Financial Crime (DONE) — 8 of 15 domains deep-dived
+- Phase: DONE — all 5 eval gates 0 FAIL (1 advisory WARN: pre-existing Cards OmniPay); LLM-judge PASS after fixes incl. 6AMLD directive correction (evals/judge-compliance-and-financial-crime.md); baseline refreshed (1212 files)
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
 - [ ] Deepen the next domain: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
-      (first not-done row = Compliance & Financial Crime). Same eval-gated pipeline;
-      source-anchored Details up front; same-capability supersedes. Compliance has L1
-      Financial Crime Compliance + L2 KYC Management / AML Monitoring / Regulatory
-      Compliance (+ L3 Transaction Monitoring, Sanctions Screening, Regulatory
-      Reporting) and processes Suspicious Activity Reporting / Regulatory Filing;
-      relevant tech = Transaction Monitoring Platform, Data Governance, Regulatory
-      Reporting Engine. Consider new processes (KYC Refresh/Periodic Review, Sanctions
-      Screening, SAR Filing decomposition, Regulatory Change Management). May need a
-      new top-level FinCrime/RegTech tech cap if Transaction Monitoring Platform is
-      insufficient.
+      (first not-done row = Channels & Engagement). Same eval-gated pipeline;
+      source-anchored Details up front; same-capability supersedes. Channels has L1
+      Channel Management + L2 Digital Banking / Branch Banking / Contact Center /
+      ATM Management (+ L3 Mobile Banking, Online Banking) and no dedicated process
+      yet beyond Branch Operations; relevant tech = Digital Channel Platform,
+      Contact Center Platform, CRM Platform, Conversational AI, API Management.
+      Propose new processes (Digital Onboarding Journey, Channel Servicing, ATM
+      Cash Management, Branch Servicing, Omnichannel Engagement). Decompose Digital
+      Channel Platform / Contact Center Platform to L2/L3 + channel systems.
 
 ## Decisions log
 

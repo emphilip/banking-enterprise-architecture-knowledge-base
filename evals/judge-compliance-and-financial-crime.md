@@ -61,3 +61,41 @@ Either condition alone fails the gate. The L2 note must be fixed and re-judged b
 - **01-scan-regulatory-change.md (naming):** Confirm the parent process id "Regulatory Change Management" is the registered process backing the L3 capability "Regulatory Change Compliance"; align names if they are meant to be the same flow.
 - **mlro.md (minor):** References list (FATF R.20, Wolfsberg) is not reflected in frontmatter `sources`; align. Consider clarifying that "BSA/AML Compliance Officer" is the US analogue, not an exact synonym.
 - **kyc-onboarding-platform.md (minor):** "NICE Actimize CDD" named in Details has no cited source; either cite or drop.
+
+## Re-judge (groundedness fixes)
+
+Re-judge date: 2026-06-17. Reviewer: judge sub-agent (strict). Scope: the 7
+revised Compliance & Financial Crime notes, re-scored on **Definitional accuracy**
+and **Groundedness** only. Claims re-verified against cited sources via web search
+(EUR-Lex 2018/1673, EBA reporting frameworks, BCBS 239).
+
+| path | grounded (before->after) | accuracy (before->after) | notes |
+|---|---|---|---|
+| business-capabilities/L2-financial-crime-risk-compliance.md | 2 -> 5 | 2 -> 5 | Blocking error fixed. The 22 predicate offences and criminal liability for legal persons are now correctly attributed to the criminal-law 6AMLD = Directive (EU) 2018/1673 (cited, verified: 2018/1673 establishes 22 predicate offences incl. corruption/cybercrime/environmental crime and extends criminal liability to legal persons). Note correctly adds that the 2024 package (Dir (EU) 2024/1640 + AMLR + AMLA) governs the institutional/supervisory framework. Fully grounded and accurate. |
+| business-capabilities/L3-alert-management.md | 3 -> 4 | 4 -> 4 | Unsourced ">90% false-positive" figure removed; now "very high false-positive volumes" — qualitative claim consistent with Wolfsberg effectiveness framing. Grounded. |
+| process-flows/sanctions-screening-operations/04-resolve-sanctions-hit.md | 3 -> 4 | 4 -> 4 | "Preponderance standard" replaced with "documented true-match/false-positive determination" — neutral wording supported by the cited Oracle alert-decision disposition doc. |
+| business-processes/sanctions-screening-operations.md | 4 -> 4 | 4 -> 4 | Same "preponderance" -> "documented true-match/false-positive determination" fix; was already 4, remains 4. Verified deadline (10 business days) and flow unchanged. |
+| technology-capabilities/regulatory-taxonomy-manager.md | 3 -> 4 | 4 -> 4 | Medium (Suade) blog replaced with EBA Reporting Frameworks (DPM/XBRL) — authoritative primary source verified to cover DPM + XBRL taxonomies for regulatory returns. DPM-cell-mapping claim now grounded. |
+| technology-capabilities/data-lineage-tracker.md | 3 -> 4 | 4 -> 4 | Third-party blogs replaced with BCBS 239 (BIS) + Collibra official. BCBS 239 verified to require traceability of aggregated risk data back to source transactions/positions, supporting the "complete-lineage evidence" claim. |
+
+### Recomputed sample Groundedness mean
+
+Groundedness delta across revised notes: L2 +3, L3-alert-management +1,
+04-resolve-sanctions-hit +1, regulatory-taxonomy-manager +1, data-lineage-tracker
++1, sanctions-screening-operations +0 = **+7**.
+
+- Prior Groundedness sum (n=28) = 111; new sum = 111 + 7 = **118**.
+- New sample Groundedness mean = 118 / 28 = **4.21** (was 3.96).
+
+Definitional accuracy also rises (L2 +3): prior sum 125 -> 128, mean **4.57**
+(was 4.46). Relationship sensibility (4.64), Canonical naming (4.43) and
+Granularity (4.32) are unchanged — none were affected by these revisions and all
+remain >= 4.0.
+
+### Gate result: PASS
+
+1. Mean >= 4.0 on every dimension: Accuracy 4.57, **Groundedness 4.21**, Relationship 4.64, Naming 4.43, Granularity 4.32 — all >= 4.0. PASS.
+2. No individual note < 3 on Groundedness or Relationship sensibility: the previously failing L2 note now scores Groundedness 5 / Relationship 4; no remaining note scores < 3 on either dimension. PASS.
+
+Both gate conditions are satisfied. The Compliance & Financial Crime domain now
+**PASSES** the LLM-judge gate and can be marked `done`.
