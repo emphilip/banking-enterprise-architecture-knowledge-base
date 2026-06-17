@@ -20,6 +20,13 @@ status: draft
 ## Details
 Suspicious Activity Reporting reviews alerts from transaction monitoring, investigates and documents the rationale, and files reports such as SARs or STRs with the relevant financial intelligence unit. Actors include AML analysts and the money laundering reporting officer. Systems involved include a transaction monitoring platform, case management, and regulatory filing channels.
 
+## Flow
+- Triage AML Alert causes Open Investigation Case.
+- Open Investigation Case causes Analyse Transaction Pattern.
+- Analyse Transaction Pattern causes Determine Suspicion.
+- Determine Suspicion causes Lodge SAR Filing.
+- Lodge SAR Filing causes Notify Financial Intelligence.
+
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)

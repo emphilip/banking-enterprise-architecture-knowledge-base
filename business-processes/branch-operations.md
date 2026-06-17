@@ -19,6 +19,14 @@ status: draft
 ## Details
 Branch Operations covers branch opening and closing controls, teller and cash transactions, customer servicing at the counter, and end-of-day balancing and reconciliation. Actors include branch staff, tellers, and branch managers. Systems involved include branch teller applications, the core banking system, and cash management tooling.
 
+## Flow
+- Open Branch Cash causes Serve Counter Customer.
+- Serve Counter Customer causes Process Teller Transaction.
+- Process Teller Transaction causes Replenish Teller Drawer.
+- Replenish Teller Drawer causes Balance Teller Drawer.
+- Balance Teller Drawer causes Reconcile Branch Cash.
+- Reconcile Branch Cash causes Close Branch.
+
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)

@@ -6,7 +6,7 @@ domain: Customer Management
 level: L4
 aliases: ["Lead Intake", "Inquiry Capture"]
 status: draft
-sources: ["https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3", "https://bian.org/servicelandscape/"]
+sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/process-frameworks"]
 ---
 
 # Lead Capture
@@ -20,8 +20,8 @@ sources: ["https://www.apqc.org/resource-library/resource-listing/30-market-and-
 - Lead Capture depends on the CRM Platform capability.
 
 ## Details
-Lead Capture extends its parent Lead Management within the Customer Management domain and is grounded in BIAN Service Domain mappings and APQC PCF alignment. Lead Capture relies on the CRM Platform technology capability for its core processing and integrates with adjacent Customer Management capabilities. Implementations typically apply cloud-native, API-led and AI-assisted patterns to deliver Lead Capture at scale.
+Lead Capture is the intake stage of the BIAN Lead/Opportunity Management service domain, normalising inbound enquiries and outbound responses from web, mobile, branch, contact-centre, campaign and partner sources into a single managed pipeline. Lead Capture aligns to APQC PCF category 3.0 (Market and Sell Products and Services) and persists captured leads in the CRM Platform with source attribution and consent context, ready for downstream qualification.
 
 ## References
-- [https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3](https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3)
-- [https://bian.org/servicelandscape/](https://bian.org/servicelandscape/)
+- [BIAN Service Landscape](https://bian.org/servicelandscape/)
+- [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)

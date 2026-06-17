@@ -76,6 +76,61 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Pega Customer Service supersedes Siebel CRM.
 - Reltio supersedes Informatica MDM.
 - Amazon Lex supersedes Legacy IVR System.
+- Temenos Origination supersedes Ellie Mae Encompass.
+- Temenos Origination supersedes Finastra LaserPro.
+- MeridianLink supersedes Finastra LaserPro.
+- Provenir supersedes FICO Origination Manager.
+- Provenir supersedes Experian PowerCurve.
+- SAP Deposits Management supersedes Legacy Mainframe Core.
+- SAP Deposits Management supersedes FIS Horizon.
+- Tuum supersedes Fiserv Premier.
+- SaaScada supersedes Jack Henry Core Director.
+- Thredd supersedes First Data Cards.
+- Lithic supersedes First Data Cards.
+- i2c supersedes TSYS TS2.
+- i2c supersedes Fiserv Optis.
+- Pismo supersedes TSYS TS2.
+- Pismo supersedes FIS Card Management.
+- Episode Six supersedes First Data Cards.
+- BlackRock Aladdin supersedes SS&C Advent Geneva.
+- BlackRock Aladdin supersedes SunGard Asset Arena.
+- SimCorp One supersedes FIS Global Plus.
+- SimCorp One supersedes SunGard Asset Arena.
+- Addepar supersedes Broadridge Portfolio Master.
+- Charles River IMS supersedes SS&C Advent Moxy.
+- Bloomberg AIM supersedes SS&C Advent Moxy.
+- InvestCloud supersedes Temenos WealthSuite.
+- Envestnet supersedes Temenos WealthSuite.
+- Murex MX.3 Risk supersedes FIS Adaptiv.
+- Murex MX.3 Risk supersedes Oracle OFSAA.
+- MSCI RiskMetrics supersedes IBM Algorithmics.
+- MSCI RiskMetrics supersedes SAS Risk Management for Banking.
+- Numerix Oneview supersedes Moody's RiskFrontier.
+- ServiceNow IRM supersedes Archer IRM.
+- MetricStream supersedes IBM OpenPages.
+- Quantexa supersedes Moody's RiskAuthority.
+- Napier AI supersedes SAS Anti-Money Laundering.
+- Napier AI supersedes LexisNexis Bridger Insight.
+- Temenos Infinity supersedes Legacy Online Banking.
+- Temenos Infinity supersedes Kony DBX.
+- Alkami supersedes Legacy Online Banking.
+- NICE CXone supersedes Avaya Aura.
+- Five9 supersedes Cisco UCCE.
+- Twilio Flex supersedes Avaya Aura.
+- Glia supersedes Cisco UCCE.
+- Verint WFM Cloud supersedes Verint WFM.
+- SAP S/4HANA Finance supersedes SAP ECC.
+- SAP S/4HANA Finance supersedes Oracle E-Business Suite.
+- OneStream supersedes Oracle Hyperion HFM.
+- OneStream supersedes SAP BPC.
+- Oracle EPM Cloud supersedes Oracle Hyperion HFM.
+- Anaplan supersedes SAP BPC.
+- Kyriba supersedes SunGard AvantGard.
+- ION Treasury supersedes SAP Treasury And Risk Management.
+- GTreasury supersedes SunGard AvantGard.
+- Empyrean Sol ALM supersedes QRM Balance Sheet Management.
+- Empyrean Sol ALM supersedes SAS Asset And Liability Management.
+- Moody's Balance Sheet Management supersedes QRM Balance Sheet Management.
 
 ## Realization statements
 
@@ -127,6 +182,41 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Payment Orchestration depends on ACI Enterprise Payments Platform.
 - CRM Platform depends on SAP CRM.
 - Master Data Management depends on Informatica MDM.
+- Loan Origination Platform depends on Ellie Mae Encompass.
+- Loan Origination Platform depends on Finastra LaserPro.
+- Credit Decisioning Engine depends on FICO Origination Manager.
+- Credit Decisioning Engine depends on Experian PowerCurve.
+- Core Banking Processing depends on Fiserv Premier.
+- Core Banking Processing depends on Jack Henry Core Director.
+- Core Banking Processing depends on FIS Horizon.
+- Card Processing depends on FIS Card Management.
+- Card Processing depends on Fiserv OmniPay.
+- Card Processing depends on Fiserv Optis.
+- Portfolio Management System depends on FIS Global Plus.
+- Portfolio Management System depends on SunGard Asset Arena.
+- Portfolio Management System depends on SS&C Advent Geneva.
+- Order Management System depends on SS&C Advent Moxy.
+- Portfolio Management System depends on Broadridge Portfolio Master.
+- Investment Advisory Platform depends on Temenos WealthSuite.
+- Risk Analytics Engine depends on SAS Risk Management for Banking.
+- Risk Analytics Engine depends on Oracle OFSAA.
+- Risk Analytics Engine depends on Moody's RiskFrontier.
+- Risk Analytics Engine depends on IBM Algorithmics.
+- Risk Analytics Engine depends on FIS Adaptiv.
+- Risk Data Aggregation depends on Moody's RiskAuthority.
+- Governance Risk & Compliance Platform depends on IBM OpenPages.
+- Governance Risk & Compliance Platform depends on Archer IRM.
+- Transaction Monitoring Platform depends on SAS Anti-Money Laundering.
+- Transaction Monitoring Platform depends on LexisNexis Bridger Insight.
+- Digital Channel Platform depends on Kony DBX.
+- Contact Center Platform depends on Verint WFM.
+- General Ledger Engine depends on Oracle E-Business Suite.
+- Financial Consolidation Platform depends on Oracle Hyperion HFM.
+- Financial Consolidation Platform depends on SAP BPC.
+- Treasury Management System depends on SunGard AvantGard.
+- Treasury Management System depends on SAP Treasury And Risk Management.
+- Asset Liability Management Engine depends on QRM Balance Sheet Management.
+- Asset Liability Management Engine depends on SAS Asset And Liability Management.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -184,6 +274,50 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - CRM Platform depends on Pega Customer Service.
 - Master Data Management depends on Reltio.
 - Conversational AI depends on Amazon Lex.
+- Loan Origination Platform depends on Temenos Origination.
+- Loan Origination Platform depends on MeridianLink.
+- Credit Decisioning Engine depends on Provenir.
+- Core Banking Processing depends on SAP Deposits Management.
+- Core Banking Processing depends on Tuum.
+- Core Banking Processing depends on SaaScada.
+- Card Processing depends on Thredd.
+- Card Processing depends on Lithic.
+- Card Processing depends on i2c.
+- Card Processing depends on Pismo.
+- Card Processing depends on Episode Six.
+- Portfolio Management System depends on BlackRock Aladdin.
+- Portfolio Management System depends on SimCorp One.
+- Portfolio Management System depends on Addepar.
+- Order Management System depends on Charles River IMS.
+- Order Management System depends on Bloomberg AIM.
+- Investment Advisory Platform depends on InvestCloud.
+- Investment Advisory Platform depends on Envestnet.
+- Risk Analytics Engine depends on Murex MX.3 Risk.
+- Risk Analytics Engine depends on MSCI RiskMetrics.
+- Risk Analytics Engine depends on Numerix Oneview.
+- Governance Risk & Compliance Platform depends on ServiceNow IRM.
+- Governance Risk & Compliance Platform depends on MetricStream.
+- Risk Data Aggregation depends on Quantexa.
+- Model Risk Management Platform depends on ValidMind.
+- Model Risk Management Platform depends on ModelOp.
+- Transaction Monitoring Platform depends on Napier AI.
+- KYC Onboarding Platform depends on Fenergo.
+- Digital Channel Platform depends on Temenos Infinity.
+- Digital Channel Platform depends on Alkami.
+- Contact Center Platform depends on NICE CXone.
+- Contact Center Platform depends on Five9.
+- Contact Center Platform depends on Twilio Flex.
+- Contact Center Platform depends on Glia.
+- Contact Center Platform depends on Verint WFM Cloud.
+- General Ledger Engine depends on SAP S/4HANA Finance.
+- Financial Consolidation Platform depends on OneStream.
+- Financial Consolidation Platform depends on Oracle EPM Cloud.
+- Financial Consolidation Platform depends on Anaplan.
+- Treasury Management System depends on Kyriba.
+- Treasury Management System depends on ION Treasury.
+- Treasury Management System depends on GTreasury.
+- Asset Liability Management Engine depends on Empyrean Sol ALM.
+- Asset Liability Management Engine depends on Moody's Balance Sheet Management.
 
 ## Successor matrix
 | Technology Capability | Legacy System | Modern Successor |
@@ -191,24 +325,45 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | API Management | CA API Gateway | Apigee |
 | API Management | CA API Gateway | Kong |
 | Analytics Platform | IBM Cognos | Microsoft Power BI |
+| Asset Liability Management Engine | QRM Balance Sheet Management | Empyrean Sol ALM |
+| Asset Liability Management Engine | QRM Balance Sheet Management | Moody's Balance Sheet Management |
+| Asset Liability Management Engine | SAS Asset And Liability Management | Empyrean Sol ALM |
 | CRM Platform | SAP CRM | Microsoft Dynamics 365 |
 | CRM Platform | Siebel CRM | Pega Customer Service |
 | CRM Platform | Siebel CRM | Salesforce Financial Services Cloud |
+| Card Processing | FIS Card Management | Pismo |
+| Card Processing | First Data Cards | Episode Six |
 | Card Processing | First Data Cards | Galileo |
+| Card Processing | First Data Cards | Lithic |
+| Card Processing | First Data Cards | Thredd |
+| Card Processing | Fiserv Optis | i2c |
 | Card Processing | TSYS TS2 | Marqeta |
+| Card Processing | TSYS TS2 | Pismo |
+| Card Processing | TSYS TS2 | i2c |
 | Contact Center Platform | Avaya Aura | Amazon Connect |
+| Contact Center Platform | Avaya Aura | NICE CXone |
+| Contact Center Platform | Avaya Aura | Twilio Flex |
+| Contact Center Platform | Cisco UCCE | Five9 |
 | Contact Center Platform | Cisco UCCE | Genesys Cloud |
+| Contact Center Platform | Cisco UCCE | Glia |
+| Contact Center Platform | Verint WFM | Verint WFM Cloud |
 | Conversational AI | Legacy IVR System | Amazon Lex |
 | Conversational AI | Legacy IVR System | Kasisto |
+| Core Banking Processing | FIS Horizon | SAP Deposits Management |
 | Core Banking Processing | FIS Profile | Finxact |
 | Core Banking Processing | Fiserv DNA | Mambu |
+| Core Banking Processing | Fiserv Premier | Tuum |
 | Core Banking Processing | Infosys Finacle | Finxact |
+| Core Banking Processing | Jack Henry Core Director | SaaScada |
 | Core Banking Processing | Jack Henry SilverLake | Mambu |
 | Core Banking Processing | Legacy Mainframe Core | 10x Banking |
+| Core Banking Processing | Legacy Mainframe Core | SAP Deposits Management |
 | Core Banking Processing | Oracle FLEXCUBE | Thought Machine Vault |
 | Core Banking Processing | TCS BaNCS | 10x Banking |
 | Core Banking Processing | Temenos T24 | Temenos Transact |
 | Core Banking Processing | Temenos T24 | Thought Machine Vault |
+| Credit Decisioning Engine | Experian PowerCurve | Provenir |
+| Credit Decisioning Engine | FICO Origination Manager | Provenir |
 | Credit Decisioning Engine | Legacy Credit Scoring | Upstart |
 | Credit Decisioning Engine | Legacy Credit Scoring | Zest AI |
 | Customer Identity | IBM Tivoli Identity Manager | Auth0 |
@@ -217,13 +372,24 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Data Warehousing | IBM Db2 | Google BigQuery |
 | Data Warehousing | Oracle Exadata | Databricks |
 | Data Warehousing | Teradata | Snowflake |
+| Digital Channel Platform | Kony DBX | Temenos Infinity |
+| Digital Channel Platform | Legacy Online Banking | Alkami |
 | Digital Channel Platform | Legacy Online Banking | Backbase |
 | Digital Channel Platform | Legacy Online Banking | Q2 |
+| Digital Channel Platform | Legacy Online Banking | Temenos Infinity |
+| Financial Consolidation Platform | Oracle Hyperion HFM | OneStream |
+| Financial Consolidation Platform | Oracle Hyperion HFM | Oracle EPM Cloud |
+| Financial Consolidation Platform | SAP BPC | Anaplan |
+| Financial Consolidation Platform | SAP BPC | OneStream |
 | Fraud Analytics | FICO Falcon | Feedzai |
 | Fraud Analytics | SAS Fraud Management | Featurespace |
+| General Ledger Engine | Oracle E-Business Suite | SAP S/4HANA Finance |
 | General Ledger Engine | SAP ECC | Oracle Fusion ERP |
+| General Ledger Engine | SAP ECC | SAP S/4HANA Finance |
 | General Ledger Engine | SAP ECC | Workday Financials |
 | Generative AI Platform | Legacy IVR System | Anthropic Claude |
+| Governance Risk & Compliance Platform | Archer IRM | ServiceNow IRM |
+| Governance Risk & Compliance Platform | IBM OpenPages | MetricStream |
 | Identity Access Management | CA SiteMinder | Okta |
 | Identity Access Management | Oracle Identity Manager | ForgeRock |
 | Integration Platform | Oracle SOA Suite | MuleSoft |
@@ -231,12 +397,19 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Integration Platform | webMethods | Boomi |
 | Intelligent Document Processing | IBM FileNet | Hyperscience |
 | Intelligent Document Processing | OpenText Documentum | AWS Textract |
+| Investment Advisory Platform | Temenos WealthSuite | Envestnet |
+| Investment Advisory Platform | Temenos WealthSuite | InvestCloud |
 | Loan Origination Platform | Black Knight Empower | Blend |
 | Loan Origination Platform | Black Knight Empower | nCino |
+| Loan Origination Platform | Ellie Mae Encompass | Temenos Origination |
+| Loan Origination Platform | Finastra LaserPro | MeridianLink |
+| Loan Origination Platform | Finastra LaserPro | Temenos Origination |
 | Machine Learning Platform | SAS Platform | Amazon SageMaker |
 | Machine Learning Platform | SAS Platform | DataRobot |
 | Machine Learning Platform | SAS Platform | Google Vertex AI |
 | Master Data Management | Informatica MDM | Reltio |
+| Order Management System | SS&C Advent Moxy | Bloomberg AIM |
+| Order Management System | SS&C Advent Moxy | Charles River IMS |
 | Payment Orchestration | ACH Batch Processor | Bottomline Payments |
 | Payment Orchestration | ACH Batch Processor | Modern Treasury |
 | Payment Orchestration | ACH Batch Processor | Stripe |
@@ -247,9 +420,25 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Payment Orchestration | Finastra Global PAYplus | Form3 |
 | Payment Orchestration | Legacy Payment Hub | Adyen |
 | Payment Orchestration | Legacy Payment Hub | Form3 |
+| Portfolio Management System | Broadridge Portfolio Master | Addepar |
+| Portfolio Management System | FIS Global Plus | SimCorp One |
+| Portfolio Management System | SS&C Advent Geneva | BlackRock Aladdin |
+| Portfolio Management System | SunGard Asset Arena | BlackRock Aladdin |
+| Portfolio Management System | SunGard Asset Arena | SimCorp One |
 | Regulatory Reporting Engine | AxiomSL | Regnology |
 | Regulatory Reporting Engine | Wolters Kluwer OneSumX | Suade |
+| Risk Analytics Engine | FIS Adaptiv | Murex MX.3 Risk |
+| Risk Analytics Engine | IBM Algorithmics | MSCI RiskMetrics |
+| Risk Analytics Engine | Moody's RiskFrontier | Numerix Oneview |
+| Risk Analytics Engine | Oracle OFSAA | Murex MX.3 Risk |
+| Risk Analytics Engine | SAS Risk Management for Banking | MSCI RiskMetrics |
+| Risk Data Aggregation | Moody's RiskAuthority | Quantexa |
+| Transaction Monitoring Platform | LexisNexis Bridger Insight | Napier AI |
 | Transaction Monitoring Platform | NICE Actimize | ComplyAdvantage |
 | Transaction Monitoring Platform | Oracle Mantas | Hawk AI |
+| Transaction Monitoring Platform | SAS Anti-Money Laundering | Napier AI |
+| Treasury Management System | SAP Treasury And Risk Management | ION Treasury |
+| Treasury Management System | SunGard AvantGard | GTreasury |
+| Treasury Management System | SunGard AvantGard | Kyriba |
 | Workflow Orchestration | Pega BPM | Camunda |
 | Workflow Orchestration | Pega BPM | Temporal |

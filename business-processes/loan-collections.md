@@ -22,3 +22,10 @@ Loan Collections identifies overdue accounts, prioritizes them by risk, contacts
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)
+
+## Flow
+- Detect Delinquency causes Segment Arrears.
+- Segment Arrears causes Contact Borrower.
+- Contact Borrower causes Negotiate Repayment.
+- Negotiate Repayment causes Escalate To Recovery.
+- Escalate To Recovery causes Charge Off Debt.

@@ -6,7 +6,7 @@ domain: Customer Management
 level: L3
 aliases: ["Onboarding Coordination", "Origination Orchestration"]
 status: draft
-sources: ["https://bian.org/servicelandscape-10-0-0/object_23.html?object=30995", "https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3"]
+sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/process-frameworks"]
 ---
 
 # Onboarding Orchestration
@@ -20,8 +20,8 @@ sources: ["https://bian.org/servicelandscape-10-0-0/object_23.html?object=30995"
 - Onboarding Orchestration depends on the Workflow Orchestration capability.
 
 ## Details
-Onboarding Orchestration extends its parent Customer Acquisition within the Customer Management domain and is grounded in BIAN Service Domain mappings and APQC PCF alignment. Onboarding Orchestration relies on the Workflow Orchestration technology capability for its core processing and integrates with adjacent Customer Management capabilities. Implementations typically apply cloud-native, API-led and AI-assisted patterns to deliver Onboarding Orchestration at scale.
+Onboarding Orchestration coordinates the BIAN Party Lifecycle Management service domain together with the supporting Customer Relationship Management, Party Authentication and Customer Agreement domains, sequencing identity, due-diligence, agreement and account-setup steps into one managed journey. Onboarding Orchestration aligns to APQC PCF customer-management processes and is realised on the Workflow Orchestration technology capability, which enforces step order, parallelism, hand-offs and SLAs across the acquisition flow.
 
 ## References
-- [https://bian.org/servicelandscape-10-0-0/object_23.html?object=30995](https://bian.org/servicelandscape-10-0-0/object_23.html?object=30995)
-- [https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3](https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3)
+- [BIAN Service Landscape](https://bian.org/servicelandscape/)
+- [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)

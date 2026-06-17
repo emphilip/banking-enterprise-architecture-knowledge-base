@@ -6,7 +6,7 @@ domain: Customer Management
 level: L4
 aliases: ["Application Status Management", "Application Monitoring"]
 status: draft
-sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3"]
+sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/process-frameworks"]
 ---
 
 # Application Tracking
@@ -20,8 +20,8 @@ sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/resource-l
 - Application Tracking depends on the Notification Services capability.
 
 ## Details
-Application Tracking extends its parent Application Processing within the Customer Management domain and is grounded in BIAN Service Domain mappings and APQC PCF alignment. Application Tracking relies on the Notification Services technology capability for its core processing and integrates with adjacent Customer Management capabilities. Implementations typically apply cloud-native, API-led and AI-assisted patterns to deliver Application Tracking at scale.
+Application Tracking monitors the status, completeness and SLA progression of in-flight product applications and keeps the customer informed of decisions and outstanding actions, supporting the BIAN Customer Offer service domain and the Customer Case service domain that holds the application work item. Application Tracking aligns to APQC PCF customer-management processes and uses the Notification Services technology capability to push status updates across the customer's preferred channels.
 
 ## References
-- [https://bian.org/servicelandscape/](https://bian.org/servicelandscape/)
-- [https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3](https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3)
+- [BIAN Service Landscape](https://bian.org/servicelandscape/)
+- [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)

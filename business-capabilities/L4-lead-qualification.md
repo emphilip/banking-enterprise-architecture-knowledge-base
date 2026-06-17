@@ -6,7 +6,7 @@ domain: Customer Management
 level: L4
 aliases: ["Lead Scoring", "Lead Routing"]
 status: draft
-sources: ["https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3", "https://bian.org/servicelandscape/"]
+sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/process-frameworks"]
 ---
 
 # Lead Qualification
@@ -20,8 +20,8 @@ sources: ["https://www.apqc.org/resource-library/resource-listing/30-market-and-
 - Lead Qualification depends on the Analytics Platform capability.
 
 ## Details
-Lead Qualification extends its parent Lead Management within the Customer Management domain and is grounded in BIAN Service Domain mappings and APQC PCF alignment. Lead Qualification relies on the Analytics Platform technology capability for its core processing and integrates with adjacent Customer Management capabilities. Implementations typically apply cloud-native, API-led and AI-assisted patterns to deliver Lead Qualification at scale.
+Lead Qualification is the scoring and routing stage of the BIAN Lead/Opportunity Management service domain, ranking captured leads by propensity, eligibility and value so that sales effort is prioritised. Lead Qualification aligns to APQC PCF category 3.0 (Market and Sell Products and Services) manage-sales-opportunities processes, and applies propensity and eligibility models served by the Analytics Platform technology capability before passing qualified opportunities back to Lead Management for conversion tracking.
 
 ## References
-- [https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3](https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3)
-- [https://bian.org/servicelandscape/](https://bian.org/servicelandscape/)
+- [BIAN Service Landscape](https://bian.org/servicelandscape/)
+- [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)

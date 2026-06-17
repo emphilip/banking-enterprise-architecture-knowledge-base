@@ -12,67 +12,284 @@ Each business capability / process / step and the technology capabilities it dep
 ## Dependency statements
 
 - ACH Return Handling depends on the Payment Orchestration capability.
+- AML Case Investigation depends on the Analytics Platform capability.
+- AML Case Investigation depends on the Machine Learning Platform capability.
+- AML Customer Due Diligence depends on the Customer Identity capability.
+- AML Customer Due Diligence depends on the KYC Onboarding Platform capability.
 - AML Monitoring depends on the Transaction Monitoring Platform capability.
+- ATM Authorization Handling depends on the Card Processing capability.
+- ATM Cash Forecasting depends on the Analytics Platform capability.
+- ATM Cash Management depends on the Analytics Platform capability.
+- ATM Deposit Handling depends on the Core Banking Processing capability.
+- ATM Fault Detection depends on the Threat Detection capability.
 - ATM Management depends on the Integration Platform capability.
+- ATM Monitoring & Servicing depends on the Threat Detection capability.
+- ATM Network Management depends on the Integration Platform capability.
+- ATM Transaction Processing depends on the Card Processing capability.
+- Account Activation Control depends on the Notification Services capability.
+- Account Balance Management depends on the Core Banking Processing capability.
+- Account Closure Servicing depends on the Core Banking Processing capability.
+- Account Detail Amendment depends on the Core Banking Processing capability.
+- Account Hold & Block Management depends on the Core Banking Processing capability.
+- Account Instantiation depends on the Deposit Account Management capability.
+- Account Maintenance Servicing depends on the Core Banking Processing capability.
 - Account Opening depends on the Core Banking Processing capability.
 - Account Reconciliation depends on the Core Banking Processing capability.
+- Account Reconciliation Servicing depends on the Core Banking Processing capability.
 - Account Servicing depends on the Core Banking Processing capability.
 - Account Servicing depends on the Notification Services capability.
+- Account Substantiation depends on the General Ledger Engine capability.
+- Account Update Execution depends on the Core Banking Processing capability.
+- Accruals & Provisions Posting depends on the General Ledger Engine capability.
 - Acknowledge Complaint depends on the Notification Services capability.
+- Activate Card depends on the Card Processing capability.
 - Activate Customer depends on the Notification Services capability.
+- Activate Digital Channel depends on the Notification Services capability.
+- Adjudicate Credit depends on the Workflow Orchestration capability.
+- Adjudicate Dispute Outcome depends on the Workflow Orchestration capability.
+- Adjudicate Fraud Claim depends on the Workflow Orchestration capability.
+- Adverse Media Screening depends on the Analytics Platform capability.
+- Adverse Media Screening depends on the Machine Learning Platform capability.
+- Advice Generation depends on the Generative AI Platform capability.
+- Advice Generation depends on the Investment Advisory Platform capability.
+- Advise Beneficiary depends on the Notification Services capability.
+- Affordability Assessment depends on the Analytics Platform capability.
+- Affordability Assessment depends on the Credit Decisioning Engine capability.
+- Agent Desktop Servicing depends on the CRM Platform capability.
 - Aggregate Balances depends on the Integration Platform capability.
+- Aggregate Filing Data depends on the Data Warehousing capability.
+- Aggregate Risk Exposure depends on the Data Warehousing capability.
 - Agreement Activation depends on the Core Banking Processing capability.
+- Alert Generation & Routing depends on the Workflow Orchestration capability.
+- Alert Management depends on the Machine Learning Platform capability.
+- Alert Management depends on the Transaction Monitoring Platform capability.
+- Alert Prioritisation Scoring depends on the Machine Learning Platform capability.
+- Alert Prioritisation Scoring depends on the Transaction Monitoring Platform capability.
 - Alias Resolution depends on the API Management capability.
+- Allocation Optimisation depends on the Analytics Platform capability.
+- Allocation Optimisation depends on the Portfolio Management System capability.
+- Anti-Bribery & Corruption depends on the Document Management capability.
+- Anti-Bribery & Corruption depends on the Governance Risk & Compliance Platform capability.
+- Appetite Approval & Cascade depends on the Workflow Orchestration capability.
+- Application Capture & Validation depends on the Deposit Account Management capability.
+- Application Data Capture depends on the Document Management capability.
+- Application Data Capture depends on the Loan Origination Platform capability.
 - Application Decisioning depends on the Workflow Orchestration capability.
+- Application Eligibility Screening depends on the Credit Decisioning Engine capability.
 - Application Processing depends on the Workflow Orchestration capability.
+- Application Processing & Verification depends on the Document Management capability.
 - Application Tracking depends on the Notification Services capability.
+- Apply Account Change depends on the Core Banking Processing capability.
+- Apply Credit Policy depends on the Credit Decisioning Engine capability.
+- Apply Detection Block depends on the Fraud Analytics capability.
+- Apply Overdraft Fee depends on the Core Banking Processing capability.
+- Apply Provisional Credit depends on the Core Banking Processing capability.
+- Apply Velocity Rules depends on the Fraud Analytics capability.
+- Approval Authority Routing depends on the Workflow Orchestration capability.
+- Approve CDD Outcome depends on the Workflow Orchestration capability.
+- Approve KYC Outcome depends on the Workflow Orchestration capability.
 - Approve Onboarding depends on the Workflow Orchestration capability.
+- Approve Risk Appetite depends on the Workflow Orchestration capability.
+- Archive Filing Record depends on the Document Management capability.
+- Archive Statement depends on the Document Management capability.
+- Assemble Statement Document depends on the Document Management capability.
+- Assess Affordability depends on the Credit Decisioning Engine capability.
+- Assess Capital Adequacy depends on the Analytics Platform capability.
+- Assess Change Impact depends on the Workflow Orchestration capability.
+- Assess Regulatory Impact depends on the Governance Risk & Compliance Platform capability.
+- Assess Trade Limit depends on the Credit Decisioning Engine capability.
+- Asset Allocation depends on the Analytics Platform capability.
+- Asset Allocation depends on the Portfolio Management System capability.
 - Asset Liability Management depends on the Analytics Platform capability.
+- Asset Safekeeping depends on the Core Banking Processing capability.
+- Asset Safekeeping depends on the Order Management System capability.
+- Assign Reason Code depends on the Card Processing capability.
+- Assign Risk Treatment depends on the Workflow Orchestration capability.
+- Attest Change Compliance depends on the Governance Risk & Compliance Platform capability.
+- Authenticate Caller depends on the Customer Authentication capability.
+- Authenticate Channel User depends on the Customer Authentication capability.
 - Authenticate Requester depends on the Identity Access Management capability.
+- Authorization Controls depends on the Card Processing capability.
+- Authorization Decisioning depends on the Card Processing capability.
 - Authorize Payment depends on the Fraud Analytics capability.
+- Backtesting & P&L Attribution depends on the Analytics Platform capability.
+- Backtesting & P&L Attribution depends on the Risk Analytics Engine capability.
+- Balance & Funds Verification depends on the Card Processing capability.
+- Balance Settlement & Deactivation depends on the Core Banking Processing capability.
+- Balance Sheet Management depends on the Asset Liability Management Engine capability.
 - Behavioural Analytics depends on the Analytics Platform capability.
+- Behavioural Modelling depends on the Asset Liability Management Engine capability.
+- Benchmark Management depends on the Analytics Platform capability.
+- Benchmark Management depends on the Portfolio Management System capability.
+- Beneficial Ownership Capture depends on the Deposit Account Management capability.
+- Beneficial Ownership Identification depends on the Data Governance capability.
+- Beneficial Ownership Identification depends on the KYC Onboarding Platform capability.
+- Best Interest Compliance depends on the Document Management capability.
+- Best Interest Compliance depends on the Investment Advisory Platform capability.
+- Block Compromised Card depends on the Card Processing capability.
+- Branch Appointment & Queue depends on the Workflow Orchestration capability.
 - Branch Banking depends on the Integration Platform capability.
+- Branch Sales depends on the CRM Platform capability.
+- Branch Servicing depends on the CRM Platform capability.
+- Bribery & Corruption Risk Assessment depends on the Analytics Platform capability.
+- Bribery & Corruption Risk Assessment depends on the Governance Risk & Compliance Platform capability.
+- Budgeting & Forecasting depends on the Analytics Platform capability.
 - Bulk Payment Origination depends on the Payment Orchestration capability.
+- Business Continuity Management depends on the Governance Risk & Compliance Platform capability.
+- Business Continuity Management depends on the Threat Detection capability.
 - Campaign Execution depends on the CRM Platform capability.
 - Campaign Management depends on the CRM Platform capability.
+- Capital Adequacy Reporting depends on the Regulatory Reporting Engine capability.
+- Capital Market Assumptions depends on the Analytics Platform capability.
+- Capital Market Assumptions depends on the Portfolio Management System capability.
+- Capital Planning depends on the Analytics Platform capability.
+- Capital Stress Forecasting depends on the Analytics Platform capability.
+- Capture Account Application depends on the Digital Channel Platform capability.
+- Capture Card Application depends on the Digital Channel Platform capability.
 - Capture Clearing Response depends on the Payment Orchestration capability.
 - Capture Consent depends on the Customer Identity capability.
+- Capture Loan Application depends on the Loan Origination Platform capability.
 - Capture Request depends on the Contact Center Platform capability.
+- Capture Signature Card depends on the Core Banking Processing capability.
+- Card & Account Controls depends on the Digital Channel Platform capability.
+- Card Activation depends on the Card Processing capability.
+- Card Activation & Provisioning depends on the Card Processing capability.
+- Card Application depends on the Workflow Orchestration capability.
 - Card Authorization depends on the Card Processing capability.
+- Card Billing & Statements depends on the Core Banking Processing capability.
+- Card Blocking depends on the Card Processing capability.
+- Card Clearing & Settlement depends on the Core Banking Processing capability.
+- Card Closure depends on the Core Banking Processing capability.
+- Card Collections depends on the Notification Services capability.
+- Card Containment & Reissue depends on the Card Processing capability.
+- Card Dispatch & Delivery depends on the Notification Services capability.
+- Card Fraud Authorization Screening depends on the Fraud Analytics capability.
 - Card Issuance depends on the Card Processing capability.
 - Card Issuing depends on the Card Processing capability.
 - Card Lifecycle Management depends on the Card Processing capability.
+- Card Personalisation depends on the Card Processing capability.
+- Card Production & Fulfillment depends on the Card Processing capability.
+- Card Production & Fulfilment depends on the Card Processing capability.
+- Card Renewal depends on the Card Processing capability.
+- Card Replacement depends on the Card Processing capability.
+- Card Tokenisation depends on the Card Processing capability.
+- Cardholder Notifications depends on the Notification Services capability.
 - Cards Management depends on the Card Processing capability.
+- Cascade Risk Limits depends on the Analytics Platform capability.
 - Case Management depends on the Workflow Orchestration capability.
+- Cash & Vault Management depends on the Core Banking Processing capability.
+- Cash Flow Forecasting depends on the Analytics Platform capability.
+- Cash Handling depends on the Core Banking Processing capability.
 - Cash Positioning depends on the Core Banking Processing capability.
+- Cash-in-Transit Coordination depends on the Notification Services capability.
 - Categorize Request depends on the Workflow Orchestration capability.
+- Channel Accessibility depends on the Digital Channel Platform capability.
+- Channel Authentication & Orchestration depends on the Customer Authentication capability.
+- Channel Experience Management depends on the Analytics Platform capability.
+- Channel Interaction Routing depends on the Contact Center Platform capability.
 - Channel Management depends on the Integration Platform capability.
+- Charge Off Debt depends on the Core Banking Processing capability.
+- Chargeback Filing depends on the Workflow Orchestration capability.
+- Chargeback Handling depends on the Workflow Orchestration capability.
+- Chart Of Accounts Management depends on the General Ledger Engine capability.
+- Chatbot Servicing depends on the Conversational AI capability.
+- Check Available Limit depends on the Card Processing capability.
+- Check Overdraft Opt-In depends on the Core Banking Processing capability.
 - Churn Prediction depends on the Analytics Platform capability.
+- Clear To Close depends on the Credit Decisioning Engine capability.
+- Clearing & Posting depends on the Card Processing capability.
 - Clearing Submission depends on the Payment Orchestration capability.
+- Close Task Orchestration depends on the Workflow Orchestration capability.
+- Closure Settlement depends on the Core Banking Processing capability.
+- Collateral & Reserve Management depends on the Treasury Management System capability.
 - Collateral Management depends on the Core Banking Processing capability.
+- Collateral Optimisation depends on the Treasury Management System capability.
+- Collateral Perfection depends on the Document Management capability.
+- Collateral Perfection depends on the Workflow Orchestration capability.
+- Collateral Release depends on the Core Banking Processing capability.
+- Collateral Release depends on the Document Management capability.
+- Collateral Valuation depends on the Analytics Platform capability.
+- Collateral Valuation depends on the Document Management capability.
+- Collect CIP Information depends on the Intelligent Document Processing capability.
 - Collect Documents depends on the Intelligent Document Processing capability.
+- Collect KYC Documents depends on the Intelligent Document Processing capability.
+- Collect Supporting Documents depends on the Intelligent Document Processing capability.
 - Collection Scheduling depends on the Payment Orchestration capability.
 - Collections & Recovery depends on the Workflow Orchestration capability.
 - Communication Preference Management depends on the CRM Platform capability.
+- Compare Against Limits depends on the Analytics Platform capability.
+- Compile Regulatory Return depends on the Regulatory Reporting Engine capability.
+- Compile Risk Report depends on the Analytics Platform capability.
 - Complaint Management depends on the Workflow Orchestration capability.
 - Complaint Resolution depends on the Workflow Orchestration capability.
 - Complaint Root-Cause Analysis depends on the Analytics Platform capability.
+- Compliance Monitoring & Testing depends on the Analytics Platform capability.
+- Compliance Monitoring & Testing depends on the Governance Risk & Compliance Platform capability.
+- Compliance Policy Management depends on the Document Management capability.
+- Compliance Policy Management depends on the Governance Risk & Compliance Platform capability.
+- Compliance Risk Assessment depends on the Analytics Platform capability.
+- Compliance Risk Assessment depends on the Governance Risk & Compliance Platform capability.
+- Compliance Training Management depends on the Document Management capability.
+- Compliance Training Management depends on the Governance Risk & Compliance Platform capability.
+- Concentration Risk Analysis depends on the Analytics Platform capability.
+- Concentration Risk Analysis depends on the Risk Analytics Engine capability.
+- Condition Precedent Tracking depends on the Document Management capability.
+- Condition Precedent Tracking depends on the Workflow Orchestration capability.
+- Conduct Risk Management depends on the Analytics Platform capability.
+- Conduct Risk Management depends on the Governance Risk & Compliance Platform capability.
 - Conduct Root Cause depends on the Analytics Platform capability.
 - Confirm Resolution depends on the Notification Services capability.
+- Confirm Sanctions Block depends on the Payment Sanctions Filter capability.
 - Confirm Settlement depends on the Payment Orchestration capability.
 - Consent & Preference Management depends on the Master Data Management capability.
 - Consent Lifecycle depends on the Master Data Management capability.
+- Consolidation Eliminations depends on the Financial Consolidation Platform capability.
+- Contact Borrower depends on the Notification Services capability.
 - Contact Center depends on the Contact Center Platform capability.
+- Contact Complaint Intake depends on the Contact Center Platform capability.
 - Contact Dialogue Management depends on the Conversational AI capability.
 - Contact Routing Management depends on the Contact Center Platform capability.
+- Control Person Identification depends on the Data Governance capability.
+- Control Person Identification depends on the Document Management capability.
+- Control Testing Execution depends on the Analytics Platform capability.
+- Control Testing Execution depends on the Governance Risk & Compliance Platform capability.
+- Conversational Banking depends on the Conversational AI capability.
+- Conversational Banking depends on the Digital Channel Platform capability.
+- Corporate Action Election depends on the Notification Services capability.
+- Corporate Action Election depends on the Order Management System capability.
+- Corporate Actions Processing depends on the Core Banking Processing capability.
+- Corporate Actions Processing depends on the Order Management System capability.
 - Correspondent Banking depends on the Payment Orchestration capability.
+- Correspondent Banking Due Diligence depends on the Document Management capability.
+- Correspondent Banking Due Diligence depends on the KYC Onboarding Platform capability.
+- Cost Basis Tracking depends on the Core Banking Processing capability.
+- Cost Basis Tracking depends on the Portfolio Management System capability.
+- Counterparty Credit Risk depends on the Analytics Platform capability.
+- Counterparty Credit Risk depends on the Risk Analytics Engine capability.
 - Create Customer Record depends on the Master Data Management capability.
+- Credit Bureau Retrieval depends on the Analytics Platform capability.
+- Credit Bureau Retrieval depends on the Credit Decisioning Engine capability.
 - Credit Decisioning depends on the Credit Decisioning Engine capability.
 - Credit Decisioning depends on the Machine Learning Platform capability.
+- Credit Exposure Management depends on the Risk Analytics Engine capability.
+- Credit Exposure Management depends on the Risk Data Aggregation capability.
+- Credit Limit Assignment depends on the Credit Decisioning Engine capability.
+- Credit Risk Assessment depends on the Machine Learning Platform capability.
+- Credit Risk Assessment depends on the Risk Analytics Engine capability.
 - Credit Risk Management depends on the Credit Decisioning Engine capability.
+- Credit Risk Mitigation depends on the Analytics Platform capability.
+- Credit Risk Mitigation depends on the Risk Analytics Engine capability.
+- Credit Risk RWA depends on the Regulatory Reporting Engine capability.
+- Credit Risk Rating depends on the Machine Learning Platform capability.
+- Credit Risk Rating depends on the Model Risk Management Platform capability.
 - Credit Transfer Execution depends on the Payment Orchestration capability.
 - Cross-Border Fee Calculation depends on the Payment Orchestration capability.
 - Cross-Border Payments depends on the Payment Orchestration capability.
+- Currency Transaction Reporting depends on the Regulatory Reporting Engine capability.
+- Currency Transaction Reporting depends on the Transaction Monitoring Platform capability.
+- Currency Translation depends on the Financial Consolidation Platform capability.
+- Custody & Safekeeping depends on the Core Banking Processing capability.
+- Custody & Safekeeping depends on the Order Management System capability.
 - Customer Acquisition depends on the Workflow Orchestration capability.
 - Customer Due Diligence depends on the Document Management capability.
 - Customer Event Detection depends on the Analytics Platform capability.
@@ -80,80 +297,312 @@ Each business capability / process / step and the technology capabilities it dep
 - Customer Lifecycle Management depends on the CRM Platform capability.
 - Customer Lifecycle Management depends on the Master Data Management capability.
 - Customer Profile Management depends on the Master Data Management capability.
+- Customer Risk Rating depends on the Analytics Platform capability.
+- Customer Risk Rating depends on the Transaction Monitoring Platform capability.
 - Customer Segmentation depends on the Analytics Platform capability.
 - Customer Servicing depends on the Conversational AI capability.
 - Customer Servicing depends on the Workflow Orchestration capability.
 - Customer Survey Management depends on the Analytics Platform capability.
 - Customer Value Modelling depends on the Analytics Platform capability.
 - Data Survivorship depends on the Master Data Management capability.
+- Deactivate Account depends on the Core Banking Processing capability.
 - Debit Transfer Execution depends on the Payment Orchestration capability.
+- Debt Sale Management depends on the Analytics Platform capability.
+- Debt Sale Management depends on the Document Management capability.
 - Decide Funding Actions depends on the Analytics Platform capability.
+- Decide Pay Or Return depends on the Decision Rules Engine capability.
+- Decision Card Application depends on the Credit Decisioning Engine capability.
+- Delinquency Management depends on the Analytics Platform capability.
+- Delinquency Management depends on the Workflow Orchestration capability.
+- Deliver Closing Disclosure depends on the Document Management capability.
+- Deliver Statement depends on the Notification Services capability.
+- Deposit Account Origination depends on the Deposit Account Management capability.
+- Deposit Direct Debit Authorisation depends on the Core Banking Processing capability.
+- Deposit Interest Accrual depends on the Interest & Charges Engine capability.
+- Deposit Interest Posting depends on the Interest & Charges Engine capability.
+- Deposit Product Selection depends on the Core Banking Processing capability.
+- Deposit Rate Management depends on the Interest & Charges Engine capability.
+- Deposit Statement & Reporting depends on the Account Statement Generator capability.
+- Deposit Statement Delivery depends on the Notification Services capability.
+- Deposit Statement Production depends on the Account Statement Generator capability.
+- Deposit Tax Withholding depends on the Core Banking Processing capability.
 - Deposits depends on the Core Banking Processing capability.
+- Design Stress Scenario depends on the Analytics Platform capability.
+- Detect Delinquency depends on the Core Banking Processing capability.
+- Detect Insufficient Funds depends on the Core Banking Processing capability.
 - Determine Cash Position depends on the Core Banking Processing capability.
+- Determine Statement Cycle depends on the Core Banking Processing capability.
+- Determine Suspicion depends on the Governance Risk & Compliance Platform capability.
+- Digital Application Capture depends on the Digital Channel Platform capability.
 - Digital Banking depends on the Digital Channel Platform capability.
+- Digital Consent Capture depends on the Customer Identity capability.
+- Digital Engagement & Personalisation depends on the Analytics Platform capability.
+- Digital Engagement & Personalisation depends on the Digital Channel Platform capability.
+- Digital Identity & Activation depends on the Customer Identity capability.
+- Digital Identity Verification depends on the Customer Identity capability.
+- Digital Onboarding depends on the Customer Identity capability.
+- Digital Onboarding depends on the Digital Channel Platform capability.
+- Digital Self-Service depends on the Customer Identity capability.
+- Digital Self-Service depends on the Digital Channel Platform capability.
+- Digital Servicing depends on the CRM Platform capability.
+- Digital Servicing depends on the Digital Channel Platform capability.
+- Digital Statements & Documents depends on the Document Management capability.
 - Direct Debit Collection depends on the Payment Orchestration capability.
 - Direct Debit Management depends on the Payment Orchestration capability.
 - Direct Debit Mandate Management depends on the Document Management capability.
 - Direct Debit Returns depends on the Workflow Orchestration capability.
+- Disburse Loan Funds depends on the Core Banking Processing capability.
+- Disbursement Authorization depends on the Core Banking Processing capability.
+- Disbursement Authorization depends on the Workflow Orchestration capability.
+- Disclose Account Terms depends on the Document Management capability.
+- Disclosure Management depends on the Regulatory Reporting Engine capability.
+- Disposition & Recovery depends on the Transaction Monitoring Platform capability.
+- Dispute Evidence Management depends on the Document Management capability.
+- Dispute Investigation depends on the Workflow Orchestration capability.
 - Dispute Management depends on the Card Processing capability.
+- Distressed Account Recovery depends on the Core Banking Processing capability.
+- Distribute Risk Report depends on the Regulatory Reporting Engine capability.
 - Domestic Payments depends on the Payment Orchestration capability.
+- Dormancy & Escheatment depends on the Core Banking Processing capability.
+- Dormancy Detection depends on the Analytics Platform capability.
+- Dormancy Management depends on the Analytics Platform capability.
+- EVE Sensitivity Analysis depends on the Asset Liability Management Engine capability.
+- Early Withdrawal Handling depends on the Core Banking Processing capability.
+- Eligibility & Suitability Screening depends on the Core Banking Processing capability.
+- Embed Appetite Limits depends on the Workflow Orchestration capability.
+- Enhanced Due Diligence Management depends on the Document Management capability.
+- Enhanced Due Diligence Management depends on the KYC Onboarding Platform capability.
+- Enrol Strong Authentication depends on the Customer Authentication capability.
 - Enterprise Risk Management depends on the Data Warehousing capability.
+- Escalate Limit Breach depends on the Workflow Orchestration capability.
+- Escalate To Arbitration depends on the Workflow Orchestration capability.
+- Escalate To Assisted Servicing depends on the Workflow Orchestration capability.
+- Escalate To Recovery depends on the Workflow Orchestration capability.
+- Escheat Dormant Account depends on the Regulatory Reporting Engine capability.
+- Escheatment Processing depends on the Core Banking Processing capability.
+- Escrow Administration depends on the Core Banking Processing capability.
+- Establish Deposit Account depends on the Core Banking Processing capability.
+- Evaluate Overdraft Limit depends on the Core Banking Processing capability.
+- Evaluate Residual Risk depends on the Analytics Platform capability.
+- Examine Trade Documents depends on the Document Management capability.
 - Exception Investigation depends on the Workflow Orchestration capability.
 - Execute Funding Transfer depends on the Payment Orchestration capability.
+- Extract Account Activity depends on the Core Banking Processing capability.
+- FTP Rate Curve Management depends on the Asset Liability Management Engine capability.
 - FX Conversion For Payments depends on the Payment Orchestration capability.
+- Feed Detection Models depends on the Machine Learning Platform capability.
+- File Suspicious Activity Report depends on the Transaction Monitoring Platform capability.
 - File Validation & Enrichment depends on the Payment Orchestration capability.
+- Filing Review & Submission depends on the Regulatory Reporting Engine capability.
+- Finalize Dispute Credit depends on the Core Banking Processing capability.
 - Finance Management depends on the General Ledger Engine capability.
+- Financial Consolidation depends on the Data Warehousing capability.
+- Financial Consolidation depends on the Financial Consolidation Platform capability.
 - Financial Crime Compliance depends on the Transaction Monitoring Platform capability.
+- Financial Crime Risk Compliance depends on the Analytics Platform capability.
+- Financial Crime Risk Compliance depends on the Governance Risk & Compliance Platform capability.
+- Financial Planning Advisory depends on the CRM Platform capability.
+- Financial Planning Advisory depends on the Investment Advisory Platform capability.
 - Financial Reporting depends on the General Ledger Engine capability.
+- First Deposit Funding depends on the Transaction Posting Engine capability.
+- Fixed Asset Accounting depends on the General Ledger Engine capability.
 - Forecast Cash Flow depends on the Analytics Platform capability.
 - Format Clearing Message depends on the Payment Orchestration capability.
 - Fraud Detection depends on the Fraud Analytics capability.
+- Fraud Loss Recovery depends on the Fraud Analytics capability.
+- Fraud Loss Recovery depends on the Governance Risk & Compliance Platform capability.
 - Fraud Management depends on the Fraud Analytics capability.
+- Fraud Monitoring depends on the Fraud Analytics capability.
+- Fraud Monitoring depends on the Machine Learning Platform capability.
+- Fraud Risk Assessment depends on the Analytics Platform capability.
+- Fraud Risk Assessment depends on the Fraud Analytics capability.
+- Fraud Scoring Models depends on the Fraud Analytics capability.
+- Fraud Scoring Models depends on the Machine Learning Platform capability.
 - Fulfil Request depends on the Core Banking Processing capability.
+- Fulfill Card depends on the Notification Services capability.
+- Fund Digital Account depends on the Payment Orchestration capability.
+- Fund Mortgage Loan depends on the Core Banking Processing capability.
+- Fund New Account depends on the Core Banking Processing capability.
 - Funding & Concentration depends on the Payment Orchestration capability.
+- Funding Management depends on the Analytics Platform capability.
+- Funding Risk Management depends on the Analytics Platform capability.
+- Funding Risk Management depends on the Risk Analytics Engine capability.
+- Funds Transfer Pricing Management depends on the Asset Liability Management Engine capability.
+- Funds Transfer Self-Service depends on the Digital Channel Platform capability.
+- Gather Dispute Evidence depends on the Document Management capability.
 - General Ledger Accounting depends on the General Ledger Engine capability.
+- Generate Card Credential depends on the Card Processing capability.
+- Generate Fraud Alert depends on the Fraud Analytics capability.
+- Generate Sanctions Alert depends on the Payment Sanctions Filter capability.
+- Goal Planning depends on the Analytics Platform capability.
+- Goal Planning depends on the Investment Advisory Platform capability.
+- Guarantee Administration depends on the Core Banking Processing capability.
+- Guarantee Administration depends on the Document Management capability.
+- HQLA Buffer Management depends on the Risk Analytics Engine capability.
+- HQLA Buffer Management depends on the Risk Data Aggregation capability.
+- Handle Customer Interaction depends on the Contact Center Platform capability.
+- Hardship & Forbearance depends on the Core Banking Processing capability.
+- Hardship & Forbearance depends on the Workflow Orchestration capability.
+- Hedge Effectiveness Testing depends on the Asset Liability Management Engine capability.
+- Hedge Management depends on the Treasury Management System capability.
+- Hit Resolution & Reporting depends on the Payment Sanctions Filter capability.
 - Identify Breaks depends on the Workflow Orchestration capability.
+- Identify Service Intent depends on the Conversational AI capability.
 - Identity Verification depends on the Customer Identity capability.
+- Implement Compliance Control depends on the Policy & Control Management capability.
+- Inbound Contact Servicing depends on the Contact Center Platform capability.
+- Income Collection depends on the Core Banking Processing capability.
+- Income Collection depends on the Order Management System capability.
+- Income Verification depends on the Analytics Platform capability.
+- Income Verification depends on the Document Management capability.
 - Ingest Bank Statement depends on the Integration Platform capability.
+- Ingest Transaction Stream depends on the Data Streaming capability.
 - Instant Payment Clearing depends on the Data Streaming capability.
 - Instant Payment Confirmation depends on the Data Streaming capability.
 - Interaction History depends on the CRM Platform capability.
+- Interaction Recording & Quality depends on the Contact Center Platform capability.
 - Interbank Clearing depends on the Payment Orchestration capability.
 - Interbank Settlement depends on the Payment Orchestration capability.
+- Intercompany Accounting depends on the General Ledger Engine capability.
+- Intercompany Elimination depends on the General Ledger Engine capability.
+- Interest Accrual Calculation depends on the Interest & Charges Engine capability.
+- Interest Accrual Management depends on the Core Banking Processing capability.
 - Interest Calculation depends on the Core Banking Processing capability.
+- Interest Rate Risk In The Banking Book depends on the Asset Liability Management Engine capability.
+- Internal Management Reporting depends on the Analytics Platform capability.
+- Intraday Liquidity Management depends on the Treasury Management System capability.
+- Intraday Liquidity Monitoring depends on the Analytics Platform capability.
+- Intraday Liquidity Monitoring depends on the Risk Analytics Engine capability.
 - Investigate Break depends on the Workflow Orchestration capability.
 - Investment Advisory depends on the Generative AI Platform capability.
+- Investment Mandate Management depends on the Analytics Platform capability.
+- Investment Mandate Management depends on the Portfolio Management System capability.
+- Investment Research depends on the Analytics Platform capability.
+- Investment Research depends on the Investment Advisory Platform capability.
+- Investment Valuation depends on the Analytics Platform capability.
+- Investment Valuation depends on the Portfolio Management System capability.
+- Issue & Remediation Tracking depends on the Analytics Platform capability.
+- Issue & Remediation Tracking depends on the Governance Risk & Compliance Platform capability.
+- Issue Dormancy Notice depends on the Notification Services capability.
 - Issue Final Response depends on the Notification Services capability.
+- Issue Final Statement depends on the Document Management capability.
+- Issue Letter Of Credit depends on the Integration Platform capability.
+- Issue Loan Estimate depends on the Document Management capability.
+- Issue Loan Offer depends on the Loan Origination Platform capability.
+- Journal Management depends on the General Ledger Engine capability.
+- Journal Validation & Control depends on the General Ledger Engine capability.
 - KYC Management depends on the Intelligent Document Processing capability.
+- KYC Refresh Management depends on the Document Management capability.
+- KYC Refresh Management depends on the KYC Onboarding Platform capability.
+- Key Risk Indicator Monitoring depends on the Analytics Platform capability.
+- Key Risk Indicator Monitoring depends on the Governance Risk & Compliance Platform capability.
+- LCR & NSFR Management depends on the Risk Analytics Engine capability.
+- LCR & NSFR Management depends on the Risk Data Aggregation capability.
 - Lead Capture depends on the CRM Platform capability.
 - Lead Management depends on the CRM Platform capability.
 - Lead Qualification depends on the Analytics Platform capability.
+- Ledger Account Mapping depends on the General Ledger Engine capability.
 - Lending depends on the Core Banking Processing capability.
 - Lending depends on the Loan Origination Platform capability.
+- Leverage Ratio Calculation depends on the Regulatory Reporting Engine capability.
+- Lien Registration depends on the Document Management capability.
+- Lien Registration depends on the Workflow Orchestration capability.
+- Limit & Exposure Management depends on the Risk Analytics Engine capability.
+- Limit & Exposure Management depends on the Risk Data Aggregation capability.
+- Limit Monitoring & Escalation depends on the Analytics Platform capability.
 - Liquidity Forecasting depends on the Analytics Platform capability.
 - Liquidity Management depends on the Data Warehousing capability.
 - Liquidity Risk Management depends on the Data Warehousing capability.
+- Liquidity Risk Measurement depends on the Analytics Platform capability.
+- Liquidity Risk Measurement depends on the Risk Analytics Engine capability.
+- Loan Account Maintenance depends on the Core Banking Processing capability.
+- Loan Application Management depends on the Loan Origination Platform capability.
+- Loan Application Management depends on the Workflow Orchestration capability.
+- Loan Approval depends on the Credit Decisioning Engine capability.
+- Loan Approval depends on the Workflow Orchestration capability.
+- Loan Disbursement depends on the Core Banking Processing capability.
+- Loan Disbursement depends on the Workflow Orchestration capability.
+- Loan Documentation Management depends on the Document Management capability.
+- Loan Documentation Management depends on the Workflow Orchestration capability.
+- Loan Modification depends on the Core Banking Processing capability.
+- Loan Modification depends on the Workflow Orchestration capability.
 - Loan Origination depends on the Document Management capability.
 - Loan Origination depends on the Loan Origination Platform capability.
+- Loan Pricing depends on the Analytics Platform capability.
+- Loan Pricing depends on the Credit Decisioning Engine capability.
 - Loan Servicing depends on the Core Banking Processing capability.
+- Lodge SAR Filing depends on the Regulatory Reporting Engine capability.
+- Loss Data Management depends on the Data Warehousing capability.
+- Loss Data Management depends on the Governance Risk & Compliance Platform capability.
+- Mandate & Signatory Maintenance depends on the Core Banking Processing capability.
 - Mandate Verification depends on the Document Management capability.
+- Map Regulatory Obligation depends on the Governance Risk & Compliance Platform capability.
+- Mark-to-Market Valuation depends on the Analytics Platform capability.
+- Mark-to-Market Valuation depends on the Risk Analytics Engine capability.
 - Market Risk Management depends on the Analytics Platform capability.
+- Market Risk Measurement depends on the Analytics Platform capability.
+- Market Risk Measurement depends on the Risk Analytics Engine capability.
 - Marketing Management depends on the Analytics Platform capability.
 - Marketing Management depends on the CRM Platform capability.
 - Match Transactions depends on the Core Banking Processing capability.
+- Maturity & Rollover Processing depends on the Core Banking Processing capability.
 - Mobile Banking depends on the Digital Channel Platform capability.
+- Model Inventory Management depends on the Data Warehousing capability.
+- Model Inventory Management depends on the Model Risk Management Platform capability.
+- Model Risk Management depends on the Machine Learning Platform capability.
+- Model Risk Management depends on the Model Risk Management Platform capability.
 - Monitor Liquidity Position depends on the Analytics Platform capability.
+- NII Sensitivity Analysis depends on the Asset Liability Management Engine capability.
+- Negotiable Instrument Processing depends on the Core Banking Processing capability.
+- Negotiate Repayment depends on the Workflow Orchestration capability.
+- Network Link Analysis depends on the Analytics Platform capability.
+- Network Link Analysis depends on the Machine Learning Platform capability.
 - Next-Best-Action depends on the Analytics Platform capability.
 - Nostro Reconciliation depends on the Payment Orchestration capability.
+- Notify Account Change depends on the Notification Services capability.
+- Notify Financial Intelligence depends on the Regulatory Reporting Engine capability.
+- Notify Overdraft Outcome depends on the Notification Services capability.
+- Obligation Mapping depends on the Data Governance capability.
+- Obligation Mapping depends on the Governance Risk & Compliance Platform capability.
+- Obtain Board Approval depends on the Workflow Orchestration capability.
 - Onboarding Orchestration depends on the Workflow Orchestration capability.
 - Online Banking depends on the Customer Identity capability.
+- Op Risk Scenario Analysis depends on the Analytics Platform capability.
+- Op Risk Scenario Analysis depends on the Governance Risk & Compliance Platform capability.
+- Open Banking Channel depends on the API Management capability.
+- Open Banking Channel depends on the Customer Identity capability.
+- Open Investigation Case depends on the Transaction Monitoring Platform capability.
+- Operational Risk Capital Modelling depends on the Analytics Platform capability.
+- Operational Risk Capital Modelling depends on the Risk Analytics Engine capability.
 - Operational Risk Management depends on the Threat Detection capability.
+- Orchestrate Channel Journey depends on the Integration Platform capability.
+- Order Allocation depends on the Core Banking Processing capability.
+- Order Allocation depends on the Order Management System capability.
+- Order Management depends on the Core Banking Processing capability.
+- Order Management depends on the Order Management System capability.
+- Order Routing depends on the Core Banking Processing capability.
+- Order Routing depends on the Order Management System capability.
+- Outbound Dialer Management depends on the Contact Center Platform capability.
+- Outbound Engagement depends on the Contact Center Platform capability.
+- Overdraft Facility Setup depends on the Core Banking Processing capability.
+- Overdraft Fee & Notice depends on the Notification Services capability.
+- Overdraft Interest & Fee Charging depends on the Interest & Charges Engine capability.
+- Overdraft Limit Assessment depends on the Core Banking Processing capability.
+- Overdraft Limit Monitoring depends on the Analytics Platform capability.
 - Overdraft Management depends on the Core Banking Processing capability.
+- Ownership Structure Unwrapping depends on the Analytics Platform capability.
+- Ownership Structure Unwrapping depends on the Data Governance capability.
+- PD LGD EAD Estimation depends on the Machine Learning Platform capability.
+- PD LGD EAD Estimation depends on the Model Risk Management Platform capability.
+- PEP Screening depends on the Analytics Platform capability.
+- PEP Screening depends on the Transaction Monitoring Platform capability.
+- PIN Management depends on the Card Processing capability.
 - Party Data Management depends on the Master Data Management capability.
 - Party Data Quality depends on the Master Data Management capability.
 - Party Identifier Management depends on the Master Data Management capability.
 - Party Reference Data depends on the Master Data Management capability.
 - Party Relationship Mapping depends on the Master Data Management capability.
+- Payment Allocation depends on the Core Banking Processing capability.
 - Payment Authorization & Routing depends on the Payment Orchestration capability.
 - Payment Authorization Capture depends on the Payment Orchestration capability.
 - Payment Capture & Validation depends on the Payment Orchestration capability.
@@ -171,180 +620,750 @@ Each business capability / process / step and the technology capabilities it dep
 - Payment Services depends on the Core Banking Processing capability.
 - Payment Services depends on the Payment Orchestration capability.
 - Payment Status Tracking depends on the Payment Orchestration capability.
+- Payoff & Closure depends on the Core Banking Processing capability.
+- Performance Measurement depends on the Analytics Platform capability.
+- Performance Measurement depends on the Portfolio Management System capability.
+- Personalize Card depends on the Card Processing capability.
+- Plan Change Remediation depends on the Workflow Orchestration capability.
+- Portfolio Accounting depends on the Core Banking Processing capability.
+- Portfolio Accounting depends on the Portfolio Management System capability.
+- Portfolio Construction depends on the Analytics Platform capability.
+- Portfolio Construction depends on the Portfolio Management System capability.
 - Portfolio Management depends on the Analytics Platform capability.
+- Portfolio Rebalancing Management depends on the Analytics Platform capability.
+- Portfolio Rebalancing Management depends on the Portfolio Management System capability.
+- Post Account Interest depends on the Core Banking Processing capability.
 - Post Adjustment depends on the General Ledger Engine capability.
+- Post Cleared Transaction depends on the Core Banking Processing capability.
+- Pre-Arbitration & Arbitration depends on the Workflow Orchestration capability.
+- Pre-Qualify Borrower depends on the Credit Decisioning Engine capability.
+- Prepayment Handling depends on the Core Banking Processing capability.
+- Pricing Exception Handling depends on the Workflow Orchestration capability.
+- Primary Statement Production depends on the Regulatory Reporting Engine capability.
+- Process Teller Transaction depends on the Core Banking Processing capability.
+- Product Recommendation depends on the Generative AI Platform capability.
+- Product Recommendation depends on the Investment Advisory Platform capability.
+- Profitability Analytics depends on the Analytics Platform capability.
+- Project Capital Impact depends on the Analytics Platform capability.
+- Projection & Submission depends on the Regulatory Reporting Engine capability.
+- Promise-To-Pay Management depends on the Core Banking Processing capability.
+- Promise-To-Pay Management depends on the Workflow Orchestration capability.
+- Provision Wallet Token depends on the Card Processing capability.
+- Provisional Credit & Resolution depends on the Core Banking Processing capability.
+- Provisional Credit Management depends on the Core Banking Processing capability.
+- Provisioning & ECL depends on the Machine Learning Platform capability.
+- Provisioning & ECL depends on the Risk Analytics Engine capability.
+- Pull Credit Report depends on the Credit Decisioning Engine capability.
+- RWA Calculation depends on the Regulatory Reporting Engine capability.
+- Raise Chargeback depends on the Card Processing capability.
+- Rate Customer Risk depends on the Governance Risk & Compliance Platform capability.
 - Real-Time Payments depends on the Data Streaming capability.
 - Real-Time Payments depends on the Payment Orchestration capability.
+- Real-Time Risk Scoring depends on the Fraud Analytics capability.
 - Receive Application depends on the Digital Channel Platform capability.
+- Receive Authorization Request depends on the Card Processing capability.
+- Receive Closure Request depends on the Digital Channel Platform capability.
+- Receive Credit Application depends on the Workflow Orchestration capability.
+- Receive Maintenance Request depends on the Digital Channel Platform capability.
 - Receive Payment Instruction depends on the Payment Orchestration capability.
+- Receive Representment depends on the Workflow Orchestration capability.
+- Reconcile ATM Cash depends on the Core Banking Processing capability.
+- Reconcile Risk Data depends on the Data Governance capability.
+- Reconcile Statement Data depends on the Data Warehousing capability.
+- Reconciliation & Close depends on the General Ledger Engine capability.
+- Record Channel Interaction depends on the CRM Platform capability.
+- Recover Fraud Loss depends on the Core Banking Processing capability.
+- Recovery & Write-Off depends on the Analytics Platform capability.
+- Recovery & Write-Off depends on the Core Banking Processing capability.
+- Refer Suspicious Activity depends on the Transaction Monitoring Platform capability.
+- Register Dispute Claim depends on the Workflow Orchestration capability.
+- Register Risk Item depends on the Workflow Orchestration capability.
+- Regulatory Capital Adequacy depends on the Risk Analytics Engine capability.
+- Regulatory Capital Adequacy depends on the Risk Data Aggregation capability.
 - Regulatory Capital Management depends on the Regulatory Reporting Engine capability.
+- Regulatory Change Compliance depends on the Data Governance capability.
+- Regulatory Change Compliance depends on the Governance Risk & Compliance Platform capability.
 - Regulatory Compliance depends on the Data Governance capability.
+- Regulatory Examination Management depends on the Document Management capability.
+- Regulatory Examination Management depends on the Governance Risk & Compliance Platform capability.
+- Regulatory Filing Preparation depends on the Regulatory Reporting Engine capability.
 - Regulatory Reporting depends on the Regulatory Reporting Engine capability.
+- Reissue Card depends on the Card Processing capability.
 - Relationship Management depends on the CRM Platform capability.
 - Relationship Planning depends on the CRM Platform capability.
+- Remediation & Attestation depends on the Governance Risk & Compliance Platform capability.
+- Render Loan Decision depends on the Credit Decisioning Engine capability.
+- Render Statement Output depends on the Document Management capability.
+- Repayment Processing depends on the Analytics Platform capability.
+- Repayment Processing depends on the Core Banking Processing capability.
+- Repayment Schedule Management depends on the Core Banking Processing capability.
 - Report Cash Status depends on the Analytics Platform capability.
+- Report Production & Distribution depends on the Regulatory Reporting Engine capability.
+- Report Sanctions Block depends on the Regulatory Reporting Engine capability.
+- Reporting Data Aggregation depends on the Data Warehousing capability.
+- Repossession Management depends on the Core Banking Processing capability.
+- Repossession Management depends on the Workflow Orchestration capability.
+- Representment Handling depends on the Workflow Orchestration capability.
 - Request To Pay depends on the API Management capability.
+- Resolve Cash Discrepancy depends on the Workflow Orchestration capability.
+- Resolve Sanctions Hit depends on the Governance Risk & Compliance Platform capability.
+- Resolve Self-Service Request depends on the Core Banking Processing capability.
+- Retirement Projection depends on the Analytics Platform capability.
+- Retirement Projection depends on the Investment Advisory Platform capability.
+- Return Attribution depends on the Analytics Platform capability.
+- Return Attribution depends on the Portfolio Management System capability.
+- Return Authorization Response depends on the Card Processing capability.
+- Revaluation Scheduling depends on the Analytics Platform capability.
+- Revaluation Scheduling depends on the Workflow Orchestration capability.
+- Review Representment Evidence depends on the Document Management capability.
+- Review Title And Liens depends on the Document Management capability.
+- Reward Points Accrual depends on the Core Banking Processing capability.
+- Reward Points Redemption depends on the Core Banking Processing capability.
+- Rewards Management depends on the Core Banking Processing capability.
+- Risk & Control Self-Assessment depends on the Analytics Platform capability.
+- Risk & Control Self-Assessment depends on the Governance Risk & Compliance Platform capability.
+- Risk Appetite Management depends on the Analytics Platform capability.
+- Risk Appetite Management depends on the Risk Data Aggregation capability.
+- Risk Capital Calculation depends on the Risk Analytics Engine capability.
+- Risk Capital Calculation depends on the Risk Data Aggregation capability.
+- Risk Identification depends on the Analytics Platform capability.
+- Risk Identification depends on the Governance Risk & Compliance Platform capability.
+- Risk Model Calibration depends on the Analytics Platform capability.
+- Risk Model Calibration depends on the Machine Learning Platform capability.
+- Risk Reporting & Governance depends on the Data Warehousing capability.
+- Risk Reporting & Governance depends on the Risk Data Aggregation capability.
+- Risk Tolerance Profiling depends on the CRM Platform capability.
+- Risk Tolerance Profiling depends on the Investment Advisory Platform capability.
+- Risk Treatment & Ownership depends on the Workflow Orchestration capability.
+- Risk-Grade Assignment depends on the Analytics Platform capability.
+- Risk-Grade Assignment depends on the Credit Decisioning Engine capability.
+- Route Fraud Alert depends on the Workflow Orchestration capability.
+- Route Interaction depends on the Contact Center Platform capability.
 - Route Payment depends on the Payment Orchestration capability.
+- SAR Confidentiality Control depends on the Data Governance capability.
+- SAR Confidentiality Control depends on the Document Management capability.
+- SAR Filing & Tracking depends on the Document Management capability.
+- SAR Filing & Tracking depends on the Regulatory Reporting Engine capability.
+- SAR Management depends on the Document Management capability.
+- SAR Management depends on the Regulatory Reporting Engine capability.
 - SWIFT Message Processing depends on the Integration Platform capability.
 - Same Day ACH Processing depends on the Payment Orchestration capability.
+- Sanctions List Curation depends on the Data Governance capability.
+- Sanctions List Curation depends on the Transaction Monitoring Platform capability.
+- Sanctions List Ingestion depends on the Data Governance capability.
+- Sanctions List Ingestion depends on the Transaction Monitoring Platform capability.
 - Sanctions Screening depends on the Transaction Monitoring Platform capability.
+- Scenario Design & Governance depends on the Analytics Platform capability.
+- Scenario Library Management depends on the Data Warehousing capability.
+- Scenario Library Management depends on the Risk Data Aggregation capability.
+- Scenario Threshold Tuning depends on the Machine Learning Platform capability.
+- Scenario Threshold Tuning depends on the Transaction Monitoring Platform capability.
+- Schedule Cash Delivery depends on the Integration Platform capability.
+- Score Credit Risk depends on the Machine Learning Platform capability.
+- Score Inherent Risk depends on the Analytics Platform capability.
+- Score Interaction Quality depends on the Contact Center Platform capability.
 - Screen Customer depends on the Transaction Monitoring Platform capability.
 - Screen Sanctions depends on the Transaction Monitoring Platform capability.
+- Screen Transaction Risk depends on the Fraud Analytics capability.
+- Securities Position Keeping depends on the Core Banking Processing capability.
+- Securities Position Keeping depends on the Order Management System capability.
+- Segment Arrears depends on the Analytics Platform capability.
+- Self-Service IVR depends on the Conversational AI capability.
+- Self-Service IVR Authentication depends on the Customer Authentication capability.
+- Senior Management Approval depends on the Governance Risk & Compliance Platform capability.
+- Senior Management Approval depends on the Workflow Orchestration capability.
+- Sensitivities Calculation depends on the Analytics Platform capability.
+- Sensitivities Calculation depends on the Risk Analytics Engine capability.
 - Service Fulfilment depends on the Workflow Orchestration capability.
 - Servicing Order Orchestration depends on the Workflow Orchestration capability.
+- Servicing Resource Management depends on the Contact Center Platform capability.
+- Servicing Resource Management depends on the Workforce Engagement Management capability.
+- Settle Chargeback depends on the Core Banking Processing capability.
+- Settle Residual Balance depends on the Core Banking Processing capability.
+- Settle Trade Payment depends on the Core Banking Processing capability.
 - Settlement Confirmation depends on the Payment Orchestration capability.
+- Settlement Instruction Management depends on the Core Banking Processing capability.
+- Settlement Instruction Management depends on the Order Management System capability.
 - Settlement Liquidity Management depends on the Payment Orchestration capability.
+- Settlement Quotation depends on the Core Banking Processing capability.
 - Settlement Reconciliation depends on the Payment Orchestration capability.
 - Sign Off Reconciliation depends on the Workflow Orchestration capability.
+- Source Of Wealth Verification depends on the Analytics Platform capability.
+- Source Of Wealth Verification depends on the Document Management capability.
+- Stand-In Authorization depends on the Card Processing capability.
 - Standing Order Management depends on the Payment Orchestration capability.
+- Standing Orders & Sweeps depends on the Core Banking Processing capability.
+- Statement & Notices depends on the Core Banking Processing capability.
+- Statement & Notices depends on the Document Management capability.
+- Statement Delivery depends on the Notification Services capability.
+- Statutory Reporting depends on the Regulatory Reporting Engine capability.
+- Stress Testing Management depends on the Analytics Platform capability.
+- Stress Testing Management depends on the Risk Analytics Engine capability.
+- Submit Capital Plan depends on the Regulatory Reporting Engine capability.
+- Submit Regulatory Return depends on the Regulatory Reporting Engine capability.
 - Submit To Clearing depends on the Payment Orchestration capability.
+- Suitability Assessment depends on the CRM Platform capability.
+- Suitability Assessment depends on the Investment Advisory Platform capability.
+- Suitability Report Production depends on the Document Management capability.
+- Suitability Report Production depends on the Investment Advisory Platform capability.
+- Suspicious Activity Detection depends on the Machine Learning Platform capability.
+- Suspicious Activity Detection depends on the Transaction Monitoring Platform capability.
 - Suspicious Activity Reporting depends on the Transaction Monitoring Platform capability.
+- Sweep Rule Execution depends on the Core Banking Processing capability.
+- Syndicated Loan Administration depends on the Core Banking Processing capability.
+- Syndicated Loan Administration depends on the Workflow Orchestration capability.
+- Synthetic Identity Detection depends on the Fraud Analytics capability.
+- Synthetic Identity Detection depends on the Machine Learning Platform capability.
+- Take Mortgage Application depends on the Loan Origination Platform capability.
+- Tax Evasion Compliance depends on the Data Governance capability.
+- Tax Evasion Compliance depends on the Regulatory Reporting Engine capability.
+- Tax Reporting Consolidation depends on the Document Management capability.
+- Tax-Loss Harvesting depends on the Analytics Platform capability.
+- Tax-Loss Harvesting depends on the Portfolio Management System capability.
+- Teller Operations depends on the Core Banking Processing capability.
+- Term Deposit Lifecycle depends on the Core Banking Processing capability.
+- Third-Party Integrity Due Diligence depends on the Analytics Platform capability.
+- Third-Party Integrity Due Diligence depends on the Document Management capability.
+- Tiered Interest Determination depends on the Interest & Charges Engine capability.
+- Tolerance Band Monitoring depends on the Analytics Platform capability.
+- Tolerance Band Monitoring depends on the Portfolio Management System capability.
+- Track Risk Remediation depends on the Workflow Orchestration capability.
+- Trade Affirmation depends on the Core Banking Processing capability.
+- Trade Affirmation depends on the Order Management System capability.
+- Trade Execution depends on the Core Banking Processing capability.
+- Trade Execution depends on the Order Management System capability.
+- Trade Fail Management depends on the Core Banking Processing capability.
+- Trade Fail Management depends on the Order Management System capability.
+- Trade Settlement depends on the Core Banking Processing capability.
+- Trade Settlement depends on the Order Management System capability.
+- Trading Book Risk depends on the Risk Analytics Engine capability.
+- Trading Book Risk depends on the Risk Data Aggregation capability.
 - Transaction Monitoring depends on the Transaction Monitoring Platform capability.
+- Transaction Posting depends on the Transaction Posting Engine capability.
+- Transaction Reversal Handling depends on the Transaction Posting Engine capability.
+- Treasury Cash Positioning depends on the Analytics Platform capability.
 - Treasury Management depends on the Data Warehousing capability.
+- Treatment Strategy Management depends on the Analytics Platform capability.
+- Treatment Strategy Management depends on the Workflow Orchestration capability.
+- Triage AML Alert depends on the Transaction Monitoring Platform capability.
 - Triage Complaint depends on the Workflow Orchestration capability.
+- Triage Fraud Alert depends on the Fraud Analytics capability.
+- Triage Potential Match depends on the Governance Risk & Compliance Platform capability.
+- Typology Modelling depends on the Analytics Platform capability.
+- Typology Modelling depends on the Machine Learning Platform capability.
+- Unauthorised Overdraft Handling depends on the Notification Services capability.
+- Validate Card Cryptogram depends on the Card Processing capability.
+- Validate Closure Eligibility depends on the Workflow Orchestration capability.
+- Validate Dispute Rights depends on the Workflow Orchestration capability.
+- Validate Filing Quality depends on the Regulatory Reporting Engine capability.
 - Validate Payment depends on the Payment Orchestration capability.
+- Validate Risk Models depends on the Machine Learning Platform capability.
+- Value-Dated Posting depends on the Transaction Posting Engine capability.
+- Value-at-Risk Calculation depends on the Analytics Platform capability.
+- Value-at-Risk Calculation depends on the Risk Analytics Engine capability.
+- Vault Float Control depends on the Workflow Orchestration capability.
+- Verify Account Holder depends on the Identity Access Management capability.
+- Verify Borrower Income depends on the Document Management capability.
+- Verify Cardholder Activity depends on the Notification Services capability.
+- Verify Digital Identity depends on the Identity Proofing Service capability.
+- Voice Assistant Banking depends on the Conversational AI capability.
+- Watchlist Management depends on the Data Governance capability.
+- Watchlist Management depends on the Transaction Monitoring Platform capability.
 - Wealth Management depends on the Generative AI Platform capability.
+- Wearable Banking depends on the Digital Channel Platform capability.
 - Welcome Servicing depends on the Notification Services capability.
+- Wholesale Funding Execution depends on the Treasury Management System capability.
+- Withholding Tax Calculation depends on the Core Banking Processing capability.
+- Wrap Up Interaction depends on the CRM Platform capability.
 
 ## Matrix
 | Business concept | Depends on technology capability |
 |---|---|
 | ACH Return Handling | Payment Orchestration |
+| AML Case Investigation | Analytics Platform, Machine Learning Platform |
+| AML Customer Due Diligence | Customer Identity, KYC Onboarding Platform |
 | AML Monitoring | Transaction Monitoring Platform |
+| ATM Authorization Handling | Card Processing |
+| ATM Cash Forecasting | Analytics Platform |
+| ATM Cash Management | Analytics Platform |
+| ATM Deposit Handling | Core Banking Processing |
+| ATM Fault Detection | Threat Detection |
 | ATM Management | Integration Platform |
+| ATM Monitoring & Servicing | Threat Detection |
+| ATM Network Management | Integration Platform |
+| ATM Transaction Processing | Card Processing |
+| Account Activation Control | Notification Services |
+| Account Balance Management | Core Banking Processing |
+| Account Closure Servicing | Core Banking Processing |
+| Account Detail Amendment | Core Banking Processing |
+| Account Hold & Block Management | Core Banking Processing |
+| Account Instantiation | Deposit Account Management |
+| Account Maintenance Servicing | Core Banking Processing |
 | Account Opening | Core Banking Processing |
 | Account Reconciliation | Core Banking Processing |
+| Account Reconciliation Servicing | Core Banking Processing |
 | Account Servicing | Core Banking Processing, Notification Services |
+| Account Substantiation | General Ledger Engine |
+| Account Update Execution | Core Banking Processing |
+| Accruals & Provisions Posting | General Ledger Engine |
 | Acknowledge Complaint | Notification Services |
+| Activate Card | Card Processing |
 | Activate Customer | Notification Services |
+| Activate Digital Channel | Notification Services |
+| Adjudicate Credit | Workflow Orchestration |
+| Adjudicate Dispute Outcome | Workflow Orchestration |
+| Adjudicate Fraud Claim | Workflow Orchestration |
+| Adverse Media Screening | Analytics Platform, Machine Learning Platform |
+| Advice Generation | Generative AI Platform, Investment Advisory Platform |
+| Advise Beneficiary | Notification Services |
+| Affordability Assessment | Analytics Platform, Credit Decisioning Engine |
+| Agent Desktop Servicing | CRM Platform |
 | Aggregate Balances | Integration Platform |
+| Aggregate Filing Data | Data Warehousing |
+| Aggregate Risk Exposure | Data Warehousing |
 | Agreement Activation | Core Banking Processing |
+| Alert Generation & Routing | Workflow Orchestration |
+| Alert Management | Machine Learning Platform, Transaction Monitoring Platform |
+| Alert Prioritisation Scoring | Machine Learning Platform, Transaction Monitoring Platform |
 | Alias Resolution | API Management |
+| Allocation Optimisation | Analytics Platform, Portfolio Management System |
+| Anti-Bribery & Corruption | Document Management, Governance Risk & Compliance Platform |
+| Appetite Approval & Cascade | Workflow Orchestration |
+| Application Capture & Validation | Deposit Account Management |
+| Application Data Capture | Document Management, Loan Origination Platform |
 | Application Decisioning | Workflow Orchestration |
+| Application Eligibility Screening | Credit Decisioning Engine |
 | Application Processing | Workflow Orchestration |
+| Application Processing & Verification | Document Management |
 | Application Tracking | Notification Services |
+| Apply Account Change | Core Banking Processing |
+| Apply Credit Policy | Credit Decisioning Engine |
+| Apply Detection Block | Fraud Analytics |
+| Apply Overdraft Fee | Core Banking Processing |
+| Apply Provisional Credit | Core Banking Processing |
+| Apply Velocity Rules | Fraud Analytics |
+| Approval Authority Routing | Workflow Orchestration |
+| Approve CDD Outcome | Workflow Orchestration |
+| Approve KYC Outcome | Workflow Orchestration |
 | Approve Onboarding | Workflow Orchestration |
+| Approve Risk Appetite | Workflow Orchestration |
+| Archive Filing Record | Document Management |
+| Archive Statement | Document Management |
+| Assemble Statement Document | Document Management |
+| Assess Affordability | Credit Decisioning Engine |
+| Assess Capital Adequacy | Analytics Platform |
+| Assess Change Impact | Workflow Orchestration |
+| Assess Regulatory Impact | Governance Risk & Compliance Platform |
+| Assess Trade Limit | Credit Decisioning Engine |
+| Asset Allocation | Analytics Platform, Portfolio Management System |
 | Asset Liability Management | Analytics Platform |
+| Asset Safekeeping | Core Banking Processing, Order Management System |
+| Assign Reason Code | Card Processing |
+| Assign Risk Treatment | Workflow Orchestration |
+| Attest Change Compliance | Governance Risk & Compliance Platform |
+| Authenticate Caller | Customer Authentication |
+| Authenticate Channel User | Customer Authentication |
 | Authenticate Requester | Identity Access Management |
+| Authorization Controls | Card Processing |
+| Authorization Decisioning | Card Processing |
 | Authorize Payment | Fraud Analytics |
+| Backtesting & P&L Attribution | Analytics Platform, Risk Analytics Engine |
+| Balance & Funds Verification | Card Processing |
+| Balance Settlement & Deactivation | Core Banking Processing |
+| Balance Sheet Management | Asset Liability Management Engine |
 | Behavioural Analytics | Analytics Platform |
+| Behavioural Modelling | Asset Liability Management Engine |
+| Benchmark Management | Analytics Platform, Portfolio Management System |
+| Beneficial Ownership Capture | Deposit Account Management |
+| Beneficial Ownership Identification | Data Governance, KYC Onboarding Platform |
+| Best Interest Compliance | Document Management, Investment Advisory Platform |
+| Block Compromised Card | Card Processing |
+| Branch Appointment & Queue | Workflow Orchestration |
 | Branch Banking | Integration Platform |
+| Branch Sales | CRM Platform |
+| Branch Servicing | CRM Platform |
+| Bribery & Corruption Risk Assessment | Analytics Platform, Governance Risk & Compliance Platform |
+| Budgeting & Forecasting | Analytics Platform |
 | Bulk Payment Origination | Payment Orchestration |
+| Business Continuity Management | Governance Risk & Compliance Platform, Threat Detection |
 | Campaign Execution | CRM Platform |
 | Campaign Management | CRM Platform |
+| Capital Adequacy Reporting | Regulatory Reporting Engine |
+| Capital Market Assumptions | Analytics Platform, Portfolio Management System |
+| Capital Planning | Analytics Platform |
+| Capital Stress Forecasting | Analytics Platform |
+| Capture Account Application | Digital Channel Platform |
+| Capture Card Application | Digital Channel Platform |
 | Capture Clearing Response | Payment Orchestration |
 | Capture Consent | Customer Identity |
+| Capture Loan Application | Loan Origination Platform |
 | Capture Request | Contact Center Platform |
+| Capture Signature Card | Core Banking Processing |
+| Card & Account Controls | Digital Channel Platform |
+| Card Activation | Card Processing |
+| Card Activation & Provisioning | Card Processing |
+| Card Application | Workflow Orchestration |
 | Card Authorization | Card Processing |
+| Card Billing & Statements | Core Banking Processing |
+| Card Blocking | Card Processing |
+| Card Clearing & Settlement | Core Banking Processing |
+| Card Closure | Core Banking Processing |
+| Card Collections | Notification Services |
+| Card Containment & Reissue | Card Processing |
+| Card Dispatch & Delivery | Notification Services |
+| Card Fraud Authorization Screening | Fraud Analytics |
 | Card Issuance | Card Processing |
 | Card Issuing | Card Processing |
 | Card Lifecycle Management | Card Processing |
+| Card Personalisation | Card Processing |
+| Card Production & Fulfillment | Card Processing |
+| Card Production & Fulfilment | Card Processing |
+| Card Renewal | Card Processing |
+| Card Replacement | Card Processing |
+| Card Tokenisation | Card Processing |
+| Cardholder Notifications | Notification Services |
 | Cards Management | Card Processing |
+| Cascade Risk Limits | Analytics Platform |
 | Case Management | Workflow Orchestration |
+| Cash & Vault Management | Core Banking Processing |
+| Cash Flow Forecasting | Analytics Platform |
+| Cash Handling | Core Banking Processing |
 | Cash Positioning | Core Banking Processing |
+| Cash-in-Transit Coordination | Notification Services |
 | Categorize Request | Workflow Orchestration |
+| Channel Accessibility | Digital Channel Platform |
+| Channel Authentication & Orchestration | Customer Authentication |
+| Channel Experience Management | Analytics Platform |
+| Channel Interaction Routing | Contact Center Platform |
 | Channel Management | Integration Platform |
+| Charge Off Debt | Core Banking Processing |
+| Chargeback Filing | Workflow Orchestration |
+| Chargeback Handling | Workflow Orchestration |
+| Chart Of Accounts Management | General Ledger Engine |
+| Chatbot Servicing | Conversational AI |
+| Check Available Limit | Card Processing |
+| Check Overdraft Opt-In | Core Banking Processing |
 | Churn Prediction | Analytics Platform |
+| Clear To Close | Credit Decisioning Engine |
+| Clearing & Posting | Card Processing |
 | Clearing Submission | Payment Orchestration |
+| Close Task Orchestration | Workflow Orchestration |
+| Closure Settlement | Core Banking Processing |
+| Collateral & Reserve Management | Treasury Management System |
 | Collateral Management | Core Banking Processing |
+| Collateral Optimisation | Treasury Management System |
+| Collateral Perfection | Document Management, Workflow Orchestration |
+| Collateral Release | Core Banking Processing, Document Management |
+| Collateral Valuation | Analytics Platform, Document Management |
+| Collect CIP Information | Intelligent Document Processing |
 | Collect Documents | Intelligent Document Processing |
+| Collect KYC Documents | Intelligent Document Processing |
+| Collect Supporting Documents | Intelligent Document Processing |
 | Collection Scheduling | Payment Orchestration |
 | Collections & Recovery | Workflow Orchestration |
 | Communication Preference Management | CRM Platform |
+| Compare Against Limits | Analytics Platform |
+| Compile Regulatory Return | Regulatory Reporting Engine |
+| Compile Risk Report | Analytics Platform |
 | Complaint Management | Workflow Orchestration |
 | Complaint Resolution | Workflow Orchestration |
 | Complaint Root-Cause Analysis | Analytics Platform |
+| Compliance Monitoring & Testing | Analytics Platform, Governance Risk & Compliance Platform |
+| Compliance Policy Management | Document Management, Governance Risk & Compliance Platform |
+| Compliance Risk Assessment | Analytics Platform, Governance Risk & Compliance Platform |
+| Compliance Training Management | Document Management, Governance Risk & Compliance Platform |
+| Concentration Risk Analysis | Analytics Platform, Risk Analytics Engine |
+| Condition Precedent Tracking | Document Management, Workflow Orchestration |
+| Conduct Risk Management | Analytics Platform, Governance Risk & Compliance Platform |
 | Conduct Root Cause | Analytics Platform |
 | Confirm Resolution | Notification Services |
+| Confirm Sanctions Block | Payment Sanctions Filter |
 | Confirm Settlement | Payment Orchestration |
 | Consent & Preference Management | Master Data Management |
 | Consent Lifecycle | Master Data Management |
+| Consolidation Eliminations | Financial Consolidation Platform |
+| Contact Borrower | Notification Services |
 | Contact Center | Contact Center Platform |
+| Contact Complaint Intake | Contact Center Platform |
 | Contact Dialogue Management | Conversational AI |
 | Contact Routing Management | Contact Center Platform |
+| Control Person Identification | Data Governance, Document Management |
+| Control Testing Execution | Analytics Platform, Governance Risk & Compliance Platform |
+| Conversational Banking | Conversational AI, Digital Channel Platform |
+| Corporate Action Election | Notification Services, Order Management System |
+| Corporate Actions Processing | Core Banking Processing, Order Management System |
 | Correspondent Banking | Payment Orchestration |
+| Correspondent Banking Due Diligence | Document Management, KYC Onboarding Platform |
+| Cost Basis Tracking | Core Banking Processing, Portfolio Management System |
+| Counterparty Credit Risk | Analytics Platform, Risk Analytics Engine |
 | Create Customer Record | Master Data Management |
+| Credit Bureau Retrieval | Analytics Platform, Credit Decisioning Engine |
 | Credit Decisioning | Credit Decisioning Engine, Machine Learning Platform |
+| Credit Exposure Management | Risk Analytics Engine, Risk Data Aggregation |
+| Credit Limit Assignment | Credit Decisioning Engine |
+| Credit Risk Assessment | Machine Learning Platform, Risk Analytics Engine |
 | Credit Risk Management | Credit Decisioning Engine |
+| Credit Risk Mitigation | Analytics Platform, Risk Analytics Engine |
+| Credit Risk RWA | Regulatory Reporting Engine |
+| Credit Risk Rating | Machine Learning Platform, Model Risk Management Platform |
 | Credit Transfer Execution | Payment Orchestration |
 | Cross-Border Fee Calculation | Payment Orchestration |
 | Cross-Border Payments | Payment Orchestration |
+| Currency Transaction Reporting | Regulatory Reporting Engine, Transaction Monitoring Platform |
+| Currency Translation | Financial Consolidation Platform |
+| Custody & Safekeeping | Core Banking Processing, Order Management System |
 | Customer Acquisition | Workflow Orchestration |
 | Customer Due Diligence | Document Management |
 | Customer Event Detection | Analytics Platform |
 | Customer Insight | Analytics Platform |
 | Customer Lifecycle Management | CRM Platform, Master Data Management |
 | Customer Profile Management | Master Data Management |
+| Customer Risk Rating | Analytics Platform, Transaction Monitoring Platform |
 | Customer Segmentation | Analytics Platform |
 | Customer Servicing | Conversational AI, Workflow Orchestration |
 | Customer Survey Management | Analytics Platform |
 | Customer Value Modelling | Analytics Platform |
 | Data Survivorship | Master Data Management |
+| Deactivate Account | Core Banking Processing |
 | Debit Transfer Execution | Payment Orchestration |
+| Debt Sale Management | Analytics Platform, Document Management |
 | Decide Funding Actions | Analytics Platform |
+| Decide Pay Or Return | Decision Rules Engine |
+| Decision Card Application | Credit Decisioning Engine |
+| Delinquency Management | Analytics Platform, Workflow Orchestration |
+| Deliver Closing Disclosure | Document Management |
+| Deliver Statement | Notification Services |
+| Deposit Account Origination | Deposit Account Management |
+| Deposit Direct Debit Authorisation | Core Banking Processing |
+| Deposit Interest Accrual | Interest & Charges Engine |
+| Deposit Interest Posting | Interest & Charges Engine |
+| Deposit Product Selection | Core Banking Processing |
+| Deposit Rate Management | Interest & Charges Engine |
+| Deposit Statement & Reporting | Account Statement Generator |
+| Deposit Statement Delivery | Notification Services |
+| Deposit Statement Production | Account Statement Generator |
+| Deposit Tax Withholding | Core Banking Processing |
 | Deposits | Core Banking Processing |
+| Design Stress Scenario | Analytics Platform |
+| Detect Delinquency | Core Banking Processing |
+| Detect Insufficient Funds | Core Banking Processing |
 | Determine Cash Position | Core Banking Processing |
+| Determine Statement Cycle | Core Banking Processing |
+| Determine Suspicion | Governance Risk & Compliance Platform |
+| Digital Application Capture | Digital Channel Platform |
 | Digital Banking | Digital Channel Platform |
+| Digital Consent Capture | Customer Identity |
+| Digital Engagement & Personalisation | Analytics Platform, Digital Channel Platform |
+| Digital Identity & Activation | Customer Identity |
+| Digital Identity Verification | Customer Identity |
+| Digital Onboarding | Customer Identity, Digital Channel Platform |
+| Digital Self-Service | Customer Identity, Digital Channel Platform |
+| Digital Servicing | CRM Platform, Digital Channel Platform |
+| Digital Statements & Documents | Document Management |
 | Direct Debit Collection | Payment Orchestration |
 | Direct Debit Management | Payment Orchestration |
 | Direct Debit Mandate Management | Document Management |
 | Direct Debit Returns | Workflow Orchestration |
+| Disburse Loan Funds | Core Banking Processing |
+| Disbursement Authorization | Core Banking Processing, Workflow Orchestration |
+| Disclose Account Terms | Document Management |
+| Disclosure Management | Regulatory Reporting Engine |
+| Disposition & Recovery | Transaction Monitoring Platform |
+| Dispute Evidence Management | Document Management |
+| Dispute Investigation | Workflow Orchestration |
 | Dispute Management | Card Processing |
+| Distressed Account Recovery | Core Banking Processing |
+| Distribute Risk Report | Regulatory Reporting Engine |
 | Domestic Payments | Payment Orchestration |
+| Dormancy & Escheatment | Core Banking Processing |
+| Dormancy Detection | Analytics Platform |
+| Dormancy Management | Analytics Platform |
+| EVE Sensitivity Analysis | Asset Liability Management Engine |
+| Early Withdrawal Handling | Core Banking Processing |
+| Eligibility & Suitability Screening | Core Banking Processing |
+| Embed Appetite Limits | Workflow Orchestration |
+| Enhanced Due Diligence Management | Document Management, KYC Onboarding Platform |
+| Enrol Strong Authentication | Customer Authentication |
 | Enterprise Risk Management | Data Warehousing |
+| Escalate Limit Breach | Workflow Orchestration |
+| Escalate To Arbitration | Workflow Orchestration |
+| Escalate To Assisted Servicing | Workflow Orchestration |
+| Escalate To Recovery | Workflow Orchestration |
+| Escheat Dormant Account | Regulatory Reporting Engine |
+| Escheatment Processing | Core Banking Processing |
+| Escrow Administration | Core Banking Processing |
+| Establish Deposit Account | Core Banking Processing |
+| Evaluate Overdraft Limit | Core Banking Processing |
+| Evaluate Residual Risk | Analytics Platform |
+| Examine Trade Documents | Document Management |
 | Exception Investigation | Workflow Orchestration |
 | Execute Funding Transfer | Payment Orchestration |
+| Extract Account Activity | Core Banking Processing |
+| FTP Rate Curve Management | Asset Liability Management Engine |
 | FX Conversion For Payments | Payment Orchestration |
+| Feed Detection Models | Machine Learning Platform |
+| File Suspicious Activity Report | Transaction Monitoring Platform |
 | File Validation & Enrichment | Payment Orchestration |
+| Filing Review & Submission | Regulatory Reporting Engine |
+| Finalize Dispute Credit | Core Banking Processing |
 | Finance Management | General Ledger Engine |
+| Financial Consolidation | Data Warehousing, Financial Consolidation Platform |
 | Financial Crime Compliance | Transaction Monitoring Platform |
+| Financial Crime Risk Compliance | Analytics Platform, Governance Risk & Compliance Platform |
+| Financial Planning Advisory | CRM Platform, Investment Advisory Platform |
 | Financial Reporting | General Ledger Engine |
+| First Deposit Funding | Transaction Posting Engine |
+| Fixed Asset Accounting | General Ledger Engine |
 | Forecast Cash Flow | Analytics Platform |
 | Format Clearing Message | Payment Orchestration |
 | Fraud Detection | Fraud Analytics |
+| Fraud Loss Recovery | Fraud Analytics, Governance Risk & Compliance Platform |
 | Fraud Management | Fraud Analytics |
+| Fraud Monitoring | Fraud Analytics, Machine Learning Platform |
+| Fraud Risk Assessment | Analytics Platform, Fraud Analytics |
+| Fraud Scoring Models | Fraud Analytics, Machine Learning Platform |
 | Fulfil Request | Core Banking Processing |
+| Fulfill Card | Notification Services |
+| Fund Digital Account | Payment Orchestration |
+| Fund Mortgage Loan | Core Banking Processing |
+| Fund New Account | Core Banking Processing |
 | Funding & Concentration | Payment Orchestration |
+| Funding Management | Analytics Platform |
+| Funding Risk Management | Analytics Platform, Risk Analytics Engine |
+| Funds Transfer Pricing Management | Asset Liability Management Engine |
+| Funds Transfer Self-Service | Digital Channel Platform |
+| Gather Dispute Evidence | Document Management |
 | General Ledger Accounting | General Ledger Engine |
+| Generate Card Credential | Card Processing |
+| Generate Fraud Alert | Fraud Analytics |
+| Generate Sanctions Alert | Payment Sanctions Filter |
+| Goal Planning | Analytics Platform, Investment Advisory Platform |
+| Guarantee Administration | Core Banking Processing, Document Management |
+| HQLA Buffer Management | Risk Analytics Engine, Risk Data Aggregation |
+| Handle Customer Interaction | Contact Center Platform |
+| Hardship & Forbearance | Core Banking Processing, Workflow Orchestration |
+| Hedge Effectiveness Testing | Asset Liability Management Engine |
+| Hedge Management | Treasury Management System |
+| Hit Resolution & Reporting | Payment Sanctions Filter |
 | Identify Breaks | Workflow Orchestration |
+| Identify Service Intent | Conversational AI |
 | Identity Verification | Customer Identity |
+| Implement Compliance Control | Policy & Control Management |
+| Inbound Contact Servicing | Contact Center Platform |
+| Income Collection | Core Banking Processing, Order Management System |
+| Income Verification | Analytics Platform, Document Management |
 | Ingest Bank Statement | Integration Platform |
+| Ingest Transaction Stream | Data Streaming |
 | Instant Payment Clearing | Data Streaming |
 | Instant Payment Confirmation | Data Streaming |
 | Interaction History | CRM Platform |
+| Interaction Recording & Quality | Contact Center Platform |
 | Interbank Clearing | Payment Orchestration |
 | Interbank Settlement | Payment Orchestration |
+| Intercompany Accounting | General Ledger Engine |
+| Intercompany Elimination | General Ledger Engine |
+| Interest Accrual Calculation | Interest & Charges Engine |
+| Interest Accrual Management | Core Banking Processing |
 | Interest Calculation | Core Banking Processing |
+| Interest Rate Risk In The Banking Book | Asset Liability Management Engine |
+| Internal Management Reporting | Analytics Platform |
+| Intraday Liquidity Management | Treasury Management System |
+| Intraday Liquidity Monitoring | Analytics Platform, Risk Analytics Engine |
 | Investigate Break | Workflow Orchestration |
 | Investment Advisory | Generative AI Platform |
+| Investment Mandate Management | Analytics Platform, Portfolio Management System |
+| Investment Research | Analytics Platform, Investment Advisory Platform |
+| Investment Valuation | Analytics Platform, Portfolio Management System |
+| Issue & Remediation Tracking | Analytics Platform, Governance Risk & Compliance Platform |
+| Issue Dormancy Notice | Notification Services |
 | Issue Final Response | Notification Services |
+| Issue Final Statement | Document Management |
+| Issue Letter Of Credit | Integration Platform |
+| Issue Loan Estimate | Document Management |
+| Issue Loan Offer | Loan Origination Platform |
+| Journal Management | General Ledger Engine |
+| Journal Validation & Control | General Ledger Engine |
 | KYC Management | Intelligent Document Processing |
+| KYC Refresh Management | Document Management, KYC Onboarding Platform |
+| Key Risk Indicator Monitoring | Analytics Platform, Governance Risk & Compliance Platform |
+| LCR & NSFR Management | Risk Analytics Engine, Risk Data Aggregation |
 | Lead Capture | CRM Platform |
 | Lead Management | CRM Platform |
 | Lead Qualification | Analytics Platform |
+| Ledger Account Mapping | General Ledger Engine |
 | Lending | Core Banking Processing, Loan Origination Platform |
+| Leverage Ratio Calculation | Regulatory Reporting Engine |
+| Lien Registration | Document Management, Workflow Orchestration |
+| Limit & Exposure Management | Risk Analytics Engine, Risk Data Aggregation |
+| Limit Monitoring & Escalation | Analytics Platform |
 | Liquidity Forecasting | Analytics Platform |
 | Liquidity Management | Data Warehousing |
 | Liquidity Risk Management | Data Warehousing |
+| Liquidity Risk Measurement | Analytics Platform, Risk Analytics Engine |
+| Loan Account Maintenance | Core Banking Processing |
+| Loan Application Management | Loan Origination Platform, Workflow Orchestration |
+| Loan Approval | Credit Decisioning Engine, Workflow Orchestration |
+| Loan Disbursement | Core Banking Processing, Workflow Orchestration |
+| Loan Documentation Management | Document Management, Workflow Orchestration |
+| Loan Modification | Core Banking Processing, Workflow Orchestration |
 | Loan Origination | Document Management, Loan Origination Platform |
+| Loan Pricing | Analytics Platform, Credit Decisioning Engine |
 | Loan Servicing | Core Banking Processing |
+| Lodge SAR Filing | Regulatory Reporting Engine |
+| Loss Data Management | Data Warehousing, Governance Risk & Compliance Platform |
+| Mandate & Signatory Maintenance | Core Banking Processing |
 | Mandate Verification | Document Management |
+| Map Regulatory Obligation | Governance Risk & Compliance Platform |
+| Mark-to-Market Valuation | Analytics Platform, Risk Analytics Engine |
 | Market Risk Management | Analytics Platform |
+| Market Risk Measurement | Analytics Platform, Risk Analytics Engine |
 | Marketing Management | Analytics Platform, CRM Platform |
 | Match Transactions | Core Banking Processing |
+| Maturity & Rollover Processing | Core Banking Processing |
 | Mobile Banking | Digital Channel Platform |
+| Model Inventory Management | Data Warehousing, Model Risk Management Platform |
+| Model Risk Management | Machine Learning Platform, Model Risk Management Platform |
 | Monitor Liquidity Position | Analytics Platform |
+| NII Sensitivity Analysis | Asset Liability Management Engine |
+| Negotiable Instrument Processing | Core Banking Processing |
+| Negotiate Repayment | Workflow Orchestration |
+| Network Link Analysis | Analytics Platform, Machine Learning Platform |
 | Next-Best-Action | Analytics Platform |
 | Nostro Reconciliation | Payment Orchestration |
+| Notify Account Change | Notification Services |
+| Notify Financial Intelligence | Regulatory Reporting Engine |
+| Notify Overdraft Outcome | Notification Services |
+| Obligation Mapping | Data Governance, Governance Risk & Compliance Platform |
+| Obtain Board Approval | Workflow Orchestration |
 | Onboarding Orchestration | Workflow Orchestration |
 | Online Banking | Customer Identity |
+| Op Risk Scenario Analysis | Analytics Platform, Governance Risk & Compliance Platform |
+| Open Banking Channel | API Management, Customer Identity |
+| Open Investigation Case | Transaction Monitoring Platform |
+| Operational Risk Capital Modelling | Analytics Platform, Risk Analytics Engine |
 | Operational Risk Management | Threat Detection |
+| Orchestrate Channel Journey | Integration Platform |
+| Order Allocation | Core Banking Processing, Order Management System |
+| Order Management | Core Banking Processing, Order Management System |
+| Order Routing | Core Banking Processing, Order Management System |
+| Outbound Dialer Management | Contact Center Platform |
+| Outbound Engagement | Contact Center Platform |
+| Overdraft Facility Setup | Core Banking Processing |
+| Overdraft Fee & Notice | Notification Services |
+| Overdraft Interest & Fee Charging | Interest & Charges Engine |
+| Overdraft Limit Assessment | Core Banking Processing |
+| Overdraft Limit Monitoring | Analytics Platform |
 | Overdraft Management | Core Banking Processing |
+| Ownership Structure Unwrapping | Analytics Platform, Data Governance |
+| PD LGD EAD Estimation | Machine Learning Platform, Model Risk Management Platform |
+| PEP Screening | Analytics Platform, Transaction Monitoring Platform |
+| PIN Management | Card Processing |
 | Party Data Management | Master Data Management |
 | Party Data Quality | Master Data Management |
 | Party Identifier Management | Master Data Management |
 | Party Reference Data | Master Data Management |
 | Party Relationship Mapping | Master Data Management |
+| Payment Allocation | Core Banking Processing |
 | Payment Authorization & Routing | Payment Orchestration |
 | Payment Authorization Capture | Payment Orchestration |
 | Payment Capture & Validation | Payment Orchestration |
@@ -360,36 +1379,200 @@ Each business capability / process / step and the technology capabilities it dep
 | Payment Screening | Transaction Monitoring Platform |
 | Payment Services | Core Banking Processing, Payment Orchestration |
 | Payment Status Tracking | Payment Orchestration |
+| Payoff & Closure | Core Banking Processing |
+| Performance Measurement | Analytics Platform, Portfolio Management System |
+| Personalize Card | Card Processing |
+| Plan Change Remediation | Workflow Orchestration |
+| Portfolio Accounting | Core Banking Processing, Portfolio Management System |
+| Portfolio Construction | Analytics Platform, Portfolio Management System |
 | Portfolio Management | Analytics Platform |
+| Portfolio Rebalancing Management | Analytics Platform, Portfolio Management System |
+| Post Account Interest | Core Banking Processing |
 | Post Adjustment | General Ledger Engine |
+| Post Cleared Transaction | Core Banking Processing |
+| Pre-Arbitration & Arbitration | Workflow Orchestration |
+| Pre-Qualify Borrower | Credit Decisioning Engine |
+| Prepayment Handling | Core Banking Processing |
+| Pricing Exception Handling | Workflow Orchestration |
+| Primary Statement Production | Regulatory Reporting Engine |
+| Process Teller Transaction | Core Banking Processing |
+| Product Recommendation | Generative AI Platform, Investment Advisory Platform |
+| Profitability Analytics | Analytics Platform |
+| Project Capital Impact | Analytics Platform |
+| Projection & Submission | Regulatory Reporting Engine |
+| Promise-To-Pay Management | Core Banking Processing, Workflow Orchestration |
+| Provision Wallet Token | Card Processing |
+| Provisional Credit & Resolution | Core Banking Processing |
+| Provisional Credit Management | Core Banking Processing |
+| Provisioning & ECL | Machine Learning Platform, Risk Analytics Engine |
+| Pull Credit Report | Credit Decisioning Engine |
+| RWA Calculation | Regulatory Reporting Engine |
+| Raise Chargeback | Card Processing |
+| Rate Customer Risk | Governance Risk & Compliance Platform |
 | Real-Time Payments | Data Streaming, Payment Orchestration |
+| Real-Time Risk Scoring | Fraud Analytics |
 | Receive Application | Digital Channel Platform |
+| Receive Authorization Request | Card Processing |
+| Receive Closure Request | Digital Channel Platform |
+| Receive Credit Application | Workflow Orchestration |
+| Receive Maintenance Request | Digital Channel Platform |
 | Receive Payment Instruction | Payment Orchestration |
+| Receive Representment | Workflow Orchestration |
+| Reconcile ATM Cash | Core Banking Processing |
+| Reconcile Risk Data | Data Governance |
+| Reconcile Statement Data | Data Warehousing |
+| Reconciliation & Close | General Ledger Engine |
+| Record Channel Interaction | CRM Platform |
+| Recover Fraud Loss | Core Banking Processing |
+| Recovery & Write-Off | Analytics Platform, Core Banking Processing |
+| Refer Suspicious Activity | Transaction Monitoring Platform |
+| Register Dispute Claim | Workflow Orchestration |
+| Register Risk Item | Workflow Orchestration |
+| Regulatory Capital Adequacy | Risk Analytics Engine, Risk Data Aggregation |
 | Regulatory Capital Management | Regulatory Reporting Engine |
+| Regulatory Change Compliance | Data Governance, Governance Risk & Compliance Platform |
 | Regulatory Compliance | Data Governance |
+| Regulatory Examination Management | Document Management, Governance Risk & Compliance Platform |
+| Regulatory Filing Preparation | Regulatory Reporting Engine |
 | Regulatory Reporting | Regulatory Reporting Engine |
+| Reissue Card | Card Processing |
 | Relationship Management | CRM Platform |
 | Relationship Planning | CRM Platform |
+| Remediation & Attestation | Governance Risk & Compliance Platform |
+| Render Loan Decision | Credit Decisioning Engine |
+| Render Statement Output | Document Management |
+| Repayment Processing | Analytics Platform, Core Banking Processing |
+| Repayment Schedule Management | Core Banking Processing |
 | Report Cash Status | Analytics Platform |
+| Report Production & Distribution | Regulatory Reporting Engine |
+| Report Sanctions Block | Regulatory Reporting Engine |
+| Reporting Data Aggregation | Data Warehousing |
+| Repossession Management | Core Banking Processing, Workflow Orchestration |
+| Representment Handling | Workflow Orchestration |
 | Request To Pay | API Management |
+| Resolve Cash Discrepancy | Workflow Orchestration |
+| Resolve Sanctions Hit | Governance Risk & Compliance Platform |
+| Resolve Self-Service Request | Core Banking Processing |
+| Retirement Projection | Analytics Platform, Investment Advisory Platform |
+| Return Attribution | Analytics Platform, Portfolio Management System |
+| Return Authorization Response | Card Processing |
+| Revaluation Scheduling | Analytics Platform, Workflow Orchestration |
+| Review Representment Evidence | Document Management |
+| Review Title And Liens | Document Management |
+| Reward Points Accrual | Core Banking Processing |
+| Reward Points Redemption | Core Banking Processing |
+| Rewards Management | Core Banking Processing |
+| Risk & Control Self-Assessment | Analytics Platform, Governance Risk & Compliance Platform |
+| Risk Appetite Management | Analytics Platform, Risk Data Aggregation |
+| Risk Capital Calculation | Risk Analytics Engine, Risk Data Aggregation |
+| Risk Identification | Analytics Platform, Governance Risk & Compliance Platform |
+| Risk Model Calibration | Analytics Platform, Machine Learning Platform |
+| Risk Reporting & Governance | Data Warehousing, Risk Data Aggregation |
+| Risk Tolerance Profiling | CRM Platform, Investment Advisory Platform |
+| Risk Treatment & Ownership | Workflow Orchestration |
+| Risk-Grade Assignment | Analytics Platform, Credit Decisioning Engine |
+| Route Fraud Alert | Workflow Orchestration |
+| Route Interaction | Contact Center Platform |
 | Route Payment | Payment Orchestration |
+| SAR Confidentiality Control | Data Governance, Document Management |
+| SAR Filing & Tracking | Document Management, Regulatory Reporting Engine |
+| SAR Management | Document Management, Regulatory Reporting Engine |
 | SWIFT Message Processing | Integration Platform |
 | Same Day ACH Processing | Payment Orchestration |
+| Sanctions List Curation | Data Governance, Transaction Monitoring Platform |
+| Sanctions List Ingestion | Data Governance, Transaction Monitoring Platform |
 | Sanctions Screening | Transaction Monitoring Platform |
+| Scenario Design & Governance | Analytics Platform |
+| Scenario Library Management | Data Warehousing, Risk Data Aggregation |
+| Scenario Threshold Tuning | Machine Learning Platform, Transaction Monitoring Platform |
+| Schedule Cash Delivery | Integration Platform |
+| Score Credit Risk | Machine Learning Platform |
+| Score Inherent Risk | Analytics Platform |
+| Score Interaction Quality | Contact Center Platform |
 | Screen Customer | Transaction Monitoring Platform |
 | Screen Sanctions | Transaction Monitoring Platform |
+| Screen Transaction Risk | Fraud Analytics |
+| Securities Position Keeping | Core Banking Processing, Order Management System |
+| Segment Arrears | Analytics Platform |
+| Self-Service IVR | Conversational AI |
+| Self-Service IVR Authentication | Customer Authentication |
+| Senior Management Approval | Governance Risk & Compliance Platform, Workflow Orchestration |
+| Sensitivities Calculation | Analytics Platform, Risk Analytics Engine |
 | Service Fulfilment | Workflow Orchestration |
 | Servicing Order Orchestration | Workflow Orchestration |
+| Servicing Resource Management | Contact Center Platform, Workforce Engagement Management |
+| Settle Chargeback | Core Banking Processing |
+| Settle Residual Balance | Core Banking Processing |
+| Settle Trade Payment | Core Banking Processing |
 | Settlement Confirmation | Payment Orchestration |
+| Settlement Instruction Management | Core Banking Processing, Order Management System |
 | Settlement Liquidity Management | Payment Orchestration |
+| Settlement Quotation | Core Banking Processing |
 | Settlement Reconciliation | Payment Orchestration |
 | Sign Off Reconciliation | Workflow Orchestration |
+| Source Of Wealth Verification | Analytics Platform, Document Management |
+| Stand-In Authorization | Card Processing |
 | Standing Order Management | Payment Orchestration |
+| Standing Orders & Sweeps | Core Banking Processing |
+| Statement & Notices | Core Banking Processing, Document Management |
+| Statement Delivery | Notification Services |
+| Statutory Reporting | Regulatory Reporting Engine |
+| Stress Testing Management | Analytics Platform, Risk Analytics Engine |
+| Submit Capital Plan | Regulatory Reporting Engine |
+| Submit Regulatory Return | Regulatory Reporting Engine |
 | Submit To Clearing | Payment Orchestration |
+| Suitability Assessment | CRM Platform, Investment Advisory Platform |
+| Suitability Report Production | Document Management, Investment Advisory Platform |
+| Suspicious Activity Detection | Machine Learning Platform, Transaction Monitoring Platform |
 | Suspicious Activity Reporting | Transaction Monitoring Platform |
+| Sweep Rule Execution | Core Banking Processing |
+| Syndicated Loan Administration | Core Banking Processing, Workflow Orchestration |
+| Synthetic Identity Detection | Fraud Analytics, Machine Learning Platform |
+| Take Mortgage Application | Loan Origination Platform |
+| Tax Evasion Compliance | Data Governance, Regulatory Reporting Engine |
+| Tax Reporting Consolidation | Document Management |
+| Tax-Loss Harvesting | Analytics Platform, Portfolio Management System |
+| Teller Operations | Core Banking Processing |
+| Term Deposit Lifecycle | Core Banking Processing |
+| Third-Party Integrity Due Diligence | Analytics Platform, Document Management |
+| Tiered Interest Determination | Interest & Charges Engine |
+| Tolerance Band Monitoring | Analytics Platform, Portfolio Management System |
+| Track Risk Remediation | Workflow Orchestration |
+| Trade Affirmation | Core Banking Processing, Order Management System |
+| Trade Execution | Core Banking Processing, Order Management System |
+| Trade Fail Management | Core Banking Processing, Order Management System |
+| Trade Settlement | Core Banking Processing, Order Management System |
+| Trading Book Risk | Risk Analytics Engine, Risk Data Aggregation |
 | Transaction Monitoring | Transaction Monitoring Platform |
+| Transaction Posting | Transaction Posting Engine |
+| Transaction Reversal Handling | Transaction Posting Engine |
+| Treasury Cash Positioning | Analytics Platform |
 | Treasury Management | Data Warehousing |
+| Treatment Strategy Management | Analytics Platform, Workflow Orchestration |
+| Triage AML Alert | Transaction Monitoring Platform |
 | Triage Complaint | Workflow Orchestration |
+| Triage Fraud Alert | Fraud Analytics |
+| Triage Potential Match | Governance Risk & Compliance Platform |
+| Typology Modelling | Analytics Platform, Machine Learning Platform |
+| Unauthorised Overdraft Handling | Notification Services |
+| Validate Card Cryptogram | Card Processing |
+| Validate Closure Eligibility | Workflow Orchestration |
+| Validate Dispute Rights | Workflow Orchestration |
+| Validate Filing Quality | Regulatory Reporting Engine |
 | Validate Payment | Payment Orchestration |
+| Validate Risk Models | Machine Learning Platform |
+| Value-Dated Posting | Transaction Posting Engine |
+| Value-at-Risk Calculation | Analytics Platform, Risk Analytics Engine |
+| Vault Float Control | Workflow Orchestration |
+| Verify Account Holder | Identity Access Management |
+| Verify Borrower Income | Document Management |
+| Verify Cardholder Activity | Notification Services |
+| Verify Digital Identity | Identity Proofing Service |
+| Voice Assistant Banking | Conversational AI |
+| Watchlist Management | Data Governance, Transaction Monitoring Platform |
 | Wealth Management | Generative AI Platform |
+| Wearable Banking | Digital Channel Platform |
 | Welcome Servicing | Notification Services |
+| Wholesale Funding Execution | Treasury Management System |
+| Withholding Tax Calculation | Core Banking Processing |
+| Wrap Up Interaction | CRM Platform |

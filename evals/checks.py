@@ -209,7 +209,10 @@ def check_author(data):
                 add("WARN","author",rel,"definition does not start with the canonical name")
         else:
             add("WARN","author",rel,"no '**Definition.**' line")
-        if "Also known as" not in body: add("WARN","author",rel,"no 'Also known as' line")
+        akw=fm.get("aliases","").strip()
+        has_aliases=akw not in ("","[]",'""',"[ ]")
+        if has_aliases and "Also known as" not in body:
+            add("WARN","author",rel,"declares aliases but has no 'Also known as' line")
         # relationship bullets
         after=body[idx+len("## Relationships"):]
         nxt=after.find("\n## "); block=after if nxt<0 else after[:nxt]

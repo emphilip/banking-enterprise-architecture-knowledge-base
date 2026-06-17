@@ -21,6 +21,13 @@ status: draft
 ## Details
 KYC Verification collects identity evidence, validates documents, performs sanctions and watchlist screening, and assigns a customer risk rating. Actors include compliance analysts and onboarding staff, with escalation to enhanced due diligence for higher-risk parties. Systems involved include document processing, identity proofing, and screening platforms feeding the customer record.
 
+## Flow
+- Collect KYC Documents causes Validate Customer Identity.
+- Validate Customer Identity causes Screen Against Watchlists.
+- Screen Against Watchlists causes Compile KYC Profile.
+- Compile KYC Profile causes Approve KYC Outcome.
+- Approve KYC Outcome causes Schedule KYC Review.
+
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)

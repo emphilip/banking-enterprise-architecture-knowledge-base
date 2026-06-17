@@ -21,6 +21,12 @@ status: draft
 ## Details
 Fraud Detection ingests transaction and event streams, applies machine learning models and rules to score risk, and generates alerts or blocks for suspicious activity. Actors include fraud analysts and automated decisioning services. Systems involved include a fraud analytics platform, data streaming, and a machine learning platform.
 
+## Flow
+- Ingest Transaction Stream causes Screen Transaction Risk.
+- Screen Transaction Risk causes Generate Fraud Alert.
+- Generate Fraud Alert causes Apply Detection Block.
+- Apply Detection Block causes Route Fraud Alert.
+
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)

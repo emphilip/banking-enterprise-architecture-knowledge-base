@@ -6,7 +6,7 @@ domain: Customer Management
 level: L3
 aliases: ["Lead and Opportunity Management", "Prospect Management", "Opportunity Management"]
 status: draft
-sources: ["https://bian.org/servicelandscape-9-1/views/view_98179.html", "https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3"]
+sources: ["https://bian.org/servicelandscape/", "https://www.apqc.org/process-frameworks"]
 ---
 
 # Lead Management
@@ -20,8 +20,8 @@ sources: ["https://bian.org/servicelandscape-9-1/views/view_98179.html", "https:
 - Lead Management depends on the CRM Platform capability.
 
 ## Details
-Lead Management extends its parent Customer Acquisition within the Customer Management domain and is grounded in BIAN Service Domain mappings and APQC PCF alignment. Lead Management relies on the CRM Platform technology capability for its core processing and integrates with adjacent Customer Management capabilities. Implementations typically apply cloud-native, API-led and AI-assisted patterns to deliver Lead Management at scale.
+Lead Management corresponds to the BIAN Lead/Opportunity Management service domain, which registers prospects, maintains opportunity stages, and routes qualified opportunities toward sales fulfilment. Lead Management aligns to APQC PCF category 3.0 (Market and Sell Products and Services), specifically the manage-sales-opportunities processes. In retail and commercial banking, leads arrive from digital channels, branch referrals, marketing campaigns and partner introductions, and are scored and tracked in the CRM Platform until conversion or closure.
 
 ## References
-- [https://bian.org/servicelandscape-9-1/views/view_98179.html](https://bian.org/servicelandscape-9-1/views/view_98179.html)
-- [https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3](https://www.apqc.org/resource-library/resource-listing/30-market-and-sell-products-and-services-definitions-and-key-3)
+- [BIAN Service Landscape](https://bian.org/servicelandscape/)
+- [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)

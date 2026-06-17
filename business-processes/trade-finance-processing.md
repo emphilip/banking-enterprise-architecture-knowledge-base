@@ -22,3 +22,10 @@ Trade Finance Processing captures the trade instrument request, assesses limits 
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)
+
+## Flow
+- Receive Credit Application causes Assess Trade Limit.
+- Assess Trade Limit causes Issue Letter Of Credit.
+- Issue Letter Of Credit causes Advise Beneficiary.
+- Advise Beneficiary causes Examine Trade Documents.
+- Examine Trade Documents causes Settle Trade Payment.

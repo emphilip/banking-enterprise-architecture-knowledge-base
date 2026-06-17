@@ -20,6 +20,14 @@ status: draft
 ## Details
 Card Issuance creates the card account, generates the card profile and PAN, instructs personalization and fulfillment, and manages activation and digital wallet provisioning. Actors include customers, card operations staff, and fulfillment vendors. Systems involved include a card processing platform, tokenization services, and notification services.
 
+## Flow
+- Capture Card Application causes Decision Card Application.
+- Decision Card Application causes Generate Card Credential.
+- Generate Card Credential causes Personalize Card.
+- Personalize Card causes Fulfill Card.
+- Fulfill Card causes Activate Card.
+- Activate Card causes Provision Wallet Token.
+
 ## References
 - [APQC Process Classification Framework](https://www.apqc.org/process-frameworks)
 - [BIAN Service Landscape](https://bian.org/servicelandscape/)
