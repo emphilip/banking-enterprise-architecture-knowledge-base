@@ -21,7 +21,7 @@ first row whose Status is not `done`).
 | 6 | Wealth & Investments | business | done | done | done | done | done |
 | 7 | Risk Management | business | done | done | done | done | done |
 | 8 | Compliance & Financial Crime | business | done | done | done | done | done |
-| 9 | Channels & Engagement | business | todo | todo | todo | todo | todo |
+| 9 | Channels & Engagement | business | todo | todo | todo | todo | in-progress |
 | 10 | Finance & Treasury | business | todo | todo | todo | todo | todo |
 | 11 | Core Processing | technology | n/a | todo | n/a | todo | todo |
 | 12 | Data & Analytics | technology | n/a | todo | n/a | todo | todo |
@@ -35,9 +35,9 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Compliance & Financial Crime (DONE) — 8 of 15 domains deep-dived
-- Phase: DONE — all 5 eval gates 0 FAIL (1 advisory WARN: pre-existing Cards OmniPay); LLM-judge PASS after fixes incl. 6AMLD directive correction (evals/judge-compliance-and-financial-crime.md); baseline refreshed (1212 files)
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime
+- Domain: Channels & Engagement
+- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-channels-and-engagement-{bian,flows,tech}.md (CRM Platform already decomposed; decompose Digital Channel Platform + Contact Center Platform)
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime (8 of 15)
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
