@@ -24,7 +24,7 @@ first row whose Status is not `done`).
 | 9 | Channels & Engagement | business | done | done | done | done | done |
 | 10 | Finance & Treasury | business | done | done | done | done | done |
 | 11 | Core Processing | technology | n/a | done | n/a | done | done |
-| 12 | Data & Analytics | technology | n/a | todo | n/a | todo | todo |
+| 12 | Data & Analytics | technology | n/a | in-progress | n/a | todo | in-progress |
 | 13 | Integration & APIs | technology | n/a | todo | n/a | todo | todo |
 | 14 | Security & Identity | technology | n/a | todo | n/a | todo | todo |
 | 15 | AI & Automation | technology | n/a | todo | n/a | todo | todo |
@@ -35,9 +35,9 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Core Processing (DONE) — 11 of 15 domains; first technology domain complete
-- Phase: DONE — all 5 eval gates 0 FAIL (3 advisory WARNs: OmniPay/Fidessa/Nasdaq Calypso, no same-capability modern in scope); LLM-judge PASS after FlexONE same-capability fix (evals/judge-core-processing.md); baseline refreshed (1542 files)
-- Done so far: all 10 business domains + Core Processing. Remaining tech domains: Data & Analytics, Integration & APIs, Security & Identity, AI & Automation.
+- Domain: Data & Analytics (technology, tech-only run)
+- Phase: 1 Research (in-progress) — 2 sub-agents (tech-L3/L2 deepening + systems-refresh). 4 top-level caps undecomposed (Data Warehousing, Data Streaming, Analytics Platform, Document Management) -> decompose to L2/L3; + systems gaps. Same-capability supersedes only.
+- Done so far: all 10 business domains + Core Processing (11 of 15; 1542 files). Remaining: Data & Analytics (now), Integration & APIs, Security & Identity, AI & Automation.
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
