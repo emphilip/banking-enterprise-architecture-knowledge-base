@@ -96,6 +96,16 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[05-apply-credit-policy|Apply Credit Policy]]
 - [[06-adjudicate-credit|Adjudicate Credit]]
 
+## Customer Due Diligence Onboarding
+
+- [[01-capture-cip-data|Capture CIP Data]]
+- [[02-identify-beneficial-owner|Identify Beneficial Owner]]
+- [[03-screen-cdd-parties|Screen CDD Parties]]
+- [[04-rate-customer-risk|Rate Customer Risk]]
+- [[05-trigger-enhanced-diligence|Trigger Enhanced Diligence]]
+- [[06-approve-cdd-outcome|Approve CDD Outcome]]
+- [[07-establish-cdd-profile|Establish CDD Profile]]
+
 ## Customer Onboarding
 
 - [[01-receive-application|Receive Application]]
@@ -152,6 +162,15 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[04-recover-fraud-loss|Recover Fraud Loss]]
 - [[05-file-suspicious-activity-report|File Suspicious Activity Report]]
 - [[06-feed-detection-models|Feed Detection Models]]
+
+## Kyc Verification
+
+- [[01-collect-kyc-documents|Collect KYC Documents]]
+- [[02-validate-customer-identity|Validate Customer Identity]]
+- [[03-screen-against-watchlists|Screen Against Watchlists]]
+- [[04-compile-kyc-profile|Compile KYC Profile]]
+- [[05-approve-kyc-outcome|Approve KYC Outcome]]
+- [[06-schedule-kyc-review|Schedule KYC Review]]
 
 ## Loan Collections
 
@@ -230,6 +249,24 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[06-post-adjustment|Post Adjustment]]
 - [[07-sign-off-reconciliation|Sign Off Reconciliation]]
 
+## Regulatory Change Management
+
+- [[01-scan-regulatory-change|Scan Regulatory Change]]
+- [[02-map-regulatory-obligation|Map Regulatory Obligation]]
+- [[03-assess-regulatory-impact|Assess Regulatory Impact]]
+- [[04-plan-change-remediation|Plan Change Remediation]]
+- [[05-implement-compliance-control|Implement Compliance Control]]
+- [[06-attest-change-compliance|Attest Change Compliance]]
+
+## Regulatory Filing
+
+- [[01-identify-filing-obligation|Identify Filing Obligation]]
+- [[02-aggregate-filing-data|Aggregate Filing Data]]
+- [[03-compile-regulatory-return|Compile Regulatory Return]]
+- [[04-validate-filing-quality|Validate Filing Quality]]
+- [[05-submit-regulatory-return|Submit Regulatory Return]]
+- [[06-archive-filing-record|Archive Filing Record]]
+
 ## Risk Appetite Setting
 
 - [[01-define-risk-capacity|Define Risk Capacity]]
@@ -255,6 +292,15 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[04-escalate-limit-breach|Escalate Limit Breach]]
 - [[05-compile-risk-report|Compile Risk Report]]
 - [[06-distribute-risk-report|Distribute Risk Report]]
+
+## Sanctions Screening Operations
+
+- [[01-match-against-watchlist|Match Against Watchlist]]
+- [[02-generate-sanctions-alert|Generate Sanctions Alert]]
+- [[03-triage-potential-match|Triage Potential Match]]
+- [[04-resolve-sanctions-hit|Resolve Sanctions Hit]]
+- [[05-confirm-sanctions-block|Confirm Sanctions Block]]
+- [[06-report-sanctions-block|Report Sanctions Block]]
 
 ## Service Request Handling
 
@@ -284,6 +330,15 @@ Map-of-Content for step-level process flows. Steps are ordered; each step causes
 - [[04-assess-capital-adequacy|Assess Capital Adequacy]]
 - [[05-obtain-board-approval|Obtain Board Approval]]
 - [[06-submit-capital-plan|Submit Capital Plan]]
+
+## Suspicious Activity Reporting
+
+- [[01-triage-aml-alert|Triage AML Alert]]
+- [[02-open-investigation-case|Open Investigation Case]]
+- [[03-analyse-transaction-pattern|Analyse Transaction Pattern]]
+- [[04-determine-suspicion|Determine Suspicion]]
+- [[05-lodge-sar-filing|Lodge SAR Filing]]
+- [[06-notify-financial-intelligence|Notify Financial Intelligence]]
 
 ## Trade Finance Processing
 

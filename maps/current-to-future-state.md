@@ -109,6 +109,8 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - ServiceNow IRM supersedes Archer IRM.
 - MetricStream supersedes IBM OpenPages.
 - Quantexa supersedes Moody's RiskAuthority.
+- Napier AI supersedes SAS Anti-Money Laundering.
+- Napier AI supersedes LexisNexis Bridger Insight.
 
 ## Realization statements
 
@@ -184,6 +186,8 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Risk Data Aggregation depends on Moody's RiskAuthority.
 - Governance Risk & Compliance Platform depends on IBM OpenPages.
 - Governance Risk & Compliance Platform depends on Archer IRM.
+- Transaction Monitoring Platform depends on SAS Anti-Money Laundering.
+- Transaction Monitoring Platform depends on LexisNexis Bridger Insight.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -267,6 +271,8 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Risk Data Aggregation depends on Quantexa.
 - Model Risk Management Platform depends on ValidMind.
 - Model Risk Management Platform depends on ModelOp.
+- Transaction Monitoring Platform depends on Napier AI.
+- KYC Onboarding Platform depends on Fenergo.
 
 ## Successor matrix
 | Technology Capability | Legacy System | Modern Successor |
@@ -365,7 +371,9 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Risk Analytics Engine | Oracle OFSAA | Murex MX.3 Risk |
 | Risk Analytics Engine | SAS Risk Management for Banking | MSCI RiskMetrics |
 | Risk Data Aggregation | Moody's RiskAuthority | Quantexa |
+| Transaction Monitoring Platform | LexisNexis Bridger Insight | Napier AI |
 | Transaction Monitoring Platform | NICE Actimize | ComplyAdvantage |
 | Transaction Monitoring Platform | Oracle Mantas | Hawk AI |
+| Transaction Monitoring Platform | SAS Anti-Money Laundering | Napier AI |
 | Workflow Orchestration | Pega BPM | Camunda |
 | Workflow Orchestration | Pega BPM | Temporal |
