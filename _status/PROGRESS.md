@@ -24,7 +24,7 @@ first row whose Status is not `done`).
 | 9 | Channels & Engagement | business | done | done | done | done | done |
 | 10 | Finance & Treasury | business | done | done | done | done | done |
 | 11 | Core Processing | technology | n/a | done | n/a | done | done |
-| 12 | Data & Analytics | technology | n/a | done | n/a | in-progress | in-progress |
+| 12 | Data & Analytics | technology | n/a | done | n/a | done | done |
 | 13 | Integration & APIs | technology | n/a | todo | n/a | todo | todo |
 | 14 | Security & Identity | technology | n/a | todo | n/a | todo | todo |
 | 15 | AI & Automation | technology | n/a | todo | n/a | todo | todo |
@@ -35,24 +35,21 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Data & Analytics (technology, tech-only run)
-- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-data-and-analytics.md)
-
-- Done so far: all 10 business domains + Core Processing (11 of 15; 1542 files). Remaining: Data & Analytics (now), Integration & APIs, Security & Identity, AI & Automation.
+- Domain: Data & Analytics (DONE) — 12 of 15 domains
+- Phase: DONE — all 5 eval gates 0 FAIL (3 pre-existing WARNs); LLM-judge PASS first pass (evals/judge-data-and-analytics.md); baseline refreshed (1590 files)
+- Done so far: all 10 business domains + Core Processing + Data & Analytics. Remaining tech domains: Integration & APIs, Security & Identity, AI & Automation.
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
 - [ ] Deepen the next domain: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
-      (first not-done row = Data & Analytics — technology domain). Tech-only run like
-      Core Processing: top-level caps in this domain (Data Warehousing, Data Streaming,
-      Analytics Platform, Data Governance, Master Data Management, Document Management,
-      Regulatory Reporting Engine, + Risk Data Aggregation) are mostly already
-      decomposed by business runs — so use 2 research sub-agents (tech-L3 deepening +
-      systems-refresh), NOT the 3-agent business pipeline. Add focused L3 under existing
-      L2 sub-caps + missing systems (e.g. Snowflake/Databricks/BigQuery already present;
-      check Teradata/Informatica/Collibra/Confluent coverage). KEEP supersedes strictly
-      same-capability (the Core Processing run's FlexONE failure was a cross-capability
-      supersede — leave a legacy uncovered rather than cross-pair).
+      (first not-done row = Integration & APIs — technology domain). Tech-only run
+      (2 sub-agents: tech-decomposition + systems-refresh). Top-level caps in this
+      domain: API Management, Integration Platform, Workflow Orchestration,
+      Notification Services. Check which are undecomposed (likely most/all — they were
+      NOT decomposed by business runs) and decompose to L2/L3; refresh systems
+      (MuleSoft/Kong/Apigee/Boomi already present — check IBM/TIBCO/webMethods/Camunda/
+      Temporal coverage). KEEP supersedes strictly same-capability; leave a legacy
+      uncovered rather than cross-pair.
 
 ## Decisions log
 

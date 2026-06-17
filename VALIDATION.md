@@ -529,3 +529,43 @@ granularity 4.91.
 capabilities (L1–L4), 224 technology capabilities + sub-capabilities, 163
 processes + sub-processes, 312 process-flow steps, 166 supporting concepts,
 90 legacy + 106 modern systems, 10 glossary terms.
+
+---
+
+## Deep-dive: Data & Analytics domain (2026-06-17)
+
+Twelfth domain deep-dive (technology domain, tech-only run).
+
+**Added (+48 concepts):** 34 technology sub-capabilities (25 L2 + 9 L3) — fully
+decomposing the four previously-undecomposed top-level caps **Data Warehousing**
+(Data Lakehouse Platform, Cloud Data Warehouse, ELT Pipeline Engine, Semantic
+Layer Service, Distributed Query Engine, …), **Data Streaming** (Event Streaming
+Bus, Stream Processing Engine, Change Data Capture Service, Event Schema
+Registry, …), **Analytics Platform** (BI & Reporting Service, Self-Service
+Analytics, OLAP Cube Engine, Dashboarding Service, …), and **Document
+Management** (Content Repository, Content Capture Service, Records Management
+Service, …), plus selective L3 and a Reference Data Management L2 under MDM; 3 new
+legacy + 11 new modern systems (filling a Data Governance systems gap:
+Collibra/Alation; plus Tableau/Qlik/ThoughtSpot, dbt/Fivetran, Apache
+Kafka/Flink, SharePoint, OpenText Content Suite).
+
+**Eval gates (deterministic):** research / steward / author / weave / all → 0
+FAIL. Three advisory WARNs are all pre-existing (Fiserv OmniPay, Fidessa, Nasdaq
+Calypso — no same-capability modern in scope).
+
+**Steward:** renames (Document Capture Service → **Content Capture Service** to
+avoid the Core Processing alias; Intelligent Document Recognition aliases
+de-collided; Apache Kafka alias → Apache Kafka Streaming); Apache Kafka/Flink
+left without a supersede (IBM MQ already taken by Confluent — no cross-pairing).
+Post-judge hygiene: dropped the "Lakehouse" alias from Data Warehousing (now EDW)
+since Data Lakehouse Platform is a distinct L2.
+
+**Eval gate (semantic, LLM-judge, `evals/judge-data-and-analytics.md`):** PASS on
+first pass — means accuracy 5.00, groundedness 4.36, relationships 4.86, naming
+5.00, granularity 4.91. All supersedes verified same-capability; records-management
+standards (DoD 5015.2, ISO 15489, SEC 17a-4) and streaming internals verified.
+
+**Knowledge base totals after Data & Analytics deep-dive:** 456 business
+capabilities (L1–L4), 258 technology capabilities + sub-capabilities, 163
+processes + sub-processes, 312 process-flow steps, 166 supporting concepts,
+93 legacy + 117 modern systems, 10 glossary terms.
