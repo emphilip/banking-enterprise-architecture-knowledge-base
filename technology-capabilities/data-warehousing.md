@@ -3,14 +3,14 @@ id: data-warehousing
 title: Data Warehousing
 type: technology-capability
 domain: Data & Analytics
-aliases: ["Data Warehouse", "Lakehouse"]
+aliases: ["Data Warehouse", "EDW"]
 status: draft
 ---
 
 # Data Warehousing
 
 **Definition.** Data Warehousing is the technology capability that consolidates structured and semi-structured data into governed, query-optimized stores supporting analytics, reporting, and historical analysis across the bank.
-**Also known as:** Data Warehouse, Lakehouse.
+**Also known as:** Data Warehouse, EDW.
 
 ## Relationships
 - Data Warehousing is defined in the Data & Analytics domain.

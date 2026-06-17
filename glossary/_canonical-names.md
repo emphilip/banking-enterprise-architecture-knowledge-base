@@ -569,7 +569,7 @@ Format: Canonical Name | Tech Domain (defined_in) | Business capabilities that d
 | Loan Origination Platform | Core Processing | Loan Origination | LOS |
 | General Ledger Engine | Core Processing | General Ledger Accounting, Financial Reporting | GL System |
 | Credit Decisioning Engine | Core Processing | Credit Decisioning, Credit Risk Management | Decision Engine |
-| Data Warehousing | Data & Analytics | Financial Reporting, Enterprise Risk Management | Data Warehouse, Lakehouse |
+| Data Warehousing | Data & Analytics | Financial Reporting, Enterprise Risk Management | Data Warehouse, EDW |
 | Data Streaming | Data & Analytics | Real-Time Payments, Fraud Management | Event Streaming |
 | Analytics Platform | Data & Analytics | Customer Segmentation, Market Risk Management | BI Platform, Analytics & BI |
 | Data Governance | Data & Analytics | Regulatory Compliance | Data Catalog, Data Governance & Catalog |
