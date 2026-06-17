@@ -20,7 +20,7 @@ first row whose Status is not `done`).
 | 5 | Cards | business | done | done | done | done | done |
 | 6 | Wealth & Investments | business | done | done | done | done | done |
 | 7 | Risk Management | business | done | done | done | done | done |
-| 8 | Compliance & Financial Crime | business | todo | todo | todo | todo | todo |
+| 8 | Compliance & Financial Crime | business | todo | todo | todo | todo | in-progress |
 | 9 | Channels & Engagement | business | todo | todo | todo | todo | todo |
 | 10 | Finance & Treasury | business | todo | todo | todo | todo | todo |
 | 11 | Core Processing | technology | n/a | todo | n/a | todo | todo |
@@ -35,9 +35,9 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Risk Management (DONE) — 7 of 15 domains deep-dived
-- Phase: DONE — all 5 eval gates 0 FAIL (1 advisory WARN: pre-existing Cards OmniPay); LLM-judge PASS first pass (evals/judge-risk-management.md); baseline refreshed (1076 files)
-- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management
+- Domain: Compliance & Financial Crime
+- Phase: 1 Research (in-progress) — 3 sub-agents writing _status/proposed-compliance-and-financial-crime-{bian,flows,tech}.md
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management (7 of 15)
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
