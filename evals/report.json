@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-17T14:08:13.347446Z",
+  "generated": "2026-06-17T14:10:38.940080Z",
   "phase": "author",
   "counts": {
-    "FAIL": 152,
+    "FAIL": 87,
     "WARN": 0,
     "INFO": 0
   },
@@ -16,54 +16,6 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "business-capabilities/L3-capital-adequacy-reporting.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-capital-planning.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-chart-of-accounts-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-collateral-and-reserve-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-disclosure-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-financial-consolidation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-fixed-asset-accounting.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-funding-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "business-capabilities/L3-funds-transfer-pricing-management.md",
       "message": "registry concept missing its file"
     },
@@ -71,60 +23,6 @@
       "severity": "FAIL",
       "phase": "author",
       "path": "business-capabilities/L3-hedge-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-intercompany-accounting.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-interest-rate-risk-in-the-banking-book.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-internal-management-reporting.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-intraday-liquidity-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-journal-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-reconciliation-and-close.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-rwa-calculation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-statutory-reporting.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-treasury-cash-positioning.md",
       "message": "registry concept missing its file"
     },
     {
@@ -262,37 +160,7 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "business-processes/budget-and-forecast-preparation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/capital-calculation-and-aggregation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/cash-and-liquidity-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/consolidation-and-statements.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "business-processes/curve-construction-and-governance.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/financial-close.md",
       "message": "registry concept missing its file"
     },
     {
@@ -304,43 +172,13 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "business-processes/funds-transfer-pricing.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "business-processes/intraday-liquidity-positioning.md",
       "message": "registry concept missing its file"
     },
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "business-processes/ledger-close-and-reconciliation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/management-reporting.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/period-end-adjustments.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "business-processes/rate-application-and-attribution.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/regulatory-capital-reporting.md",
       "message": "registry concept missing its file"
     },
     {
@@ -358,18 +196,6 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "business-processes/variance-and-insight-reporting.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "concepts/alm-analyst.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "concepts/capital-adequacy-return.md",
       "message": "registry concept missing its file"
     },
@@ -377,24 +203,6 @@
       "severity": "FAIL",
       "phase": "author",
       "path": "concepts/consolidated-financial-statements.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "concepts/financial-controller.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "concepts/fpanda-manager.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "concepts/ftp-curve-approved-event.md",
       "message": "registry concept missing its file"
     },
     {
@@ -412,12 +220,6 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "concepts/liquidity-limit-breach-event.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "concepts/liquidity-position.md",
       "message": "registry concept missing its file"
     },
@@ -430,151 +232,13 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "concepts/period-close-initiated-event.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "concepts/regulatory-reporting-specialist.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "concepts/reporting-deadline-reached-event.md",
       "message": "registry concept missing its file"
     },
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "concepts/treasury-analyst.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "concepts/trial-balance.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/legacy/oracle-e-business-suite.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/legacy/oracle-hyperion-hfm.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/legacy/qrm-balance-sheet-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/legacy/sap-bpc.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/legacy/sap-treasury-and-risk-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/legacy/sas-asset-and-liability-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/legacy/sungard-avantgard.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/modern/anaplan.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/modern/empyrean-sol-alm.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/modern/gtreasury.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/modern/ion-treasury.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/modern/kyriba.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/modern/moodys-balance-sheet-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/modern/onestream.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/modern/oracle-epm-cloud.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "systems/modern/sap-s-4hana-finance.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/account-reconciliation-service.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/accounting-rules-engine.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/allocation-engine.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/asset-liability-management-engine.md",
       "message": "registry concept missing its file"
     },
     {
@@ -598,18 +262,6 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "technology-capabilities/cash-positioning-service.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/chart-of-accounts-service.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "technology-capabilities/consolidation-engine.md",
       "message": "registry concept missing its file"
     },
@@ -623,12 +275,6 @@
       "severity": "FAIL",
       "phase": "author",
       "path": "technology-capabilities/disclosure-management-service.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/financial-consolidation-platform.md",
       "message": "registry concept missing its file"
     },
     {
@@ -652,19 +298,7 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "technology-capabilities/intercompany-accounting-service.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "technology-capabilities/irrbb-analytics-engine.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/journal-processing-engine.md",
       "message": "registry concept missing its file"
     },
     {
@@ -676,31 +310,7 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "technology-capabilities/multi-currency-ledger-service.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/period-close-manager.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "technology-capabilities/planning-and-budgeting-engine.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/subledger-accounting.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/treasury-management-system.md",
       "message": "registry concept missing its file"
     },
     {

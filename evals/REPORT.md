@@ -1,31 +1,14 @@
 # Eval Report
 
-Generated: 2026-06-17T14:08:13.347446Z  
+Generated: 2026-06-17T14:10:38.940080Z  
 Phase: `author`  
-**FAIL: 152  WARN: 0  INFO: 0**
+**FAIL: 87  WARN: 0  INFO: 0**
 
 | Severity | Phase | Path | Message |
 |---|---|---|---|
 | FAIL | author | business-capabilities/L3-balance-sheet-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-capital-adequacy-reporting.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-capital-planning.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-chart-of-accounts-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-collateral-and-reserve-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-disclosure-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-financial-consolidation.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-fixed-asset-accounting.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-funding-management.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L3-funds-transfer-pricing-management.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L3-hedge-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-intercompany-accounting.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-interest-rate-risk-in-the-banking-book.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-internal-management-reporting.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-intraday-liquidity-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-journal-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-reconciliation-and-close.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-rwa-calculation.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-statutory-reporting.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-treasury-cash-positioning.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-account-substantiation.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-accruals-and-provisions-posting.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-behavioural-modelling.md | registry concept missing its file |
@@ -48,80 +31,32 @@ Phase: `author`
 | FAIL | author | business-capabilities/L4-primary-statement-production.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-profitability-analytics.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-wholesale-funding-execution.md | registry concept missing its file |
-| FAIL | author | business-processes/budget-and-forecast-preparation.md | registry concept missing its file |
-| FAIL | author | business-processes/capital-calculation-and-aggregation.md | registry concept missing its file |
-| FAIL | author | business-processes/cash-and-liquidity-management.md | registry concept missing its file |
-| FAIL | author | business-processes/consolidation-and-statements.md | registry concept missing its file |
 | FAIL | author | business-processes/curve-construction-and-governance.md | registry concept missing its file |
-| FAIL | author | business-processes/financial-close.md | registry concept missing its file |
 | FAIL | author | business-processes/funding-and-buffer-management.md | registry concept missing its file |
-| FAIL | author | business-processes/funds-transfer-pricing.md | registry concept missing its file |
 | FAIL | author | business-processes/intraday-liquidity-positioning.md | registry concept missing its file |
-| FAIL | author | business-processes/ledger-close-and-reconciliation.md | registry concept missing its file |
-| FAIL | author | business-processes/management-reporting.md | registry concept missing its file |
-| FAIL | author | business-processes/period-end-adjustments.md | registry concept missing its file |
 | FAIL | author | business-processes/rate-application-and-attribution.md | registry concept missing its file |
-| FAIL | author | business-processes/regulatory-capital-reporting.md | registry concept missing its file |
 | FAIL | author | business-processes/return-assembly-and-submission.md | registry concept missing its file |
 | FAIL | author | business-processes/scenario-and-capital-planning.md | registry concept missing its file |
-| FAIL | author | business-processes/variance-and-insight-reporting.md | registry concept missing its file |
-| FAIL | author | concepts/alm-analyst.md | registry concept missing its file |
 | FAIL | author | concepts/capital-adequacy-return.md | registry concept missing its file |
 | FAIL | author | concepts/consolidated-financial-statements.md | registry concept missing its file |
-| FAIL | author | concepts/financial-controller.md | registry concept missing its file |
-| FAIL | author | concepts/fpanda-manager.md | registry concept missing its file |
-| FAIL | author | concepts/ftp-curve-approved-event.md | registry concept missing its file |
 | FAIL | author | concepts/ftp-curve.md | registry concept missing its file |
 | FAIL | author | concepts/journal-entry.md | registry concept missing its file |
-| FAIL | author | concepts/liquidity-limit-breach-event.md | registry concept missing its file |
 | FAIL | author | concepts/liquidity-position.md | registry concept missing its file |
 | FAIL | author | concepts/management-accounts.md | registry concept missing its file |
-| FAIL | author | concepts/period-close-initiated-event.md | registry concept missing its file |
-| FAIL | author | concepts/regulatory-reporting-specialist.md | registry concept missing its file |
 | FAIL | author | concepts/reporting-deadline-reached-event.md | registry concept missing its file |
-| FAIL | author | concepts/treasury-analyst.md | registry concept missing its file |
 | FAIL | author | concepts/trial-balance.md | registry concept missing its file |
-| FAIL | author | systems/legacy/oracle-e-business-suite.md | registry concept missing its file |
-| FAIL | author | systems/legacy/oracle-hyperion-hfm.md | registry concept missing its file |
-| FAIL | author | systems/legacy/qrm-balance-sheet-management.md | registry concept missing its file |
-| FAIL | author | systems/legacy/sap-bpc.md | registry concept missing its file |
-| FAIL | author | systems/legacy/sap-treasury-and-risk-management.md | registry concept missing its file |
-| FAIL | author | systems/legacy/sas-asset-and-liability-management.md | registry concept missing its file |
-| FAIL | author | systems/legacy/sungard-avantgard.md | registry concept missing its file |
-| FAIL | author | systems/modern/anaplan.md | registry concept missing its file |
-| FAIL | author | systems/modern/empyrean-sol-alm.md | registry concept missing its file |
-| FAIL | author | systems/modern/gtreasury.md | registry concept missing its file |
-| FAIL | author | systems/modern/ion-treasury.md | registry concept missing its file |
-| FAIL | author | systems/modern/kyriba.md | registry concept missing its file |
-| FAIL | author | systems/modern/moodys-balance-sheet-management.md | registry concept missing its file |
-| FAIL | author | systems/modern/onestream.md | registry concept missing its file |
-| FAIL | author | systems/modern/oracle-epm-cloud.md | registry concept missing its file |
-| FAIL | author | systems/modern/sap-s-4hana-finance.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/account-reconciliation-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/accounting-rules-engine.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/allocation-engine.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/asset-liability-management-engine.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/balance-sheet-planning-engine.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/bank-connectivity-hub.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/behavioural-modelling-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/cash-positioning-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/chart-of-accounts-service.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/consolidation-engine.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/deal-management.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/disclosure-management-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/financial-consolidation-platform.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/financial-data-quality-service.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/funds-transfer-pricing-engine.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/in-house-banking-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/intercompany-accounting-service.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/irrbb-analytics-engine.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/journal-processing-engine.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/liquidity-forecasting-engine.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/multi-currency-ledger-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/period-close-manager.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/planning-and-budgeting-engine.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/subledger-accounting.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/treasury-management-system.md | registry concept missing its file |
 | FAIL | author | technology-capabilities/treasury-risk-management-service.md | registry concept missing its file |
 | FAIL | author | process-flows/cash-and-liquidity-management/01-aggregate-cash-balances.md | registry step missing its file |
 | FAIL | author | process-flows/cash-and-liquidity-management/02-project-liquidity-position.md | registry step missing its file |
