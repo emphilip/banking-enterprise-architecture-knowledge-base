@@ -16,7 +16,7 @@ sources: ["https://www.bis.org/bcbs/publ/d424.htm", "https://www.bis.org/publ/wo
 
 ## Relationships
 - Leverage Ratio Calculation is defined in the Finance & Treasury domain.
-- Leverage Ratio Calculation is derived from RWA Calculation.
+- Leverage Ratio Calculation is derived from Capital Adequacy Reporting.
 - Leverage Ratio Calculation depends on the Regulatory Reporting Engine capability.
 
 ## Details

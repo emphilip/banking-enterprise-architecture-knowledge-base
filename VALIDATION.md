@@ -450,3 +450,41 @@ naming 4.82, granularity 4.93.
 capabilities (L1–L4), 172 technology capabilities + sub-capabilities, 146
 processes + sub-processes, 277 process-flow steps, 150 supporting concepts,
 76 legacy + 92 modern systems, 10 glossary terms.
+
+---
+
+## Deep-dive: Finance & Treasury domain (2026-06-17)
+
+Tenth domain deep-dive via the eval-gated pipeline — **completes all 10 business
+domains**.
+
+**Added (~152 concepts):** 20 L3 + 22 L4 business capabilities; **3 new top-level
+technology capabilities** (Treasury Management System, Asset Liability Management
+Engine, Financial Consolidation Platform) + 23 sub-capabilities (incl. the first
+decomposition of General Ledger Engine); 5 net-new processes (Financial Close,
+Management Reporting, Regulatory Capital Reporting, Cash & Liquidity Management,
+Funds Transfer Pricing); 12 sub-processes; 35 ordered process-flow steps (with
+`## Flow` sections); 16 supporting concepts (5 role, 4 event, 7 artifact); 7 new
+legacy + 9 new modern systems.
+
+**Eval gates (deterministic):** research / steward / author / weave / all → 0
+FAIL. The one advisory WARN is the pre-existing Cards Fiserv OmniPay gap.
+
+**Steward:** resolved the three-way "Management Reporting" clash (process keeps
+it; alias dropped from Financial Reporting; L3 cap → Internal Management
+Reporting) plus Funds Transfer Pricing Management / Treasury Cash Positioning
+renames; same-capability supersedes for all 7 new legacies (ERP→ERP,
+consolidation→consolidation, treasury→treasury, ALM→ALM).
+
+**Eval gate (semantic, LLM-judge, `evals/judge-finance-and-treasury.md`):** PASS on
+first pass — means accuracy 5.00, groundedness 4.75, relationships 4.93, naming
+5.00, granularity 4.86. No fabricated framework specifics (BCBS d368/d424/d248,
+IFRS 18, IAS 1 all verified). Two non-blocking fixes applied: Leverage Ratio
+Calculation re-parented off RWA Calculation to Capital Adequacy Reporting (it is
+non-risk-based); SunGard AvantGard clarified as now part of FIS.
+
+**Knowledge base totals after Finance & Treasury deep-dive (all 10 business
+domains complete):** 456 business capabilities (L1–L4), 198 technology
+capabilities + sub-capabilities, 163 processes + sub-processes, 312
+process-flow steps, 166 supporting concepts, 83 legacy + 101 modern systems,
+10 glossary terms.

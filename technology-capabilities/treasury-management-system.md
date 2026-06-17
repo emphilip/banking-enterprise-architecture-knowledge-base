@@ -25,7 +25,7 @@ sources: ["https://www.kyriba.com/solutions/treasury/", "https://iongroup.com/pr
 - Treasury Management System mentions SunGard AvantGard.
 
 ## Details
-Treasury Management System aggregates balances across banks, accounts, entities and currencies to produce a global cash position and drive same-day funding decisions. Connectivity spans SWIFT, host-to-host, EBICS and APIs, ingesting MT940/camt statements and dispatching treasury payments. Modern cloud platforms such as Kyriba (9,900+ bank/ERP connections, AI cash forecasting) and GTreasury supersede ERP-embedded and on-premise predecessors such as SAP Treasury And Risk Management and SunGard AvantGard. ION Treasury (Wallstreet Suite, Reval, IT2) covers deal capture and position keeping for money-market, FX, debt and derivative instruments with counterparty and limit control.
+Treasury Management System aggregates balances across banks, accounts, entities and currencies to produce a global cash position and drive same-day funding decisions. Connectivity spans SWIFT, host-to-host, EBICS and APIs, ingesting MT940/camt statements and dispatching treasury payments. Modern cloud platforms such as Kyriba (9,900+ bank/ERP connections, AI cash forecasting) and GTreasury supersede ERP-embedded and on-premise predecessors such as SAP Treasury And Risk Management and SunGard AvantGard (now part of FIS). ION Treasury (Wallstreet Suite, Reval, IT2) covers deal capture and position keeping for money-market, FX, debt and derivative instruments with counterparty and limit control.
 
 ## References
 - [Kyriba Treasury](https://www.kyriba.com/solutions/treasury/)

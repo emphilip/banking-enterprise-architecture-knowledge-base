@@ -144,7 +144,7 @@ Format: Canonical Name | Level | Domain (defined_in) | Parent (derived_from) | A
 | Profitability Analytics | L4 | Finance & Treasury | Internal Management Reporting | Cost & Profitability Analysis, Product Profitability, Customer Profitability |
 | Budgeting & Forecasting | L4 | Finance & Treasury | Internal Management Reporting | Planning & Forecasting, Budget Management, Variance Analysis |
 | Credit Risk RWA | L4 | Finance & Treasury | RWA Calculation | Credit RWA, SA-CR RWA, IRB RWA |
-| Leverage Ratio Calculation | L4 | Finance & Treasury | RWA Calculation | Leverage Exposure Measure, LR Calculation, Leverage Ratio |
+| Leverage Ratio Calculation | L4 | Finance & Treasury | Capital Adequacy Reporting | Leverage Exposure Measure, LR Calculation, Leverage Ratio |
 | Capital Stress Forecasting | L4 | Finance & Treasury | Capital Planning | Capital Projection, Stressed Capital Forecast, Capital Scenario Forecasting |
 | Cash Flow Forecasting | L4 | Finance & Treasury | Treasury Cash Positioning | Treasury Cash Forecasting, Liquidity Cash Forecasting, Cash Projection |
 | Wholesale Funding Execution | L4 | Finance & Treasury | Funding Management | Money Market Funding, Repo Funding, Debt Issuance Funding |

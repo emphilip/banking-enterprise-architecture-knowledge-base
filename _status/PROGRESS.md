@@ -22,7 +22,7 @@ first row whose Status is not `done`).
 | 7 | Risk Management | business | done | done | done | done | done |
 | 8 | Compliance & Financial Crime | business | done | done | done | done | done |
 | 9 | Channels & Engagement | business | done | done | done | done | done |
-| 10 | Finance & Treasury | business | done | done | done | in-progress | in-progress |
+| 10 | Finance & Treasury | business | done | done | done | done | done |
 | 11 | Core Processing | technology | n/a | todo | n/a | todo | todo |
 | 12 | Data & Analytics | technology | n/a | todo | n/a | todo | todo |
 | 13 | Integration & APIs | technology | n/a | todo | n/a | todo | todo |
@@ -35,25 +35,25 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Finance & Treasury
-- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-finance-and-treasury.md)
-
-- Done so far: 9 domains (all business except Finance & Treasury) — Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime, Channels & Engagement
+- Domain: Finance & Treasury (DONE) — 10 of 15 domains deep-dived; ALL 10 BUSINESS DOMAINS COMPLETE
+- Phase: DONE — all 5 eval gates 0 FAIL (1 advisory WARN: pre-existing Cards OmniPay); LLM-judge PASS first pass (evals/judge-finance-and-treasury.md); baseline refreshed (1504 files)
+- Done so far: Payments, Customer Management, Lending & Credit, Deposits & Accounts, Cards, Wealth & Investments, Risk Management, Compliance & Financial Crime, Channels & Engagement, Finance & Treasury
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
-- [ ] Deepen the next domain: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
-      (first not-done row = Finance & Treasury — the LAST business domain). Same
-      eval-gated pipeline; source-anchored Details up front; same-capability
-      supersedes. Finance & Treasury has L1 Finance Management + Treasury
-      Management, L2 General Ledger Accounting / Financial Reporting / Regulatory
-      Capital Management / Liquidity Management / Asset Liability Management, and
-      no dedicated process yet; relevant tech = General Ledger Engine, Regulatory
-      Reporting Engine, Analytics Platform, Data Warehousing. Propose new processes
-      (Financial Close, Management Reporting, Funds Transfer Pricing, Cash & Liquidity
-      Management, Regulatory Capital Reporting). Likely needs new top-level treasury
-      tech caps (e.g. Treasury Management System / ALM Engine). After Finance &
-      Treasury, the 5 technology domains (11-15) remain for tech-only deepening.
+- [ ] Begin the TECHNOLOGY domains: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
+      (first not-done row = Core Processing). NOTE: technology domains are tech-only —
+      Caps L3/L4 = n/a and Flows = n/a in the ledger; the run should DEEPEN the tech
+      decomposition (any remaining L2/L3 under the domain's top-level tech capabilities
+      not already covered), refresh systems coverage, and may add cross-cutting tech
+      reference concepts. Many Core Processing top-level caps (Core Banking Processing,
+      Payment Orchestration, Card Processing, Loan Origination Platform, Credit
+      Decisioning Engine, General Ledger Engine, + the new TMS/ALM/Consolidation/
+      Portfolio/Order/Advisory caps) are ALREADY decomposed from business-domain runs —
+      so for tech domains, focus on (a) any undecomposed top-level tech caps in that
+      domain, (b) systems-refresh with same-capability supersedes, (c) cross-cutting
+      patterns. Adjust the research prompts accordingly (tech-decomposition + systems-
+      refresh are the primary sub-agents; bian-deep/apqc-process are minimal/n/a).
 
 ## Decisions log
 
