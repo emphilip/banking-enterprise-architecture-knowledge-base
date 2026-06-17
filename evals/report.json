@@ -1,52 +1,16 @@
 {
-  "generated": "2026-06-17T14:10:38.940080Z",
+  "generated": "2026-06-17T14:12:46.299606Z",
   "phase": "author",
   "counts": {
-    "FAIL": 87,
-    "WARN": 0,
+    "FAIL": 28,
+    "WARN": 16,
     "INFO": 0
   },
   "findings": [
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "business-capabilities/L3-balance-sheet-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-funds-transfer-pricing-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L3-hedge-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-account-substantiation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-accruals-and-provisions-posting.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "business-capabilities/L4-behavioural-modelling.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-budgeting-and-forecasting.md",
       "message": "registry concept missing its file"
     },
     {
@@ -64,31 +28,7 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "business-capabilities/L4-close-task-orchestration.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "business-capabilities/L4-collateral-optimisation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-consolidation-eliminations.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-credit-risk-rwa.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-currency-translation.md",
       "message": "registry concept missing its file"
     },
     {
@@ -112,211 +52,13 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "business-capabilities/L4-intercompany-elimination.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-journal-validation-and-control.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-ledger-account-mapping.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-leverage-ratio-calculation.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "business-capabilities/L4-nii-sensitivity-analysis.md",
       "message": "registry concept missing its file"
     },
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "business-capabilities/L4-primary-statement-production.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-capabilities/L4-profitability-analytics.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "business-capabilities/L4-wholesale-funding-execution.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/curve-construction-and-governance.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/funding-and-buffer-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/intraday-liquidity-positioning.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/rate-application-and-attribution.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/return-assembly-and-submission.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "business-processes/scenario-and-capital-planning.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "concepts/capital-adequacy-return.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "concepts/consolidated-financial-statements.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "concepts/ftp-curve.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "concepts/journal-entry.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "concepts/liquidity-position.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "concepts/management-accounts.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "concepts/reporting-deadline-reached-event.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "concepts/trial-balance.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/balance-sheet-planning-engine.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/bank-connectivity-hub.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/behavioural-modelling-service.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/consolidation-engine.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/deal-management.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/disclosure-management-service.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/financial-data-quality-service.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/funds-transfer-pricing-engine.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/in-house-banking-service.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/irrbb-analytics-engine.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/liquidity-forecasting-engine.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/planning-and-budgeting-engine.md",
-      "message": "registry concept missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "technology-capabilities/treasury-risk-management-service.md",
       "message": "registry concept missing its file"
     },
     {
@@ -364,48 +106,6 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "process-flows/financial-close/01-close-subledgers.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/financial-close/02-post-closing-journals.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/financial-close/03-reconcile-ledger-accounts.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/financial-close/04-eliminate-intercompany-balances.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/financial-close/05-run-consolidation.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/financial-close/06-prepare-consolidated-statements.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/financial-close/07-certify-period-close.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "process-flows/funds-transfer-pricing/01-assemble-market-curves.md",
       "message": "registry step missing its file"
     },
@@ -448,60 +148,6 @@
     {
       "severity": "FAIL",
       "phase": "author",
-      "path": "process-flows/management-reporting/01-build-operating-budget.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/management-reporting/02-approve-budget-plan.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/management-reporting/03-roll-forward-forecast.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/management-reporting/04-capture-actual-results.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/management-reporting/05-analyse-budget-variance.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/management-reporting/06-compile-management-accounts.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/management-reporting/07-present-board-pack.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/regulatory-capital-reporting/01-source-regulatory-data.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
-      "path": "process-flows/regulatory-capital-reporting/02-calculate-rwa.md",
-      "message": "registry step missing its file"
-    },
-    {
-      "severity": "FAIL",
-      "phase": "author",
       "path": "process-flows/regulatory-capital-reporting/03-determine-own-funds.md",
       "message": "registry step missing its file"
     },
@@ -528,6 +174,102 @@
       "phase": "author",
       "path": "process-flows/regulatory-capital-reporting/07-submit-capital-return.md",
       "message": "registry step missing its file"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/regulatory-capital-reporting/01-source-regulatory-data.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/regulatory-capital-reporting/02-calculate-rwa.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/financial-close/03-reconcile-ledger-accounts.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/financial-close/05-run-consolidation.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/financial-close/06-prepare-consolidated-statements.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/financial-close/07-certify-period-close.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/financial-close/04-eliminate-intercompany-balances.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/financial-close/02-post-closing-journals.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/financial-close/01-close-subledgers.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/management-reporting/03-roll-forward-forecast.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/management-reporting/04-capture-actual-results.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/management-reporting/01-build-operating-budget.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/management-reporting/05-analyse-budget-variance.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/management-reporting/07-present-board-pack.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/management-reporting/02-approve-budget-plan.md",
+      "message": "declares aliases but has no 'Also known as' line"
+    },
+    {
+      "severity": "WARN",
+      "phase": "author",
+      "path": "process-flows/management-reporting/06-compile-management-accounts.md",
+      "message": "declares aliases but has no 'Also known as' line"
     }
   ]
 }

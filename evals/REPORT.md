@@ -1,63 +1,20 @@
 # Eval Report
 
-Generated: 2026-06-17T14:10:38.940080Z  
+Generated: 2026-06-17T14:12:46.299606Z  
 Phase: `author`  
-**FAIL: 87  WARN: 0  INFO: 0**
+**FAIL: 28  WARN: 16  INFO: 0**
 
 | Severity | Phase | Path | Message |
 |---|---|---|---|
-| FAIL | author | business-capabilities/L3-balance-sheet-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-funds-transfer-pricing-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L3-hedge-management.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L4-account-substantiation.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L4-accruals-and-provisions-posting.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-behavioural-modelling.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L4-budgeting-and-forecasting.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-capital-stress-forecasting.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-cash-flow-forecasting.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L4-close-task-orchestration.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-collateral-optimisation.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L4-consolidation-eliminations.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L4-credit-risk-rwa.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L4-currency-translation.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-eve-sensitivity-analysis.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-ftp-rate-curve-management.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-hedge-effectiveness-testing.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L4-intercompany-elimination.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L4-journal-validation-and-control.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L4-ledger-account-mapping.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L4-leverage-ratio-calculation.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-nii-sensitivity-analysis.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L4-primary-statement-production.md | registry concept missing its file |
-| FAIL | author | business-capabilities/L4-profitability-analytics.md | registry concept missing its file |
 | FAIL | author | business-capabilities/L4-wholesale-funding-execution.md | registry concept missing its file |
-| FAIL | author | business-processes/curve-construction-and-governance.md | registry concept missing its file |
-| FAIL | author | business-processes/funding-and-buffer-management.md | registry concept missing its file |
-| FAIL | author | business-processes/intraday-liquidity-positioning.md | registry concept missing its file |
-| FAIL | author | business-processes/rate-application-and-attribution.md | registry concept missing its file |
-| FAIL | author | business-processes/return-assembly-and-submission.md | registry concept missing its file |
-| FAIL | author | business-processes/scenario-and-capital-planning.md | registry concept missing its file |
-| FAIL | author | concepts/capital-adequacy-return.md | registry concept missing its file |
-| FAIL | author | concepts/consolidated-financial-statements.md | registry concept missing its file |
-| FAIL | author | concepts/ftp-curve.md | registry concept missing its file |
-| FAIL | author | concepts/journal-entry.md | registry concept missing its file |
-| FAIL | author | concepts/liquidity-position.md | registry concept missing its file |
-| FAIL | author | concepts/management-accounts.md | registry concept missing its file |
-| FAIL | author | concepts/reporting-deadline-reached-event.md | registry concept missing its file |
-| FAIL | author | concepts/trial-balance.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/balance-sheet-planning-engine.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/bank-connectivity-hub.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/behavioural-modelling-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/consolidation-engine.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/deal-management.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/disclosure-management-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/financial-data-quality-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/funds-transfer-pricing-engine.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/in-house-banking-service.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/irrbb-analytics-engine.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/liquidity-forecasting-engine.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/planning-and-budgeting-engine.md | registry concept missing its file |
-| FAIL | author | technology-capabilities/treasury-risk-management-service.md | registry concept missing its file |
 | FAIL | author | process-flows/cash-and-liquidity-management/01-aggregate-cash-balances.md | registry step missing its file |
 | FAIL | author | process-flows/cash-and-liquidity-management/02-project-liquidity-position.md | registry step missing its file |
 | FAIL | author | process-flows/cash-and-liquidity-management/03-assess-liquidity-buffers.md | registry step missing its file |
@@ -65,13 +22,6 @@ Phase: `author`
 | FAIL | author | process-flows/cash-and-liquidity-management/05-execute-funding-action.md | registry step missing its file |
 | FAIL | author | process-flows/cash-and-liquidity-management/06-reconcile-end-of-day-cash.md | registry step missing its file |
 | FAIL | author | process-flows/cash-and-liquidity-management/07-report-liquidity-position.md | registry step missing its file |
-| FAIL | author | process-flows/financial-close/01-close-subledgers.md | registry step missing its file |
-| FAIL | author | process-flows/financial-close/02-post-closing-journals.md | registry step missing its file |
-| FAIL | author | process-flows/financial-close/03-reconcile-ledger-accounts.md | registry step missing its file |
-| FAIL | author | process-flows/financial-close/04-eliminate-intercompany-balances.md | registry step missing its file |
-| FAIL | author | process-flows/financial-close/05-run-consolidation.md | registry step missing its file |
-| FAIL | author | process-flows/financial-close/06-prepare-consolidated-statements.md | registry step missing its file |
-| FAIL | author | process-flows/financial-close/07-certify-period-close.md | registry step missing its file |
 | FAIL | author | process-flows/funds-transfer-pricing/01-assemble-market-curves.md | registry step missing its file |
 | FAIL | author | process-flows/funds-transfer-pricing/02-build-ftp-curve.md | registry step missing its file |
 | FAIL | author | process-flows/funds-transfer-pricing/03-set-behavioural-assumptions.md | registry step missing its file |
@@ -79,17 +29,24 @@ Phase: `author`
 | FAIL | author | process-flows/funds-transfer-pricing/05-apply-transfer-rates.md | registry step missing its file |
 | FAIL | author | process-flows/funds-transfer-pricing/06-attribute-net-margin.md | registry step missing its file |
 | FAIL | author | process-flows/funds-transfer-pricing/07-report-ftp-outcome.md | registry step missing its file |
-| FAIL | author | process-flows/management-reporting/01-build-operating-budget.md | registry step missing its file |
-| FAIL | author | process-flows/management-reporting/02-approve-budget-plan.md | registry step missing its file |
-| FAIL | author | process-flows/management-reporting/03-roll-forward-forecast.md | registry step missing its file |
-| FAIL | author | process-flows/management-reporting/04-capture-actual-results.md | registry step missing its file |
-| FAIL | author | process-flows/management-reporting/05-analyse-budget-variance.md | registry step missing its file |
-| FAIL | author | process-flows/management-reporting/06-compile-management-accounts.md | registry step missing its file |
-| FAIL | author | process-flows/management-reporting/07-present-board-pack.md | registry step missing its file |
-| FAIL | author | process-flows/regulatory-capital-reporting/01-source-regulatory-data.md | registry step missing its file |
-| FAIL | author | process-flows/regulatory-capital-reporting/02-calculate-rwa.md | registry step missing its file |
 | FAIL | author | process-flows/regulatory-capital-reporting/03-determine-own-funds.md | registry step missing its file |
 | FAIL | author | process-flows/regulatory-capital-reporting/04-assemble-capital-return.md | registry step missing its file |
 | FAIL | author | process-flows/regulatory-capital-reporting/05-validate-return-quality.md | registry step missing its file |
 | FAIL | author | process-flows/regulatory-capital-reporting/06-attest-capital-return.md | registry step missing its file |
 | FAIL | author | process-flows/regulatory-capital-reporting/07-submit-capital-return.md | registry step missing its file |
+| WARN | author | process-flows/regulatory-capital-reporting/01-source-regulatory-data.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/regulatory-capital-reporting/02-calculate-rwa.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/financial-close/03-reconcile-ledger-accounts.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/financial-close/05-run-consolidation.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/financial-close/06-prepare-consolidated-statements.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/financial-close/07-certify-period-close.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/financial-close/04-eliminate-intercompany-balances.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/financial-close/02-post-closing-journals.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/financial-close/01-close-subledgers.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/management-reporting/03-roll-forward-forecast.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/management-reporting/04-capture-actual-results.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/management-reporting/01-build-operating-budget.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/management-reporting/05-analyse-budget-variance.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/management-reporting/07-present-board-pack.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/management-reporting/02-approve-budget-plan.md | declares aliases but has no 'Also known as' line |
+| WARN | author | process-flows/management-reporting/06-compile-management-accounts.md | declares aliases but has no 'Also known as' line |
