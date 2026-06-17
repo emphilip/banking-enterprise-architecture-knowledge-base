@@ -20,7 +20,7 @@ first row whose Status is not `done`).
 | 5 | Cards | business | done | done | done | done | done |
 | 6 | Wealth & Investments | business | done | done | done | done | done |
 | 7 | Risk Management | business | done | done | done | done | done |
-| 8 | Compliance & Financial Crime | business | done | done | done | todo | in-progress |
+| 8 | Compliance & Financial Crime | business | done | done | done | in-progress | in-progress |
 | 9 | Channels & Engagement | business | todo | todo | todo | todo | todo |
 | 10 | Finance & Treasury | business | todo | todo | todo | todo | todo |
 | 11 | Core Processing | technology | n/a | todo | n/a | todo | todo |
