@@ -148,6 +148,18 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Fivetran supersedes Informatica PowerCenter.
 - Microsoft SharePoint supersedes IBM FileNet.
 - OpenText Content Suite supersedes OpenText Documentum.
+- Gravitee supersedes CA API Gateway.
+- Gravitee supersedes IBM API Connect.
+- AWS API Gateway supersedes CA API Gateway.
+- Azure API Management supersedes CA API Gateway.
+- SnapLogic supersedes IBM App Connect Enterprise.
+- Workato supersedes IBM App Connect Enterprise.
+- Appian supersedes IBM Business Automation Workflow.
+- Bonita supersedes IBM Business Automation Workflow.
+- Twilio supersedes Legacy SMS Gateway.
+- Amazon SNS supersedes Legacy SMS Gateway.
+- Amazon SES supersedes Legacy SMS Gateway.
+- Braze supersedes Legacy SMS Gateway.
 
 ## Realization statements
 
@@ -244,6 +256,10 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Analytics Platform depends on SAP BusinessObjects.
 - Data Governance depends on Informatica Axon.
 - Data Warehousing depends on Informatica PowerCenter.
+- API Management depends on IBM API Connect.
+- Integration Platform depends on IBM App Connect Enterprise.
+- Workflow Orchestration depends on IBM Business Automation Workflow.
+- Notification Services depends on Legacy SMS Gateway.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -361,12 +377,27 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Data Streaming depends on Apache Flink.
 - Document Management depends on Microsoft SharePoint.
 - Document Management depends on OpenText Content Suite.
+- API Management depends on Gravitee.
+- API Management depends on AWS API Gateway.
+- API Management depends on Azure API Management.
+- Integration Platform depends on SnapLogic.
+- Integration Platform depends on Workato.
+- Workflow Orchestration depends on Appian.
+- Workflow Orchestration depends on Bonita.
+- Notification Services depends on Twilio.
+- Notification Services depends on Amazon SNS.
+- Notification Services depends on Amazon SES.
+- Notification Services depends on Braze.
 
 ## Successor matrix
 | Technology Capability | Legacy System | Modern Successor |
 |---|---|---|
+| API Management | CA API Gateway | AWS API Gateway |
 | API Management | CA API Gateway | Apigee |
+| API Management | CA API Gateway | Azure API Management |
+| API Management | CA API Gateway | Gravitee |
 | API Management | CA API Gateway | Kong |
+| API Management | IBM API Connect | Gravitee |
 | Analytics Platform | IBM Cognos | Microsoft Power BI |
 | Analytics Platform | SAP BusinessObjects | Qlik |
 | Analytics Platform | SAP BusinessObjects | Tableau |
@@ -449,6 +480,8 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Governance Risk & Compliance Platform | IBM OpenPages | MetricStream |
 | Identity Access Management | CA SiteMinder | Okta |
 | Identity Access Management | Oracle Identity Manager | ForgeRock |
+| Integration Platform | IBM App Connect Enterprise | SnapLogic |
+| Integration Platform | IBM App Connect Enterprise | Workato |
 | Integration Platform | Oracle SOA Suite | MuleSoft |
 | Integration Platform | TIBCO BusinessWorks | MuleSoft |
 | Integration Platform | webMethods | Boomi |
@@ -466,6 +499,10 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Machine Learning Platform | SAS Platform | DataRobot |
 | Machine Learning Platform | SAS Platform | Google Vertex AI |
 | Master Data Management | Informatica MDM | Reltio |
+| Notification Services | Legacy SMS Gateway | Amazon SES |
+| Notification Services | Legacy SMS Gateway | Amazon SNS |
+| Notification Services | Legacy SMS Gateway | Braze |
+| Notification Services | Legacy SMS Gateway | Twilio |
 | Order Management System | Linedata Longview | FlexONE |
 | Order Management System | SS&C Advent Moxy | Bloomberg AIM |
 | Order Management System | SS&C Advent Moxy | Charles River IMS |
@@ -500,5 +537,7 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Treasury Management System | SunGard AvantGard | Coupa Treasury |
 | Treasury Management System | SunGard AvantGard | GTreasury |
 | Treasury Management System | SunGard AvantGard | Kyriba |
+| Workflow Orchestration | IBM Business Automation Workflow | Appian |
+| Workflow Orchestration | IBM Business Automation Workflow | Bonita |
 | Workflow Orchestration | Pega BPM | Camunda |
 | Workflow Orchestration | Pega BPM | Temporal |

@@ -1,8 +1,12 @@
 # Eval Report
 
-Generated: 2026-06-18T04:27:02.048899Z  
-Phase: `author`  
-**FAIL: 0  WARN: 0  INFO: 0**
+Generated: 2026-06-18T04:27:50.492500Z  
+Phase: `all`  
+**FAIL: 0  WARN: 3  INFO: 1**
 
 | Severity | Phase | Path | Message |
 |---|---|---|---|
+| WARN | steward | /home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md | legacy 'Fiserv OmniPay' has no modern successor |
+| WARN | steward | /home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md | legacy 'Fidessa' has no modern successor |
+| WARN | steward | /home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md | legacy 'Nasdaq Calypso' has no modern successor |
+| INFO | weave | - | depends_on edges counted: 1519 |
