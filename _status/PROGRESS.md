@@ -25,7 +25,7 @@ first row whose Status is not `done`).
 | 10 | Finance & Treasury | business | done | done | done | done | done |
 | 11 | Core Processing | technology | n/a | done | n/a | done | done |
 | 12 | Data & Analytics | technology | n/a | done | n/a | done | done |
-| 13 | Integration & APIs | technology | n/a | todo | n/a | todo | todo |
+| 13 | Integration & APIs | technology | n/a | in-progress | n/a | todo | in-progress |
 | 14 | Security & Identity | technology | n/a | todo | n/a | todo | todo |
 | 15 | AI & Automation | technology | n/a | todo | n/a | todo | todo |
 
@@ -35,9 +35,9 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Data & Analytics (DONE) — 12 of 15 domains
-- Phase: DONE — all 5 eval gates 0 FAIL (3 pre-existing WARNs); LLM-judge PASS first pass (evals/judge-data-and-analytics.md); baseline refreshed (1590 files)
-- Done so far: all 10 business domains + Core Processing + Data & Analytics. Remaining tech domains: Integration & APIs, Security & Identity, AI & Automation.
+- Domain: Integration & APIs (technology, tech-only run)
+- Phase: 1 Research (in-progress) — 2 sub-agents (tech-decomposition + systems-refresh). All 4 top-level caps (API Management, Integration Platform, Workflow Orchestration, Notification Services) UNDECOMPOSED -> decompose to L2/L3; Notification Services has ZERO systems -> fill. Same-capability supersedes only.
+- Done so far: all 10 business domains + Core Processing + Data & Analytics (12 of 15; 1590 files). Remaining: Integration & APIs (now), Security & Identity, AI & Automation.
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
