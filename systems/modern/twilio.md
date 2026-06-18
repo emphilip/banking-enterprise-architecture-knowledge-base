@@ -16,7 +16,7 @@ sources: ["https://www.twilio.com/en-us/messaging/apis/programmable-messaging-ap
 
 ## Relationships
 - Notification Services depends on Twilio.
-- Twilio supersedes Legacy SMS Gateway.
+- Twilio supersedes Legacy Notification Gateway.
 - Twilio is related to Amazon SNS.
 
 ## Details

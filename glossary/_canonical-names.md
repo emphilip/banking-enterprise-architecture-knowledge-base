@@ -707,7 +707,7 @@ Format: Canonical Name | Realizes (tech capability depends_on it) | Vendor | Ali
 | IBM API Connect | API Management | IBM | API Connect, IBM APIC |
 | IBM App Connect Enterprise | Integration Platform | IBM | IBM ACE, IBM Integration Bus, IIB, WebSphere Message Broker |
 | IBM Business Automation Workflow | Workflow Orchestration | IBM | IBM BPM, IBM BAW, WebSphere Lombardi |
-| Legacy SMS Gateway | Notification Services | (generic) | On-Prem SMS Gateway, SMPP Gateway, Legacy Notification Gateway |
+| Legacy Notification Gateway | Notification Services | (generic) | On-Prem SMS Gateway, SMPP Gateway, Legacy SMS Gateway |
 
 ## Modern systems
 
@@ -839,10 +839,10 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Workato | Integration Platform | IBM App Connect Enterprise | Workato | Workato iPaaS, Workato Recipes |
 | Appian | Workflow Orchestration | IBM Business Automation Workflow | Appian | Appian BPM, Appian Platform |
 | Bonita | Workflow Orchestration | IBM Business Automation Workflow | Bonitasoft | Bonitasoft, Bonita BPM |
-| Twilio | Notification Services | Legacy SMS Gateway | Twilio | Twilio Programmable Messaging, Twilio CPaaS |
-| Amazon SNS | Notification Services | Legacy SMS Gateway | Amazon Web Services | Simple Notification Service, AWS SNS |
-| Amazon SES | Notification Services | Legacy SMS Gateway | Amazon Web Services | Simple Email Service, AWS SES |
-| Braze | Notification Services | Legacy SMS Gateway | Braze | Braze Customer Engagement Platform |
+| Twilio | Notification Services | Legacy Notification Gateway | Twilio | Twilio Programmable Messaging, Twilio CPaaS |
+| Amazon SNS | Notification Services | Legacy Notification Gateway | Amazon Web Services | Simple Notification Service, AWS SNS |
+| Amazon SES | Notification Services | Legacy Notification Gateway | Amazon Web Services | Simple Email Service, AWS SES |
+| Braze | Notification Services | Legacy Notification Gateway | Braze | Braze Customer Engagement Platform |
 
 ## Glossary terms
 

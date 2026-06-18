@@ -156,10 +156,10 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - Workato supersedes IBM App Connect Enterprise.
 - Appian supersedes IBM Business Automation Workflow.
 - Bonita supersedes IBM Business Automation Workflow.
-- Twilio supersedes Legacy SMS Gateway.
-- Amazon SNS supersedes Legacy SMS Gateway.
-- Amazon SES supersedes Legacy SMS Gateway.
-- Braze supersedes Legacy SMS Gateway.
+- Twilio supersedes Legacy Notification Gateway.
+- Amazon SNS supersedes Legacy Notification Gateway.
+- Amazon SES supersedes Legacy Notification Gateway.
+- Braze supersedes Legacy Notification Gateway.
 
 ## Realization statements
 
@@ -259,7 +259,7 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 - API Management depends on IBM API Connect.
 - Integration Platform depends on IBM App Connect Enterprise.
 - Workflow Orchestration depends on IBM Business Automation Workflow.
-- Notification Services depends on Legacy SMS Gateway.
+- Notification Services depends on Legacy Notification Gateway.
 - Core Banking Processing depends on Thought Machine Vault.
 - Core Banking Processing depends on Mambu.
 - Core Banking Processing depends on 10x Banking.
@@ -499,10 +499,10 @@ Each legacy / current-state system and the modern system(s) that supersede it fo
 | Machine Learning Platform | SAS Platform | DataRobot |
 | Machine Learning Platform | SAS Platform | Google Vertex AI |
 | Master Data Management | Informatica MDM | Reltio |
-| Notification Services | Legacy SMS Gateway | Amazon SES |
-| Notification Services | Legacy SMS Gateway | Amazon SNS |
-| Notification Services | Legacy SMS Gateway | Braze |
-| Notification Services | Legacy SMS Gateway | Twilio |
+| Notification Services | Legacy Notification Gateway | Amazon SES |
+| Notification Services | Legacy Notification Gateway | Amazon SNS |
+| Notification Services | Legacy Notification Gateway | Braze |
+| Notification Services | Legacy Notification Gateway | Twilio |
 | Order Management System | Linedata Longview | FlexONE |
 | Order Management System | SS&C Advent Moxy | Bloomberg AIM |
 | Order Management System | SS&C Advent Moxy | Charles River IMS |

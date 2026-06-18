@@ -16,7 +16,7 @@ sources: ["https://aws.amazon.com/ses/"]
 
 ## Relationships
 - Notification Services depends on Amazon SES.
-- Amazon SES supersedes Legacy SMS Gateway.
+- Amazon SES supersedes Legacy Notification Gateway.
 - Amazon SES is related to Amazon SNS.
 
 ## Details

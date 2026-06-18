@@ -16,7 +16,7 @@ sources: ["https://www.braze.com/product/overview"]
 
 ## Relationships
 - Notification Services depends on Braze.
-- Braze supersedes Legacy SMS Gateway.
+- Braze supersedes Legacy Notification Gateway.
 - Braze is related to Twilio.
 
 ## Details
