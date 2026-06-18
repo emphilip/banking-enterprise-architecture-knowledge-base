@@ -1,2 +1,12 @@
 __pycache__/
 *.pyc
+
+# Obsidian local UI state / cache (machine-specific)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# OS cruft
+.DS_Store
+Thumbs.db

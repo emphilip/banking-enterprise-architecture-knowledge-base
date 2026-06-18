@@ -1,0 +1,20 @@
+---
+title: Pre-Paid
+type: capability
+level: L2
+capability-id: PLB-CRD-06
+parent: Cards (PLB-CRD)
+domain: banking-and-payments
+tags: [capability, L2, products-lob, cards]
+aliases: [PLB-CRD-06, Pre-Paid]
+---
+
+# Pre-Paid (PLB-CRD-06)
+
+**L0:** [[PLB Products & LOB|Products & LOB]] · **L1:** [[PLB-CRD Cards|Cards]]
+
+Prepaid card products.
+
+## Process Flows (L3)
+
+_No L3 process flows mapped yet._
