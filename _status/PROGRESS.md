@@ -25,7 +25,7 @@ first row whose Status is not `done`).
 | 10 | Finance & Treasury | business | done | done | done | done | done |
 | 11 | Core Processing | technology | n/a | done | n/a | done | done |
 | 12 | Data & Analytics | technology | n/a | done | n/a | done | done |
-| 13 | Integration & APIs | technology | n/a | in-progress | n/a | todo | in-progress |
+| 13 | Integration & APIs | technology | n/a | done | n/a | in-progress | in-progress |
 | 14 | Security & Identity | technology | n/a | todo | n/a | todo | todo |
 | 15 | AI & Automation | technology | n/a | todo | n/a | todo | todo |
 
@@ -36,7 +36,8 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Integration & APIs (technology, tech-only run)
-- Phase: 1 Research (in-progress) — 2 sub-agents (tech-decomposition + systems-refresh). All 4 top-level caps (API Management, Integration Platform, Workflow Orchestration, Notification Services) UNDECOMPOSED -> decompose to L2/L3; Notification Services has ZERO systems -> fill. Same-capability supersedes only.
+- Phase: 3 Author (in-progress) — 2 sub-agents writing 29 tech sub-caps (25 L2 + 4 L3) + 15 systems (4 legacy + 11 modern)
+
 - Done so far: all 10 business domains + Core Processing + Data & Analytics (12 of 15; 1590 files). Remaining: Integration & APIs (now), Security & Identity, AI & Automation.
 
 ## Next actions (ordered — keep specific enough to resume cold)
@@ -53,6 +54,62 @@ decomposition into sharper focus.
 
 ## Decisions log
 
+- (2026-06-18, Phase 2 Steward, Integration & APIs) Reconciled the two Integration & APIs
+  proposals (tech L2/L3 + systems) into glossary/_canonical-names.md after a full-registry
+  dedupe (against every existing canonical name + every existing alias and across the two
+  proposals). TECHNOLOGY-domain run: NO business caps/processes/sub-processes/flow steps/
+  supporting concepts. Counts added per section: Technology sub-capabilities +29 (25 L2 +
+  4 L3, all Domain=Integration & APIs). L2 parents are the 4 top-level Integration & APIs
+  tech caps: API Management [6: API Gateway Service, Developer Portal, API Lifecycle
+  Manager, API Security & Throttling, API Analytics Service, API Catalog & Registry],
+  Integration Platform [7: Enterprise Service Bus, iPaaS Connector Hub, Data Mapping &
+  Transformation, Integration Message Broker, B2B/EDI Gateway, Managed File Transfer,
+  Integration Event Mesh], Workflow Orchestration [6: BPMN Process Engine, Workflow
+  Decision Engine, Case Management Engine, Human Task Manager, Process Monitoring &
+  Analytics, Saga Orchestration Service], Notification Services [6: SMS Gateway, Email
+  Delivery Service, Push Notification Service, Notification Template Manager, Channel
+  Preference Router, Delivery Tracking Service]. The 4 L3s parent to L2 sub-caps in this
+  same batch (verified L2->L3 monotonic): API Security & Throttling <- OAuth Token Service;
+  API Lifecycle Manager <- API Monetisation Service; iPaaS Connector Hub <- Adapter
+  Framework; Workflow Decision Engine <- DMN Decision Service. Legacy systems +4 (IBM API
+  Connect [API Management], IBM App Connect Enterprise [Integration Platform], IBM Business
+  Automation Workflow [Workflow Orchestration], Legacy SMS Gateway [Notification Services]);
+  Modern systems +11 (Gravitee, AWS API Gateway, Azure API Management [API Management];
+  SnapLogic, Workato [Integration Platform]; Appian, Bonita [Workflow Orchestration];
+  Twilio, Amazon SNS, Amazon SES, Braze [Notification Services]). Note: the systems
+  proposal's "Counts" prose miscounted modern as 10, but its own table carries 11 distinct
+  modern rows (Notification has 4: Twilio/Amazon SNS/Amazon SES/Braze) — all 11 added.
+  Total +44 rows.
+  Renames / collision resolutions (the gate keeps all sections in one namespace): exactly
+  ONE alias collision found and fixed — tech sub-cap "Data Mapping & Transformation" dropped
+  proposed alias "Message Transformation" (== existing alias of Core Processing tech sub-cap
+  "Payment Message Transformer") -> replaced with **Message Mapping** (kept Payload Mapping,
+  Schema Mapping Engine). All 29 canonical sub-cap names are globally unique. The four
+  research-agent disambiguations verified clean with NO residual clash: "API Gateway Service"
+  (avoids "API Gateway", the alias of top-level cap API Management); "Workflow Decision
+  Engine" (avoids "Decision Engine", alias of Credit Decisioning Engine, and "Decision Rules
+  Engine", an existing Core Processing sub-cap canonical); "Integration Message Broker" /
+  "Integration Event Mesh" (avoid clashing with Data & Analytics "Event Streaming Bus" and
+  its aliases). Note: sub-cap canonical "SMS Gateway" (tech) is a DISTINCT string from system
+  canonical "Legacy SMS Gateway" — no collision. System "Twilio" is distinct from existing
+  "Twilio Flex"; alias "WebSphere Message Broker" (IBM App Connect Enterprise) and "WebSphere
+  Lombardi" (IBM Business Automation Workflow) are distinct from "WebSphere MQ" (IBM MQ). No
+  system name or alias collided.
+  Legacy coverage (same-capability discipline only — API-mgmt->API-mgmt, integration->
+  integration, workflow->workflow, notification->notification): all 4 new legacies have a
+  same-capability modern successor. CA API Gateway [existing legacy, API Management] <-
+  Gravitee, AWS API Gateway, Azure API Management. IBM API Connect [new legacy, API
+  Management] <- given a same-capability successor by appending it to Gravitee's supersedes
+  ("CA API Gateway; IBM API Connect") — clean fit, not left uncovered. IBM App Connect
+  Enterprise [Integration Platform] <- SnapLogic, Workato. IBM Business Automation Workflow
+  [Workflow Orchestration] <- Appian, Bonita. Legacy SMS Gateway [Notification Services, new
+  generic legacy added so the modern notification systems have a same-capability target] <-
+  Twilio, Amazon SNS, Amazon SES, Braze. Every supersedes target is a real legacy system; no
+  cross-capability pairing. Steward gate: 0 FAIL, 3 WARN — all 3 are pre-existing benign
+  "legacy has no modern successor" warnings (Fiserv OmniPay [Cards], Fidessa [OMS], Nasdaq
+  Calypso [OMS]) from earlier runs, unrelated to this Integration & APIs run; no new "no
+  successor" WARN introduced (every new Integration & APIs legacy has a same-capability
+  modern successor).
 - (2026-06-17, Phase 2 Steward, Data & Analytics) Reconciled the two Data & Analytics
   proposals (tech L2/L3 + systems) into glossary/_canonical-names.md after a full-registry
   dedupe (against every existing canonical name + every existing alias and across the two

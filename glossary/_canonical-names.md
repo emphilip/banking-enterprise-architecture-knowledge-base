@@ -704,6 +704,10 @@ Format: Canonical Name | Realizes (tech capability depends_on it) | Vendor | Ali
 | SAP BusinessObjects | Analytics Platform | SAP | BOBJ, BusinessObjects BI, Web Intelligence, Crystal Reports |
 | Informatica Axon | Data Governance | Informatica | Axon Data Governance, Informatica Axon Data Governance |
 | Informatica PowerCenter | Data Warehousing | Informatica | PowerCenter, Informatica ETL |
+| IBM API Connect | API Management | IBM | API Connect, IBM APIC |
+| IBM App Connect Enterprise | Integration Platform | IBM | IBM ACE, IBM Integration Bus, IIB, WebSphere Message Broker |
+| IBM Business Automation Workflow | Workflow Orchestration | IBM | IBM BPM, IBM BAW, WebSphere Lombardi |
+| Legacy SMS Gateway | Notification Services | (generic) | On-Prem SMS Gateway, SMPP Gateway, Legacy Notification Gateway |
 
 ## Modern systems
 
@@ -828,6 +832,17 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Apache Flink | Data Streaming |  | Apache Software Foundation | Flink, Managed Service for Apache Flink |
 | Microsoft SharePoint | Document Management | IBM FileNet | Microsoft | SharePoint Online, SharePoint Server, M365 SharePoint |
 | OpenText Content Suite | Document Management | OpenText Documentum | OpenText | OpenText Content Management, OpenText Extended ECM, Content Suite Platform |
+| Gravitee | API Management | CA API Gateway; IBM API Connect | Gravitee.io | Gravitee.io, Gravitee APIM |
+| AWS API Gateway | API Management | CA API Gateway | Amazon Web Services | Amazon API Gateway, APIGW |
+| Azure API Management | API Management | CA API Gateway | Microsoft | Azure APIM, APIM |
+| SnapLogic | Integration Platform | IBM App Connect Enterprise | SnapLogic | SnapLogic iPaaS, SnapLogic Intelligent Integration Platform |
+| Workato | Integration Platform | IBM App Connect Enterprise | Workato | Workato iPaaS, Workato Recipes |
+| Appian | Workflow Orchestration | IBM Business Automation Workflow | Appian | Appian BPM, Appian Platform |
+| Bonita | Workflow Orchestration | IBM Business Automation Workflow | Bonitasoft | Bonitasoft, Bonita BPM |
+| Twilio | Notification Services | Legacy SMS Gateway | Twilio | Twilio Programmable Messaging, Twilio CPaaS |
+| Amazon SNS | Notification Services | Legacy SMS Gateway | Amazon Web Services | Simple Notification Service, AWS SNS |
+| Amazon SES | Notification Services | Legacy SMS Gateway | Amazon Web Services | Simple Email Service, AWS SES |
+| Braze | Notification Services | Legacy SMS Gateway | Braze | Braze Customer Engagement Platform |
 
 ## Glossary terms
 
@@ -1065,6 +1080,35 @@ Format: Canonical Name | Realizes (tech cap depends_on it) | Supersedes (legacy)
 | Data Classification Service | Metadata Catalog | Data & Analytics | L3 | Data Tagging Service, Sensitivity Classification, Data Categorisation |
 | Data Quality Rule Engine | Data Quality Engine | Data & Analytics | L3 | DQ Rule Engine, Validation Rule Service, Quality Rule Manager |
 | Risk Data Mart | Risk Data Warehouse | Data & Analytics | L3 | Risk Subject-Area Mart, Risk Reporting Mart |
+| API Gateway Service | API Management | Integration & APIs | L2 | API Runtime Gateway, Data Plane Gateway, Edge API Gateway |
+| Developer Portal | API Management | Integration & APIs | L2 | API Developer Portal, API Consumer Portal, Self-Service API Portal |
+| API Lifecycle Manager | API Management | Integration & APIs | L2 | API Lifecycle Governance, API Versioning & Publishing, API Product Manager |
+| API Security & Throttling | API Management | Integration & APIs | L2 | API Rate Limiting, API Threat Protection, API Policy Enforcement |
+| API Analytics Service | API Management | Integration & APIs | L2 | API Usage Analytics, API Reporting & Insights, API Telemetry |
+| API Catalog & Registry | API Management | Integration & APIs | L2 | API Registry, API Catalogue, API Marketplace Index |
+| OAuth Token Service | API Security & Throttling | Integration & APIs | L3 | OAuth2 Authorization Server, Token Issuance Service, JWT Validation Service |
+| API Monetisation Service | API Lifecycle Manager | Integration & APIs | L3 | API Monetization, API Billing & Metering, API Plan Management |
+| Enterprise Service Bus | Integration Platform | Integration & APIs | L2 | ESB, Service Bus, Integration Bus |
+| iPaaS Connector Hub | Integration Platform | Integration & APIs | L2 | Integration Platform as a Service, Cloud Integration Hub, Connector Catalog |
+| Data Mapping & Transformation | Integration Platform | Integration & APIs | L2 | Message Mapping, Payload Mapping, Schema Mapping Engine |
+| Integration Message Broker | Integration Platform | Integration & APIs | L2 | Message-Oriented Middleware, MOM, Application Message Broker |
+| B2B/EDI Gateway | Integration Platform | Integration & APIs | L2 | EDI Gateway, B2B Integration Gateway, Trading Partner Gateway |
+| Managed File Transfer | Integration Platform | Integration & APIs | L2 | MFT, Secure File Transfer, File Gateway |
+| Integration Event Mesh | Integration Platform | Integration & APIs | L2 | Event Mesh, Event Broker Network, Dynamic Event Routing Fabric |
+| Adapter Framework | iPaaS Connector Hub | Integration & APIs | L3 | Connector SDK, Adapter Runtime, Integration Adapter Toolkit |
+| BPMN Process Engine | Workflow Orchestration | Integration & APIs | L2 | Process Engine, BPMN Workflow Engine, Process Execution Engine |
+| Workflow Decision Engine | Workflow Orchestration | Integration & APIs | L2 | Business Rules Engine, Decision Automation Engine, Workflow Rules Engine |
+| Case Management Engine | Workflow Orchestration | Integration & APIs | L2 | CMMN Engine, Adaptive Case Management, Dynamic Case Engine |
+| Human Task Manager | Workflow Orchestration | Integration & APIs | L2 | Task List Service, User Task Service, Human Workflow Manager |
+| Process Monitoring & Analytics | Workflow Orchestration | Integration & APIs | L2 | Process Intelligence, Workflow Analytics, Process Optimization |
+| Saga Orchestration Service | Workflow Orchestration | Integration & APIs | L2 | Saga Orchestrator, Distributed Transaction Coordinator, Long-Running Saga Manager |
+| DMN Decision Service | Workflow Decision Engine | Integration & APIs | L3 | DMN Decision Table Service, FEEL Decision Service, Decision Modelling Service |
+| SMS Gateway | Notification Services | Integration & APIs | L2 | Text Messaging Gateway, SMS Provider Adapter, Mobile Messaging Gateway |
+| Email Delivery Service | Notification Services | Integration & APIs | L2 | Transactional Email Service, Email Dispatch Service, SMTP Delivery Service |
+| Push Notification Service | Notification Services | Integration & APIs | L2 | Mobile Push Service, APNs/FCM Gateway, Push Dispatch Service |
+| Notification Template Manager | Notification Services | Integration & APIs | L2 | Message Template Service, Content Template Manager, Notification Authoring |
+| Channel Preference Router | Notification Services | Integration & APIs | L2 | Notification Routing Engine, Preference-Based Router, Channel Fan-Out Service |
+| Delivery Tracking Service | Notification Services | Integration & APIs | L2 | Notification Status Tracking, Delivery Receipt Service, Notification Lifecycle Tracker |
 
 ## Process sub-processes
 
