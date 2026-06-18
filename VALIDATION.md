@@ -569,3 +569,44 @@ standards (DoD 5015.2, ISO 15489, SEC 17a-4) and streaming internals verified.
 capabilities (L1–L4), 258 technology capabilities + sub-capabilities, 163
 processes + sub-processes, 312 process-flow steps, 166 supporting concepts,
 93 legacy + 117 modern systems, 10 glossary terms.
+
+---
+
+## Deep-dive: Integration & APIs domain (2026-06-17)
+
+Thirteenth domain deep-dive (technology domain, tech-only run).
+
+**Added (+44 concepts):** 29 technology sub-capabilities (25 L2 + 4 L3) — fully
+decomposing all four previously-undecomposed top-level caps: **API Management**
+(API Gateway Service, Developer Portal, API Lifecycle Manager, API Security &
+Throttling, API Analytics Service, API Catalog & Registry, + OAuth Token Service,
+API Monetisation Service), **Integration Platform** (Enterprise Service Bus, iPaaS
+Connector Hub, Data Mapping & Transformation, Integration Message Broker, B2B/EDI
+Gateway, Managed File Transfer, Integration Event Mesh, + Adapter Framework),
+**Workflow Orchestration** (BPMN Process Engine, Workflow Decision Engine, Case
+Management Engine, Human Task Manager, Process Monitoring & Analytics, Saga
+Orchestration Service, + DMN Decision Service), **Notification Services** (SMS
+Gateway, Email Delivery Service, Push Notification Service, Notification Template
+Manager, Channel Preference Router, Delivery Tracking Service); 4 new legacy + 11
+new modern systems — filling the **Notification Services systems gap** (Twilio,
+Amazon SNS, Amazon SES, Braze).
+
+**Eval gates (deterministic):** research / steward / author / weave / all → 0
+FAIL. Three advisory WARNs all pre-existing (OmniPay, Fidessa, Nasdaq Calypso).
+
+**Steward:** one alias rename (Data Mapping & Transformation "Message
+Transformation" → Message Mapping); same-capability supersedes throughout; every
+new legacy covered (incl. IBM API Connect ← Gravitee).
+
+**Eval gate (semantic, LLM-judge, `evals/judge-integration-and-apis.md`):** PASS on
+first pass — means accuracy 4.95, groundedness 4.82, relationships 4.73, naming
+5.00, granularity 4.86. One floor-level finding fixed: the generic notification
+legacy was titled "Legacy SMS Gateway" but defined multi-channel, making
+Amazon SES (email) appear to supersede an SMS-only node — renamed to **Legacy
+Notification Gateway** (multi-channel) so all four notification moderns supersede
+it coherently at the Notification Services capability level.
+
+**Knowledge base totals after Integration & APIs deep-dive:** 456 business
+capabilities (L1–L4), 287 technology capabilities + sub-capabilities, 163
+processes + sub-processes, 312 process-flow steps, 166 supporting concepts, 97
+legacy + 128 modern systems, 10 glossary terms.

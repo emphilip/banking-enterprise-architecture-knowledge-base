@@ -25,7 +25,7 @@ first row whose Status is not `done`).
 | 10 | Finance & Treasury | business | done | done | done | done | done |
 | 11 | Core Processing | technology | n/a | done | n/a | done | done |
 | 12 | Data & Analytics | technology | n/a | done | n/a | done | done |
-| 13 | Integration & APIs | technology | n/a | done | n/a | in-progress | in-progress |
+| 13 | Integration & APIs | technology | n/a | done | n/a | done | done |
 | 14 | Security & Identity | technology | n/a | todo | n/a | todo | todo |
 | 15 | AI & Automation | technology | n/a | todo | n/a | todo | todo |
 
@@ -35,22 +35,23 @@ decomposition into sharper focus.
 
 ## Active run
 
-- Domain: Integration & APIs (technology, tech-only run)
-- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-integration-and-apis.md)
-
-- Done so far: all 10 business domains + Core Processing + Data & Analytics (12 of 15; 1590 files). Remaining: Integration & APIs (now), Security & Identity, AI & Automation.
+- Domain: Integration & APIs (DONE) — 13 of 15 domains
+- Phase: DONE — all 5 eval gates 0 FAIL (3 pre-existing WARNs); LLM-judge PASS first pass (evals/judge-integration-and-apis.md); baseline refreshed (1634 files)
+- Done so far: all 10 business domains + Core Processing + Data & Analytics + Integration & APIs. Remaining tech domains: Security & Identity, AI & Automation.
 
 ## Next actions (ordered — keep specific enough to resume cold)
 
 - [ ] Deepen the next domain: run _status/DEEP-DIVE-PROMPT.md with DOMAIN = "next"
-      (first not-done row = Integration & APIs — technology domain). Tech-only run
-      (2 sub-agents: tech-decomposition + systems-refresh). Top-level caps in this
-      domain: API Management, Integration Platform, Workflow Orchestration,
-      Notification Services. Check which are undecomposed (likely most/all — they were
-      NOT decomposed by business runs) and decompose to L2/L3; refresh systems
-      (MuleSoft/Kong/Apigee/Boomi already present — check IBM/TIBCO/webMethods/Camunda/
-      Temporal coverage). KEEP supersedes strictly same-capability; leave a legacy
-      uncovered rather than cross-pair.
+      (first not-done row = Security & Identity — technology domain). Tech-only run
+      (2 sub-agents: tech-decomposition + systems-refresh). Top-level caps: Identity
+      Access Management, Customer Identity, Threat Detection (all likely undecomposed —
+      decompose to L2/L3: IAM->Authentication/Authorization/PAM/IGA/Directory; Customer
+      Identity (CIAM)->registration/auth/consent/SSO; Threat Detection->SIEM/SOAR/EDR/
+      fraud-signal/vuln mgmt). Systems-refresh: Okta/ForgeRock/Ping/Auth0 (IAM/CIAM)
+      already present — check CyberArk/SailPoint/Microsoft Entra/CrowdStrike/Splunk/
+      Microsoft Sentinel coverage. KEEP supersedes same-capability; leave uncovered
+      rather than cross-pair (the Legacy SMS Gateway rename this run was exactly that
+      lesson — make the legacy node's scope match its successors' capability).
 
 ## Decisions log
 
