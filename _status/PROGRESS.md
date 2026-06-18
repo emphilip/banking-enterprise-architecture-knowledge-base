@@ -36,7 +36,7 @@ decomposition into sharper focus.
 ## Active run
 
 - Domain: Integration & APIs (technology, tech-only run)
-- Phase: 3 Author (in-progress) — 2 sub-agents writing 29 tech sub-caps (25 L2 + 4 L3) + 15 systems (4 legacy + 11 modern)
+- Phase: 5 Validate (in-progress) — author/weave/all gates 0 FAIL; LLM-judge running (evals/judge-integration-and-apis.md)
 
 - Done so far: all 10 business domains + Core Processing + Data & Analytics (12 of 15; 1590 files). Remaining: Integration & APIs (now), Security & Identity, AI & Automation.
 
