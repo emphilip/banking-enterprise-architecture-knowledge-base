@@ -1,29 +1,125 @@
 {
-  "generated": "2026-06-18T04:22:02.738915Z",
-  "phase": "steward",
+  "generated": "2026-06-18T04:24:33.809010Z",
+  "phase": "author",
   "counts": {
-    "FAIL": 0,
-    "WARN": 3,
+    "FAIL": 19,
+    "WARN": 0,
     "INFO": 0
   },
   "findings": [
     {
-      "severity": "WARN",
-      "phase": "steward",
-      "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
-      "message": "legacy 'Fiserv OmniPay' has no modern successor"
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/adapter-framework.md",
+      "message": "registry concept missing its file"
     },
     {
-      "severity": "WARN",
-      "phase": "steward",
-      "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
-      "message": "legacy 'Fidessa' has no modern successor"
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/b2b-edi-gateway.md",
+      "message": "registry concept missing its file"
     },
     {
-      "severity": "WARN",
-      "phase": "steward",
-      "path": "/home/user/banking-enterprise-architecture-knowledge-base/glossary/_canonical-names.md",
-      "message": "legacy 'Nasdaq Calypso' has no modern successor"
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/bpmn-process-engine.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/case-management-engine.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/channel-preference-router.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/data-mapping-and-transformation.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/delivery-tracking-service.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/dmn-decision-service.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/email-delivery-service.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/human-task-manager.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/integration-event-mesh.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/integration-message-broker.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/managed-file-transfer.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/notification-template-manager.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/process-monitoring-and-analytics.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/push-notification-service.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/saga-orchestration-service.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/sms-gateway.md",
+      "message": "registry concept missing its file"
+    },
+    {
+      "severity": "FAIL",
+      "phase": "author",
+      "path": "technology-capabilities/workflow-decision-engine.md",
+      "message": "registry concept missing its file"
     }
   ]
 }
